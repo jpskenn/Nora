@@ -4,7 +4,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "Jones_mbk"
+Title "Nora"
 Date "2021-11-13"
 Rev "v.0.1"
 Comp "@jpskenn"
@@ -394,17 +394,6 @@ F 3 "" H 950 8650 50  0001 C CNN
 $EndComp
 Text GLabel 15325 4075 2    50   Input ~ 0
 LED
-$Comp
-L Connector_Generic:Conn_01x03 J2
-U 1 1 609B8FD1
-P 8150 8875
-F 0 "J2" H 8230 8917 50  0000 L CNN
-F 1 "Conn_01x03" H 8230 8826 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8150 8875 50  0001 C CNN
-F 3 "~" H 8150 8875 50  0001 C CNN
-	1    8150 8875
-	1    0    0    -1  
-$EndComp
 Text GLabel 800  6900 0    50   Input ~ 0
 row9
 $Comp
@@ -637,13 +626,13 @@ F 3 "~" H 7975 10850 50  0001 C CNN
 	1    7975 10850
 	1    0    0    -1  
 $EndComp
-Text GLabel 15325 3275 2    50   Input ~ 0
+Text GLabel 15325 2775 2    50   Input ~ 0
 Reserve_pin
 $Comp
-L Connector_Generic:Conn_01x01 ReservePin
+L Connector_Generic:Conn_01x01 ReservePin1
 U 1 1 60DD1EC9
 P 9775 10175
-F 0 "ReservePin" H 9850 10225 50  0000 L CNN
+F 0 "ReservePin1" H 9850 10225 50  0000 L CNN
 F 1 "Conn_01x01" H 9850 10150 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 9775 10175 50  0001 C CNN
 F 3 "~" H 9775 10175 50  0001 C CNN
@@ -3088,21 +3077,21 @@ Text GLabel 15325 4375 2    50   Input ~ 0
 row0
 Text GLabel 15325 2575 2    50   Input ~ 0
 row1
-Text GLabel 15325 4575 2    50   Input ~ 0
+Text GLabel 15325 3275 2    50   Input ~ 0
 row2
-Text GLabel 15325 4775 2    50   Input ~ 0
-row3
-Text GLabel 15325 2775 2    50   Input ~ 0
-row4
 Text GLabel 15325 4675 2    50   Input ~ 0
+row3
+Text GLabel 15325 4775 2    50   Input ~ 0
+row4
+Text GLabel 15325 4575 2    50   Input ~ 0
 row7
-Text GLabel 15325 2875 2    50   Input ~ 0
+Text GLabel 15325 2475 2    50   Input ~ 0
 row8
 Text GLabel 15325 4475 2    50   Input ~ 0
 row6
 Text GLabel 15325 1875 2    50   Input ~ 0
 row5
-Text GLabel 15325 2475 2    50   Input ~ 0
+Text GLabel 15325 2875 2    50   Input ~ 0
 row9
 $Comp
 L Switch:SW_Push SW_59
@@ -3486,12 +3475,8 @@ Text GLabel 15325 1975 2    50   Input ~ 0
 SCK
 Text GLabel 15325 2375 2    50   Input ~ 0
 col2
-Wire Wire Line
-	17375 1575 17475 1575
-Wire Wire Line
-	17050 5175 17375 5175
 $Comp
-L choc_in_60:ATmega32U4-AU-Dummy U3
+L nora:ATmega32U4-AU-Dummy U3
 U 1 1 61ACE85D
 P 17475 3375
 F 0 "U3" H 17475 1486 50  0000 C CNN
@@ -3501,13 +3486,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    17475 3375
 	1    0    0    -1  
 $EndComp
-Connection ~ 17375 1575
-Wire Wire Line
-	17575 1575 17475 1575
-Connection ~ 17475 1575
-Wire Wire Line
-	17475 5175 17375 5175
-Connection ~ 17375 5175
 Text GLabel 13825 2375 2    50   Input ~ 0
 XTAL2
 Wire Wire Line
@@ -3843,14 +3821,6 @@ Wire Wire Line
 	7375 8875 7400 8875
 Wire Wire Line
 	7400 8875 7400 8975
-Wire Wire Line
-	7800 8775 7800 8875
-Wire Wire Line
-	7800 8875 7950 8875
-Wire Wire Line
-	7950 8775 7950 8650
-Wire Wire Line
-	7950 8650 7400 8650
 Connection ~ 1025 8650
 Wire Wire Line
 	1025 8650 950  8650
@@ -3896,13 +3866,8 @@ Wire Wire Line
 Connection ~ 6975 8650
 Wire Wire Line
 	6975 8650 6550 8650
-Connection ~ 7400 8650
 Wire Wire Line
 	7400 8650 6975 8650
-Wire Wire Line
-	7950 8975 7950 9075
-Wire Wire Line
-	7950 9075 7800 9075
 Connection ~ 1425 9075
 Wire Wire Line
 	1425 9075 750  9075
@@ -3948,7 +3913,6 @@ Wire Wire Line
 Connection ~ 7375 9075
 Wire Wire Line
 	7375 9075 6950 9075
-Connection ~ 7800 9075
 Wire Wire Line
 	7800 9075 7375 9075
 Text GLabel 9975 10175 2    50   Input ~ 0
@@ -3957,7 +3921,7 @@ Text GLabel 18075 3075 2    50   Input ~ 0
 SCL
 Text GLabel 18075 3175 2    50   Input ~ 0
 SDA
-Text GLabel 18075 3275 2    50   Input ~ 0
+Text GLabel 18075 2775 2    50   Input ~ 0
 Reserve_pin
 Text GLabel 18075 3575 2    50   Input ~ 0
 col1
@@ -3969,13 +3933,13 @@ Text GLabel 18075 3675 2    50   Input ~ 0
 col7
 Text GLabel 18075 2575 2    50   Input ~ 0
 row1
-Text GLabel 18075 2775 2    50   Input ~ 0
+Text GLabel 18075 4775 2    50   Input ~ 0
 row4
-Text GLabel 18075 2875 2    50   Input ~ 0
+Text GLabel 18075 2475 2    50   Input ~ 0
 row8
 Text GLabel 18075 1875 2    50   Input ~ 0
 row5
-Text GLabel 18075 2475 2    50   Input ~ 0
+Text GLabel 18075 2875 2    50   Input ~ 0
 row9
 Text GLabel 18075 2275 2    50   Input ~ 0
 col6
@@ -3995,36 +3959,251 @@ Text GLabel 18075 4275 2    50   Input ~ 0
 col0
 Text GLabel 18075 4375 2    50   Input ~ 0
 row0
-Text GLabel 18075 4575 2    50   Input ~ 0
+Text GLabel 18075 3275 2    50   Input ~ 0
 row2
-Text GLabel 18075 4775 2    50   Input ~ 0
-row3
 Text GLabel 18075 4675 2    50   Input ~ 0
+row3
+Text GLabel 18075 4575 2    50   Input ~ 0
 row7
 Text GLabel 18075 4475 2    50   Input ~ 0
 row6
 Text GLabel 18075 3975 2    50   Input ~ 0
 HWB
+Wire Wire Line
+	10475 1800 11575 1800
+Connection ~ 10475 1800
+Wire Wire Line
+	11125 1900 11575 1900
+Connection ~ 11125 1900
 $Comp
-L Connector_Generic:Conn_01x05 J?
-U 1 1 63354B33
-P 9625 10775
-F 0 "J?" H 9705 10817 50  0000 L CNN
-F 1 "Conn_01x05" H 9705 10726 50  0000 L CNN
-F 2 "" H 9625 10775 50  0001 C CNN
-F 3 "~" H 9625 10775 50  0001 C CNN
-	1    9625 10775
+L Connector_Generic:Conn_01x01 EXT_R0
+U 1 1 63829B44
+P 11775 1800
+F 0 "EXT_R0" V 11647 1880 50  0000 L CNN
+F 1 "Conn_01x01" V 11738 1880 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 11775 1800 50  0001 C CNN
+F 3 "~" H 11775 1800 50  0001 C CNN
+	1    11775 1800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J?
-U 1 1 63399945
-P 10400 10775
-F 0 "J?" H 10480 10817 50  0000 L CNN
-F 1 "Conn_01x05" H 10480 10726 50  0000 L CNN
-F 2 "" H 10400 10775 50  0001 C CNN
-F 3 "~" H 10400 10775 50  0001 C CNN
-	1    10400 10775
+L Connector_Generic:Conn_01x01 EXT_R5
+U 1 1 638696C3
+P 11775 1900
+F 0 "EXT_R5" V 11647 1980 50  0000 L CNN
+F 1 "Conn_01x01" V 11738 1980 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 11775 1900 50  0001 C CNN
+F 3 "~" H 11775 1900 50  0001 C CNN
+	1    11775 1900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10475 3050 11575 3050
+Wire Wire Line
+	11125 3150 11575 3150
+$Comp
+L Connector_Generic:Conn_01x01 EXT_R1
+U 1 1 638ECD49
+P 11775 3050
+F 0 "EXT_R1" V 11647 3130 50  0000 L CNN
+F 1 "Conn_01x01" V 11738 3130 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 11775 3050 50  0001 C CNN
+F 3 "~" H 11775 3050 50  0001 C CNN
+	1    11775 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 EXT_R6
+U 1 1 638ECD4F
+P 11775 3150
+F 0 "EXT_R6" V 11647 3230 50  0000 L CNN
+F 1 "Conn_01x01" V 11738 3230 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 11775 3150 50  0001 C CNN
+F 3 "~" H 11775 3150 50  0001 C CNN
+	1    11775 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10475 4300 11575 4300
+Wire Wire Line
+	11125 4400 11575 4400
+$Comp
+L Connector_Generic:Conn_01x01 EXT_R2
+U 1 1 6392CB0C
+P 11775 4300
+F 0 "EXT_R2" V 11647 4380 50  0000 L CNN
+F 1 "Conn_01x01" V 11738 4380 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 11775 4300 50  0001 C CNN
+F 3 "~" H 11775 4300 50  0001 C CNN
+	1    11775 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 EXT_R7
+U 1 1 6392CB12
+P 11775 4400
+F 0 "EXT_R7" V 11647 4480 50  0000 L CNN
+F 1 "Conn_01x01" V 11738 4480 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 11775 4400 50  0001 C CNN
+F 3 "~" H 11775 4400 50  0001 C CNN
+	1    11775 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10475 6800 11575 6800
+Wire Wire Line
+	11125 6900 11575 6900
+$Comp
+L Connector_Generic:Conn_01x01 EXT_R4
+U 1 1 6396D046
+P 11775 6800
+F 0 "EXT_R4" V 11647 6880 50  0000 L CNN
+F 1 "Conn_01x01" V 11738 6880 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 11775 6800 50  0001 C CNN
+F 3 "~" H 11775 6800 50  0001 C CNN
+	1    11775 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 EXT_R9
+U 1 1 6396D04C
+P 11775 6900
+F 0 "EXT_R9" V 11647 6980 50  0000 L CNN
+F 1 "Conn_01x01" V 11738 6980 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 11775 6900 50  0001 C CNN
+F 3 "~" H 11775 6900 50  0001 C CNN
+	1    11775 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10475 5550 11575 5550
+Wire Wire Line
+	11125 5650 11575 5650
+$Comp
+L Connector_Generic:Conn_01x01 EXT_R3
+U 1 1 639AD893
+P 11775 5550
+F 0 "EXT_R3" V 11647 5630 50  0000 L CNN
+F 1 "Conn_01x01" V 11738 5630 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 11775 5550 50  0001 C CNN
+F 3 "~" H 11775 5550 50  0001 C CNN
+	1    11775 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 EXT_R8
+U 1 1 639AD899
+P 11775 5650
+F 0 "EXT_R8" V 11647 5730 50  0000 L CNN
+F 1 "Conn_01x01" V 11738 5730 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 11775 5650 50  0001 C CNN
+F 3 "~" H 11775 5650 50  0001 C CNN
+	1    11775 5650
+	1    0    0    -1  
+$EndComp
+Connection ~ 10475 5550
+Connection ~ 11125 5650
+Connection ~ 10475 6800
+Connection ~ 11125 6900
+Connection ~ 10475 4300
+Connection ~ 11125 4400
+Connection ~ 10475 3050
+Connection ~ 11125 3150
+NoConn ~ 7800 8775
+Wire Wire Line
+	17475 5175 17375 5175
+Connection ~ 17375 5175
+Wire Wire Line
+	17375 5175 17050 5175
+Wire Wire Line
+	17575 1575 17475 1575
+Connection ~ 17375 1575
+Connection ~ 17475 1575
+Wire Wire Line
+	17475 1575 17375 1575
+$Comp
+L MCU_RaspberryPi_and_Boards:Pico U4
+U 1 1 61A58445
+P 19825 2725
+F 0 "U4" H 19825 3940 50  0000 C CNN
+F 1 "Pico" H 19825 3849 50  0000 C CNN
+F 2 "MCU_RaspberryPi_and_Boards:RPi_Pico_TH_no_NPTH_SWD_less_Silk" V 19825 2725 50  0001 C CNN
+F 3 "" H 19825 2725 50  0001 C CNN
+	1    19825 2725
+	1    0    0    -1  
+$EndComp
+NoConn ~ 19725 3875
+NoConn ~ 19825 3875
+NoConn ~ 19925 3875
+Text GLabel 19125 3175 0    50   Input ~ 0
+col1
+Text GLabel 19125 3375 0    50   Input ~ 0
+col3
+Text GLabel 20525 3175 2    50   Input ~ 0
+col5
+Text GLabel 20525 3375 2    50   Input ~ 0
+col7
+Text GLabel 19125 1875 0    50   Input ~ 0
+row1
+Text GLabel 19125 2275 0    50   Input ~ 0
+row4
+Text GLabel 19125 2775 0    50   Input ~ 0
+row8
+Text GLabel 19125 2375 0    50   Input ~ 0
+row5
+Text GLabel 19125 2875 0    50   Input ~ 0
+row9
+Text GLabel 20525 3275 2    50   Input ~ 0
+col6
+Text GLabel 20525 3075 2    50   Input ~ 0
+col4
+Text GLabel 19125 3275 0    50   Input ~ 0
+col2
+Text GLabel 20525 3675 2    50   Input ~ 0
+LED
+Text GLabel 19125 3075 0    50   Input ~ 0
+col0
+Text GLabel 19125 1775 0    50   Input ~ 0
+row0
+Text GLabel 19125 2075 0    50   Input ~ 0
+row2
+Text GLabel 19125 2175 0    50   Input ~ 0
+row3
+Text GLabel 19125 2675 0    50   Input ~ 0
+row7
+Text GLabel 19125 2575 0    50   Input ~ 0
+row6
+NoConn ~ 19125 3575
+NoConn ~ 19125 3675
+NoConn ~ 20525 3575
+NoConn ~ 19125 1975
+NoConn ~ 19125 2475
+NoConn ~ 19125 2975
+NoConn ~ 19125 3475
+NoConn ~ 20525 1775
+NoConn ~ 20525 1875
+NoConn ~ 20525 1975
+NoConn ~ 20525 2075
+NoConn ~ 20525 2275
+NoConn ~ 20525 2375
+NoConn ~ 20525 2475
+NoConn ~ 20525 2575
+NoConn ~ 20525 2675
+NoConn ~ 20525 2775
+NoConn ~ 20525 2875
+NoConn ~ 20525 2975
+NoConn ~ 20525 2175
+$Comp
+L power:GND #PWR03
+U 1 1 622C6337
+P 20825 3475
+F 0 "#PWR03" H 20825 3225 50  0001 C CNN
+F 1 "GND" H 20830 3302 50  0000 C CNN
+F 2 "" H 20825 3475 50  0001 C CNN
+F 3 "" H 20825 3475 50  0001 C CNN
+	1    20825 3475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20825 3475 20525 3475
 $EndSCHEMATC
