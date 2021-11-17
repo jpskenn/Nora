@@ -633,64 +633,64 @@ F 3 "~" H 9775 10175 50  0001 C CNN
 	1    9775 10175
 	-1   0    0    1   
 $EndComp
-Text GLabel 9750 8625 2    50   Input ~ 0
+Text GLabel 9300 8775 2    50   Input ~ 0
 SDA
-Text GLabel 9750 8725 2    50   Input ~ 0
+Text GLabel 9300 8875 2    50   Input ~ 0
 SCL
-Connection ~ 8950 9025
+Connection ~ 8500 9175
 Wire Wire Line
-	8950 9025 8950 9125
+	8500 9175 8500 9275
 Wire Wire Line
-	8950 8425 9350 8425
+	8500 8575 8900 8575
 Wire Wire Line
-	8950 8325 8950 8425
+	8500 8475 8500 8575
 $Comp
 L power:+5V #PWR0102
 U 1 1 60AF154D
-P 8950 8325
-F 0 "#PWR0102" H 8950 8175 50  0001 C CNN
-F 1 "+5V" H 8950 8465 50  0000 C CNN
-F 2 "" H 8950 8325 50  0001 C CNN
-F 3 "" H 8950 8325 50  0001 C CNN
-	1    8950 8325
+P 8500 8475
+F 0 "#PWR0102" H 8500 8325 50  0001 C CNN
+F 1 "+5V" H 8500 8615 50  0000 C CNN
+F 2 "" H 8500 8475 50  0001 C CNN
+F 3 "" H 8500 8475 50  0001 C CNN
+	1    8500 8475
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9750 9025 9350 9025
+	9300 9175 8900 9175
 Wire Wire Line
-	9750 8825 9750 9025
-Connection ~ 9350 9025
+	9300 8975 9300 9175
+Connection ~ 8900 9175
 Wire Wire Line
-	8950 8825 8950 9025
-Connection ~ 8950 8825
+	8500 8975 8500 9175
+Connection ~ 8500 8975
 Wire Wire Line
-	8950 8725 8950 8825
-Connection ~ 8950 8725
+	8500 8875 8500 8975
+Connection ~ 8500 8875
 Wire Wire Line
-	8950 9025 9350 9025
+	8500 9175 8900 9175
 Wire Wire Line
-	8950 8625 8950 8725
+	8500 8775 8500 8875
 $Comp
 L power:GND #PWR0101
 U 1 1 60B24F18
-P 8950 9125
-F 0 "#PWR0101" H 8950 8875 50  0001 C CNN
-F 1 "GND" H 8950 8975 50  0000 C CNN
-F 2 "" H 8950 9125 50  0001 C CNN
-F 3 "" H 8950 9125 50  0001 C CNN
-	1    8950 9125
+P 8500 9275
+F 0 "#PWR0101" H 8500 9025 50  0001 C CNN
+F 1 "GND" H 8500 9125 50  0000 C CNN
+F 2 "" H 8500 9275 50  0001 C CNN
+F 3 "" H 8500 9275 50  0001 C CNN
+	1    8500 9275
 	1    0    0    -1  
 $EndComp
 $Comp
 L Memory_EEPROM:24LC64 U2
 U 1 1 60AF01F9
-P 9350 8725
-F 0 "U2" H 9350 9206 50  0000 C CNN
-F 1 "24LC64" H 9350 9115 50  0000 C CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 9350 8725 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21189f.pdf" H 9350 8725 50  0001 C CNN
-F 4 "C79988" H 9350 8725 50  0001 C CNN "LCSC"
-	1    9350 8725
+P 8900 8875
+F 0 "U2" H 8900 9356 50  0000 C CNN
+F 1 "24LC64" H 8900 9265 50  0000 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 8900 8875 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21189f.pdf" H 8900 8875 50  0001 C CNN
+F 4 "C79988" H 8900 8875 50  0001 C CNN "LCSC"
+	1    8900 8875
 	1    0    0    -1  
 $EndComp
 Connection ~ 14400 9600
@@ -897,7 +897,7 @@ Text Notes 12425 6425 0    100  ~ 20
 ICSP
 Text Notes 12425 7825 0    100  ~ 20
 USB
-Text Notes 8850 8125 0    100  ~ 20
+Text Notes 8400 8275 0    100  ~ 20
 EEPROM
 Text Notes 10375 8250 0    100  ~ 20
 I2C
@@ -3885,8 +3885,6 @@ Text GLabel 18075 3075 2    50   Input ~ 0
 SCL
 Text GLabel 18075 3175 2    50   Input ~ 0
 SDA
-Text GLabel 18075 2775 2    50   Input ~ 0
-Reserve_pin
 Text GLabel 18075 3375 2    50   Input ~ 0
 col1
 Text GLabel 18075 3475 2    50   Input ~ 0
@@ -4121,4 +4119,6 @@ Text GLabel 15325 3575 2    50   Input ~ 0
 col2
 Text GLabel 15325 3275 2    50   Input ~ 0
 row2
+Text GLabel 18075 2775 2    50   Input ~ 0
+Reserve_pin
 $EndSCHEMATC
