@@ -373,12 +373,12 @@ row5
 $Comp
 L power:+5V #PWR024
 U 1 1 5F935DB7
-P 600 8875
-F 0 "#PWR024" H 600 8725 50  0001 C CNN
-F 1 "+5V" H 615 9048 50  0000 C CNN
-F 2 "" H 600 8875 50  0001 C CNN
-F 3 "" H 600 8875 50  0001 C CNN
-	1    600  8875
+P 750 9075
+F 0 "#PWR024" H 750 8925 50  0001 C CNN
+F 1 "+5V" H 765 9248 50  0000 C CNN
+F 2 "" H 750 9075 50  0001 C CNN
+F 3 "" H 750 9075 50  0001 C CNN
+	1    750  9075
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -633,9 +633,9 @@ F 3 "~" H 9775 10175 50  0001 C CNN
 	1    9775 10175
 	-1   0    0    1   
 $EndComp
-Text GLabel 9525 8375 2    50   Input ~ 0
+Text GLabel 9300 8775 2    50   Input ~ 0
 SDA
-Text GLabel 9525 8875 2    50   Input ~ 0
+Text GLabel 9300 8875 2    50   Input ~ 0
 SCL
 Connection ~ 8500 9175
 Wire Wire Line
@@ -992,7 +992,7 @@ U 1 1 61AD1B1E
 P 1175 5250
 F 0 "SW_3" H 1175 5535 50  0000 C CNN
 F 1 "SFT1u" H 1175 5444 50  0000 C CNN
-F 2 "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName" H 1175 5450 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-MillMax" H 1175 5450 50  0001 C CNN
 F 3 "~" H 1175 5450 50  0001 C CNN
 	1    1175 5250
 	1    0    0    -1  
@@ -1343,7 +1343,7 @@ U 1 1 61AC7CF2
 P 1825 4000
 F 0 "SW_7" H 1825 4285 50  0000 C CNN
 F 1 "LCTL_1.5u" H 1825 4194 50  0000 C CNN
-F 2 "Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName-NoClickHole" H 1825 4200 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName-NoClickHole-MillMax" H 1825 4200 50  0001 C CNN
 F 3 "~" H 1825 4200 50  0001 C CNN
 	1    1825 4000
 	1    0    0    -1  
@@ -1733,7 +1733,7 @@ U 1 1 61CE966C
 P 5725 4000
 F 0 "SW_37" H 5725 4285 50  0000 C CNN
 F 1 "H" H 5725 4194 50  0000 C CNN
-F 2 "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName" H 5725 4200 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-MillMax" H 5725 4200 50  0001 C CNN
 F 3 "~" H 5725 4200 50  0001 C CNN
 	1    5725 4000
 	1    0    0    -1  
@@ -2233,7 +2233,7 @@ U 1 1 61D19771
 P 7675 6500
 F 0 "SW_54" H 7675 6785 50  0000 C CNN
 F 1 "RGUI_1.5u" H 7675 6694 50  0000 C CNN
-F 2 "Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName" H 7675 6700 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName-MillMax" H 7675 6700 50  0001 C CNN
 F 3 "~" H 7675 6700 50  0001 C CNN
 	1    7675 6500
 	1    0    0    -1  
@@ -2608,7 +2608,7 @@ U 1 1 61D4FEE3
 P 10275 2750
 F 0 "SW_71" H 10275 3035 50  0000 C CNN
 F 1 "Num_8" H 10275 2944 50  0000 C CNN
-F 2 "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName" H 10275 2950 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-MillMax" H 10275 2950 50  0001 C CNN
 F 3 "~" H 10275 2950 50  0001 C CNN
 	1    10275 2750
 	1    0    0    -1  
@@ -2674,7 +2674,7 @@ U 1 1 61D4FF07
 P 10925 4000
 F 0 "SW_77" H 10925 4285 50  0000 C CNN
 F 1 "Num_6" H 10925 4194 50  0000 C CNN
-F 2 "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName" H 10925 4200 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-MillMax" H 10925 4200 50  0001 C CNN
 F 3 "~" H 10925 4200 50  0001 C CNN
 	1    10925 4000
 	1    0    0    -1  
@@ -2718,7 +2718,7 @@ U 1 1 61D4FF1F
 P 10925 5250
 F 0 "SW_78" H 10925 5535 50  0000 C CNN
 F 1 "Num_3" H 10925 5444 50  0000 C CNN
-F 2 "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName" H 10925 5450 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-MillMax" H 10925 5450 50  0001 C CNN
 F 3 "~" H 10925 5450 50  0001 C CNN
 	1    10925 5250
 	1    0    0    -1  
@@ -3885,8 +3885,6 @@ Text GLabel 18075 3075 2    50   Input ~ 0
 SCL
 Text GLabel 18075 3175 2    50   Input ~ 0
 SDA
-Text GLabel 18075 2775 2    50   Input ~ 0
-Reserve_pin
 Text GLabel 18075 3375 2    50   Input ~ 0
 col1
 Text GLabel 18075 3475 2    50   Input ~ 0
@@ -4121,184 +4119,6 @@ Text GLabel 15325 3575 2    50   Input ~ 0
 col2
 Text GLabel 15325 3275 2    50   Input ~ 0
 row2
-$Comp
-L MCU_RaspberryPi_and_Boards:Pico U4
-U 1 1 619D83E2
-P 19850 2675
-F 0 "U4" H 19850 3890 50  0000 C CNN
-F 1 "Pico" H 19850 3799 50  0000 C CNN
-F 2 "RPi_Pico:RPi_Pico_SMD_TH" V 19850 2675 50  0001 C CNN
-F 3 "" H 19850 2675 50  0001 C CNN
-	1    19850 2675
-	1    0    0    -1  
-$EndComp
-Text GLabel 20550 1825 2    50   Input ~ 0
-PICO_VSYS
-NoConn ~ 20550 1725
-NoConn ~ 20550 2025
-NoConn ~ 20550 2125
-NoConn ~ 20550 2225
-NoConn ~ 20550 2325
-NoConn ~ 20550 2425
-NoConn ~ 20550 2525
-NoConn ~ 20550 2625
-NoConn ~ 20550 2725
-$Comp
-L power:GND #PWR03
-U 1 1 61D1E2A5
-P 18725 4075
-F 0 "#PWR03" H 18725 3825 50  0001 C CNN
-F 1 "GND" H 18730 3902 50  0000 C CNN
-F 2 "" H 18725 4075 50  0001 C CNN
-F 3 "" H 18725 4075 50  0001 C CNN
-	1    18725 4075
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19150 1925 18725 1925
-Wire Wire Line
-	18725 1925 18725 2425
-Wire Wire Line
-	19150 2425 18725 2425
-Connection ~ 18725 2425
-Wire Wire Line
-	18725 2425 18725 2925
-Wire Wire Line
-	19150 2925 18725 2925
-Connection ~ 18725 2925
-Wire Wire Line
-	18725 2925 18725 3425
-Wire Wire Line
-	19150 3425 18725 3425
-Connection ~ 18725 3425
-Wire Wire Line
-	18725 3425 18725 4050
-Wire Wire Line
-	20550 1925 21025 1925
-Wire Wire Line
-	21025 1925 21025 2925
-Wire Wire Line
-	21025 4050 18725 4050
-Connection ~ 18725 4050
-Wire Wire Line
-	18725 4050 18725 4075
-Wire Wire Line
-	20550 3425 21025 3425
-Connection ~ 21025 3425
-Wire Wire Line
-	21025 3425 21025 4050
-Wire Wire Line
-	20550 2925 21025 2925
-Connection ~ 21025 2925
-Wire Wire Line
-	21025 2925 21025 3425
-Text GLabel 20650 6075 0    50   Input ~ 0
-SCL
-Text GLabel 20650 5975 0    50   Input ~ 0
-SDA
-Text GLabel 20650 6375 0    50   Input ~ 0
+Text GLabel 18075 2775 2    50   Input ~ 0
 Reserve_pin
-Text GLabel 19150 2125 0    50   Input ~ 0
-col1
-Text GLabel 19150 2325 0    50   Input ~ 0
-col3
-Text GLabel 19150 2625 0    50   Input ~ 0
-col5
-Text GLabel 19150 2825 0    50   Input ~ 0
-col7
-Text GLabel 20550 3525 2    50   Input ~ 0
-row1
-Text GLabel 20550 3225 2    50   Input ~ 0
-row4
-Text GLabel 19150 3225 0    50   Input ~ 0
-row8
-Text GLabel 19150 3625 0    50   Input ~ 0
-row5
-Text GLabel 19150 3125 0    50   Input ~ 0
-row9
-Text GLabel 19150 2725 0    50   Input ~ 0
-col6
-Text GLabel 20650 6975 0    50   Input ~ 0
-MISO
-Text GLabel 20650 7075 0    50   Input ~ 0
-MOSI
-Text GLabel 19150 2525 0    50   Input ~ 0
-col4
-Text GLabel 20650 7175 0    50   Input ~ 0
-SCK
-Text GLabel 19150 2225 0    50   Input ~ 0
-col2
-Text GLabel 20650 5075 0    50   Input ~ 0
-LED
-Text GLabel 19150 2025 0    50   Input ~ 0
-col0
-Text GLabel 20550 3625 2    50   Input ~ 0
-row0
-Text GLabel 20550 3325 2    50   Input ~ 0
-row2
-Text GLabel 20550 3125 2    50   Input ~ 0
-row3
-Text GLabel 19150 3325 0    50   Input ~ 0
-row7
-Text GLabel 19150 3525 0    50   Input ~ 0
-row6
-Text GLabel 20650 5175 0    50   Input ~ 0
-HWB
-Text GLabel 19150 1825 0    50   Input ~ 0
-PICO_SCL
-Text GLabel 19150 1725 0    50   Input ~ 0
-PICO_SDA
-$Comp
-L Jumper:SolderJumper_3_Open JP1
-U 1 1 62456E90
-P 600 9075
-F 0 "JP1" V 646 9142 50  0000 L CNN
-F 1 "SolderJumper_3_Open" V 555 9142 50  0000 L CNN
-F 2 "" H 600 9075 50  0001 C CNN
-F 3 "~" H 600 9075 50  0001 C CNN
-	1    600  9075
-	0    -1   -1   0   
-$EndComp
-Text GLabel 600  9275 2    50   Input ~ 0
-PICO_VSYS
-$Comp
-L Jumper:SolderJumper_3_Open JP2
-U 1 1 624E021F
-P 9525 8575
-F 0 "JP2" V 9479 8643 50  0000 L CNN
-F 1 "SolderJumper_3_Open" V 9570 8643 50  0000 L CNN
-F 2 "" H 9525 8575 50  0001 C CNN
-F 3 "~" H 9525 8575 50  0001 C CNN
-	1    9525 8575
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP3
-U 1 1 62523430
-P 9525 9075
-F 0 "JP3" V 9479 9143 50  0000 L CNN
-F 1 "SolderJumper_3_Open" V 9570 9143 50  0000 L CNN
-F 2 "" H 9525 9075 50  0001 C CNN
-F 3 "~" H 9525 9075 50  0001 C CNN
-	1    9525 9075
-	0    1    1    0   
-$EndComp
-Text GLabel 9525 9275 2    50   Input ~ 0
-PICO_SCL
-Text GLabel 9525 8775 2    50   Input ~ 0
-PICO_SDA
-Wire Wire Line
-	9300 8775 9375 8775
-Wire Wire Line
-	9375 8775 9375 8575
-Wire Wire Line
-	9300 8875 9375 8875
-Wire Wire Line
-	9375 8875 9375 9075
-NoConn ~ 19150 3025
-NoConn ~ 20550 2825
-NoConn ~ 20550 3025
-NoConn ~ 19750 3825
-NoConn ~ 19850 3825
-NoConn ~ 19950 3825
 $EndSCHEMATC
