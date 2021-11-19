@@ -1343,7 +1343,7 @@ U 1 1 61AC7CF2
 P 1825 4000
 F 0 "SW_7" H 1825 4285 50  0000 C CNN
 F 1 "LCTL_1.5u" H 1825 4194 50  0000 C CNN
-F 2 "Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName-NoClickHole-MillMax" H 1825 4200 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName-NoClickHole" H 1825 4200 50  0001 C CNN
 F 3 "~" H 1825 4200 50  0001 C CNN
 	1    1825 4000
 	1    0    0    -1  
@@ -4121,4 +4121,32 @@ Text GLabel 15325 3275 2    50   Input ~ 0
 row2
 Text GLabel 18075 2775 2    50   Input ~ 0
 Reserve_pin
+Text Notes 3575 9675 0    100  ~ 20
+SOLDER TRAINING \n*not connected to circuit
+$Comp
+L Switch:SW_Push TR_1
+U 1 1 61AC4D56
+P 4050 10125
+F 0 "TR_1" H 4050 10410 50  0000 C CNN
+F 1 "SW_Choc_Normal" H 4050 10319 50  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-2u-MBK-WithKeyName" H 4050 10325 50  0001 C CNN
+F 3 "~" H 4050 10325 50  0001 C CNN
+	1    4050 10125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push TR_2
+U 1 1 61B4579B
+P 4050 10500
+F 0 "TR_2" H 4050 10785 50  0000 C CNN
+F 1 "SW_Choc_With_Mill-Max" H 4050 10694 50  0000 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-2u-MBK-WithKeyName" H 4050 10700 50  0001 C CNN
+F 3 "~" H 4050 10700 50  0001 C CNN
+	1    4050 10500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4250 10125
+NoConn ~ 3850 10125
+NoConn ~ 3850 10500
+NoConn ~ 4250 10500
 $EndSCHEMATC
