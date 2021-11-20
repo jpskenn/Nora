@@ -373,12 +373,12 @@ row5
 $Comp
 L power:+5V #PWR024
 U 1 1 5F935DB7
-P 750 9075
-F 0 "#PWR024" H 750 8925 50  0001 C CNN
-F 1 "+5V" H 765 9248 50  0000 C CNN
-F 2 "" H 750 9075 50  0001 C CNN
-F 3 "" H 750 9075 50  0001 C CNN
-	1    750  9075
+P 600 8875
+F 0 "#PWR024" H 600 8725 50  0001 C CNN
+F 1 "+5V" H 615 9048 50  0000 C CNN
+F 2 "" H 600 8875 50  0001 C CNN
+F 3 "" H 600 8875 50  0001 C CNN
+	1    600  8875
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -438,17 +438,17 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J3
 U 1 1 60E8EB4C
-P 11325 8850
-F 0 "J3" H 11405 8842 50  0000 L CNN
-F 1 "Conn_01x02" H 11405 8751 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11325 8850 50  0001 C CNN
-F 3 "~" H 11325 8850 50  0001 C CNN
-	1    11325 8850
+P 11300 9250
+F 0 "J3" H 11380 9242 50  0000 L CNN
+F 1 "Conn_01x02" H 11380 9151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11300 9250 50  0001 C CNN
+F 3 "~" H 11300 9250 50  0001 C CNN
+	1    11300 9250
 	1    0    0    -1  
 $EndComp
-Text GLabel 10600 8950 0    50   Input ~ 0
+Text GLabel 10575 9350 0    50   Input ~ 0
 SCL
-Text GLabel 10600 8850 0    50   Input ~ 0
+Text GLabel 10575 9250 0    50   Input ~ 0
 SDA
 $Comp
 L Connector_Generic:Conn_01x01 EXT_C0
@@ -521,61 +521,61 @@ Audio\nC4,5,6\nB5,6,7
 $Comp
 L Device:R R8
 U 1 1 60AB199F
-P 10675 8600
-F 0 "R8" H 10745 8646 50  0000 L CNN
-F 1 "4.7k" H 10745 8555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10605 8600 50  0001 C CNN
-F 3 "~" H 10675 8600 50  0001 C CNN
-F 4 "C17673" H 10675 8600 50  0001 C CNN "LCSC"
-	1    10675 8600
+P 10650 8700
+F 0 "R8" H 10720 8746 50  0000 L CNN
+F 1 "4.7k" H 10720 8655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10580 8700 50  0001 C CNN
+F 3 "~" H 10650 8700 50  0001 C CNN
+F 4 "C17673" H 10650 8700 50  0001 C CNN "LCSC"
+	1    10650 8700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R9
 U 1 1 60AB3787
-P 11000 8600
-F 0 "R9" H 11070 8646 50  0000 L CNN
-F 1 "4.7k" H 11070 8555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10930 8600 50  0001 C CNN
-F 3 "~" H 11000 8600 50  0001 C CNN
-F 4 "C17673" H 11000 8600 50  0001 C CNN "LCSC"
-	1    11000 8600
+P 10975 8700
+F 0 "R9" H 11045 8746 50  0000 L CNN
+F 1 "4.7k" H 11045 8655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10905 8700 50  0001 C CNN
+F 3 "~" H 10975 8700 50  0001 C CNN
+F 4 "C17673" H 10975 8700 50  0001 C CNN "LCSC"
+	1    10975 8700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10600 8850 10675 8850
+	10575 9250 10650 9250
 Wire Wire Line
-	10675 8750 10675 8850
-Connection ~ 10675 8850
+	10650 9150 10650 9250
+Connection ~ 10650 9250
 Wire Wire Line
-	10675 8850 11125 8850
+	10650 9250 11100 9250
 Wire Wire Line
-	10600 8950 11000 8950
+	10575 9350 10975 9350
 Wire Wire Line
-	11000 8750 11000 8950
-Connection ~ 11000 8950
+	10975 9150 10975 9350
+Connection ~ 10975 9350
 Wire Wire Line
-	11000 8950 11125 8950
+	10975 9350 11100 9350
 $Comp
 L power:+5V #PWR030
 U 1 1 60CFF674
-P 10675 8450
-F 0 "#PWR030" H 10675 8300 50  0001 C CNN
-F 1 "+5V" H 10675 8590 50  0000 C CNN
-F 2 "" H 10675 8450 50  0001 C CNN
-F 3 "" H 10675 8450 50  0001 C CNN
-	1    10675 8450
+P 10650 8550
+F 0 "#PWR030" H 10650 8400 50  0001 C CNN
+F 1 "+5V" H 10650 8690 50  0000 C CNN
+F 2 "" H 10650 8550 50  0001 C CNN
+F 3 "" H 10650 8550 50  0001 C CNN
+	1    10650 8550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR031
 U 1 1 60D34CB6
-P 11000 8450
-F 0 "#PWR031" H 11000 8300 50  0001 C CNN
-F 1 "+5V" H 11000 8590 50  0000 C CNN
-F 2 "" H 11000 8450 50  0001 C CNN
-F 3 "" H 11000 8450 50  0001 C CNN
-	1    11000 8450
+P 10975 8550
+F 0 "#PWR031" H 10975 8400 50  0001 C CNN
+F 1 "+5V" H 10975 8690 50  0000 C CNN
+F 2 "" H 10975 8550 50  0001 C CNN
+F 3 "" H 10975 8550 50  0001 C CNN
+	1    10975 8550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -899,7 +899,7 @@ Text Notes 12425 7825 0    100  ~ 20
 USB
 Text Notes 8400 8275 0    100  ~ 20
 EEPROM
-Text Notes 10375 8250 0    100  ~ 20
+Text Notes 10350 8275 0    100  ~ 20
 I2C
 Text Notes 675  9675 0    100  ~ 20
 LOGO
@@ -3910,7 +3910,7 @@ Wire Wire Line
 	7400 8650 6975 8650
 Connection ~ 1425 9075
 Wire Wire Line
-	1425 9075 750  9075
+	1425 9075 775  9075
 Connection ~ 1850 9075
 Wire Wire Line
 	1850 9075 1425 9075
@@ -4225,4 +4225,194 @@ NoConn ~ 4250 10125
 NoConn ~ 3850 10125
 NoConn ~ 4725 10125
 NoConn ~ 5125 10125
+Wire Wire Line
+	20800 1975 21350 1975
+Wire Wire Line
+	21350 1975 21350 2975
+Wire Wire Line
+	20800 2975 21350 2975
+Connection ~ 21350 2975
+Wire Wire Line
+	21350 2975 21350 3475
+Wire Wire Line
+	20800 3475 21350 3475
+Connection ~ 21350 3475
+Wire Wire Line
+	21350 3475 21350 3950
+Wire Wire Line
+	19400 1975 18775 1975
+Wire Wire Line
+	18775 1975 18775 2475
+Wire Wire Line
+	19400 3475 18775 3475
+Connection ~ 18775 3475
+Wire Wire Line
+	18775 3475 18775 3950
+Wire Wire Line
+	19400 2975 18775 2975
+Connection ~ 18775 2975
+Wire Wire Line
+	18775 2975 18775 3475
+Wire Wire Line
+	19400 2475 18775 2475
+Connection ~ 18775 2475
+Wire Wire Line
+	18775 2475 18775 2975
+Text GLabel 19400 2175 0    50   Input ~ 0
+col1
+Text GLabel 19400 2375 0    50   Input ~ 0
+col3
+Text GLabel 19400 3375 0    50   Input ~ 0
+col5
+Text GLabel 19400 3675 0    50   Input ~ 0
+col7
+Text GLabel 20800 2575 2    50   Input ~ 0
+row1
+Text GLabel 20800 3575 2    50   Input ~ 0
+row4
+Text GLabel 20800 3375 2    50   Input ~ 0
+row8
+Text GLabel 19400 2675 0    50   Input ~ 0
+row5
+Text GLabel 20800 3675 2    50   Input ~ 0
+row9
+Text GLabel 19400 3575 0    50   Input ~ 0
+col6
+Text GLabel 19400 3275 0    50   Input ~ 0
+col4
+Text GLabel 19400 2275 0    50   Input ~ 0
+col2
+Text GLabel 20800 2375 2    50   Input ~ 0
+LED
+Text GLabel 19400 2075 0    50   Input ~ 0
+col0
+Text GLabel 19400 2575 0    50   Input ~ 0
+row0
+Text GLabel 20800 2875 2    50   Input ~ 0
+row2
+Text GLabel 20800 3275 2    50   Input ~ 0
+row3
+Text GLabel 20800 3075 2    50   Input ~ 0
+row7
+Text GLabel 20800 2675 2    50   Input ~ 0
+row6
+NoConn ~ 20800 1875
+NoConn ~ 20800 2075
+NoConn ~ 20800 2175
+NoConn ~ 20800 2275
+NoConn ~ 20800 2475
+NoConn ~ 20800 2775
+NoConn ~ 20000 3875
+NoConn ~ 20200 3875
+Text GLabel 19400 3175 0    50   Input ~ 0
+PICO_11
+Text GLabel 19400 3075 0    50   Input ~ 0
+PICO_10
+Text GLabel 19400 2875 0    50   Input ~ 0
+PICO_9
+Text GLabel 19400 2775 0    50   Input ~ 0
+PICO_8
+Text GLabel 20950 1775 2    50   Input ~ 0
+PICO_VBUS
+Text GLabel 19400 1875 0    50   Input ~ 0
+SCL
+Text GLabel 19400 1775 0    50   Input ~ 0
+SDA
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 6264A546
+P 10650 9000
+F 0 "JP1" V 10604 9068 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 10695 9068 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 10650 9000 50  0001 C CNN
+F 3 "~" H 10650 9000 50  0001 C CNN
+	1    10650 9000
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 6264BA1A
+P 10975 9000
+F 0 "JP2" V 10929 9068 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 11020 9068 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 10975 9000 50  0001 C CNN
+F 3 "~" H 10975 9000 50  0001 C CNN
+	1    10975 9000
+	0    1    1    0   
+$EndComp
+Connection ~ 18775 3950
+$Comp
+L power:GND #PWR0104
+U 1 1 619D893B
+P 18775 3950
+F 0 "#PWR0104" H 18775 3700 50  0001 C CNN
+F 1 "GND" H 18780 3777 50  0000 C CNN
+F 2 "" H 18775 3950 50  0001 C CNN
+F 3 "" H 18775 3950 50  0001 C CNN
+	1    18775 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 627EC5BE
+P 9775 10775
+F 0 "J2" H 9693 10350 50  0000 C CNN
+F 1 "Conn_01x04" H 9693 10441 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9775 10775 50  0001 C CNN
+F 3 "~" H 9775 10775 50  0001 C CNN
+	1    9775 10775
+	-1   0    0    1   
+$EndComp
+Text GLabel 600  9275 2    50   Input ~ 0
+PICO_VBUS
+$Comp
+L nora:Pico_dummy U4
+U 1 1 62A9C89D
+P 20100 2725
+F 0 "U4" H 20100 3940 50  0000 C CNN
+F 1 "Pico" H 20100 3849 50  0000 C CNN
+F 2 "MCU_RaspberryPi_and_Boards:RPi_Pico_TH_no_NPTH_SWD_less_Silk_NoCrtYd" V 20100 2725 50  0001 C CNN
+F 3 "" H 20100 2725 50  0001 C CNN
+	1    20100 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 62AE90E6
+P 775 9075
+F 0 "#FLG0102" H 775 9150 50  0001 C CNN
+F 1 "PWR_FLAG" H 775 9248 50  0000 C CNN
+F 2 "" H 775 9075 50  0001 C CNN
+F 3 "~" H 775 9075 50  0001 C CNN
+	1    775  9075
+	1    0    0    -1  
+$EndComp
+Connection ~ 775  9075
+Wire Wire Line
+	775  9075 750  9075
+$Comp
+L Jumper:SolderJumper_3_Open JP3
+U 1 1 62AEB2BC
+P 600 9075
+F 0 "JP3" V 646 9142 50  0000 L CNN
+F 1 "SolderJumper_3_Open" V 555 9142 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 600 9075 50  0001 C CNN
+F 3 "~" H 600 9075 50  0001 C CNN
+	1    600  9075
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20800 1775 20950 1775
+NoConn ~ 20800 3175
+Text GLabel 9975 10575 2    50   Input ~ 0
+PICO_11
+Text GLabel 9975 10675 2    50   Input ~ 0
+PICO_10
+Text GLabel 9975 10775 2    50   Input ~ 0
+PICO_9
+Text GLabel 9975 10875 2    50   Input ~ 0
+PICO_8
+Wire Wire Line
+	18775 3950 21350 3950
+NoConn ~ 20100 3875
 $EndSCHEMATC
