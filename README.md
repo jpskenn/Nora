@@ -3,7 +3,7 @@
 <img width="996" alt="スクリーンショット 2021-11-15 19 55 52" src="https://user-images.githubusercontent.com/22065528/141769901-fb6a417b-34a3-4c76-b669-9c31b7ee8160.png">
 
 Nora（ノラ）は、Choc（v1）ロープロファイルスイッチを使用した、狭ピッチの一体型65%キーボードです。  
-60%キーボードのケースに、通常よりも1列多い、5×16列のキーがおさまっています。
+キーピッチはMBK、またはそれ以下のサイズのキーキャップに合わせて設計され、60%キーボードのケースに通常よりも1列多い5×16列のキーがおさまっています。
 
 [Jones](https://github.com/jpskenn/Jones)ゆずりの2行目と3行目にずれのない左右対称のアルファ部に、Cherryの1800風のカーソルとテンキーを追加したレイアウトになっています。
 
@@ -25,7 +25,7 @@ Narrow Jones ---> Norah Jones --> Norah --> Nora
 ---
 
 Nora is a narrow pitch 65% keyboard with Choc(v1) low profile switches.  
-5 * 16 keys, plus one column to normal 60% keyboards, in 60% case.
+Key pitch is designed for MBK or smaller keycaps. 5 * 16 keys, plus one column to normal 60% keyboards, in 60% case.
 
 It has symmetrical gapless R1-R2 rows like [Jones](https://github.com/jpskenn/Jones), with Cherry's 1800 stile arrow keys and numeric pad.
 
@@ -63,7 +63,7 @@ It can be used with GH60 and Poker compatible low profile cases or original bott
 
 一般的なキーボードの19.05mmピッチに対して1-2mmほど狭いキーピッチの、たて17mm×よこ約17.86mmの狭ピッチでキーを配置しています。
 
-横方向のキーピッチはMBKキーキャップの使用を前提とした設計になっており、Choc用キーキャップの標準的なキーピッチである、たて17mm×よこ18mmよりも横方向がさらに狭くなっています。  
+横方向のキーピッチはMBK、またはそれ以下のサイズのキーキャップの使用を前提とした設計になっており、Choc用キーキャップの標準的なキーピッチである、たて17mm×よこ18mmよりも横方向がさらに狭くなっています。  
 そのため、KailhのChocキーキャップには対応しません。（たぶん。現物を取り寄せて確認予定）
 
 〓図：一般的なキーピッチとの比較画像
