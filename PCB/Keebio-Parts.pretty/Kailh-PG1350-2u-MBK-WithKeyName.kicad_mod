@@ -1,4 +1,4 @@
-(module Kailh-PG1350-2u-MBK-WithKeyName (layer F.Cu) (tedit 618F4C4F)
+(module Kailh-PG1350-2u-MBK-WithKeyName (layer F.Cu) (tedit 6199FB28)
   (fp_text reference "Kailh PG1350" (at 0 -7.14375 180) (layer Dwgs.User) hide
     (effects (font (size 1 1) (thickness 0.2)))
   )
@@ -68,5 +68,10 @@
     (offset (xyz 0 0 11.93799982070923))
     (scale (xyz 0.394 0.394 0.394))
     (rotate (xyz 270 0 0))
+  )
+  (model ${KIPRJMOD}/locallib.pretty/SW_Kailh_Choc_V1.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
   )
 )
