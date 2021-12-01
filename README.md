@@ -18,7 +18,7 @@ GH60型やPoker型に互換性のあるロープロファイルケースや、�
 ``` text
 狭ピッチのJones → ナロー・ジョーンズ → ノラ・ジョーンズ → ノラ
 
-Narrow Jones ---> Norah Jones --> Norah --> Nora
+Narrow Jones --> Norah Jones --> Norah --> Nora
 ```
 
 という具合の言葉遊びで、Nora（ノラ）に決まりました。
