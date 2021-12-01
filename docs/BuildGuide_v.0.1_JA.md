@@ -235,7 +235,7 @@ MacやPCに接続して、キーボードとして認識されることを確認
 右側上部の`USB装置ツリー`のどこかに`Nora`というデバイスが表示されていれば、正しく認識されています。  
 `USB装置ツリー`の下の方が見切れている場合があるため、スクロールして探してください。
 
-![Mac System Report](../assets/BuildGuide_v.1/macOS_SystemReport.png)  〓写真
+![Mac System Report](../assets/BuildGuide_v.0.1/macOS_SystemReport.png)
 システム情報の表示
 </details>
 
@@ -285,11 +285,11 @@ Google Chromeブラウザ（Web HID対応のバージョン89以降）で、[Rem
 レイアウト右側の`Layout Option`で、組み立てようとしているレイアウトに設定します。  
 キーマップは組み立て完了後に変更するため、ここではレイアウトだけ設定して先へ進みます。
 
-![Layout Option](../assets/BuildGuide_v.0.4/Remap_LayoutOption.png)〓画像
+![Layout Option](../assets/BuildGuide_v.0.1/Remap_LayoutOption.png)
 
 レイアウト右側の`…`をクリックし、`Test Matrix mode`を選択します。
 
-![Test Matrix Mode](../assets/BuildGuide_v.0.4/Remap_TestMatrix.png)〓画像
+![Test Matrix Mode](../assets/BuildGuide_v.0.1/Remap_TestMatrix.png)〓画像
 
 ピンセットなどの電気を通すものを使い、スルーホールをショートさせます。
 
