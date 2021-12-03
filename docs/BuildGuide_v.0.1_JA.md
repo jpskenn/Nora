@@ -100,7 +100,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[Nora READ
   取り付け確認済みのケースは次の通りです。  
   （これら以外のケースへの取り付けの成功／失敗の報告を募集しております。）
   - [KBDfans 60% ALUMINUM LOW PROFILE CASE](https://kbdfans.com/collections/60-layout-case/products/customized-gh60-aluminum-case)
-  - [Jones用ボトムプレート](https://booth.pm/ja/items/3266269)（※Noraキット付属のM2 3mm低頭ネジを使用します）
+  - [Jones用ボトムプレート](https://booth.pm/ja/items/3266269)（Noraキット付属のM2 3mm低頭ネジを使用します）
 
   木製のケースにも取り付けできますが、以下に示すケース、またはその他の同様のケースは内部構造が基板裏側の部品に干渉すると思われるため、DIYで加工することを前提に使用してください。
   - [60% 竹製ケース（パームレスト一体型）](https://shop.yushakobo.jp/products/a0700bp-01)
