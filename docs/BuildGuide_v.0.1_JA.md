@@ -82,8 +82,9 @@ Noraのコンセプトや特徴、ビルド例などについては、[Nora READ
 
 ## 注意事項、制限など
 
-- MBK、またはそれ以下のサイズのキーキャップ専用設計の狭ピッチキーボードです。
-  Kailh Chocキーキャップは干渉するため使用できません。（〓確認中）
+- MBK、またはそれ以下のサイズのキーキャップに合わせて設計されています。  
+  Kailh製のロープロファイルキーキャップ（例：[Kailhロープロ刻印キーキャップ](https://shop.yushakobo.jp/collections/keycaps/products/pg1350cap-doubleshot)）は隣同士のキーが干渉する可能性があるため、ご自身の責任で使用してください。  
+  （少し削れば使える、または、ギリギリ干渉しない程度のクリアランスなので、DIYすればなんとかなるレベル）
 
 - 左シフトキーの2uスタビライザーは使用できません。
 
@@ -94,23 +95,17 @@ Noraのコンセプトや特徴、ビルド例などについては、[Nora READ
 - GH60型, Poker型ケースを使用する場合、中央下側のネジは使用しません。
 
 - もしかしたら取り付けできないケースがあるかもしれません。  
+  また、キー天面までの高さが低いため、ハイプロファイルタイプのケースは使用に適しません。（［TOFUケースへの装着例](https://twitter.com/jpskenn/status/1466729696713142277)）  
+
   取り付け確認済みのケースは次の通りです。  
   （これら以外のケースへの取り付けの成功／失敗の報告を募集しております。）
-  
-  GH60型，Poker型のケースについて、現在確認中です。  
-  - [KBDfans TOFU 60% ALUMINUM CASE](https://kbdfans.com/products/kbdfans-tofu-60-aluminum-case)
-  - [KBDfans 5℃ FROSTED ACRYLIC CNC 60% CASE](https://kbdfans.com/products/pre-order-kbdfans5-transparent-acrylic-cnc-60-case)
-  - [60% プラスチックケース](https://yushakobo.jp/shop/60-plastic-case/)（簡単な加工が必要）
-  - [Jones用ボトムプレート](https://booth.pm/ja/items/3266269)
+  - [KBDfans 60% ALUMINUM LOW PROFILE CASE](https://kbdfans.com/collections/60-layout-case/products/customized-gh60-aluminum-case)
+  - [Jones用ボトムプレート](https://booth.pm/ja/items/3266269)（※Noraキット付属のM2 3mm低頭ネジを使用します）
 
-  木製のケースは、ケースの内部構造が基板うら側の部品に干渉するものが多いため、注意してください。  
-  ケース内側の外周部に設けられた数ミリ幅の段で基板を支えるような構造がこれに該当します。  
-  カッターや彫刻刀で干渉箇所を削れば取り付けできますが、ひと手間かかる加工作業になります。  
-  - [60% 竹製ケース（パームレスト一体型）](https://shop.yushakobo.jp/products/a0700bp-01)  
-  Dropで販売されている[NPKC 60% WOODEN WRIST REST KEYBOARD CASE](https://drop.com/buy/npkc-60-percent-wooden-wrist-rest-keyboard-case)も同じ形状で、干渉すると思われます。
-  - [60% 木製ケース](https://shop.yushakobo.jp/products/60-wood-case)  
-  竹製ケースと同じような内部構造で、写真で見ると干渉は少なめですが、注意が必要です。
-  - その他の木製ケース
+  木製のケースにも取り付けできますが、以下に示すケース、またはその他の同様のケースは内部構造が基板裏側の部品に干渉すると思われるため、DIYで加工することを前提に使用してください。
+  - [60% 竹製ケース（パームレスト一体型）](https://shop.yushakobo.jp/products/a0700bp-01)
+  - [NPKC 60% WOODEN WRIST REST KEYBOARD CASE](https://drop.com/buy/npkc-60-percent-wooden-wrist-rest-keyboard-case)
+  - [60% 木製ケース](https://shop.yushakobo.jp/products/60-wood-case)
 
 ---
 
@@ -132,7 +127,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[Nora READ
 | スイッチプレート | 1 | [おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_v.1/_DSF0653.jpeg" width="300">](../assets/BuildGuide_v.1/_DSF0653.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_v.1/_DSF0650.jpeg" width="300">](../assets/BuildGuide_v.1/_DSF0650.jpeg) |
 | Choc用スタビライザー<br>2uサイズ | 2 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_0_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_0.jpeg) |
 | 低頭ネジ, M2 4mm | 5 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_1_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_1.jpeg) |
-| 低頭ネジ, M2 5mm | 5 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_2_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_2.jpeg) |
+| 低頭ネジ, M2 3mm | 5 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_2_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_2.jpeg) |
 | Mill-Maxソケット 金色| 12 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_3_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_3.jpeg) |
 | Mill-Maxソケット 銀色| 4〓本番の予備を銀色でつけとく？ | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_3_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_3.jpeg)<br>はんだ付け練習用 |
 
