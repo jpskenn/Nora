@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 67)
+    (drawings 68)
     (tracks 2193)
     (zones 0)
     (modules 223)
@@ -10854,6 +10854,9 @@
       ))
   )
 
+  (gr_text "Key pitch:\nVertical: 17mm --> 1/4 = 4.25mm\nHorisontal: 17.859375mm --> 1/4 = 4.46484375mm" (at 24.110414 125.770262) (layer Eco1.User)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
   (gr_line (start 60.849984 29.87552) (end 60.849984 30.07552) (layer B.SilkS) (width 0.15) (tstamp 619930E4))
   (gr_line (start 58.449984 30.07552) (end 58.449984 29.87552) (layer B.SilkS) (width 0.15) (tstamp 619930E3))
   (gr_line (start 60.849984 30.07552) (end 58.449984 30.07552) (layer B.SilkS) (width 0.15) (tstamp 619930E2))
