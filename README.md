@@ -1,6 +1,6 @@
 # Nora（ノラ）
 
-<img width="996" alt="スクリーンショット 2021-11-15 19 55 52" src="https://user-images.githubusercontent.com/22065528/141769901-fb6a417b-34a3-4c76-b669-9c31b7ee8160.png">
+![Nora Keyboard](./assets/Readme/DSC_7457.jpeg)
 
 Nora（ノラ）は、Choc v1 ロープロファイルスイッチを使用する、狭ピッチの一体型65%キーボードです。  
 MBK、またはそれ以下のサイズのキーキャップに合わせて設計されています。  
@@ -69,13 +69,17 @@ It can be used with GH60 and Poker compatible low profile cases or original bott
 横方向のキーピッチは、MBK、またはそれ以下のサイズのキーキャップの使用を前提とした設計で、Choc用キーキャップの標準的なキーピッチ（たて17mm×よこ18mm）よりも横方向をさらに狭くしています。  
 そのため、Kailh製のロープロファイルキーキャップ（例：[Kailhロープロ刻印キーキャップ](https://shop.yushakobo.jp/collections/keycaps/products/pg1350cap-doubleshot)）では、隣同士のキーが干渉するかもしれません。
 
-〓図：一般的なキーピッチとの比較画像
+![Comparison of key pitch](./assets/Readme/_DSF1263.jpeg)
+キーピッチの比較  
+上：一般的なキーピッチの60%キーボード。  
+下：狭ピッチのNora。65%のキーが60%キーボードのサイズにおさまっている。
 
 ### Jonesゆずりのキーレイアウト
 
 キーレイアウトはJonesのレイアウトを元に設計しており、2行目と3行目にずれのない左右対称のアルファ部や、右手のホームポジションに近づけたModキーなどにその特徴があらわれています。
 
-〓図：左右対称のアルファ部と、右手のホームポジションに近づけたModキー
+![Symmetric alpha and near by mod keys](./assets/Readme/_DSF1121.jpeg)
+左右対称のアルファ部と、近づけたModキー
 
 詳しくは次の項目を参照してください。
 
@@ -85,6 +89,8 @@ It can be used with GH60 and Poker compatible low profile cases or original bott
 ### Cherry 1800風のレイアウト
 
 キーレイアウトは、アルファ部の右側にカーソルとテンキーを配置した、Cherry 1800風のレイアウトです。
+
+![Nora Layout](./assets/Readme/layout.png)
 
 左シフトは、2uまたは1u+1uのどちらかを選ぶことができます。  
 1u+1uを選べば、左手Z行を外側へずらした、完全に左右対称なレイアウトを構成することができます。
@@ -106,7 +112,7 @@ MCUにATmega32u4を採用し、[QMKファームウェア](https://github.com/qmk
 <!--
 Remapにはキーボード定義を登録済みですので、サイトへアクセスしてキーボードを接続すれば、すぐにキーの割り当てを変更することができます。  
 VIAを使用する場合は、以下のキーボード定義ファイルを読み込ませてください。  
-キーボード定義ファイル：[準備中](〓準備中)
+キーボード定義ファイル：[nora_via_v01.json](./VIA/nora_via_v01.json)
 -->
 
 ### RemapやVIAで、より多くのレイヤーを使用可能
@@ -139,6 +145,13 @@ Raspberry Pi PICOによる動作を実験的機能として提供します。
 ## ビルドガイド
 
 - [Nora v.0.1 ビルドガイド](./docs/BuildGuide_v.0.1_JA.md)
+
+## ビルド例
+
+| ビルド例 | 詳細 |
+| --- | :-- |
+| [<img src="./assets/Readme/DSC_7457.jpeg" width="300">]((./assets/Readme/DSC_7457.jpeg)) | 試作1号機<br>case: KBDfans 60% Aluminum Low Profile, Gray<br>keycaps: MBK Colors & Self Dye |
+| [<img src="./assets/Readme/IMG_3798.jpeg" width="300">]((./assets/Readme/IMG_3798.jpeg)) | 試作1号機<br>case: Jones' Bottom plate<br>keycaps: MBK Colors & Self Dye |
 
 ## 製作歴
 
