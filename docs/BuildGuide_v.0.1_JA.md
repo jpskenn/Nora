@@ -355,11 +355,12 @@ MCU取り付け方向
 
 #### USBコネクタを取り付ける
 
-基板裏側`J1`の`INSTALL HERE`と書かれたところへコネクタを取り付け、基板おもて側からはんだ付けします。
+基板裏側`J1`の`INSTALL HERE`と書かれたところへコネクタを取り付け、基板おもて側からはんだ付けします。  
+コネクタはマスキングテープなどで仮固定しておくと作業しやすくなります。
 
 以下の接続図を参考に、テスターでピンを確認します。
 
-![USB Connector](../assets/BuildGuide_v.0.1/USB_Connector.png)
+![USB Connector](../assets/BuildGuide_v.0.1/USB_connector.png)
 基板おもて側から見た、USBコネクタのピン割り当て
 
 #### ESDを取り付ける
