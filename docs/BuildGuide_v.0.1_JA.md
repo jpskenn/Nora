@@ -350,12 +350,17 @@ MCU取り付け方向
 
 フラックスを拭き取り、テスターで隣同士のピンがショートしていないか確認します。
 
+![MCU Pin assign](../assets/BuildGuide_v.0.1/MCU_pin_assign.png)
+基板裏側から見た、MCUのピン割り当て
+
 #### USBコネクタを取り付ける
 
 基板裏側`J1`の`INSTALL HERE`と書かれたところへコネクタを取り付け、基板おもて側からはんだ付けします。
 
 以下の接続図を参考に、テスターでピンを確認します。
+
 ![USB Connector](../assets/BuildGuide_v.0.1/USB_Connector.png)
+基板おもて側から見た、USBコネクタのピン割り当て
 
 #### ESDを取り付ける
 
