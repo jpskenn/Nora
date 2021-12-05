@@ -129,8 +129,8 @@ Noraのコンセプトや特徴、ビルド例などについては、[Nora READ
 | Choc用スタビライザー<br>2uサイズ | 2 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_0_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_0.jpeg) |
 | 低頭ネジ, M2 4mm | 5 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_1_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_1.jpeg) |
 | 低頭ネジ, M2 3mm | 5 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_2_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_2.jpeg) |
-| Mill-Maxソケット 金色<br>7305-0-15-15-47-27-10-0 | 12 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_3_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_3.jpeg) |
-| Mill-Maxソケット 銀色<br>0305-2-15-80-47-80-10-0 | 4 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_3_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_3.jpeg)<br>はんだ付け練習用 |
+| Mill-Maxソケット 金色<br>7305-0-15-15-47-27-10-0 | 12 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_3_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_3.jpeg) <br>鍔が薄い |
+| Mill-Maxソケット 銀色<br>0305-2-15-80-47-80-10-0 | 2 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_3_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_3.jpeg)<br>鍔が厚い<br>はんだ付け練習用, 失敗時の予備用 |
 
 〓写真入れ替え〓
 ※出荷時期によってメーカーや品番などが変わることがあります
@@ -828,22 +828,24 @@ GH60型, Poker型ケースを使用する場合は、ケースのネジ穴に干
 
 中央と右上のケースのネジ穴に干渉する、スイッチ2個の足を加工します。  
 
-〓写真更新![](../assets/BuildGuide_v.0.4/switch_spot.jpeg)
+![](../assets/BuildGuide_v.0.4/switch_spot.jpeg)
 スイッチの足を加工して取り付ける箇所
 
-スイッチ中央の足（出っ張り）を、ネジ穴に当たらない程度に一部切断して取り付けます。  
-ケースによってスイッチとの干渉具合が変わってくるため、現物合わせでどれくらい切断するかを判断します。
+- 中央のネジ穴に重なるスイッチ
+  5ピンのスイッチを使用する場合は、ネジ穴に干渉する片方の足を切断します。  
+  おそらく回避できると思いますが、もしスイッチの中央の足が干渉する場合は、中央の足も切断します。
 
-〓実際にやってから追記
-中央の足をすべて切断するとスイッチ固定の安定性が下がるため、1/4〜1/3に切り込みを入れて一部だけ切断する方がおすすめです。
+- 右上のネジ穴に重なるスイッチ
+  スイッチ中央の足（出っ張り）を、ネジ穴に当たらない程度に一部切断して取り付けます。  
+  ケースによってスイッチとの干渉具合が変わってくるため、現物合わせでどれくらい切断するかを判断します。
 
-〓写真更新![](../assets/BuildGuide_v.1/IMG_3328.jpg)
-中央の足の1/4くらいに切り込みを入れてカットしたスイッチ
+  ![中央の足をカットしたスイッチ](../assets/BuildGuide_v.0.1/IMG_3816.jpeg)
+  中央の足をカットしたスイッチ
 
-なお、押下時にスイッチの軸がネジに当たる場合は、軸の下端を切断したりして調整します。
+  また、押下時にスイッチの軸がネジに当たる場合は、軸の下端を切断したりして調整します。
 
-〓写真更新![軸の下端を切断](../assets/BuildGuide_v.0.4/_DSF0215.jpeg)
-軸の下端を切断（上：切断後, 下：切断前）
+  ![軸の下端を切断した状態](../assets/BuildGuide_v.0.1/IMG_3817.jpeg)
+  軸の下端を切断した状態
 
 </details>
 
