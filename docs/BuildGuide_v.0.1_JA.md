@@ -1136,7 +1136,7 @@ NoraキーボードでDFU (Bootloader)モードにするには、次のように
 [https://github.com/jpskenn/qmk_firmware](https://github.com/jpskenn/qmk_firmware)  
 を使用してください。  
 
-[develop_nora](https://github.com/jpskenn/qmk_firmware/tree/develop_Nora)ブランチの、`keyboards/nora/v1`に関連ファイルが格納されています。
+[develop_nora](https://github.com/jpskenn/qmk_firmware/tree/develop_Nora)ブランチの、`keyboards/nora/v01`に関連ファイルが格納されています。
 
 ### 資料：EEPROMを消去して、初期状態に戻す方法
 
@@ -1160,6 +1160,12 @@ USBケーブルを差し込みます。
 これで設定が初期状態に戻ります。
 
 </details>
+
+### 資料：Nora v.0.1関連ファイル
+
+Nora v.0.1関連ファイルは、  
+[コミット：718199fba41e841ba6e2f60da43260c8e984e9b2](https://github.com/jpskenn/Nora/tree/718199fba41e841ba6e2f60da43260c8e984e9b2)の内容を、  
+[Nora v01_PCBタグ](https://github.com/jpskenn/Nora/releases/tag/v01_PCB)にまとめてあります。
 
 ### 資料：Raspberry Pi PICOによる動作（実験的機能）
 
