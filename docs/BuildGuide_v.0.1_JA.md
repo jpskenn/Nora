@@ -126,9 +126,9 @@ Noraのコンセプトや特徴、ビルド例などについては、[Nora READ
 | 部品名 | 個数 | 備考 |
 | ----- | :-----: | ----- |
 | ご案内リーフレット | 1 | |
-| 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_v.1/_DSF0643.jpeg" width="300">](../assets/BuildGuide_v.1/_DSF0643.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_v.1/_DSF0638.jpeg" width="300">](../assets/BuildGuide_v.1/_DSF0638.jpeg) |
-| スイッチプレート | 1 | [おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_v.1/_DSF0653.jpeg" width="300">](../assets/BuildGuide_v.1/_DSF0653.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_v.1/_DSF0650.jpeg" width="300">](../assets/BuildGuide_v.1/_DSF0650.jpeg) |
-| Choc用スタビライザー<br>2uサイズ | 2 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_0_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_0.jpeg) |
+| 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_v.0.1/_DSF1269.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1269.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_v.0.1/_DSF1271.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1271.jpeg)<br>（※LEDは取り付けられていません） |
+| スイッチプレート | 1 | [おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF1267.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1267.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF1268.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1268.jpeg) |
+| Choc用スタビライザー<br>2uサイズ | 2 | [<img alt="" src="../assets/BuildGuide_v.0.1/IMG_3852.jpeg" width="300">](../assets/BuildGuide_v.0.1/IMG_3852.jpeg) |
 | 低頭ネジ, M2 4mm | 5 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_1_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_1.jpeg) |
 | 低頭ネジ, M2 3mm | 5 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_2_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_2.jpeg) |
 | Mill-Maxソケット 金色<br>7305-0-15-15-47-27-10-0 | 12 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_3_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_3.jpeg) <br>鍔が薄い |
@@ -151,12 +151,12 @@ Noraのコンセプトや特徴、ビルド例などについては、[Nora READ
 | 部品名 | 個数 | 備考 |
 | ----- | :-----: | ----- |
 | ご案内リーフレット | 1 ||
-| Jones用ボトムプレート v.1 | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_v.1/_DSF0644.jpeg" width="300">](../assets/BuildGuide_v.1/_DSF0644.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_v.1/_DSF0654.jpeg" width="300">](../assets/BuildGuide_v.1/_DSF0654.jpeg) |
-| スペーサー, M2 3mm | 8 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0435_0_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0435_0.jpeg) |
-| ネジ, M2 3mm | 16 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0435_1_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0435_1.jpeg) |
-| ネジ, M2 3mm, 低頭 | 1 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0435_2_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0435_2.jpeg) |
-| ゴム足 大 | 2 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0435_3_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0435_3.jpeg) |
-| ゴム足 小 | 6 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0435_4_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0435_4.jpeg) |
+| Jones用ボトムプレート v.1 | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF0644.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0644.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF0654.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0654.jpeg) |
+| スペーサー, M2 3mm | 8 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_0_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_0.jpeg) |
+| ネジ, M2 3mm | 16 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_1_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_1.jpeg) |
+| ネジ, M2 3mm, 低頭 | 1 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_2_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_2.jpeg) |
+| ゴム足 大 | 2 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_3_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_3.jpeg) |
+| ゴム足 小 | 6 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_4_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_4.jpeg) |
 
 ※出荷時期によってメーカーや品番、色などが変わることがあります
 
@@ -548,71 +548,79 @@ Lighting画面で`Hue` `Saturation` `Brightness`などの設定値を変えて�
 スタビライザーは、キーの左右の端を押したときでも、スイッチの軸をまっすぐに押し込むための部品です。
 取り付けは必須ではありませんので、使用スタイルに合わせて取り付けるか決めてください
 
-取り付けると、キーのどこを押しても押し込むことができますが、カチャカチャという動作音が気になることがあります。
-→打鍵の安定性を優先する方に最適。指のポジションや打鍵スタイル的に、キーの左右の端を押しがちな方。
-→動作音は気にならない方、または、ルブやModで動作音を低減すれば十分な方にも。
+取り付ける場合：
+キーのどこを押してもまっすぐに押し込むことができますが、スタビライザーのカチャカチャという動作音が気になることがあります。
+→打鍵の安定性を優先する方に最適。
+→指のポジションや打鍵スタイル的に、キーの左右の端を押しがちな方にもおすすめ。
+→多少の動作音は気にならない方、または、ルブやModで動作音を低減すれば十分な方にもおすすめ。
 
-取り付けない場合は、キーの端を押すと少し引っかかりがあって押し込みにくくなりますが、動作音が無くなり静かになります。
+取り付けない場合：
+キーの端を押すと少し引っかかりがあって押し込みにくくなりますが、動作音が無くなり静かになります。
 →静かさを優先する方に最適。
-→おもにキーの中央部分を打鍵するスタイルで、スタビライザーがなくても特に影響のない方。
+→おもにキーの中央部分を打鍵するスタイルで、スタビライザーがなくても特に影響のない方はこちら。
 ```
+
+<details>
+<summary>《詳しい説明》</summary>
 
 #### スタビライザーを組み立てる
 
 プラスチックパーツと金属の棒を組み合わせて、スタビライザーを2個組み立てます。
 
-<details>
-<summary>《詳しい説明》</summary>
+大きいプラパーツと小さいプラパーツを、それぞれ1個用意します。  
+小さいパーツの`＋`部分がセンターから少しずれている方向を、大きいパーツのワイヤーがはまる方向に合わせます。
 
-〓書く
-次のようにスタビライザーを組み立てます。  
+![../assets/BuildGuide_v0.1/IMG_3854.jpeg](../assets/BuildGuide_v.0.1/IMG_3854.jpeg)
+大きいパーツと小さいパーツを並べる
 
-大きいプラパーツと小さいプラパーツを、それぞれ1個用意します。
+大きいパーツの下側から、小さいパーツをはめこみます。  
+途中に引っ掛かりがあるので、指でパチンと押し込みます。
 
-〓現物チェック
+![../assets/BuildGuide_v0.1/IMG_3856.jpeg](../assets/BuildGuide_v.0.1/IMG_3856.jpeg)
+大きいパーツの下側から、小さいパーツをはめる。
 
-反対側も同じ方法で組み立てて、スタビライザー1個が完成です。
+![../assets/BuildGuide_v0.1/IMG_3857.jpeg](../assets/BuildGuide_v.0.1/IMG_3857.jpeg)
+小さいパーツがはめこまれた状態
+
+同じようにして、もう1組のプラパーツをはめこんでおきます。
+
+ワイヤーとはめこんだパーツを1個用意します。  
+小さいパーツの穴にワイヤーを差し込み、大きいパーツにワイヤーをはめます。  
+ワイヤーは、大きいパーツにパチンとはまわるわけではなく、ふわっと乗っているだけで固定されません。  
+（ワイヤーは、スイッチプレートにスタビライザーを取り付けた際に固定されます）
+
+![../assets/BuildGuide_v0.1/IMG_3858.jpeg](../assets/BuildGuide_v.0.1/IMG_3858.jpeg)
+プラパーツ1個にワイヤーをはめた状態
+
+プラパーツをもう1個用意し、ワイヤーをはめます。  
+ワイヤーが大きいパーツに固定されないので、すこしイライラする作業になります。
+
+![../assets/BuildGuide_v0.1/IMG_3859.jpeg](../assets/BuildGuide_v.0.1/IMG_3859.jpeg)
+プラパーツ2個にワイヤーをはめた状態
 
 同様に、もう1個組み立てます。
 
-〓写真いれかえ
-![../assets/BuildGuide_ v.0.4/Stab_assemble.jpeg](../assets/BuildGuide_v.0.4/Stab_assemble.jpeg)
-スタビライザーの組み立て（[拡大](../assets/BuildGuide_v.0.4/Stab_assemble.jpeg)）
-
-</details>
-
-〓写真　すたび完成
-
 #### スイッチプレートにスタビライザーを取り付ける
 
-スイッチプレートの裏側からスタビライザーを取り付けます。
+スイッチプレートの裏側からスタビライザーをはめて取り付けます。
 
-<details>
-<summary>《詳しい説明》</summary>
+組み立てたスタビライザーを1個用意し、キーキャップにはまる`＋`の部分を上にして、金属の棒の中央部が奥になるような方向で置きます。
 
-組み立てたスタビライザーを1個用意します。
-
-キーにはまる`＋形状`の軸部分を上にして、金属の棒の中央部が奥になるような方向で置きます。
-
-〓写真　スタビ置き方
-
-プレートを、スペースキー部分が手前で、おもて側が上になるように持ちます。
-
-親指部分の右側または左側の取り付け穴に合わせるようにして、スタビライザーの上にプレートを置きます。  
+プレートを、スタビライザーがはまるスペースキー部分が手前で、おもて側が上になるように持ちます。  
+左右どちらかの取り付け穴に合わせるようにして、スタビライザーの上にプレートを置きます。  
 小さい四角と大きい四角にスタビライザーのプラ部分が入るように、位置を合わせます。
 
-〓写真　取り付け穴
+〓写真　のせる
 
-位置を合わせた状態でスタビライザーをプレートの穴に押し込み、パチンとはめ込みます。
+位置を合わせた状態でスタビライザーをプレートの穴に押し込み、パチンとはめ込みます。  
+プラパーツがプレートにしっかりとはまるよう、うしろから指で押し込んでおきます。
 
-〓写真　はめかた
+〓写真　はめた　おもて
+〓写真　はめた　うら
 
 もう1個のスタビライザーも、同じように取り付けます。
 
 </details>
-
-〓写真更新![取り付けたスタビライザー](../assets/BuildGuide_v.0.4/_DSF0198.jpeg)
-取り付けたスタビライザー
 
 ### スイッチプレートにシートを貼り付ける
 
@@ -621,8 +629,8 @@ Lighting画面で`Hue` `Saturation` `Brightness`などの設定値を変えて�
 USBコネクタの位置へ貼り付けるとスイッチプレートが浮いてしまう場合があるため、避けてください。
 
 ![Put sheet pieces to switch plate](../assets/BuildGuide_v.0.1/IMG_3851.jpeg)
-
-〓写真　貼り付けたところを拡大したもの
+スイッチプレートにシートを貼り付けた状態  
+（ほぼ透明のシートを使用したため、多少見づらくなっています）
 
 Raspberry Pi PICOを使用する場合は、コンスルーの足がシートに当たってしまうため、中央上部には貼り付けません。
 
@@ -630,11 +638,8 @@ Raspberry Pi PICOを使用する場合は、コンスルーの足がシートに
 
 スイッチを、スイッチプレートをはさむようにして基板に取り付けます。  
 
-```aside
-スイッチとスイッチプレートを取り付けた後は、スタビライザーの取り付け・取り外しができなくなります。
-
+**スイッチとスイッチプレートを取り付けた後は、それらを取り外さない限り、スタビライザーの取り付け・取り外しができなくなります。**  
 スイッチのはんだを除去して、スイッチとスイッチプレートを取り外すことは可能ですが、そこそこ面倒な作業になります。
-```
 
 #### スイッチ取り付け前の確認
 
