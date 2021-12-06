@@ -149,12 +149,12 @@ Noraのコンセプトや特徴、ビルド例などについては、[Nora READ
 | 部品名 | 個数 | 備考 |
 | ----- | :-----: | ----- |
 | ご案内リーフレット | 1 ||
-| Jones用ボトムプレート v.1 | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_v.1/_DSF0644.jpeg" width="300">](../assets/BuildGuide_v.1/_DSF0644.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_v.1/_DSF0654.jpeg" width="300">](../assets/BuildGuide_v.1/_DSF0654.jpeg) |
-| スペーサー, M2 3mm | 8 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0435_0_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0435_0.jpeg) |
-| ネジ, M2 3mm | 16 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0435_1_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0435_1.jpeg) |
-| ネジ, M2 3mm, 低頭 | 1 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0435_2_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0435_2.jpeg) |
-| ゴム足 大 | 2 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0435_3_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0435_3.jpeg) |
-| ゴム足 小 | 6 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0435_4_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0435_4.jpeg) |
+| Jones用ボトムプレート v.1 | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF0644.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0644.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF0654.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0654.jpeg) |
+| スペーサー, M2 3mm | 8 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_0_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_0.jpeg) |
+| ネジ, M2 3mm | 16 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_1_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_1.jpeg) |
+| ネジ, M2 3mm, 低頭 | 1 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_2_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_2.jpeg) |
+| ゴム足 大 | 2 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_3_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_3.jpeg) |
+| ゴム足 小 | 6 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_4_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_4.jpeg) |
 
 ※出荷時期によってメーカーや品番、色などが変わることがあります
 
