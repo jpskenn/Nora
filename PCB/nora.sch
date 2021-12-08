@@ -186,8 +186,6 @@ Wire Wire Line
 Wire Wire Line
 	13200 1875 13275 1875
 Wire Wire Line
-	15875 3975 15775 3975
-Wire Wire Line
 	16275 3975 16075 3975
 Wire Wire Line
 	13725 4525 13725 4625
@@ -3351,68 +3349,6 @@ Wire Wire Line
 	6175 5250 6175 7000
 Wire Wire Line
 	2675 6800 7875 6800
-Text GLabel 16875 1875 0    50   Input ~ 0
-RESET
-NoConn ~ 16875 2475
-Text GLabel 15775 3925 1    50   Input ~ 0
-HWB
-Wire Wire Line
-	15775 3925 15775 3975
-Connection ~ 15775 3975
-Wire Wire Line
-	15775 3975 15325 3975
-Text GLabel 16875 2075 0    50   Input ~ 0
-XTAL1
-Text GLabel 16875 2275 0    50   Input ~ 0
-XTAL2
-Text GLabel 16875 2875 0    60   Input ~ 0
-D+
-Text GLabel 16875 2975 0    60   Input ~ 0
-D-
-Text GLabel 14125 3300 3    60   Input ~ 0
-UCAP
-Wire Wire Line
-	14125 3300 14125 3175
-Connection ~ 14125 3175
-Text GLabel 16875 3175 0    60   Input ~ 0
-UCAP
-$Comp
-L power:+5V #PWR017
-U 1 1 63175812
-P 16675 2675
-F 0 "#PWR017" H 16675 2525 50  0001 C CNN
-F 1 "+5V" H 16690 2848 50  0000 C CNN
-F 2 "" H 16675 2675 50  0001 C CNN
-F 3 "" H 16675 2675 50  0001 C CNN
-	1    16675 2675
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16875 2675 16675 2675
-$Comp
-L power:+5V #PWR023
-U 1 1 631CC2DD
-P 17375 1450
-F 0 "#PWR023" H 17375 1300 50  0001 C CNN
-F 1 "+5V" H 17390 1623 50  0000 C CNN
-F 2 "" H 17375 1450 50  0001 C CNN
-F 3 "" H 17375 1450 50  0001 C CNN
-	1    17375 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	17375 1450 17375 1575
-$Comp
-L power:GND #PWR022
-U 1 1 633B472A
-P 17050 5175
-F 0 "#PWR022" H 17050 4925 50  0001 C CNN
-F 1 "GND" H 17055 5002 50  0000 C CNN
-F 2 "" H 17050 5175 50  0001 C CNN
-F 3 "" H 17050 5175 50  0001 C CNN
-	1    17050 5175
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14125 2275 13775 2275
 Wire Wire Line
@@ -3429,8 +3365,6 @@ Wire Wire Line
 	13325 2225 13325 2600
 Wire Wire Line
 	12925 2600 13325 2600
-Wire Wire Line
-	13525 2075 13775 2075
 Connection ~ 13525 2075
 Wire Wire Line
 	13275 2075 13525 2075
@@ -3493,15 +3427,6 @@ F 4 "C1804" H 13175 2075 50  0001 C CNN "LCSC"
 	1    13175 2075
 	0    1    1    0   
 $EndComp
-Text GLabel 13825 2000 2    50   Input ~ 0
-XTAL1
-Wire Wire Line
-	13825 2000 13775 2000
-Wire Wire Line
-	13775 2000 13775 2075
-Connection ~ 13775 2075
-Wire Wire Line
-	13775 2075 14125 2075
 Text GLabel 3575 1000 1    50   Input ~ 0
 col2
 Text GLabel 8775 1000 1    50   Input ~ 0
@@ -3514,23 +3439,6 @@ Text GLabel 12925 6700 0    50   Input ~ 0
 MISO
 Text GLabel 12925 6800 0    50   Input ~ 0
 SCK
-$Comp
-L nora:ATmega32U4-AU-Dummy U3
-U 1 1 61ACE85D
-P 17475 3375
-F 0 "U3" H 17475 1486 50  0000 C CNN
-F 1 "ATmega32U4-AU-Dummy" H 17475 1395 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 17475 3375 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 17475 3375 50  0001 C CNN
-F 4 "C44854" H 17475 3375 50  0001 C CNN "LCSC"
-	1    17475 3375
-	1    0    0    -1  
-$EndComp
-Text GLabel 13825 2375 2    50   Input ~ 0
-XTAL2
-Wire Wire Line
-	13825 2375 13775 2375
-Connection ~ 13775 2375
 $Comp
 L kbd:SK6812MINI-E L2
 U 1 1 6265ACE1
@@ -3957,56 +3865,6 @@ Wire Wire Line
 	7800 9075 7375 9075
 Text GLabel 9975 10175 2    50   Input ~ 0
 Reserve_pin
-Text GLabel 18075 3075 2    50   Input ~ 0
-SCL
-Text GLabel 18075 3175 2    50   Input ~ 0
-SDA
-Text GLabel 18075 3375 2    50   Input ~ 0
-col1
-Text GLabel 18075 3475 2    50   Input ~ 0
-col3
-Text GLabel 18075 3775 2    50   Input ~ 0
-col5
-Text GLabel 18075 2375 2    50   Input ~ 0
-col7
-Text GLabel 18075 2575 2    50   Input ~ 0
-row1
-Text GLabel 18075 4775 2    50   Input ~ 0
-row4
-Text GLabel 18075 2875 2    50   Input ~ 0
-row8
-Text GLabel 18075 1875 2    50   Input ~ 0
-row5
-Text GLabel 18075 2475 2    50   Input ~ 0
-row9
-Text GLabel 18075 2275 2    50   Input ~ 0
-col6
-Text GLabel 18075 2175 2    50   Input ~ 0
-MISO
-Text GLabel 18075 2075 2    50   Input ~ 0
-MOSI
-Text GLabel 18075 3675 2    50   Input ~ 0
-col4
-Text GLabel 18075 1975 2    50   Input ~ 0
-SCK
-Text GLabel 18075 3575 2    50   Input ~ 0
-col2
-Text GLabel 18075 4075 2    50   Input ~ 0
-LED
-Text GLabel 18075 4275 2    50   Input ~ 0
-col0
-Text GLabel 18075 4375 2    50   Input ~ 0
-row0
-Text GLabel 18075 3275 2    50   Input ~ 0
-row2
-Text GLabel 18075 4675 2    50   Input ~ 0
-row3
-Text GLabel 18075 4575 2    50   Input ~ 0
-row7
-Text GLabel 18075 4475 2    50   Input ~ 0
-row6
-Text GLabel 18075 3975 2    50   Input ~ 0
-HWB
 Wire Wire Line
 	10475 1800 11575 1800
 Connection ~ 10475 1800
@@ -4148,17 +4006,6 @@ Connection ~ 11125 4400
 Connection ~ 10475 3050
 Connection ~ 11125 3150
 NoConn ~ 7800 8775
-Wire Wire Line
-	17475 5175 17375 5175
-Connection ~ 17375 5175
-Wire Wire Line
-	17375 5175 17050 5175
-Wire Wire Line
-	17575 1575 17475 1575
-Connection ~ 17375 1575
-Connection ~ 17475 1575
-Wire Wire Line
-	17475 1575 17375 1575
 Text GLabel 15325 3075 2    50   Input ~ 0
 SCL
 Text GLabel 15325 3175 2    50   Input ~ 0
@@ -4195,8 +4042,6 @@ Text GLabel 15325 3575 2    50   Input ~ 0
 col2
 Text GLabel 15325 3275 2    50   Input ~ 0
 row2
-Text GLabel 18075 2775 2    50   Input ~ 0
-Reserve_pin
 Text Notes 3575 9675 0    100  ~ 20
 SOLDER TRAINING PARTS\n*not connected to circuit
 $Comp
@@ -4415,4 +4260,8 @@ PICO_8
 Wire Wire Line
 	18775 3950 21350 3950
 NoConn ~ 20100 3875
+Wire Wire Line
+	15325 3975 15875 3975
+Wire Wire Line
+	13525 2075 14125 2075
 $EndSCHEMATC

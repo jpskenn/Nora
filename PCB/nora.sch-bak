@@ -4226,15 +4226,9 @@ NoConn ~ 3850 10125
 NoConn ~ 4725 10125
 NoConn ~ 5125 10125
 Wire Wire Line
-	20100 3875 20100 3950
-Wire Wire Line
-	20100 3950 18775 3950
-Wire Wire Line
 	20800 1975 21350 1975
 Wire Wire Line
 	21350 1975 21350 2975
-Wire Wire Line
-	21350 3950 20100 3950
 Wire Wire Line
 	20800 2975 21350 2975
 Connection ~ 21350 2975
@@ -4264,7 +4258,6 @@ Wire Wire Line
 Connection ~ 18775 2475
 Wire Wire Line
 	18775 2475 18775 2975
-Connection ~ 20100 3950
 Text GLabel 19400 2175 0    50   Input ~ 0
 col1
 Text GLabel 19400 2375 0    50   Input ~ 0
@@ -4419,4 +4412,7 @@ Text GLabel 9975 10775 2    50   Input ~ 0
 PICO_9
 Text GLabel 9975 10875 2    50   Input ~ 0
 PICO_8
+Wire Wire Line
+	18775 3950 21350 3950
+NoConn ~ 20100 3875
 $EndSCHEMATC
