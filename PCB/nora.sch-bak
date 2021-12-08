@@ -981,7 +981,7 @@ U 1 1 61AC7CE6
 P 1175 4900
 F 0 "SW_2" H 1175 5185 50  0000 C CNN
 F 1 "SFT2u" H 1175 5094 50  0000 C CNN
-F 2 "Keebio-Parts:Kailh-PG1350-2u-MBK-WithKeyName-Socket" H 1175 5100 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-2u-MBK-WithKeyName-Socket-NoStab." H 1175 5100 50  0001 C CNN
 F 3 "~" H 1175 5100 50  0001 C CNN
 	1    1175 4900
 	1    0    0    -1  

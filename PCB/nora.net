@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/kenn/Git/jpskenn/Nora/PCB/nora.sch)
-    (date "2021 December 09, Thursday 05:06:41")
+    (date "2021 December 09, Thursday 06:55:35")
     (tool "Eeschema (5.1.10-1-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -172,13 +172,6 @@
       (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
       (sheetpath (names /) (tstamps /))
       (tstamp 60B084D3))
-    (comp (ref H4)
-      (value MountingHole)
-      (footprint MountingHole:MountingHole_2.2mm_M2)
-      (datasheet ~)
-      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 60B084D9))
     (comp (ref Ext_PC6)
       (value Conn_01x01)
       (footprint TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm)
