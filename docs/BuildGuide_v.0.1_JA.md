@@ -92,6 +92,8 @@ Noraのコンセプトや特徴、ビルド例などについては、[Nora READ
 
 - 左シフトキーの2uスタビライザーは使用できません。
 
+- 左コントロールキーに、クリックバー付きのスイッチは使用できません。
+
 - 一部のスイッチはネジ穴の上に取り付けるため、Mill-Maxソケットを使用して取り付けます。
 
 - GH60型, Poker型ケースを使用する場合、スイッチとケースのネジ穴との干渉を避けるため、一部のスイッチの足の加工が必要です。
@@ -353,6 +355,12 @@ MCU取り付け方向
 
 フラックスを拭き取り、テスターで隣同士のピンがショートしていないか確認します。
 
+また、MCUのピン割り当てを参考に、以下の3点を確認します。
+
+- +5V同士が導通すること
+- GND同士が同通すること
+- +5VとGNDが導通*しない*こと
+
 ![MCU Pin assign](../assets/BuildGuide_v.0.1/MCU_pin_assign.png)
 基板裏側から見た、MCUのピン割り当て
 
@@ -387,6 +395,58 @@ ESD取り付け方向
 
 基板裏側`JP1`と`JP2`をジャンパします。  
 ジャンパすると、I2Cのプルアップ抵抗へ接続されます。
+
+#### ファームウェアを書き込む
+
+基板上のMCUにファームウェアを書き込みます。
+
+ここでは、QMK Toolboxを使用して書き込む手順を説明します。
+
+いずれかの方法でファームウェアを用意します。
+
+- Remap / VIA対応のビルド済みファームウェアをダウンロードする。
+  [Nora v.0.1 ビルド済みファームウェア](〓リンク)
+
+- ソースからビルドする
+  [keyboards/nora/v01](https://github.com/jpskenn/qmk_firmware/tree/develop_Nora/keyboards/nora/v01)
+
+QMK Toolboxでファームウェアを開きます。
+
+基板のコネクタにUSBケーブルを差し込み、PCやMacへ接続します。
+
+基板裏側のリセットスイッチを押します。  
+QMK Toolboxの画面に、次のようなメッセージが表示されます。
+
+```text
+*** Atmel DFU device connected: ATMEL ATm32U4DFU (03EB:2FF4:0000)
+```
+
+QMK Toolboxの`Flash`ボタンを押し、書き込みを始めます。  
+5秒ほどすると以下のようなメッセージが表示され、書き込みが終了します。
+```text
+*** Attempting to flash, please don't remove device
+>>> dfu-programmer atmega32u4 erase --force
+    Erasing flash...  Success
+    Checking memory from 0x0 to 0x6FFF...  Empty.
+>>> dfu-programmer atmega32u4 flash --force /Users/jpskenn/qmk_firmware/nora_v01_via.hex
+    0%                            100%  Programming 0x5E80 bytes...
+    [>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>]  Success
+    0%                            100%  Reading 0x7000 bytes...
+    [>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>]  Success
+    Validating...  Success
+    0x5E80 bytes written into 0x7000 bytes memory (84.38%).
+>>> dfu-programmer atmega32u4 reset
+*** Atmel DFU device disconnected: ATMEL ATm32U4DFU (03EB:2FF4:0000)
+```
+
+ファームウェアの書き込みが終わってから、そのまま、さらに15秒ほど待ちます。  
+外部EEPROMの消去処理がおこなわれ、キーボードが起動します。  
+※メッセージなどは表示されません
+
+(すでに組み立てに取り掛かっていますが)組み立て前の確認の、接続の確認と基板回路の確認を行なってください。
+
+**ファームウェアの書き込み後、初めてRemapに接続した際、10秒ほど固まる場合があります。**  
+**キーボードが整うまで、ほんの少しお待ちください。**
 
 </details>
 
@@ -696,7 +756,7 @@ Raspberry Pi PICOを使用する場合は、コンスルーの足がシートに
 スイッチ端子がスルーホールに入った状態にします。
 
 プレートと基板を重ねたまま持ち上げ、基板の裏側を支えながら、スイッチを押し込みます。  
-スイッチ固定用のプラスチックピン2本が根元まで刺さり、スイッチが基板にほぼくっついた状態にします。
+5ピンのスイッチを取り付ける場合は、スイッチ固定用のプラスチックピン2本が根元まで刺さり、スイッチが基板にほぼくっついた状態にします。
 
 〓写真　スイッチの押し込まれ具合
 
@@ -732,7 +792,8 @@ Raspberry Pi PICOを使用する場合は、コンスルーの足がシートに
 
 #### 残りのスイッチを取り付ける
 
-ソケットを使用するスイッチを除いて、残りのスイッチをすべて取り付けます。
+ソケットを使用するスイッチを除いて、残りのスイッチをすべて取り付けます。  
+**左コントロールに、クリックバー付きのスイッチは使用できません**
 
 スイッチプレートの仮固定でおこなった作業と同様に、プレートにスイッチをはめ込み、基板裏側からはんだ付けする作業を繰り返します。  
 左シフトキーは、自分で決めた構成（2u 1個、または、1u 2個）になるように取り付けるます。
@@ -1141,7 +1202,7 @@ NoraキーボードでDFU (Bootloader)モードにするには、次のように
 2021年9月25日現在、QMK本家へのプルリクエストを申請中です。  
 [[keyboard]Add v1 to nora keyboard #14405](https://github.com/qmk/qmk_firmware/pull/14405)
 
-プルリクエストが取り込まれるまでは、僕のQMKからフォークしたリポジトリ  
+プルリクエストが取り込まれるまでは、私がQMKからフォークしたリポジトリ  
 [https://github.com/jpskenn/qmk_firmware](https://github.com/jpskenn/qmk_firmware)  
 を使用してください。  
 
