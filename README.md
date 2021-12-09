@@ -28,7 +28,7 @@ Narrow Jones --> Norah Jones --> Norah --> Nora
 Nora is a narrow pitch 65% keyboard with Choc v1 low profile switches, designed for MBK or smaller keycaps.
 5 * 16 keys, one more column to normal 60% keyboards, in 60% case.
 
-It has symmetrical gapless R1-R2 rows like [Jones](https://github.com/jpskenn/Jones), with Cherry's 1800 stile arrow keys and numeric pad.
+It has symmetrical gap less R1-R2 rows like [Jones](https://github.com/jpskenn/Jones), with Cherry's 1800 stile arrow keys and numeric pad.
 
 Narrow pitch makes fingers easy to reach keys far from home position, "T" and "Y", R1 numerics and symbols.  
 It also reduces stretching fingers and reduces changing the position of wrist.  
