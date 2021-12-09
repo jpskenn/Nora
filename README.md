@@ -140,6 +140,8 @@ GH60型やPoker型に互換性のある、ロープロファイルケースに�
 Raspberry Pi PICOによる動作を実験的機能として提供します。  
 キーマトリクス、LED、I2Cに配線をつないであるので、DIYで楽しんでください。
 
+[PRK Firmware](https://github.com/picoruby/prk_firmware)を使用して、キー入力とLEDの点灯を確認済みです。
+
 詳しくは、ビルドガイドをごらんください。
 
 ## ビルドガイド
