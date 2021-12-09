@@ -105,7 +105,7 @@ MCUにATmega32u4を採用し、[QMKファームウェア](https://github.com/qmk
 
 [Remap](https://remap-keys.app)や[VIA](https://caniusevia.com)などのキーマップ書き換えツールに対応しており、ファームウェアを書き換えることなく、キーの割り当てを変更することができます。  
 
-ハードウェアの動作確認んが終わり次第、Remapへ登録する予定です。  
+ハードウェアの動作確認が終わり次第、Remapへ登録する予定です。  
 登録が終わるまでは、以下のキーボード定義ファイルを読み込ませてください。
 キーボード定義ファイル：[nora_via_v01.json](./VIA/nora_via_v01.json)
 
