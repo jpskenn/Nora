@@ -6,7 +6,7 @@ Nora（ノラ）は、Choc v1 ロープロファイルスイッチを使用す�
 MBK、またはそれ以下のサイズのキーキャップに合わせて設計されています。  
 60%キーボードのケースに、通常よりも1列多い5×16列のキーがおさまっています。
 
-[Jones](https://github.com/jpskenn/Jones)ゆずりの2行目と3行目にずれのない左右対称のアルファ部に、Cherry 1800風のカーソルとテンキーを追加したレイアウトになっています。
+[Jones](https://github.com/jpskenn/Jones)のレイアウトを元に、その特徴的な2行目と3行目にずれのない左右対称のアルファ部などを継承しつつ、Cherry 1800風のカーソルとテンキーを追加したレイアウトになっています。
 
 狭いキーピッチによって、TやYなどのホームポジションから遠いキーや、一番上の行の数字や記号キーにも、指がとどきやすくなっています。  
 また、打鍵時に指を大きく伸ばしたり手首の位置を変えたりする動作が減ることで、指・手首・肘のポジションを一定の位置に保ったまま打鍵を続けられます。
@@ -28,7 +28,7 @@ Narrow Jones --> Norah Jones --> Norah --> Nora
 Nora is a narrow pitch 65% keyboard with Choc v1 low profile switches, designed for MBK or smaller keycaps.
 5 * 16 keys, one more column to normal 60% keyboards, in 60% case.
 
-It has symmetrical gapless R1-R2 rows like [Jones](https://github.com/jpskenn/Jones), with Cherry's 1800 stile arrow keys and numeric pad.
+It has symmetrical gap less R1-R2 rows like [Jones](https://github.com/jpskenn/Jones), with Cherry's 1800 stile arrow keys and numeric pad.
 
 Narrow pitch makes fingers easy to reach keys far from home position, "T" and "Y", R1 numerics and symbols.  
 It also reduces stretching fingers and reduces changing the position of wrist.  
@@ -52,7 +52,7 @@ It can be used with GH60 and Poker compatible low profile cases or original bott
 
 このキーボードの開発コンセプトや実現したい要件は次のとおりです。
 
-- 「Chocスイッチの狭ピッチを60%ケースに入れたら、65%キーボードができちゃうのでは？」という思いつき。
+- 「Chocスイッチの狭ピッチを60%ケースに入れたら、1列増えて65%キーボードができちゃうのでは？」という思いつき。
 - 一般的なキーピッチの19.05mmで打鍵がつらいのを、狭ピッチで楽にしたい。
 - 狭ピッチは、浅いストロークの方が打鍵しやすい。→Chocスイッチを使おう。
 - MBKキーキャップって格好良いじゃんか → 使いたい。
@@ -105,7 +105,7 @@ MCUにATmega32u4を採用し、[QMKファームウェア](https://github.com/qmk
 
 [Remap](https://remap-keys.app)や[VIA](https://caniusevia.com)などのキーマップ書き換えツールに対応しており、ファームウェアを書き換えることなく、キーの割り当てを変更することができます。  
 
-ハードウェアの動作確認んが終わり次第、Remapへ登録する予定です。  
+ハードウェアの動作確認が終わり次第、Remapへ登録する予定です。  
 登録が終わるまでは、以下のキーボード定義ファイルを読み込ませてください。
 キーボード定義ファイル：[nora_via_v01.json](./VIA/nora_via_v01.json)
 
@@ -139,6 +139,8 @@ GH60型やPoker型に互換性のある、ロープロファイルケースに�
 
 Raspberry Pi PICOによる動作を実験的機能として提供します。  
 キーマトリクス、LED、I2Cに配線をつないであるので、DIYで楽しんでください。
+
+[PRK Firmware](https://github.com/picoruby/prk_firmware)を使用して、キー入力とLEDの点灯を確認済みです。
 
 詳しくは、ビルドガイドをごらんください。
 
