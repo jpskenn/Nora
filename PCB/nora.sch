@@ -3119,9 +3119,9 @@ Text GLabel 15325 4275 2    50   Input ~ 0
 col0
 Text GLabel 15325 4375 2    50   Input ~ 0
 row0
-Text GLabel 15325 4675 2    50   Input ~ 0
+Text GLabel 15325 2875 2    50   Input ~ 0
 row3
-Text GLabel 15325 4775 2    50   Input ~ 0
+Text GLabel 15325 4675 2    50   Input ~ 0
 row4
 Text GLabel 15325 4575 2    50   Input ~ 0
 row7
@@ -4015,7 +4015,7 @@ Text GLabel 15325 2475 2    50   Input ~ 0
 row8
 Text GLabel 15325 1875 2    50   Input ~ 0
 row5
-Text GLabel 15325 2875 2    50   Input ~ 0
+Text GLabel 15325 4775 2    50   Input ~ 0
 row9
 Text GLabel 15325 2275 2    50   Input ~ 0
 col6
@@ -4027,9 +4027,9 @@ Text GLabel 15325 3675 2    50   Input ~ 0
 col4
 Text GLabel 15325 1975 2    50   Input ~ 0
 SCK
-Text GLabel 15325 3575 2    50   Input ~ 0
-col2
 Text GLabel 15325 3375 2    50   Input ~ 0
+col2
+Text GLabel 15325 3575 2    50   Input ~ 0
 row2
 Wire Wire Line
 	20800 1975 21350 1975
