@@ -610,17 +610,6 @@ F 3 "~" H 7975 10650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
-U 1 1 60B084D9
-P 7975 10850
-F 0 "H4" H 8075 10896 50  0000 L CNN
-F 1 "MountingHole" H 8075 10805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 7975 10850 50  0001 C CNN
-F 3 "~" H 7975 10850 50  0001 C CNN
-	1    7975 10850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x01 Ext_PC6
 U 1 1 60DD1EC9
 P 9775 10175
