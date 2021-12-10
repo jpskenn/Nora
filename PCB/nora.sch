@@ -4011,11 +4011,11 @@ Text GLabel 15325 2375 2    50   Input ~ 0
 col7
 Text GLabel 15325 2575 2    50   Input ~ 0
 row1
-Text GLabel 15325 2875 2    50   Input ~ 0
+Text GLabel 15325 2475 2    50   Input ~ 0
 row8
 Text GLabel 15325 1875 2    50   Input ~ 0
 row5
-Text GLabel 15325 2475 2    50   Input ~ 0
+Text GLabel 15325 2875 2    50   Input ~ 0
 row9
 Text GLabel 15325 2275 2    50   Input ~ 0
 col6

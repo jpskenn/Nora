@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/kenn/Git/jpskenn/Nora/PCB/nora.sch)
-    (date "2021 December 10, Friday 19:30:19")
+    (date "2021 December 10, Friday 22:05:12")
     (tool "Eeschema (5.1.10-1-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -2173,7 +2173,7 @@
       (node (ref J1) (pin A9))
       (node (ref J1) (pin A4)))
     (net (code 6) (name row9)
-      (node (ref U1) (pin 30))
+      (node (ref U1) (pin 32))
       (node (ref EXT_R9) (pin 1))
       (node (ref D59) (pin 1))
       (node (ref D69) (pin 1))
@@ -2628,7 +2628,7 @@
       (node (ref D68) (pin 1))
       (node (ref D7) (pin 1))
       (node (ref D28) (pin 1))
-      (node (ref U1) (pin 32))
+      (node (ref U1) (pin 30))
       (node (ref D58) (pin 1)))
     (net (code 108) (name row4)
       (node (ref D54) (pin 1))
