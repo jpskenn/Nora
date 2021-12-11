@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Nora"
-Date "2021-11-13"
-Rev "v.0.1"
+Date "2021-12-11"
+Rev "DN0020"
 Comp "@jpskenn"
 Comment1 ""
 Comment2 ""
