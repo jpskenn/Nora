@@ -4002,7 +4002,7 @@ Text GLabel 15325 2775 2    50   Input ~ 0
 Reserve_pin
 Text GLabel 15325 3275 2    50   Input ~ 0
 col1
-Text GLabel 15325 3475 2    50   Input ~ 0
+Text GLabel 15325 3375 2    50   Input ~ 0
 col3
 Text GLabel 15325 3775 2    50   Input ~ 0
 col5
@@ -4026,7 +4026,7 @@ Text GLabel 15325 3675 2    50   Input ~ 0
 col4
 Text GLabel 15325 1975 2    50   Input ~ 0
 SCK
-Text GLabel 15325 3375 2    50   Input ~ 0
+Text GLabel 15325 3475 2    50   Input ~ 0
 col2
 Text GLabel 15325 3575 2    50   Input ~ 0
 row2

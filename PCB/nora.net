@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/kenn/Git/jpskenn/Nora/PCB/nora.sch)
-    (date "2021 December 11, Saturday 14:51:42")
+    (date "2021 December 11, Saturday 21:41:54")
     (tool "Eeschema (5.1.10-1-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -257,7 +257,7 @@
       (tstamp 614C2762))
     (comp (ref D1)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -273,7 +273,7 @@
       (tstamp 61AAF91E))
     (comp (ref D4)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -296,7 +296,7 @@
       (tstamp 61AD1B1E))
     (comp (ref D2)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -312,7 +312,7 @@
       (tstamp 61AD1B2A))
     (comp (ref D7)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -328,7 +328,7 @@
       (tstamp 61AD1B36))
     (comp (ref D3)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -344,7 +344,7 @@
       (tstamp 61AD1B42))
     (comp (ref D8)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -360,7 +360,7 @@
       (tstamp 61B4E95B))
     (comp (ref D9)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -376,7 +376,7 @@
       (tstamp 61B4E96A))
     (comp (ref D15)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -392,7 +392,7 @@
       (tstamp 61B4E976))
     (comp (ref D11)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -408,7 +408,7 @@
       (tstamp 61B4E982))
     (comp (ref D16)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -424,7 +424,7 @@
       (tstamp 61B4E98E))
     (comp (ref D12)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -440,7 +440,7 @@
       (tstamp 61B4E99A))
     (comp (ref D17)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -456,7 +456,7 @@
       (tstamp 61B4E9A6))
     (comp (ref D13)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -472,7 +472,7 @@
       (tstamp 61B4E9B2))
     (comp (ref D18)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -481,7 +481,7 @@
       (tstamp 61B4E9B8))
     (comp (ref D14)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -490,7 +490,7 @@
       (tstamp 61B4E9C4))
     (comp (ref D6)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -506,7 +506,7 @@
       (tstamp 61AC7CF2))
     (comp (ref D5)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -529,7 +529,7 @@
       (tstamp 61CD77C0))
     (comp (ref D20)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -545,7 +545,7 @@
       (tstamp 61CD77CF))
     (comp (ref D25)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -561,7 +561,7 @@
       (tstamp 61CD77DB))
     (comp (ref D21)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -577,7 +577,7 @@
       (tstamp 61CD77E7))
     (comp (ref D26)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -593,7 +593,7 @@
       (tstamp 61CD77F3))
     (comp (ref D22)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -609,7 +609,7 @@
       (tstamp 61CD77FF))
     (comp (ref D27)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -625,7 +625,7 @@
       (tstamp 61CD780B))
     (comp (ref D23)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -641,7 +641,7 @@
       (tstamp 61CD7817))
     (comp (ref D28)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -657,7 +657,7 @@
       (tstamp 61CE962D))
     (comp (ref D30)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -673,7 +673,7 @@
       (tstamp 61CE963C))
     (comp (ref D35)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -689,7 +689,7 @@
       (tstamp 61CE9648))
     (comp (ref D31)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -705,7 +705,7 @@
       (tstamp 61CE9654))
     (comp (ref D36)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -721,7 +721,7 @@
       (tstamp 61CE9660))
     (comp (ref D32)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -737,7 +737,7 @@
       (tstamp 61CE966C))
     (comp (ref D37)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -753,7 +753,7 @@
       (tstamp 61CE9678))
     (comp (ref D33)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -769,7 +769,7 @@
       (tstamp 61CE9684))
     (comp (ref D38)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -785,7 +785,7 @@
       (tstamp 61D01237))
     (comp (ref D40)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -801,7 +801,7 @@
       (tstamp 61D01246))
     (comp (ref D45)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -817,7 +817,7 @@
       (tstamp 61D01252))
     (comp (ref D41)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -833,7 +833,7 @@
       (tstamp 61D0125E))
     (comp (ref D46)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -849,7 +849,7 @@
       (tstamp 61D0126A))
     (comp (ref D42)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -865,7 +865,7 @@
       (tstamp 61D01276))
     (comp (ref D47)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -881,7 +881,7 @@
       (tstamp 61D01282))
     (comp (ref D43)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -897,7 +897,7 @@
       (tstamp 61D0128E))
     (comp (ref D48)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -913,7 +913,7 @@
       (tstamp 61D1970E))
     (comp (ref D50)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -929,7 +929,7 @@
       (tstamp 61D1971D))
     (comp (ref D55)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -945,7 +945,7 @@
       (tstamp 61D19729))
     (comp (ref D51)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -961,7 +961,7 @@
       (tstamp 61D19735))
     (comp (ref D56)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -977,7 +977,7 @@
       (tstamp 61D19741))
     (comp (ref D52)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -993,7 +993,7 @@
       (tstamp 61D1974D))
     (comp (ref D57)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1009,7 +1009,7 @@
       (tstamp 61D19759))
     (comp (ref D53)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1025,7 +1025,7 @@
       (tstamp 61D19765))
     (comp (ref D58)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1041,7 +1041,7 @@
       (tstamp 61D19771))
     (comp (ref D54)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1050,7 +1050,7 @@
       (tstamp 61D19777))
     (comp (ref D59)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1066,7 +1066,7 @@
       (tstamp 61D32DBB))
     (comp (ref D60)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1082,7 +1082,7 @@
       (tstamp 61D32DCA))
     (comp (ref D65)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1098,7 +1098,7 @@
       (tstamp 61D32DD6))
     (comp (ref D61)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1114,7 +1114,7 @@
       (tstamp 61D32DE2))
     (comp (ref D66)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1130,7 +1130,7 @@
       (tstamp 61D32DEE))
     (comp (ref D62)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1146,7 +1146,7 @@
       (tstamp 61D32DFA))
     (comp (ref D67)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1162,7 +1162,7 @@
       (tstamp 61D32E06))
     (comp (ref D63)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1178,7 +1178,7 @@
       (tstamp 61D32E12))
     (comp (ref D68)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1187,7 +1187,7 @@
       (tstamp 61D32E18))
     (comp (ref D64)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1196,7 +1196,7 @@
       (tstamp 61D32E24))
     (comp (ref D69)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1212,7 +1212,7 @@
       (tstamp 61D4FEC8))
     (comp (ref D70)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1228,7 +1228,7 @@
       (tstamp 61D4FED7))
     (comp (ref D75)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1244,7 +1244,7 @@
       (tstamp 61D4FEE3))
     (comp (ref D71)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1260,7 +1260,7 @@
       (tstamp 61D4FEEF))
     (comp (ref D76)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1276,7 +1276,7 @@
       (tstamp 61D4FEFB))
     (comp (ref D72)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1292,7 +1292,7 @@
       (tstamp 61D4FF07))
     (comp (ref D77)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1308,7 +1308,7 @@
       (tstamp 61D4FF13))
     (comp (ref D73)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1324,7 +1324,7 @@
       (tstamp 61D4FF1F))
     (comp (ref D78)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1333,7 +1333,7 @@
       (tstamp 61D4FF25))
     (comp (ref D74)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1342,7 +1342,7 @@
       (tstamp 61D4FF31))
     (comp (ref D79)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1400,7 +1400,7 @@
       (tstamp 61D4FF37))
     (comp (ref D49)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1416,7 +1416,7 @@
       (tstamp 61D012A6))
     (comp (ref D39)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1432,7 +1432,7 @@
       (tstamp 61CE969C))
     (comp (ref D29)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1462,7 +1462,7 @@
       (tstamp 5F6B0365))
     (comp (ref D19)
       (value D_Small)
-      (footprint locallib:D_SOD-123_Refelence@Left)
+      (footprint locallib:D_SOD-123-Pretty_No_Reference)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
