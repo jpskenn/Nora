@@ -12,8 +12,8 @@
   (page A3)
   (title_block
     (title Nora)
-    (date 2021-11-15)
-    (rev v.0.1)
+    (date 2021-12-11)
+    (rev DN:0020)
     (company @jpskenn)
   )
 
@@ -14287,8 +14287,8 @@
   (gr_text JLCJLCJLCJLC (at 281.1 114.8) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "#Nora_kbd v.0.1, by @jpskenn" (at 66.25 114) (layer B.SilkS) (tstamp 6196087E)
-    (effects (font (size 1.8 1.8) (thickness 0.2)) (justify left mirror))
+  (gr_text "#Nora_kbd v.0.1 by @jpskenn, https://git.io/nora_kbd" (at 306.265 25.47552) (layer B.SilkS) (tstamp 6196087E)
+    (effects (font (size 2 2) (thickness 0.22)) (justify left mirror))
   )
 
   (segment (start 40.35 28.033302) (end 40.35 28.19) (width 0.254) (layer B.Cu) (net 1) (status 30))
