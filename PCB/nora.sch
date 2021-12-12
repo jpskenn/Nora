@@ -4501,7 +4501,7 @@ F 3 "" H 6325 9600 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6525 9700 6525 9800
+	6950 9700 6950 9800
 Connection ~ 1025 9375
 Wire Wire Line
 	1025 9375 950  9375
@@ -4586,5 +4586,32 @@ Text GLabel 7800 8975 2    50   Input ~ 0
 LED_VDD
 Text GLabel 1025 9800 0    50   Input ~ 0
 LED_VDD
-NoConn ~ 6525 9500
+NoConn ~ 6950 9500
+Wire Wire Line
+	6525 9700 6525 9800
+Wire Wire Line
+	6525 9500 6525 9600
+Wire Wire Line
+	6525 9600 6550 9600
+Wire Wire Line
+	6550 9600 6550 9700
+Wire Wire Line
+	6550 9500 6550 9375
+$Comp
+L kbd:SK6812MINI-E L30
+U 1 1 61C12E1B
+P 6750 9600
+F 0 "L30" H 6750 9338 51  0000 C CNN
+F 1 "SK6812MINI-E" H 6750 9403 16  0000 C CNN
+F 2 "Jones.local:YS-SK6812MINI-E_with_reflection_paint" H 6750 9600 60  0001 C CNN
+F 3 "" H 6750 9600 60  0001 C CNN
+	1    6750 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6550 9375 6125 9375
+Wire Wire Line
+	6950 9800 6525 9800
+Connection ~ 6125 9375
+Connection ~ 6525 9800
 $EndSCHEMATC
