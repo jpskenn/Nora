@@ -981,7 +981,7 @@ U 1 1 61AD1B1E
 P 1175 5250
 F 0 "SW_3" H 1175 5535 50  0000 C CNN
 F 1 "SFT1u" H 1175 5444 50  0000 C CNN
-F 2 "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket" H 1175 5450 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-ForLeftEdge2" H 1175 5450 50  0001 C CNN
 F 3 "~" H 1175 5450 50  0001 C CNN
 	1    1175 5250
 	1    0    0    -1  
@@ -1027,7 +1027,7 @@ U 1 1 61AD1B36
 P 1175 6500
 F 0 "SW_4" H 1175 6785 50  0000 C CNN
 F 1 "LB1" H 1175 6694 50  0000 C CNN
-F 2 "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket" H 1175 6700 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-ForLeftEdge2" H 1175 6700 50  0001 C CNN
 F 3 "~" H 1175 6700 50  0001 C CNN
 	1    1175 6500
 	1    0    0    -1  
@@ -3292,7 +3292,7 @@ U 1 1 5F6B0365
 P 1175 1500
 F 0 "SW_1" H 1175 1785 50  0000 C CNN
 F 1 "ESC" H 1175 1694 50  0000 C CNN
-F 2 "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket" H 1175 1700 50  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-ForLeftEdge2" H 1175 1700 50  0001 C CNN
 F 3 "~" H 1175 1700 50  0001 C CNN
 	1    1175 1500
 	1    0    0    -1  
