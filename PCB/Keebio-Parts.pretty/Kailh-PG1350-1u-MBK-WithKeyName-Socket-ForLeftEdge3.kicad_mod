@@ -1,4 +1,4 @@
-(module Kailh-PG1350-1u-MBK-WithKeyName-Socket-ForLeftEdge (layer F.Cu) (tedit 61B8899F)
+(module Kailh-PG1350-1u-MBK-WithKeyName-Socket-ForLeftEdge3 (layer F.Cu) (tedit 61B891F4)
   (fp_text reference SW_1 (at 0 -7.14375 180) (layer Dwgs.User) hide
     (effects (font (size 1 1) (thickness 0.2)))
   )
@@ -56,7 +56,7 @@
   (pad 1 smd rect (at 3.275 5.95) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
   (pad "" np_thru_hole circle (at 0 5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 0 0) (size 3.429 3.429) (drill 3.429) (layers *.Cu *.Mask))
-  (pad 2 smd rect (at -7.525 3.75) (size 2.1 2.7) (layers B.Paste B.Mask))
+  (pad 2 smd rect (at -7.525 3.75) (size 2.1 2) (layers B.Paste B.Mask))
   (pad 2 thru_hole circle (at -5 3.75) (size 4 4) (drill 3) (layers *.Cu))
   (pad "" np_thru_hole circle (at 5.5 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -5.5 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
