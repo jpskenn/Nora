@@ -371,12 +371,12 @@ row5
 $Comp
 L power:+5V #PWR024
 U 1 1 5F935DB7
-P 600 8875
-F 0 "#PWR024" H 600 8725 50  0001 C CNN
-F 1 "+5V" H 615 9048 50  0000 C CNN
-F 2 "" H 600 8875 50  0001 C CNN
-F 3 "" H 600 8875 50  0001 C CNN
-	1    600  8875
+P 6050 10500
+F 0 "#PWR024" H 6050 10350 50  0001 C CNN
+F 1 "+5V" H 6065 10673 50  0000 C CNN
+F 2 "" H 6050 10500 50  0001 C CNN
+F 3 "" H 6050 10500 50  0001 C CNN
+	1    6050 10500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -555,28 +555,6 @@ Connection ~ 10975 9350
 Wire Wire Line
 	10975 9350 11100 9350
 $Comp
-L power:+5V #PWR030
-U 1 1 60CFF674
-P 10650 8550
-F 0 "#PWR030" H 10650 8400 50  0001 C CNN
-F 1 "+5V" H 10650 8690 50  0000 C CNN
-F 2 "" H 10650 8550 50  0001 C CNN
-F 3 "" H 10650 8550 50  0001 C CNN
-	1    10650 8550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR031
-U 1 1 60D34CB6
-P 10975 8550
-F 0 "#PWR031" H 10975 8400 50  0001 C CNN
-F 1 "+5V" H 10975 8690 50  0000 C CNN
-F 2 "" H 10975 8550 50  0001 C CNN
-F 3 "" H 10975 8550 50  0001 C CNN
-	1    10975 8550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H1
 U 1 1 60B084C7
 P 7975 10250
@@ -628,20 +606,7 @@ Connection ~ 8500 9175
 Wire Wire Line
 	8500 9175 8500 9275
 Wire Wire Line
-	8500 8575 8900 8575
-Wire Wire Line
-	8500 8475 8500 8575
-$Comp
-L power:+5V #PWR0102
-U 1 1 60AF154D
-P 8500 8475
-F 0 "#PWR0102" H 8500 8325 50  0001 C CNN
-F 1 "+5V" H 8500 8615 50  0000 C CNN
-F 2 "" H 8500 8475 50  0001 C CNN
-F 3 "" H 8500 8475 50  0001 C CNN
-	1    8500 8475
-	1    0    0    -1  
-$EndComp
+	9000 8575 8900 8575
 Wire Wire Line
 	9300 9175 8900 9175
 Wire Wire Line
@@ -886,8 +851,6 @@ Text Notes 12425 7825 0    100  ~ 20
 USB
 Text Notes 8400 8275 0    100  ~ 20
 EEPROM
-Text Notes 10350 8275 0    100  ~ 20
-I2C
 Text Notes 650  10175 0    100  ~ 20
 LOGO
 Text Notes 700  8450 0    100  ~ 20
@@ -3806,8 +3769,6 @@ Wire Wire Line
 Wire Wire Line
 	7400 8650 6975 8650
 Connection ~ 1425 9075
-Wire Wire Line
-	1425 9075 775  9075
 Connection ~ 1850 9075
 Wire Wire Line
 	1850 9075 1425 9075
@@ -4168,7 +4129,7 @@ F 3 "~" H 9775 10775 50  0001 C CNN
 	1    9775 10775
 	-1   0    0    1   
 $EndComp
-Text GLabel 600  9275 2    50   Input ~ 0
+Text GLabel 6050 10900 2    50   Input ~ 0
 PICO_VBUS
 $Comp
 L nora:Pico_dummy U4
@@ -4184,26 +4145,23 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 62AE90E6
-P 775 9075
-F 0 "#FLG0102" H 775 9150 50  0001 C CNN
-F 1 "PWR_FLAG" H 775 9248 50  0000 C CNN
-F 2 "" H 775 9075 50  0001 C CNN
-F 3 "~" H 775 9075 50  0001 C CNN
-	1    775  9075
+P 6375 10700
+F 0 "#FLG0102" H 6375 10775 50  0001 C CNN
+F 1 "PWR_FLAG" H 6375 10873 50  0000 C CNN
+F 2 "" H 6375 10700 50  0001 C CNN
+F 3 "~" H 6375 10700 50  0001 C CNN
+	1    6375 10700
 	1    0    0    -1  
 $EndComp
-Connection ~ 775  9075
-Wire Wire Line
-	775  9075 750  9075
 $Comp
 L Jumper:SolderJumper_3_Open JP3
 U 1 1 62AEB2BC
-P 600 9075
-F 0 "JP3" V 646 9142 50  0000 L CNN
-F 1 "SolderJumper_3_Open" V 555 9142 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 600 9075 50  0001 C CNN
-F 3 "~" H 600 9075 50  0001 C CNN
-	1    600  9075
+P 6050 10700
+F 0 "JP3" V 6096 10767 50  0000 L CNN
+F 1 "SolderJumper_3_Open" V 6005 10767 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6050 10700 50  0001 C CNN
+F 3 "~" H 6050 10700 50  0001 C CNN
+	1    6050 10700
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -4614,4 +4572,54 @@ Wire Wire Line
 	6950 9800 6525 9800
 Connection ~ 6125 9375
 Connection ~ 6525 9800
+Text Notes 5150 10250 0    100  ~ 20
+Power Source\nfor devices
+Wire Wire Line
+	6200 10700 6375 10700
+Wire Wire Line
+	1025 9075 1425 9075
+Connection ~ 6375 10700
+Wire Wire Line
+	6375 10700 6625 10700
+Text GLabel 6625 10700 2    50   Input ~ 0
++5V_Source
+Text GLabel 1025 9075 0    50   Input ~ 0
++5V_Source
+Text GLabel 10575 8475 0    50   Input ~ 0
++5V_Source
+Wire Wire Line
+	10575 8475 10650 8475
+Wire Wire Line
+	10650 8475 10650 8550
+Wire Wire Line
+	10650 8475 10975 8475
+Wire Wire Line
+	10975 8475 10975 8550
+Connection ~ 10650 8475
+Text GLabel 9000 8575 2    50   Input ~ 0
++5V_Source
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 621BD6CD
+P 10600 10675
+F 0 "J4" H 10518 10350 50  0000 C CNN
+F 1 "Conn_01x02" H 10518 10441 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10600 10675 50  0001 C CNN
+F 3 "~" H 10600 10675 50  0001 C CNN
+	1    10600 10675
+	-1   0    0    1   
+$EndComp
+Text GLabel 10800 10575 2    50   Input ~ 0
++5V_Source
+$Comp
+L power:GND #PWR05
+U 1 1 62221C1D
+P 10800 10675
+F 0 "#PWR05" H 10800 10425 50  0001 C CNN
+F 1 "GND" H 10805 10502 50  0000 C CNN
+F 2 "" H 10800 10675 50  0001 C CNN
+F 3 "" H 10800 10675 50  0001 C CNN
+	1    10800 10675
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
