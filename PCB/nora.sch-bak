@@ -1953,8 +1953,6 @@ Text GLabel 19400 3275 0    50   Input ~ 0
 col4
 Text GLabel 19400 2275 0    50   Input ~ 0
 col2
-Text GLabel 20800 1875 2    50   Input ~ 0
-LED
 Text GLabel 19400 2075 0    50   Input ~ 0
 col0
 Text GLabel 19400 2575 0    50   Input ~ 0
@@ -1963,16 +1961,15 @@ Text GLabel 20800 2875 2    50   Input ~ 0
 row2
 Text GLabel 20800 3275 2    50   Input ~ 0
 row3
-Text GLabel 20800 2775 2    50   Input ~ 0
+Text GLabel 20800 3075 2    50   Input ~ 0
 row7
 Text GLabel 20800 2675 2    50   Input ~ 0
 row6
-NoConn ~ 20800 2375
 NoConn ~ 20800 2075
 NoConn ~ 20800 2175
 NoConn ~ 20800 2275
 NoConn ~ 20800 2475
-NoConn ~ 20800 3075
+NoConn ~ 20800 2775
 NoConn ~ 20000 3875
 NoConn ~ 20200 3875
 Text GLabel 19400 3175 0    50   Input ~ 0
@@ -5658,4 +5655,7 @@ Text GLabel 7950 6625 2    50   Input ~ 0
 LEDtoR2
 Text GLabel 7900 8500 2    50   Input ~ 0
 LEDtoR5
+NoConn ~ 20800 1875
+Text GLabel 20800 2375 2    50   Input ~ 0
+LED
 $EndSCHEMATC
