@@ -24,8 +24,8 @@
     (33 F.Adhes user)
     (34 B.Paste user)
     (35 F.Paste user)
-    (36 B.SilkS user)
-    (37 F.SilkS user hide)
+    (36 B.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
@@ -4752,7 +4752,7 @@
   )
 
   (module Jones.local:ICON_Screw_Small locked (layer F.Cu) (tedit 61B5E7D1) (tstamp 61BE7FBE)
-    (at 99.204672 105.70052)
+    (at 98.9 107.3)
     (fp_text reference REF** (at 0 0.5) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10862,7 +10862,7 @@
   )
 
   (module Jones.local:ICON_Screw_Small locked (layer F.Cu) (tedit 61B5E7D1) (tstamp 61B65A00)
-    (at 201.95 105.80052)
+    (at 201.8 106)
     (fp_text reference REF** (at 0 0.5) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10886,7 +10886,7 @@
   )
 
   (module Jones.local:ICON_Screw_Small locked (layer F.Cu) (tedit 61B5E7D1) (tstamp 61B65A00)
-    (at 295.704672 88.60052)
+    (at 295.3 90.3)
     (fp_text reference REF** (at 0 0.5) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10910,7 +10910,7 @@
   )
 
   (module Jones.local:ICON_Screw_Small locked (layer F.Cu) (tedit 61B5E7D1) (tstamp 61B65A00)
-    (at 269.049992 54.37552)
+    (at 268.6 56.3)
     (fp_text reference REF** (at 0 0.5) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10934,7 +10934,7 @@
   )
 
   (module Jones.local:ICON_Screw_Small locked (layer F.Cu) (tedit 61B5E7D1) (tstamp 61B65A00)
-    (at 143.804672 71.10052)
+    (at 143.3 73.1)
     (fp_text reference REF** (at 0 0.5) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10958,7 +10958,7 @@
   )
 
   (module Jones.local:ICON_Screw_Small locked (layer F.Cu) (tedit 61B5E7D1) (tstamp 61B64C55)
-    (at 27.85 88.50052)
+    (at 27.4 89.7)
     (fp_text reference REF** (at 0 0.5) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
