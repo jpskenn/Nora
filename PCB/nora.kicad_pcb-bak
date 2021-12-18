@@ -4753,7 +4753,7 @@
 
   (module Jones.local:ICON_Screw_Small locked (layer F.Cu) (tedit 61B5E7D1) (tstamp 61BE7FBE)
     (at 98.9 107.3)
-    (fp_text reference REF** (at 0 0.5) (layer Cmts.User)
+    (fp_text reference REF** (at 0 0.5) (layer Cmts.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ICON_Screw_Small (at 0 -0.5) (layer F.Fab)
@@ -10815,7 +10815,7 @@
 
   (module Jones.local:ICON_Screw_Small locked (layer F.Cu) (tedit 61B5E7D1) (tstamp 61B65A00)
     (at 205.9 39.3)
-    (fp_text reference REF** (at 0 0.5) (layer Cmts.User)
+    (fp_text reference REF** (at 0 0.5) (layer Cmts.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ICON_Screw_Small (at 0 -0.5) (layer F.Fab)
@@ -10839,7 +10839,7 @@
 
   (module Jones.local:ICON_Screw_Small locked (layer F.Cu) (tedit 61B5E7D1) (tstamp 61B65A00)
     (at 116.7 39.3)
-    (fp_text reference REF** (at 0 0.5) (layer Cmts.User)
+    (fp_text reference REF** (at 0 0.5) (layer Cmts.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ICON_Screw_Small (at 0 -0.5) (layer F.Fab)
@@ -10863,7 +10863,7 @@
 
   (module Jones.local:ICON_Screw_Small locked (layer F.Cu) (tedit 61B5E7D1) (tstamp 61B65A00)
     (at 201.8 106)
-    (fp_text reference REF** (at 0 0.5) (layer Cmts.User)
+    (fp_text reference REF** (at 0 0.5) (layer Cmts.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ICON_Screw_Small (at 0 -0.5) (layer F.Fab)
@@ -10887,7 +10887,7 @@
 
   (module Jones.local:ICON_Screw_Small locked (layer F.Cu) (tedit 61B5E7D1) (tstamp 61B65A00)
     (at 295.3 90.3)
-    (fp_text reference REF** (at 0 0.5) (layer Cmts.User)
+    (fp_text reference REF** (at 0 0.5) (layer Cmts.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ICON_Screw_Small (at 0 -0.5) (layer F.Fab)
@@ -10911,7 +10911,7 @@
 
   (module Jones.local:ICON_Screw_Small locked (layer F.Cu) (tedit 61B5E7D1) (tstamp 61B65A00)
     (at 268.6 56.3)
-    (fp_text reference REF** (at 0 0.5) (layer Cmts.User)
+    (fp_text reference REF** (at 0 0.5) (layer Cmts.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ICON_Screw_Small (at 0 -0.5) (layer F.Fab)
@@ -10935,7 +10935,7 @@
 
   (module Jones.local:ICON_Screw_Small locked (layer F.Cu) (tedit 61B5E7D1) (tstamp 61B65A00)
     (at 143.3 73.1)
-    (fp_text reference REF** (at 0 0.5) (layer Cmts.User)
+    (fp_text reference REF** (at 0 0.5) (layer Cmts.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ICON_Screw_Small (at 0 -0.5) (layer F.Fab)
@@ -10959,7 +10959,7 @@
 
   (module Jones.local:ICON_Screw_Small locked (layer F.Cu) (tedit 61B5E7D1) (tstamp 61B64C55)
     (at 27.4 89.7)
-    (fp_text reference REF** (at 0 0.5) (layer Cmts.User)
+    (fp_text reference REF** (at 0 0.5) (layer Cmts.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ICON_Screw_Small (at 0 -0.5) (layer F.Fab)
@@ -10983,7 +10983,7 @@
 
   (module Jones.local:ICON_Scissors_Small locked (layer F.Cu) (tedit 61B547EB) (tstamp 61B6567D)
     (at 150.165 75.17552)
-    (fp_text reference REF** (at 0 0.5) (layer Cmts.User)
+    (fp_text reference REF** (at 0 0.5) (layer Cmts.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ICON_Scissors_Small (at 0 -0.5) (layer F.Fab)
