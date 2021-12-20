@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/Users/kenn/Git/jpskenn/Nora/PCB/nora.sch</source>
-    <date>2021 November 20, Saturday 18:33:46</date>
+    <date>2021 December 13, Monday 21:14:42</date>
     <tool>Eeschema (5.1.10-1-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Nora</title>
         <company>@jpskenn</company>
-        <rev>v.0.1</rev>
-        <date>2021-11-13</date>
+        <rev>DN0020</rev>
+        <date>2021-12-11</date>
         <source>nora.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -206,14 +206,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60B084D3</tstamp>
     </comp>
-    <comp ref="H4">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60B084D9</tstamp>
-    </comp>
     <comp ref="Ext_PC6">
       <value>Conn_01x01</value>
       <footprint>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
@@ -317,7 +309,7 @@
     </comp>
     <comp ref="D1">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -328,7 +320,7 @@
     </comp>
     <comp ref="SW_5">
       <value>1</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -336,7 +328,7 @@
     </comp>
     <comp ref="D4">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -347,7 +339,7 @@
     </comp>
     <comp ref="SW_2">
       <value>SFT2u</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-2u-MBK-WithKeyName-Socket-NoStab.</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -355,7 +347,7 @@
     </comp>
     <comp ref="SW_3">
       <value>SFT1u</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-MillMax</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -363,7 +355,7 @@
     </comp>
     <comp ref="D2">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -374,7 +366,7 @@
     </comp>
     <comp ref="SW_8">
       <value>Z2</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -382,7 +374,7 @@
     </comp>
     <comp ref="D7">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -393,7 +385,7 @@
     </comp>
     <comp ref="SW_4">
       <value>LB1</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -401,7 +393,7 @@
     </comp>
     <comp ref="D3">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -412,7 +404,7 @@
     </comp>
     <comp ref="SW_9">
       <value>LB2</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -420,7 +412,7 @@
     </comp>
     <comp ref="D8">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -431,7 +423,7 @@
     </comp>
     <comp ref="SW_10">
       <value>2</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -439,7 +431,7 @@
     </comp>
     <comp ref="D9">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -450,7 +442,7 @@
     </comp>
     <comp ref="SW_15">
       <value>3</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -458,7 +450,7 @@
     </comp>
     <comp ref="D15">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -469,7 +461,7 @@
     </comp>
     <comp ref="SW_11">
       <value>Q</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -477,7 +469,7 @@
     </comp>
     <comp ref="D11">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -488,7 +480,7 @@
     </comp>
     <comp ref="SW_16">
       <value>W</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -496,7 +488,7 @@
     </comp>
     <comp ref="D16">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -507,7 +499,7 @@
     </comp>
     <comp ref="SW_12">
       <value>A</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -515,7 +507,7 @@
     </comp>
     <comp ref="D12">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -526,7 +518,7 @@
     </comp>
     <comp ref="SW_17">
       <value>S</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -534,7 +526,7 @@
     </comp>
     <comp ref="D17">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -545,7 +537,7 @@
     </comp>
     <comp ref="SW_13">
       <value>Z</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -553,7 +545,7 @@
     </comp>
     <comp ref="D13">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -564,7 +556,7 @@
     </comp>
     <comp ref="SW_18">
       <value>X</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -572,7 +564,7 @@
     </comp>
     <comp ref="D18">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -583,7 +575,7 @@
     </comp>
     <comp ref="D14">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -594,7 +586,7 @@
     </comp>
     <comp ref="D6">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -605,7 +597,7 @@
     </comp>
     <comp ref="SW_7">
       <value>LCTL_1.5u</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName-NoClickHole</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -613,7 +605,7 @@
     </comp>
     <comp ref="D5">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -624,7 +616,7 @@
     </comp>
     <comp ref="SW_6">
       <value>TAB_1.5u</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -632,7 +624,7 @@
     </comp>
     <comp ref="SW_20">
       <value>4</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -640,7 +632,7 @@
     </comp>
     <comp ref="D20">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -651,7 +643,7 @@
     </comp>
     <comp ref="SW_25">
       <value>5</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -659,7 +651,7 @@
     </comp>
     <comp ref="D25">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -670,7 +662,7 @@
     </comp>
     <comp ref="SW_21">
       <value>E</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -678,7 +670,7 @@
     </comp>
     <comp ref="D21">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -689,7 +681,7 @@
     </comp>
     <comp ref="SW_26">
       <value>R</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -697,7 +689,7 @@
     </comp>
     <comp ref="D26">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -708,7 +700,7 @@
     </comp>
     <comp ref="SW_22">
       <value>D</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -716,7 +708,7 @@
     </comp>
     <comp ref="D22">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -727,7 +719,7 @@
     </comp>
     <comp ref="SW_27">
       <value>F</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -735,7 +727,7 @@
     </comp>
     <comp ref="D27">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -746,7 +738,7 @@
     </comp>
     <comp ref="SW_23">
       <value>C</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -754,7 +746,7 @@
     </comp>
     <comp ref="D23">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -765,7 +757,7 @@
     </comp>
     <comp ref="SW_28">
       <value>V</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -773,7 +765,7 @@
     </comp>
     <comp ref="D28">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -784,7 +776,7 @@
     </comp>
     <comp ref="SW_30">
       <value>6</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -792,7 +784,7 @@
     </comp>
     <comp ref="D30">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -803,7 +795,7 @@
     </comp>
     <comp ref="SW_35">
       <value>7</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -811,7 +803,7 @@
     </comp>
     <comp ref="D35">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -822,7 +814,7 @@
     </comp>
     <comp ref="SW_31">
       <value>T</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -830,7 +822,7 @@
     </comp>
     <comp ref="D31">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -841,7 +833,7 @@
     </comp>
     <comp ref="SW_36">
       <value>Y</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -849,7 +841,7 @@
     </comp>
     <comp ref="D36">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -860,7 +852,7 @@
     </comp>
     <comp ref="SW_32">
       <value>G</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -868,7 +860,7 @@
     </comp>
     <comp ref="D32">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -879,7 +871,7 @@
     </comp>
     <comp ref="SW_37">
       <value>H</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-MillMax</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -887,7 +879,7 @@
     </comp>
     <comp ref="D37">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -898,7 +890,7 @@
     </comp>
     <comp ref="SW_33">
       <value>B</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -906,7 +898,7 @@
     </comp>
     <comp ref="D33">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -917,7 +909,7 @@
     </comp>
     <comp ref="SW_38">
       <value>N</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -925,7 +917,7 @@
     </comp>
     <comp ref="D38">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -936,7 +928,7 @@
     </comp>
     <comp ref="SW_40">
       <value>8</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -944,7 +936,7 @@
     </comp>
     <comp ref="D40">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -955,7 +947,7 @@
     </comp>
     <comp ref="SW_45">
       <value>9</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -963,7 +955,7 @@
     </comp>
     <comp ref="D45">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -974,7 +966,7 @@
     </comp>
     <comp ref="SW_41">
       <value>U</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -982,7 +974,7 @@
     </comp>
     <comp ref="D41">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -993,7 +985,7 @@
     </comp>
     <comp ref="SW_46">
       <value>I</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1001,7 +993,7 @@
     </comp>
     <comp ref="D46">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1012,7 +1004,7 @@
     </comp>
     <comp ref="SW_42">
       <value>J</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1020,7 +1012,7 @@
     </comp>
     <comp ref="D42">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1031,7 +1023,7 @@
     </comp>
     <comp ref="SW_47">
       <value>K</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1039,7 +1031,7 @@
     </comp>
     <comp ref="D47">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1050,7 +1042,7 @@
     </comp>
     <comp ref="SW_43">
       <value>M</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1058,7 +1050,7 @@
     </comp>
     <comp ref="D43">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1069,7 +1061,7 @@
     </comp>
     <comp ref="SW_48">
       <value>&lt;</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1077,7 +1069,7 @@
     </comp>
     <comp ref="D48">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1088,7 +1080,7 @@
     </comp>
     <comp ref="SW_50">
       <value>0</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1096,7 +1088,7 @@
     </comp>
     <comp ref="D50">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1107,7 +1099,7 @@
     </comp>
     <comp ref="SW_55">
       <value>=</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1115,7 +1107,7 @@
     </comp>
     <comp ref="D55">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1126,7 +1118,7 @@
     </comp>
     <comp ref="SW_51">
       <value>O</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1134,7 +1126,7 @@
     </comp>
     <comp ref="D51">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1145,7 +1137,7 @@
     </comp>
     <comp ref="SW_56">
       <value>P</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1153,7 +1145,7 @@
     </comp>
     <comp ref="D56">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1164,7 +1156,7 @@
     </comp>
     <comp ref="SW_52">
       <value>L</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1172,7 +1164,7 @@
     </comp>
     <comp ref="D52">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1183,7 +1175,7 @@
     </comp>
     <comp ref="SW_57">
       <value>;</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1191,7 +1183,7 @@
     </comp>
     <comp ref="D57">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1202,7 +1194,7 @@
     </comp>
     <comp ref="SW_53">
       <value>&gt;</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1210,7 +1202,7 @@
     </comp>
     <comp ref="D53">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1221,7 +1213,7 @@
     </comp>
     <comp ref="SW_58">
       <value>/</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1229,7 +1221,7 @@
     </comp>
     <comp ref="D58">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1240,7 +1232,7 @@
     </comp>
     <comp ref="SW_54">
       <value>RGUI_1.5u</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName-MillMax</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1248,7 +1240,7 @@
     </comp>
     <comp ref="D54">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1259,7 +1251,7 @@
     </comp>
     <comp ref="D59">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1270,7 +1262,7 @@
     </comp>
     <comp ref="SW_60">
       <value>Num_/</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1278,7 +1270,7 @@
     </comp>
     <comp ref="D60">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1289,7 +1281,7 @@
     </comp>
     <comp ref="SW_65">
       <value>Num_*</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1297,7 +1289,7 @@
     </comp>
     <comp ref="D65">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1308,7 +1300,7 @@
     </comp>
     <comp ref="SW_61">
       <value>BS_1.5u</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1316,7 +1308,7 @@
     </comp>
     <comp ref="D61">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1327,7 +1319,7 @@
     </comp>
     <comp ref="SW_66">
       <value>Num_7</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1335,7 +1327,7 @@
     </comp>
     <comp ref="D66">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1346,7 +1338,7 @@
     </comp>
     <comp ref="SW_62">
       <value>ENT_1.5u</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1354,7 +1346,7 @@
     </comp>
     <comp ref="D62">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1365,7 +1357,7 @@
     </comp>
     <comp ref="SW_67">
       <value>Num_4</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1373,7 +1365,7 @@
     </comp>
     <comp ref="D67">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1384,7 +1376,7 @@
     </comp>
     <comp ref="SW_63">
       <value>UP</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1392,7 +1384,7 @@
     </comp>
     <comp ref="D63">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1403,7 +1395,7 @@
     </comp>
     <comp ref="SW_68">
       <value>Num_1</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1411,7 +1403,7 @@
     </comp>
     <comp ref="D68">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1422,7 +1414,7 @@
     </comp>
     <comp ref="D64">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1433,7 +1425,7 @@
     </comp>
     <comp ref="D69">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1444,7 +1436,7 @@
     </comp>
     <comp ref="SW_70">
       <value>Num_-</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1452,7 +1444,7 @@
     </comp>
     <comp ref="D70">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1463,7 +1455,7 @@
     </comp>
     <comp ref="SW_75">
       <value>Num_+</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1471,7 +1463,7 @@
     </comp>
     <comp ref="D75">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1482,7 +1474,7 @@
     </comp>
     <comp ref="SW_71">
       <value>Num_8</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-MillMax</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1490,7 +1482,7 @@
     </comp>
     <comp ref="D71">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1501,7 +1493,7 @@
     </comp>
     <comp ref="SW_76">
       <value>Num_9</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1509,7 +1501,7 @@
     </comp>
     <comp ref="D76">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1520,7 +1512,7 @@
     </comp>
     <comp ref="SW_72">
       <value>Num_5</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1528,7 +1520,7 @@
     </comp>
     <comp ref="D72">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1539,7 +1531,7 @@
     </comp>
     <comp ref="SW_77">
       <value>Num_6</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-MillMax</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1547,7 +1539,7 @@
     </comp>
     <comp ref="D77">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1558,7 +1550,7 @@
     </comp>
     <comp ref="SW_73">
       <value>Num_2</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1566,7 +1558,7 @@
     </comp>
     <comp ref="D73">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1577,7 +1569,7 @@
     </comp>
     <comp ref="SW_78">
       <value>Num_3</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-MillMax</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1585,7 +1577,7 @@
     </comp>
     <comp ref="D78">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1596,7 +1588,7 @@
     </comp>
     <comp ref="D74">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1607,7 +1599,7 @@
     </comp>
     <comp ref="D79">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1634,7 +1626,7 @@
     </comp>
     <comp ref="SW_59">
       <value>LEFT</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1642,7 +1634,7 @@
     </comp>
     <comp ref="SW_64">
       <value>DOWN</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1650,7 +1642,7 @@
     </comp>
     <comp ref="SW_69">
       <value>RIGHT</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1658,7 +1650,7 @@
     </comp>
     <comp ref="SW_74">
       <value>Num_0</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1666,7 +1658,7 @@
     </comp>
     <comp ref="SW_79">
       <value>Num_DOT</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1674,7 +1666,7 @@
     </comp>
     <comp ref="D49">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1685,7 +1677,7 @@
     </comp>
     <comp ref="SW_49">
       <value>RALT</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1693,7 +1685,7 @@
     </comp>
     <comp ref="D39">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1704,7 +1696,7 @@
     </comp>
     <comp ref="SW_39">
       <value>RSPC_2u</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-2u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-2u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1712,7 +1704,7 @@
     </comp>
     <comp ref="D29">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1723,7 +1715,7 @@
     </comp>
     <comp ref="SW_29">
       <value>LSPC_2u</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-2u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-2u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1731,7 +1723,7 @@
     </comp>
     <comp ref="SW_14">
       <value>LGUI_1.5u</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1739,7 +1731,7 @@
     </comp>
     <comp ref="SW_1">
       <value>ESC</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1747,7 +1739,7 @@
     </comp>
     <comp ref="D19">
       <value>D_Small</value>
-      <footprint>locallib:D_SOD-123_Refelence@Left</footprint>
+      <footprint>locallib:D_SOD-123-Pretty_No_Reference</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C81598</field>
@@ -1758,7 +1750,7 @@
     </comp>
     <comp ref="SW_19">
       <value>LALT</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1795,125 +1787,114 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B3279FC</tstamp>
     </comp>
-    <comp ref="U3">
-      <value>ATmega32U4-AU-Dummy</value>
-      <footprint>Package_QFP:TQFP-44_10x10mm_P0.8mm</footprint>
-      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C44854</field>
-      </fields>
-      <libsource lib="nora" part="ATmega32U4-AU-Dummy" description="16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, TQFP-44"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61ACE85D</tstamp>
-    </comp>
     <comp ref="L2">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6265ACE1</tstamp>
     </comp>
     <comp ref="L1">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6265ACE9</tstamp>
     </comp>
     <comp ref="L4">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>627DDB3E</tstamp>
     </comp>
     <comp ref="L3">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>627DDB46</tstamp>
     </comp>
     <comp ref="L6">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>62809795</tstamp>
     </comp>
     <comp ref="L5">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6280979D</tstamp>
     </comp>
     <comp ref="L8">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6283801F</tstamp>
     </comp>
     <comp ref="L7">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>62838027</tstamp>
     </comp>
     <comp ref="L10">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>62868C13</tstamp>
     </comp>
     <comp ref="L9">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>62868C1B</tstamp>
     </comp>
     <comp ref="L12">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6289C6B4</tstamp>
     </comp>
     <comp ref="L11">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6289C6BC</tstamp>
     </comp>
     <comp ref="L14">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>628D37B2</tstamp>
     </comp>
     <comp ref="L13">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>628D37BA</tstamp>
     </comp>
     <comp ref="L16">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>62953F89</tstamp>
     </comp>
     <comp ref="L15">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>62953F91</tstamp>
@@ -1998,22 +1979,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>639AD899</tstamp>
     </comp>
-    <comp ref="TR_1">
-      <value>Choc_with_Mill-Max</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-MillMax</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61AC4D56</tstamp>
-    </comp>
-    <comp ref="TR_2">
-      <value>Choc_with_Mill-Max</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-MillMax</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61B4579B</tstamp>
-    </comp>
     <comp ref="JP1">
       <value>SolderJumper_2_Open</value>
       <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
@@ -2052,6 +2017,104 @@
       <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>62AEB2BC</tstamp>
+    </comp>
+    <comp ref="L18">
+      <value>SK6812MINI-E</value>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
+      <libsource lib="kbd" part="SK6812MINI-E" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B9988A</tstamp>
+    </comp>
+    <comp ref="L17">
+      <value>SK6812MINI-E</value>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
+      <libsource lib="kbd" part="SK6812MINI-E" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B99892</tstamp>
+    </comp>
+    <comp ref="L20">
+      <value>SK6812MINI-E</value>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
+      <libsource lib="kbd" part="SK6812MINI-E" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B998A0</tstamp>
+    </comp>
+    <comp ref="L19">
+      <value>SK6812MINI-E</value>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
+      <libsource lib="kbd" part="SK6812MINI-E" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B998A8</tstamp>
+    </comp>
+    <comp ref="L22">
+      <value>SK6812MINI-E</value>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
+      <libsource lib="kbd" part="SK6812MINI-E" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B998B6</tstamp>
+    </comp>
+    <comp ref="L21">
+      <value>SK6812MINI-E</value>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
+      <libsource lib="kbd" part="SK6812MINI-E" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B998BE</tstamp>
+    </comp>
+    <comp ref="L24">
+      <value>SK6812MINI-E</value>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
+      <libsource lib="kbd" part="SK6812MINI-E" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B998CC</tstamp>
+    </comp>
+    <comp ref="L23">
+      <value>SK6812MINI-E</value>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
+      <libsource lib="kbd" part="SK6812MINI-E" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B998D4</tstamp>
+    </comp>
+    <comp ref="L26">
+      <value>SK6812MINI-E</value>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
+      <libsource lib="kbd" part="SK6812MINI-E" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B998E2</tstamp>
+    </comp>
+    <comp ref="L25">
+      <value>SK6812MINI-E</value>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
+      <libsource lib="kbd" part="SK6812MINI-E" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B998EA</tstamp>
+    </comp>
+    <comp ref="L28">
+      <value>SK6812MINI-E</value>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
+      <libsource lib="kbd" part="SK6812MINI-E" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B998F8</tstamp>
+    </comp>
+    <comp ref="L27">
+      <value>SK6812MINI-E</value>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
+      <libsource lib="kbd" part="SK6812MINI-E" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B99900</tstamp>
+    </comp>
+    <comp ref="L29">
+      <value>SK6812MINI-E</value>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
+      <libsource lib="kbd" part="SK6812MINI-E" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B99916</tstamp>
+    </comp>
+    <comp ref="L30">
+      <value>SK6812MINI-E</value>
+      <footprint>Jones.local:YS-SK6812MINI-E_with_reflection_paint</footprint>
+      <libsource lib="kbd" part="SK6812MINI-E" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C12E1B</tstamp>
     </comp>
   </components>
   <libparts>
@@ -2443,69 +2506,6 @@
         <pin num="4" name="DIN" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="nora" part="ATmega32U4-AU-Dummy">
-      <aliases>
-        <alias>ATmega16U4RC-AU</alias>
-        <alias>ATmega32U4-AU</alias>
-        <alias>ATmega32U4RC-AU</alias>
-      </aliases>
-      <description>16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, TQFP-44</description>
-      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</docs>
-      <footprints>
-        <fp>TQFP*10x10mm*P0.8mm*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">ATmega32U4-AU-Dummy</field>
-        <field name="Footprint">Package_QFP:TQFP-44_10x10mm_P0.8mm</field>
-      </fields>
-      <pins>
-        <pin num="1" name="PE6" type="BiDi"/>
-        <pin num="2" name="UVCC" type="power_in"/>
-        <pin num="3" name="D-" type="BiDi"/>
-        <pin num="4" name="D+" type="BiDi"/>
-        <pin num="5" name="UGND" type="passive"/>
-        <pin num="6" name="UCAP" type="passive"/>
-        <pin num="7" name="VBUS" type="input"/>
-        <pin num="8" name="PB0" type="BiDi"/>
-        <pin num="9" name="PB1" type="BiDi"/>
-        <pin num="10" name="PB2" type="BiDi"/>
-        <pin num="11" name="PB3" type="BiDi"/>
-        <pin num="12" name="PB7" type="BiDi"/>
-        <pin num="13" name="~RESET" type="input"/>
-        <pin num="14" name="VCC" type="power_in"/>
-        <pin num="15" name="GND" type="power_in"/>
-        <pin num="16" name="XTAL2" type="BiDi"/>
-        <pin num="17" name="XTAL1" type="input"/>
-        <pin num="18" name="PD0" type="BiDi"/>
-        <pin num="19" name="PD1" type="BiDi"/>
-        <pin num="20" name="PD2" type="BiDi"/>
-        <pin num="21" name="PD3" type="BiDi"/>
-        <pin num="22" name="PD5" type="BiDi"/>
-        <pin num="23" name="GND" type="passive"/>
-        <pin num="24" name="AVCC" type="power_in"/>
-        <pin num="25" name="PD4" type="BiDi"/>
-        <pin num="26" name="PD6" type="BiDi"/>
-        <pin num="27" name="PD7" type="BiDi"/>
-        <pin num="28" name="PB4" type="BiDi"/>
-        <pin num="29" name="PB5" type="BiDi"/>
-        <pin num="30" name="PB6" type="BiDi"/>
-        <pin num="31" name="PC6" type="BiDi"/>
-        <pin num="32" name="PC7" type="BiDi"/>
-        <pin num="33" name="~HWB~/PE2" type="BiDi"/>
-        <pin num="34" name="VCC" type="passive"/>
-        <pin num="35" name="GND" type="passive"/>
-        <pin num="36" name="PF7" type="BiDi"/>
-        <pin num="37" name="PF6" type="BiDi"/>
-        <pin num="38" name="PF5" type="BiDi"/>
-        <pin num="39" name="PF4" type="BiDi"/>
-        <pin num="40" name="PF1" type="BiDi"/>
-        <pin num="41" name="PF0" type="BiDi"/>
-        <pin num="42" name="AREF" type="passive"/>
-        <pin num="43" name="GND" type="passive"/>
-        <pin num="44" name="AVCC" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="nora" part="Pico_dummy">
       <fields>
         <field name="Reference">U</field>
@@ -2598,719 +2598,704 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="GND">
-      <node ref="C6" pin="2"/>
-      <node ref="U4" pin="38"/>
-      <node ref="U4" pin="3"/>
-      <node ref="U4" pin="28"/>
-      <node ref="L11" pin="3"/>
+    <net code="1" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="Y1" pin="2"/>
       <node ref="ResetSW1" pin="1"/>
+      <node ref="Y1" pin="4"/>
       <node ref="R6" pin="1"/>
       <node ref="C4" pin="1"/>
       <node ref="C5" pin="1"/>
-      <node ref="U1" pin="5"/>
       <node ref="C7" pin="1"/>
-      <node ref="U1" pin="45"/>
-      <node ref="U1" pin="43"/>
-      <node ref="L13" pin="3"/>
       <node ref="C1" pin="1"/>
-      <node ref="L16" pin="3"/>
-      <node ref="L12" pin="3"/>
-      <node ref="L15" pin="3"/>
-      <node ref="U1" pin="35"/>
-      <node ref="L9" pin="3"/>
-      <node ref="U1" pin="23"/>
-      <node ref="U1" pin="15"/>
-      <node ref="L10" pin="3"/>
-      <node ref="U4" pin="8"/>
-      <node ref="L7" pin="3"/>
-      <node ref="U4" pin="23"/>
-      <node ref="J5" pin="6"/>
-      <node ref="Y1" pin="2"/>
-      <node ref="Y1" pin="4"/>
-      <node ref="U4" pin="18"/>
-      <node ref="L8" pin="3"/>
-      <node ref="R1" pin="1"/>
       <node ref="C3" pin="2"/>
       <node ref="C2" pin="2"/>
-      <node ref="U4" pin="13"/>
-      <node ref="R2" pin="1"/>
-      <node ref="J1" pin="S1"/>
+      <node ref="L2" pin="3"/>
+      <node ref="L1" pin="3"/>
+      <node ref="L4" pin="3"/>
+      <node ref="L3" pin="3"/>
+      <node ref="L6" pin="3"/>
       <node ref="L5" pin="3"/>
+      <node ref="L8" pin="3"/>
+      <node ref="L7" pin="3"/>
+      <node ref="L10" pin="3"/>
+      <node ref="L9" pin="3"/>
+      <node ref="L12" pin="3"/>
+      <node ref="L11" pin="3"/>
+      <node ref="L30" pin="3"/>
       <node ref="L14" pin="3"/>
+      <node ref="L13" pin="3"/>
+      <node ref="L16" pin="3"/>
+      <node ref="L15" pin="3"/>
+      <node ref="J5" pin="6"/>
       <node ref="U2" pin="1"/>
       <node ref="U2" pin="2"/>
       <node ref="U2" pin="3"/>
       <node ref="U2" pin="4"/>
-      <node ref="U3" pin="15"/>
       <node ref="U2" pin="7"/>
-      <node ref="U3" pin="23"/>
-      <node ref="J1" pin="B12"/>
-      <node ref="J1" pin="B1"/>
-      <node ref="U3" pin="35"/>
-      <node ref="U3" pin="43"/>
-      <node ref="U3" pin="5"/>
-      <node ref="L2" pin="3"/>
       <node ref="D10" pin="1"/>
-      <node ref="L1" pin="3"/>
-      <node ref="L4" pin="3"/>
-      <node ref="L6" pin="3"/>
-      <node ref="J1" pin="A12"/>
+      <node ref="U4" pin="13"/>
+      <node ref="U4" pin="18"/>
+      <node ref="U4" pin="23"/>
+      <node ref="U4" pin="28"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="38"/>
+      <node ref="U4" pin="8"/>
+      <node ref="L18" pin="3"/>
+      <node ref="L17" pin="3"/>
       <node ref="J1" pin="A1"/>
-      <node ref="L3" pin="3"/>
+      <node ref="J1" pin="A12"/>
+      <node ref="L20" pin="3"/>
+      <node ref="L19" pin="3"/>
+      <node ref="L22" pin="3"/>
+      <node ref="J1" pin="B1"/>
+      <node ref="J1" pin="B12"/>
+      <node ref="L21" pin="3"/>
+      <node ref="L24" pin="3"/>
+      <node ref="J1" pin="S1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="45"/>
+      <node ref="U1" pin="43"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="L23" pin="3"/>
+      <node ref="L26" pin="3"/>
+      <node ref="U1" pin="35"/>
+      <node ref="L25" pin="3"/>
+      <node ref="L28" pin="3"/>
+      <node ref="L27" pin="3"/>
+      <node ref="L29" pin="3"/>
+      <node ref="U1" pin="23"/>
+      <node ref="U1" pin="15"/>
     </net>
-    <net code="2" name="+5V">
-      <node ref="U1" pin="14"/>
+    <net code="3" name="+5V">
       <node ref="R5" pin="1"/>
-      <node ref="U3" pin="7"/>
-      <node ref="U3" pin="44"/>
-      <node ref="U3" pin="34"/>
-      <node ref="U3" pin="24"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="14"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="24"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C7" pin="2"/>
       <node ref="U2" pin="8"/>
-      <node ref="U3" pin="2"/>
-      <node ref="U3" pin="14"/>
+      <node ref="F1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="34"/>
+      <node ref="JP3" pin="3"/>
+      <node ref="U1" pin="44"/>
       <node ref="U1" pin="7"/>
       <node ref="R9" pin="1"/>
       <node ref="R8" pin="1"/>
       <node ref="J5" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="F1" pin="1"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="U1" pin="44"/>
-      <node ref="C1" pin="2"/>
-      <node ref="JP3" pin="3"/>
-      <node ref="U1" pin="2"/>
-      <node ref="U1" pin="24"/>
-      <node ref="U1" pin="34"/>
     </net>
-    <net code="3" name="Net-(U1-Pad42)">
+    <net code="4" name="Net-(U1-Pad42)">
       <node ref="U1" pin="42"/>
     </net>
-    <net code="4" name="VCC">
-      <node ref="F1" pin="2"/>
-      <node ref="J1" pin="B9"/>
-      <node ref="J1" pin="B4"/>
-      <node ref="J1" pin="A9"/>
-      <node ref="D10" pin="4"/>
+    <net code="5" name="VCC">
       <node ref="J1" pin="A4"/>
+      <node ref="J1" pin="A9"/>
+      <node ref="J1" pin="B4"/>
+      <node ref="J1" pin="B9"/>
+      <node ref="F1" pin="2"/>
+      <node ref="D10" pin="4"/>
     </net>
-    <net code="5" name="row9">
-      <node ref="EXT_R9" pin="1"/>
+    <net code="6" name="row9">
+      <node ref="D59" pin="1"/>
+      <node ref="U4" pin="21"/>
       <node ref="D69" pin="1"/>
       <node ref="D79" pin="1"/>
-      <node ref="U1" pin="30"/>
-      <node ref="D49" pin="1"/>
       <node ref="D8" pin="1"/>
+      <node ref="U1" pin="36"/>
+      <node ref="D49" pin="1"/>
       <node ref="D39" pin="1"/>
       <node ref="D29" pin="1"/>
       <node ref="D19" pin="1"/>
-      <node ref="U4" pin="21"/>
-      <node ref="D59" pin="1"/>
-      <node ref="U3" pin="30"/>
+      <node ref="EXT_R9" pin="1"/>
     </net>
-    <net code="6" name="MISO">
+    <net code="7" name="MISO">
       <node ref="J5" pin="1"/>
-      <node ref="U3" pin="11"/>
       <node ref="U1" pin="11"/>
     </net>
-    <net code="7" name="SCK">
-      <node ref="U3" pin="9"/>
+    <net code="8" name="SCK">
       <node ref="U1" pin="9"/>
       <node ref="J5" pin="3"/>
     </net>
-    <net code="8" name="MOSI">
-      <node ref="U3" pin="10"/>
-      <node ref="U1" pin="10"/>
+    <net code="9" name="MOSI">
       <node ref="J5" pin="4"/>
+      <node ref="U1" pin="10"/>
     </net>
-    <net code="9" name="RESET">
-      <node ref="R5" pin="2"/>
+    <net code="10" name="RESET">
       <node ref="ResetSW1" pin="2"/>
-      <node ref="J5" pin="5"/>
-      <node ref="U3" pin="13"/>
       <node ref="U1" pin="13"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J5" pin="5"/>
     </net>
-    <net code="10" name="SCL">
-      <node ref="U2" pin="6"/>
-      <node ref="U4" pin="2"/>
-      <node ref="JP2" pin="2"/>
-      <node ref="J3" pin="2"/>
-      <node ref="U3" pin="18"/>
+    <net code="11" name="SCL">
       <node ref="U1" pin="18"/>
+      <node ref="U4" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="JP2" pin="2"/>
     </net>
-    <net code="11" name="SDA">
-      <node ref="J3" pin="1"/>
-      <node ref="U3" pin="19"/>
+    <net code="12" name="SDA">
       <node ref="U1" pin="19"/>
       <node ref="U2" pin="5"/>
-      <node ref="JP1" pin="2"/>
+      <node ref="J3" pin="1"/>
       <node ref="U4" pin="1"/>
+      <node ref="JP1" pin="2"/>
     </net>
-    <net code="12" name="Net-(JP1-Pad1)">
+    <net code="13" name="Net-(JP1-Pad1)">
       <node ref="R8" pin="2"/>
       <node ref="JP1" pin="1"/>
     </net>
-    <net code="13" name="Net-(JP2-Pad1)">
+    <net code="14" name="Net-(JP2-Pad1)">
       <node ref="JP2" pin="1"/>
       <node ref="R9" pin="2"/>
     </net>
-    <net code="14" name="Reserve_pin">
+    <net code="15" name="Reserve_pin">
       <node ref="Ext_PC6" pin="1"/>
-      <node ref="U3" pin="31"/>
       <node ref="U1" pin="31"/>
     </net>
-    <net code="15" name="Net-(D10-Pad2)">
-      <node ref="R3" pin="2"/>
+    <net code="16" name="Net-(D10-Pad2)">
       <node ref="J1" pin="B6"/>
+      <node ref="R3" pin="2"/>
       <node ref="D10" pin="2"/>
       <node ref="J1" pin="A6"/>
     </net>
-    <net code="16" name="Net-(D10-Pad3)">
+    <net code="17" name="Net-(D10-Pad3)">
       <node ref="D10" pin="3"/>
       <node ref="J1" pin="A7"/>
       <node ref="J1" pin="B7"/>
       <node ref="R4" pin="2"/>
     </net>
-    <net code="17" name="Net-(J1-PadA5)">
+    <net code="18" name="Net-(J1-PadA5)">
       <node ref="R2" pin="2"/>
       <node ref="J1" pin="A5"/>
     </net>
-    <net code="18" name="Net-(J1-PadA8)">
+    <net code="19" name="Net-(J1-PadA8)">
       <node ref="J1" pin="A8"/>
     </net>
-    <net code="19" name="Net-(J1-PadB5)">
+    <net code="20" name="Net-(J1-PadB5)">
       <node ref="R1" pin="2"/>
       <node ref="J1" pin="B5"/>
     </net>
-    <net code="20" name="Net-(J1-PadB8)">
+    <net code="21" name="Net-(J1-PadB8)">
       <node ref="J1" pin="B8"/>
     </net>
-    <net code="21" name="D-">
-      <node ref="U3" pin="3"/>
+    <net code="22" name="D-">
       <node ref="U1" pin="3"/>
       <node ref="R4" pin="1"/>
     </net>
-    <net code="22" name="D+">
-      <node ref="U3" pin="4"/>
+    <net code="23" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="24" name="D+">
       <node ref="R3" pin="1"/>
       <node ref="U1" pin="4"/>
     </net>
-    <net code="23" name="Net-(D1-Pad2)">
+    <net code="25" name="Net-(D1-Pad2)">
       <node ref="SW_1" pin="2"/>
       <node ref="D1" pin="2"/>
     </net>
-    <net code="24" name="Net-(D4-Pad2)">
-      <node ref="D4" pin="2"/>
+    <net code="26" name="Net-(D4-Pad2)">
       <node ref="SW_5" pin="2"/>
+      <node ref="D4" pin="2"/>
     </net>
-    <net code="25" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
-      <node ref="SW_3" pin="2"/>
+    <net code="27" name="Net-(D2-Pad2)">
       <node ref="SW_2" pin="2"/>
+      <node ref="SW_3" pin="2"/>
+      <node ref="D2" pin="2"/>
     </net>
-    <net code="26" name="Net-(D7-Pad2)">
+    <net code="28" name="Net-(D7-Pad2)">
       <node ref="D7" pin="2"/>
       <node ref="SW_8" pin="2"/>
     </net>
-    <net code="27" name="Net-(D3-Pad2)">
+    <net code="29" name="Net-(D3-Pad2)">
       <node ref="D3" pin="2"/>
       <node ref="SW_4" pin="2"/>
     </net>
-    <net code="28" name="col0">
+    <net code="30" name="col0">
+      <node ref="SW_7" pin="1"/>
+      <node ref="SW_6" pin="1"/>
+      <node ref="EXT_C0" pin="1"/>
       <node ref="U1" pin="41"/>
       <node ref="SW_1" pin="1"/>
-      <node ref="EXT_C0" pin="1"/>
       <node ref="SW_5" pin="1"/>
       <node ref="SW_2" pin="1"/>
       <node ref="SW_3" pin="1"/>
-      <node ref="SW_7" pin="1"/>
       <node ref="SW_8" pin="1"/>
       <node ref="U4" pin="4"/>
-      <node ref="SW_9" pin="1"/>
-      <node ref="U3" pin="41"/>
       <node ref="SW_4" pin="1"/>
-      <node ref="SW_6" pin="1"/>
+      <node ref="SW_9" pin="1"/>
     </net>
-    <net code="29" name="Net-(D8-Pad2)">
-      <node ref="D8" pin="2"/>
+    <net code="31" name="Net-(D8-Pad2)">
       <node ref="SW_9" pin="2"/>
+      <node ref="D8" pin="2"/>
     </net>
-    <net code="30" name="Net-(D9-Pad2)">
+    <net code="32" name="Net-(D9-Pad2)">
       <node ref="D9" pin="2"/>
       <node ref="SW_10" pin="2"/>
     </net>
-    <net code="31" name="Net-(D15-Pad2)">
-      <node ref="D15" pin="2"/>
+    <net code="33" name="Net-(D15-Pad2)">
       <node ref="SW_15" pin="2"/>
+      <node ref="D15" pin="2"/>
     </net>
-    <net code="32" name="Net-(D11-Pad2)">
-      <node ref="D11" pin="2"/>
+    <net code="34" name="Net-(D11-Pad2)">
       <node ref="SW_11" pin="2"/>
+      <node ref="D11" pin="2"/>
     </net>
-    <net code="33" name="Net-(D16-Pad2)">
-      <node ref="D16" pin="2"/>
+    <net code="35" name="Net-(D16-Pad2)">
       <node ref="SW_16" pin="2"/>
+      <node ref="D16" pin="2"/>
     </net>
-    <net code="34" name="Net-(D12-Pad2)">
-      <node ref="D12" pin="2"/>
+    <net code="36" name="Net-(D12-Pad2)">
       <node ref="SW_12" pin="2"/>
+      <node ref="D12" pin="2"/>
     </net>
-    <net code="35" name="Net-(D17-Pad2)">
-      <node ref="D17" pin="2"/>
+    <net code="37" name="Net-(D17-Pad2)">
       <node ref="SW_17" pin="2"/>
+      <node ref="D17" pin="2"/>
     </net>
-    <net code="36" name="col1">
-      <node ref="SW_18" pin="1"/>
-      <node ref="U4" pin="5"/>
-      <node ref="U1" pin="21"/>
+    <net code="38" name="col1">
       <node ref="SW_14" pin="1"/>
+      <node ref="SW_10" pin="1"/>
+      <node ref="SW_18" pin="1"/>
+      <node ref="SW_19" pin="1"/>
       <node ref="SW_13" pin="1"/>
       <node ref="SW_17" pin="1"/>
-      <node ref="U3" pin="21"/>
-      <node ref="SW_12" pin="1"/>
-      <node ref="SW_16" pin="1"/>
-      <node ref="SW_11" pin="1"/>
+      <node ref="U4" pin="5"/>
       <node ref="SW_15" pin="1"/>
+      <node ref="SW_12" pin="1"/>
+      <node ref="SW_11" pin="1"/>
+      <node ref="SW_16" pin="1"/>
       <node ref="EXT_C1" pin="1"/>
-      <node ref="SW_10" pin="1"/>
-      <node ref="SW_19" pin="1"/>
+      <node ref="U1" pin="20"/>
     </net>
-    <net code="37" name="Net-(D13-Pad2)">
+    <net code="39" name="Net-(D13-Pad2)">
       <node ref="SW_13" pin="2"/>
       <node ref="D13" pin="2"/>
     </net>
-    <net code="38" name="Net-(D18-Pad2)">
+    <net code="40" name="Net-(D18-Pad2)">
       <node ref="SW_18" pin="2"/>
       <node ref="D18" pin="2"/>
     </net>
-    <net code="39" name="Net-(D14-Pad2)">
-      <node ref="D14" pin="2"/>
+    <net code="41" name="Net-(D14-Pad2)">
       <node ref="SW_14" pin="2"/>
+      <node ref="D14" pin="2"/>
     </net>
-    <net code="40" name="Net-(D6-Pad2)">
+    <net code="42" name="Net-(D6-Pad2)">
       <node ref="D6" pin="2"/>
       <node ref="SW_7" pin="2"/>
     </net>
-    <net code="41" name="Net-(D5-Pad2)">
+    <net code="43" name="Net-(D5-Pad2)">
       <node ref="D5" pin="2"/>
       <node ref="SW_6" pin="2"/>
     </net>
-    <net code="42" name="Net-(D20-Pad2)">
-      <node ref="SW_20" pin="2"/>
+    <net code="44" name="Net-(D20-Pad2)">
       <node ref="D20" pin="2"/>
+      <node ref="SW_20" pin="2"/>
     </net>
-    <net code="43" name="Net-(D25-Pad2)">
-      <node ref="SW_25" pin="2"/>
+    <net code="45" name="Net-(D25-Pad2)">
       <node ref="D25" pin="2"/>
+      <node ref="SW_25" pin="2"/>
     </net>
-    <net code="44" name="Net-(D21-Pad2)">
+    <net code="46" name="Net-(D21-Pad2)">
       <node ref="SW_21" pin="2"/>
       <node ref="D21" pin="2"/>
     </net>
-    <net code="45" name="Net-(D26-Pad2)">
+    <net code="47" name="Net-(D26-Pad2)">
       <node ref="SW_26" pin="2"/>
       <node ref="D26" pin="2"/>
     </net>
-    <net code="46" name="Net-(D22-Pad2)">
-      <node ref="SW_22" pin="2"/>
+    <net code="48" name="Net-(D22-Pad2)">
       <node ref="D22" pin="2"/>
+      <node ref="SW_22" pin="2"/>
     </net>
-    <net code="47" name="Net-(D27-Pad2)">
+    <net code="49" name="Net-(D27-Pad2)">
       <node ref="D27" pin="2"/>
       <node ref="SW_27" pin="2"/>
     </net>
-    <net code="48" name="col2">
-      <node ref="SW_27" pin="1"/>
-      <node ref="U1" pin="22"/>
-      <node ref="EXT_C2" pin="1"/>
-      <node ref="SW_29" pin="1"/>
-      <node ref="U3" pin="22"/>
-      <node ref="SW_23" pin="1"/>
-      <node ref="SW_28" pin="1"/>
-      <node ref="SW_25" pin="1"/>
-      <node ref="SW_21" pin="1"/>
-      <node ref="SW_20" pin="1"/>
+    <net code="50" name="col2">
       <node ref="SW_22" pin="1"/>
-      <node ref="SW_26" pin="1"/>
+      <node ref="SW_29" pin="1"/>
       <node ref="U4" pin="6"/>
+      <node ref="SW_27" pin="1"/>
+      <node ref="SW_26" pin="1"/>
+      <node ref="SW_23" pin="1"/>
+      <node ref="SW_21" pin="1"/>
+      <node ref="SW_28" pin="1"/>
+      <node ref="SW_20" pin="1"/>
+      <node ref="SW_25" pin="1"/>
+      <node ref="EXT_C2" pin="1"/>
+      <node ref="U1" pin="25"/>
     </net>
-    <net code="49" name="Net-(D23-Pad2)">
+    <net code="51" name="Net-(D23-Pad2)">
       <node ref="D23" pin="2"/>
       <node ref="SW_23" pin="2"/>
     </net>
-    <net code="50" name="Net-(D28-Pad2)">
-      <node ref="D28" pin="2"/>
+    <net code="52" name="Net-(D28-Pad2)">
       <node ref="SW_28" pin="2"/>
+      <node ref="D28" pin="2"/>
     </net>
-    <net code="51" name="Net-(D30-Pad2)">
+    <net code="53" name="Net-(D30-Pad2)">
       <node ref="D30" pin="2"/>
       <node ref="SW_30" pin="2"/>
     </net>
-    <net code="52" name="Net-(D35-Pad2)">
+    <net code="54" name="Net-(D35-Pad2)">
       <node ref="D35" pin="2"/>
       <node ref="SW_35" pin="2"/>
     </net>
-    <net code="53" name="Net-(D31-Pad2)">
+    <net code="55" name="Net-(D31-Pad2)">
       <node ref="SW_31" pin="2"/>
       <node ref="D31" pin="2"/>
     </net>
-    <net code="54" name="Net-(D36-Pad2)">
+    <net code="56" name="Net-(D36-Pad2)">
       <node ref="D36" pin="2"/>
       <node ref="SW_36" pin="2"/>
     </net>
-    <net code="55" name="Net-(D32-Pad2)">
-      <node ref="SW_32" pin="2"/>
+    <net code="57" name="Net-(D32-Pad2)">
       <node ref="D32" pin="2"/>
+      <node ref="SW_32" pin="2"/>
     </net>
-    <net code="56" name="Net-(D37-Pad2)">
+    <net code="58" name="Net-(D37-Pad2)">
       <node ref="D37" pin="2"/>
       <node ref="SW_37" pin="2"/>
     </net>
-    <net code="57" name="col3">
-      <node ref="SW_30" pin="1"/>
-      <node ref="U1" pin="25"/>
-      <node ref="SW_36" pin="1"/>
-      <node ref="SW_31" pin="1"/>
-      <node ref="U4" pin="7"/>
-      <node ref="SW_32" pin="1"/>
+    <net code="59" name="col3">
       <node ref="SW_35" pin="1"/>
-      <node ref="U3" pin="25"/>
+      <node ref="SW_32" pin="1"/>
+      <node ref="U1" pin="21"/>
+      <node ref="SW_33" pin="1"/>
+      <node ref="SW_36" pin="1"/>
+      <node ref="SW_38" pin="1"/>
       <node ref="EXT_C3" pin="1"/>
+      <node ref="SW_31" pin="1"/>
+      <node ref="SW_30" pin="1"/>
       <node ref="SW_37" pin="1"/>
       <node ref="SW_39" pin="1"/>
-      <node ref="SW_33" pin="1"/>
-      <node ref="SW_38" pin="1"/>
+      <node ref="U4" pin="7"/>
     </net>
-    <net code="58" name="Net-(D33-Pad2)">
+    <net code="60" name="Net-(D33-Pad2)">
       <node ref="D33" pin="2"/>
       <node ref="SW_33" pin="2"/>
     </net>
-    <net code="59" name="Net-(D38-Pad2)">
-      <node ref="D38" pin="2"/>
+    <net code="61" name="Net-(D38-Pad2)">
       <node ref="SW_38" pin="2"/>
+      <node ref="D38" pin="2"/>
     </net>
-    <net code="60" name="Net-(D40-Pad2)">
-      <node ref="SW_40" pin="2"/>
+    <net code="62" name="Net-(D40-Pad2)">
       <node ref="D40" pin="2"/>
+      <node ref="SW_40" pin="2"/>
     </net>
-    <net code="61" name="Net-(D45-Pad2)">
+    <net code="63" name="Net-(D45-Pad2)">
       <node ref="D45" pin="2"/>
       <node ref="SW_45" pin="2"/>
     </net>
-    <net code="62" name="Net-(D41-Pad2)">
-      <node ref="D41" pin="2"/>
+    <net code="64" name="Net-(D41-Pad2)">
       <node ref="SW_41" pin="2"/>
+      <node ref="D41" pin="2"/>
     </net>
-    <net code="63" name="Net-(D46-Pad2)">
+    <net code="65" name="Net-(D46-Pad2)">
       <node ref="D46" pin="2"/>
       <node ref="SW_46" pin="2"/>
     </net>
-    <net code="64" name="Net-(D42-Pad2)">
+    <net code="66" name="Net-(D42-Pad2)">
       <node ref="D42" pin="2"/>
       <node ref="SW_42" pin="2"/>
     </net>
-    <net code="65" name="Net-(D47-Pad2)">
-      <node ref="D47" pin="2"/>
+    <net code="67" name="Net-(D47-Pad2)">
       <node ref="SW_47" pin="2"/>
+      <node ref="D47" pin="2"/>
     </net>
-    <net code="66" name="col4">
-      <node ref="U1" pin="26"/>
-      <node ref="SW_45" pin="1"/>
+    <net code="68" name="col4">
       <node ref="SW_40" pin="1"/>
-      <node ref="SW_49" pin="1"/>
-      <node ref="SW_41" pin="1"/>
-      <node ref="SW_46" pin="1"/>
-      <node ref="EXT_C4" pin="1"/>
-      <node ref="SW_42" pin="1"/>
-      <node ref="U3" pin="26"/>
       <node ref="SW_47" pin="1"/>
-      <node ref="U4" pin="16"/>
       <node ref="SW_43" pin="1"/>
+      <node ref="SW_49" pin="1"/>
+      <node ref="SW_45" pin="1"/>
+      <node ref="SW_46" pin="1"/>
       <node ref="SW_48" pin="1"/>
+      <node ref="U1" pin="26"/>
+      <node ref="SW_41" pin="1"/>
+      <node ref="U4" pin="16"/>
+      <node ref="SW_42" pin="1"/>
+      <node ref="EXT_C4" pin="1"/>
     </net>
-    <net code="67" name="Net-(D43-Pad2)">
-      <node ref="D43" pin="2"/>
+    <net code="69" name="Net-(D43-Pad2)">
       <node ref="SW_43" pin="2"/>
+      <node ref="D43" pin="2"/>
     </net>
-    <net code="68" name="Net-(D48-Pad2)">
+    <net code="70" name="Net-(D48-Pad2)">
       <node ref="D48" pin="2"/>
       <node ref="SW_48" pin="2"/>
     </net>
-    <net code="69" name="Net-(D50-Pad2)">
-      <node ref="D50" pin="2"/>
+    <net code="71" name="Net-(D50-Pad2)">
       <node ref="SW_50" pin="2"/>
+      <node ref="D50" pin="2"/>
     </net>
-    <net code="70" name="Net-(D55-Pad2)">
-      <node ref="D55" pin="2"/>
+    <net code="72" name="Net-(D55-Pad2)">
       <node ref="SW_55" pin="2"/>
+      <node ref="D55" pin="2"/>
     </net>
-    <net code="71" name="Net-(D51-Pad2)">
+    <net code="73" name="Net-(D51-Pad2)">
       <node ref="D51" pin="2"/>
       <node ref="SW_51" pin="2"/>
     </net>
-    <net code="72" name="Net-(D56-Pad2)">
-      <node ref="D56" pin="2"/>
+    <net code="74" name="Net-(D56-Pad2)">
       <node ref="SW_56" pin="2"/>
+      <node ref="D56" pin="2"/>
     </net>
-    <net code="73" name="Net-(D52-Pad2)">
-      <node ref="D52" pin="2"/>
+    <net code="75" name="Net-(D52-Pad2)">
       <node ref="SW_52" pin="2"/>
+      <node ref="D52" pin="2"/>
     </net>
-    <net code="74" name="Net-(D57-Pad2)">
-      <node ref="D57" pin="2"/>
+    <net code="76" name="Net-(D57-Pad2)">
       <node ref="SW_57" pin="2"/>
+      <node ref="D57" pin="2"/>
     </net>
-    <net code="75" name="Net-(D53-Pad2)">
-      <node ref="D53" pin="2"/>
+    <net code="77" name="Net-(D53-Pad2)">
       <node ref="SW_53" pin="2"/>
+      <node ref="D53" pin="2"/>
     </net>
-    <net code="76" name="Net-(D58-Pad2)">
+    <net code="78" name="Net-(D58-Pad2)">
       <node ref="D58" pin="2"/>
       <node ref="SW_58" pin="2"/>
     </net>
-    <net code="77" name="col5">
-      <node ref="U4" pin="17"/>
+    <net code="79" name="col5">
       <node ref="EXT_C5" pin="1"/>
-      <node ref="SW_50" pin="1"/>
-      <node ref="SW_53" pin="1"/>
       <node ref="SW_58" pin="1"/>
-      <node ref="U1" pin="27"/>
-      <node ref="SW_54" pin="1"/>
       <node ref="SW_51" pin="1"/>
+      <node ref="SW_54" pin="1"/>
       <node ref="SW_55" pin="1"/>
+      <node ref="U1" pin="27"/>
+      <node ref="U4" pin="17"/>
+      <node ref="SW_53" pin="1"/>
+      <node ref="SW_57" pin="1"/>
       <node ref="SW_56" pin="1"/>
+      <node ref="SW_50" pin="1"/>
       <node ref="SW_52" pin="1"/>
       <node ref="SW_59" pin="1"/>
-      <node ref="U3" pin="27"/>
-      <node ref="SW_57" pin="1"/>
     </net>
-    <net code="78" name="Net-(D54-Pad2)">
-      <node ref="D54" pin="2"/>
+    <net code="80" name="Net-(D54-Pad2)">
       <node ref="SW_54" pin="2"/>
+      <node ref="D54" pin="2"/>
     </net>
-    <net code="79" name="Net-(D59-Pad2)">
+    <net code="81" name="Net-(D59-Pad2)">
       <node ref="SW_59" pin="2"/>
       <node ref="D59" pin="2"/>
     </net>
-    <net code="80" name="Net-(D60-Pad2)">
+    <net code="82" name="Net-(D60-Pad2)">
       <node ref="SW_60" pin="2"/>
       <node ref="D60" pin="2"/>
     </net>
-    <net code="81" name="Net-(D65-Pad2)">
+    <net code="83" name="Net-(D65-Pad2)">
       <node ref="SW_65" pin="2"/>
       <node ref="D65" pin="2"/>
     </net>
-    <net code="82" name="Net-(D61-Pad2)">
-      <node ref="D61" pin="2"/>
+    <net code="84" name="Net-(D61-Pad2)">
       <node ref="SW_61" pin="2"/>
+      <node ref="D61" pin="2"/>
     </net>
-    <net code="83" name="Net-(D66-Pad2)">
+    <net code="85" name="Net-(D66-Pad2)">
       <node ref="SW_66" pin="2"/>
       <node ref="D66" pin="2"/>
     </net>
-    <net code="84" name="Net-(D62-Pad2)">
+    <net code="86" name="Net-(D62-Pad2)">
       <node ref="D62" pin="2"/>
       <node ref="SW_62" pin="2"/>
     </net>
-    <net code="85" name="Net-(D67-Pad2)">
+    <net code="87" name="Net-(D67-Pad2)">
       <node ref="D67" pin="2"/>
       <node ref="SW_67" pin="2"/>
     </net>
-    <net code="86" name="Net-(D63-Pad2)">
+    <net code="88" name="Net-(D63-Pad2)">
       <node ref="D63" pin="2"/>
       <node ref="SW_63" pin="2"/>
     </net>
-    <net code="87" name="Net-(D68-Pad2)">
+    <net code="89" name="Net-(D68-Pad2)">
       <node ref="D68" pin="2"/>
       <node ref="SW_68" pin="2"/>
     </net>
-    <net code="88" name="Net-(D64-Pad2)">
+    <net code="90" name="Net-(D64-Pad2)">
       <node ref="D64" pin="2"/>
       <node ref="SW_64" pin="2"/>
     </net>
-    <net code="89" name="Net-(D69-Pad2)">
-      <node ref="D69" pin="2"/>
+    <net code="91" name="Net-(D69-Pad2)">
       <node ref="SW_69" pin="2"/>
+      <node ref="D69" pin="2"/>
     </net>
-    <net code="90" name="Net-(D70-Pad2)">
+    <net code="92" name="Net-(D70-Pad2)">
       <node ref="SW_70" pin="2"/>
       <node ref="D70" pin="2"/>
     </net>
-    <net code="91" name="row0">
-      <node ref="U1" pin="40"/>
-      <node ref="D60" pin="1"/>
-      <node ref="D9" pin="1"/>
-      <node ref="D30" pin="1"/>
+    <net code="93" name="row0">
       <node ref="D50" pin="1"/>
       <node ref="D20" pin="1"/>
-      <node ref="D70" pin="1"/>
       <node ref="D1" pin="1"/>
-      <node ref="D40" pin="1"/>
-      <node ref="EXT_R0" pin="1"/>
+      <node ref="D70" pin="1"/>
+      <node ref="D30" pin="1"/>
       <node ref="U4" pin="9"/>
-      <node ref="U3" pin="40"/>
+      <node ref="D40" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="U1" pin="40"/>
+      <node ref="EXT_R0" pin="1"/>
+      <node ref="D60" pin="1"/>
     </net>
-    <net code="92" name="Net-(D75-Pad2)">
-      <node ref="SW_75" pin="2"/>
+    <net code="94" name="Net-(D75-Pad2)">
       <node ref="D75" pin="2"/>
+      <node ref="SW_75" pin="2"/>
     </net>
-    <net code="93" name="row5">
-      <node ref="EXT_R5" pin="1"/>
-      <node ref="U3" pin="8"/>
-      <node ref="D4" pin="1"/>
-      <node ref="U1" pin="8"/>
-      <node ref="D25" pin="1"/>
+    <net code="95" name="row5">
       <node ref="D45" pin="1"/>
-      <node ref="D55" pin="1"/>
-      <node ref="D15" pin="1"/>
-      <node ref="D75" pin="1"/>
       <node ref="U4" pin="10"/>
-      <node ref="D35" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D25" pin="1"/>
       <node ref="D65" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="EXT_R5" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="D55" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D75" pin="1"/>
     </net>
-    <net code="94" name="Net-(D71-Pad2)">
-      <node ref="D71" pin="2"/>
+    <net code="96" name="Net-(D71-Pad2)">
       <node ref="SW_71" pin="2"/>
+      <node ref="D71" pin="2"/>
     </net>
-    <net code="95" name="row1">
-      <node ref="D61" pin="1"/>
+    <net code="97" name="row1">
       <node ref="D71" pin="1"/>
-      <node ref="D11" pin="1"/>
-      <node ref="U3" pin="12"/>
       <node ref="D51" pin="1"/>
-      <node ref="D41" pin="1"/>
+      <node ref="D61" pin="1"/>
+      <node ref="D31" pin="1"/>
       <node ref="EXT_R1" pin="1"/>
       <node ref="U4" pin="32"/>
-      <node ref="U1" pin="12"/>
-      <node ref="D31" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D41" pin="1"/>
       <node ref="D21" pin="1"/>
+      <node ref="U1" pin="12"/>
     </net>
-    <net code="96" name="Net-(D76-Pad2)">
-      <node ref="SW_76" pin="2"/>
+    <net code="98" name="Net-(D76-Pad2)">
       <node ref="D76" pin="2"/>
+      <node ref="SW_76" pin="2"/>
     </net>
-    <net code="97" name="row6">
-      <node ref="U4" pin="31"/>
-      <node ref="D26" pin="1"/>
-      <node ref="EXT_R6" pin="1"/>
-      <node ref="D36" pin="1"/>
-      <node ref="D56" pin="1"/>
-      <node ref="U3" pin="39"/>
+    <net code="99" name="row6">
       <node ref="U1" pin="39"/>
+      <node ref="D56" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="U4" pin="31"/>
+      <node ref="D36" pin="1"/>
       <node ref="D16" pin="1"/>
+      <node ref="EXT_R6" pin="1"/>
       <node ref="D46" pin="1"/>
-      <node ref="D5" pin="1"/>
       <node ref="D76" pin="1"/>
       <node ref="D66" pin="1"/>
+      <node ref="D5" pin="1"/>
     </net>
-    <net code="98" name="Net-(D72-Pad2)">
-      <node ref="D72" pin="2"/>
+    <net code="100" name="Net-(D72-Pad2)">
       <node ref="SW_72" pin="2"/>
+      <node ref="D72" pin="2"/>
     </net>
-    <net code="99" name="row2">
-      <node ref="U3" pin="20"/>
-      <node ref="D22" pin="1"/>
-      <node ref="D32" pin="1"/>
-      <node ref="D52" pin="1"/>
-      <node ref="EXT_R2" pin="1"/>
-      <node ref="D62" pin="1"/>
-      <node ref="U4" pin="29"/>
-      <node ref="D72" pin="1"/>
-      <node ref="U1" pin="20"/>
+    <net code="101" name="row2">
       <node ref="D42" pin="1"/>
+      <node ref="U4" pin="29"/>
+      <node ref="D52" pin="1"/>
+      <node ref="D62" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="EXT_R2" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="D72" pin="1"/>
+      <node ref="U1" pin="22"/>
       <node ref="D12" pin="1"/>
     </net>
-    <net code="100" name="Net-(D77-Pad2)">
+    <net code="102" name="Net-(D77-Pad2)">
       <node ref="D77" pin="2"/>
       <node ref="SW_77" pin="2"/>
     </net>
-    <net code="101" name="row7">
-      <node ref="D17" pin="1"/>
-      <node ref="D57" pin="1"/>
-      <node ref="U4" pin="27"/>
-      <node ref="D47" pin="1"/>
+    <net code="103" name="row7">
+      <node ref="D27" pin="1"/>
       <node ref="D77" pin="1"/>
-      <node ref="U1" pin="38"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D37" pin="1"/>
       <node ref="EXT_R7" pin="1"/>
       <node ref="D67" pin="1"/>
-      <node ref="U3" pin="38"/>
-      <node ref="D27" pin="1"/>
       <node ref="D6" pin="1"/>
-      <node ref="D37" pin="1"/>
+      <node ref="U1" pin="38"/>
+      <node ref="D57" pin="1"/>
+      <node ref="D47" pin="1"/>
+      <node ref="U4" pin="27"/>
     </net>
-    <net code="102" name="Net-(D73-Pad2)">
-      <node ref="SW_73" pin="2"/>
+    <net code="104" name="Net-(D73-Pad2)">
       <node ref="D73" pin="2"/>
+      <node ref="SW_73" pin="2"/>
     </net>
-    <net code="103" name="row3">
-      <node ref="D2" pin="1"/>
-      <node ref="D33" pin="1"/>
-      <node ref="D63" pin="1"/>
-      <node ref="U3" pin="37"/>
-      <node ref="U4" pin="25"/>
-      <node ref="D73" pin="1"/>
-      <node ref="U1" pin="37"/>
+    <net code="105" name="row3">
       <node ref="D43" pin="1"/>
-      <node ref="D23" pin="1"/>
-      <node ref="EXT_R3" pin="1"/>
       <node ref="D53" pin="1"/>
+      <node ref="U4" pin="25"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U1" pin="32"/>
+      <node ref="D63" pin="1"/>
+      <node ref="EXT_R3" pin="1"/>
+      <node ref="D33" pin="1"/>
       <node ref="D13" pin="1"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D73" pin="1"/>
     </net>
-    <net code="104" name="Net-(D78-Pad2)">
+    <net code="106" name="Net-(D78-Pad2)">
       <node ref="SW_78" pin="2"/>
       <node ref="D78" pin="2"/>
     </net>
-    <net code="105" name="row8">
+    <net code="107" name="row8">
+      <node ref="D28" pin="1"/>
       <node ref="D68" pin="1"/>
-      <node ref="D18" pin="1"/>
+      <node ref="D78" pin="1"/>
       <node ref="D7" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="U1" pin="30"/>
+      <node ref="D48" pin="1"/>
+      <node ref="U4" pin="24"/>
       <node ref="D58" pin="1"/>
       <node ref="EXT_R8" pin="1"/>
-      <node ref="D38" pin="1"/>
-      <node ref="D48" pin="1"/>
-      <node ref="D28" pin="1"/>
-      <node ref="U1" pin="32"/>
-      <node ref="U4" pin="24"/>
-      <node ref="U3" pin="32"/>
-      <node ref="D78" pin="1"/>
+      <node ref="D18" pin="1"/>
     </net>
-    <net code="106" name="row4">
-      <node ref="D74" pin="1"/>
-      <node ref="EXT_R4" pin="1"/>
-      <node ref="U1" pin="36"/>
+    <net code="108" name="row4">
+      <node ref="D14" pin="1"/>
+      <node ref="U1" pin="37"/>
       <node ref="D54" pin="1"/>
       <node ref="U4" pin="22"/>
+      <node ref="EXT_R4" pin="1"/>
       <node ref="D64" pin="1"/>
-      <node ref="D14" pin="1"/>
-      <node ref="U3" pin="36"/>
       <node ref="D3" pin="1"/>
+      <node ref="D74" pin="1"/>
     </net>
-    <net code="107" name="Net-(D74-Pad2)">
+    <net code="109" name="Net-(D74-Pad2)">
       <node ref="D74" pin="2"/>
       <node ref="SW_74" pin="2"/>
     </net>
-    <net code="108" name="Net-(D79-Pad2)">
-      <node ref="D79" pin="2"/>
+    <net code="110" name="Net-(D79-Pad2)">
       <node ref="SW_79" pin="2"/>
+      <node ref="D79" pin="2"/>
     </net>
-    <net code="109" name="col6">
+    <net code="111" name="col6">
+      <node ref="SW_63" pin="1"/>
+      <node ref="SW_67" pin="1"/>
+      <node ref="EXT_C6" pin="1"/>
       <node ref="SW_62" pin="1"/>
       <node ref="SW_66" pin="1"/>
       <node ref="SW_61" pin="1"/>
       <node ref="SW_65" pin="1"/>
-      <node ref="SW_69" pin="1"/>
-      <node ref="SW_64" pin="1"/>
-      <node ref="EXT_C6" pin="1"/>
-      <node ref="U1" pin="28"/>
       <node ref="SW_60" pin="1"/>
-      <node ref="U4" pin="19"/>
+      <node ref="SW_64" pin="1"/>
+      <node ref="SW_69" pin="1"/>
       <node ref="SW_68" pin="1"/>
-      <node ref="SW_63" pin="1"/>
-      <node ref="U3" pin="28"/>
-      <node ref="SW_67" pin="1"/>
+      <node ref="U1" pin="28"/>
+      <node ref="U4" pin="19"/>
     </net>
-    <net code="110" name="col7">
+    <net code="112" name="col7">
       <node ref="SW_70" pin="1"/>
       <node ref="SW_75" pin="1"/>
       <node ref="SW_71" pin="1"/>
@@ -3319,203 +3304,244 @@
       <node ref="SW_77" pin="1"/>
       <node ref="SW_73" pin="1"/>
       <node ref="SW_78" pin="1"/>
-      <node ref="U1" pin="29"/>
+      <node ref="U4" pin="20"/>
       <node ref="SW_79" pin="1"/>
       <node ref="SW_74" pin="1"/>
-      <node ref="U3" pin="29"/>
-      <node ref="U4" pin="20"/>
+      <node ref="U1" pin="29"/>
       <node ref="EXT_C7" pin="1"/>
     </net>
-    <net code="111" name="Net-(D49-Pad2)">
-      <node ref="D49" pin="2"/>
+    <net code="113" name="Net-(D49-Pad2)">
       <node ref="SW_49" pin="2"/>
+      <node ref="D49" pin="2"/>
     </net>
-    <net code="112" name="Net-(D39-Pad2)">
-      <node ref="D39" pin="2"/>
+    <net code="114" name="Net-(D39-Pad2)">
       <node ref="SW_39" pin="2"/>
+      <node ref="D39" pin="2"/>
     </net>
-    <net code="113" name="Net-(D29-Pad2)">
+    <net code="115" name="Net-(D29-Pad2)">
       <node ref="D29" pin="2"/>
       <node ref="SW_29" pin="2"/>
     </net>
-    <net code="114" name="Net-(D19-Pad2)">
-      <node ref="SW_19" pin="2"/>
+    <net code="116" name="Net-(D19-Pad2)">
       <node ref="D19" pin="2"/>
+      <node ref="SW_19" pin="2"/>
     </net>
-    <net code="115" name="Net-(U3-Pad42)">
-      <node ref="U3" pin="42"/>
-    </net>
-    <net code="116" name="HWB">
-      <node ref="U3" pin="33"/>
-      <node ref="U1" pin="33"/>
-      <node ref="R6" pin="2"/>
-    </net>
-    <net code="117" name="UCAP">
-      <node ref="C6" pin="1"/>
-      <node ref="U3" pin="6"/>
-      <node ref="U1" pin="6"/>
-    </net>
-    <net code="118" name="XTAL2">
-      <node ref="U1" pin="16"/>
-      <node ref="Y1" pin="3"/>
+    <net code="117" name="Net-(C3-Pad1)">
       <node ref="C3" pin="1"/>
-      <node ref="U3" pin="16"/>
+      <node ref="Y1" pin="3"/>
+      <node ref="U1" pin="16"/>
     </net>
-    <net code="119" name="XTAL1">
+    <net code="118" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
       <node ref="U1" pin="17"/>
       <node ref="Y1" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="U3" pin="17"/>
     </net>
-    <net code="120" name="Net-(L2-Pad2)">
+    <net code="119" name="Net-(L2-Pad2)">
       <node ref="L2" pin="2"/>
       <node ref="L3" pin="4"/>
     </net>
-    <net code="121" name="Net-(L1-Pad2)">
-      <node ref="L2" pin="4"/>
+    <net code="120" name="Net-(L1-Pad2)">
       <node ref="L1" pin="2"/>
+      <node ref="L2" pin="4"/>
     </net>
-    <net code="122" name="LED">
-      <node ref="U3" pin="1"/>
+    <net code="121" name="LED">
+      <node ref="U4" pin="34"/>
       <node ref="L1" pin="4"/>
       <node ref="U1" pin="1"/>
-      <node ref="U4" pin="34"/>
     </net>
-    <net code="123" name="Net-(L4-Pad2)">
-      <node ref="L5" pin="4"/>
+    <net code="122" name="Net-(L4-Pad2)">
       <node ref="L4" pin="2"/>
+      <node ref="L5" pin="4"/>
     </net>
-    <net code="124" name="Net-(L3-Pad2)">
-      <node ref="L3" pin="2"/>
+    <net code="123" name="Net-(L3-Pad2)">
       <node ref="L4" pin="4"/>
+      <node ref="L3" pin="2"/>
     </net>
-    <net code="125" name="Net-(L6-Pad2)">
+    <net code="124" name="Net-(L6-Pad2)">
       <node ref="L6" pin="2"/>
       <node ref="L7" pin="4"/>
     </net>
-    <net code="126" name="Net-(L5-Pad2)">
-      <node ref="L5" pin="2"/>
+    <net code="125" name="Net-(L5-Pad2)">
       <node ref="L6" pin="4"/>
+      <node ref="L5" pin="2"/>
     </net>
-    <net code="127" name="Net-(L8-Pad2)">
+    <net code="126" name="Net-(L8-Pad2)">
       <node ref="L8" pin="2"/>
       <node ref="L9" pin="4"/>
     </net>
-    <net code="128" name="Net-(L7-Pad2)">
+    <net code="127" name="Net-(L7-Pad2)">
       <node ref="L8" pin="4"/>
       <node ref="L7" pin="2"/>
     </net>
-    <net code="129" name="Net-(L10-Pad2)">
+    <net code="128" name="Net-(L10-Pad2)">
       <node ref="L11" pin="4"/>
       <node ref="L10" pin="2"/>
     </net>
-    <net code="130" name="Net-(L10-Pad4)">
+    <net code="129" name="Net-(L10-Pad4)">
       <node ref="L10" pin="4"/>
       <node ref="L9" pin="2"/>
     </net>
-    <net code="131" name="Net-(L12-Pad2)">
+    <net code="130" name="Net-(L12-Pad2)">
       <node ref="L13" pin="4"/>
       <node ref="L12" pin="2"/>
     </net>
-    <net code="132" name="Net-(L11-Pad2)">
+    <net code="131" name="Net-(L11-Pad2)">
       <node ref="L11" pin="2"/>
       <node ref="L12" pin="4"/>
     </net>
-    <net code="133" name="Net-(L14-Pad2)">
-      <node ref="L15" pin="4"/>
+    <net code="132" name="Net-(L14-Pad2)">
       <node ref="L14" pin="2"/>
+      <node ref="L15" pin="4"/>
     </net>
-    <net code="134" name="Net-(L13-Pad2)">
+    <net code="133" name="Net-(L13-Pad2)">
       <node ref="L14" pin="4"/>
       <node ref="L13" pin="2"/>
     </net>
-    <net code="135" name="Net-(JP3-Pad2)">
-      <node ref="L5" pin="1"/>
-      <node ref="JP3" pin="2"/>
-      <node ref="L6" pin="1"/>
-      <node ref="L8" pin="1"/>
-      <node ref="L7" pin="1"/>
-      <node ref="L10" pin="1"/>
-      <node ref="L9" pin="1"/>
-      <node ref="L3" pin="1"/>
-      <node ref="L4" pin="1"/>
-      <node ref="L12" pin="1"/>
-      <node ref="L11" pin="1"/>
-      <node ref="L14" pin="1"/>
-      <node ref="L13" pin="1"/>
-      <node ref="L1" pin="1"/>
+    <net code="134" name="LED_VDD">
       <node ref="L16" pin="1"/>
-      <node ref="L2" pin="1"/>
+      <node ref="L30" pin="1"/>
+      <node ref="L6" pin="1"/>
+      <node ref="L3" pin="1"/>
+      <node ref="L5" pin="1"/>
+      <node ref="L4" pin="1"/>
+      <node ref="L28" pin="1"/>
+      <node ref="L27" pin="1"/>
+      <node ref="L25" pin="1"/>
       <node ref="L15" pin="1"/>
+      <node ref="L29" pin="1"/>
+      <node ref="L26" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="JP3" pin="2"/>
+      <node ref="L2" pin="1"/>
+      <node ref="L8" pin="1"/>
+      <node ref="L18" pin="1"/>
+      <node ref="L7" pin="1"/>
+      <node ref="L17" pin="1"/>
+      <node ref="L10" pin="1"/>
+      <node ref="L20" pin="1"/>
+      <node ref="L9" pin="1"/>
+      <node ref="L19" pin="1"/>
+      <node ref="L12" pin="1"/>
+      <node ref="L22" pin="1"/>
+      <node ref="L11" pin="1"/>
+      <node ref="L21" pin="1"/>
+      <node ref="L14" pin="1"/>
+      <node ref="L24" pin="1"/>
+      <node ref="L13" pin="1"/>
+      <node ref="L23" pin="1"/>
     </net>
-    <net code="136" name="Net-(L16-Pad2)">
+    <net code="135" name="LED_connection">
+      <node ref="L17" pin="4"/>
       <node ref="L16" pin="2"/>
     </net>
-    <net code="137" name="Net-(L15-Pad2)">
-      <node ref="L15" pin="2"/>
+    <net code="136" name="Net-(L15-Pad2)">
       <node ref="L16" pin="4"/>
+      <node ref="L15" pin="2"/>
     </net>
-    <net code="138" name="Net-(TR_1-Pad1)">
-      <node ref="TR_1" pin="1"/>
-    </net>
-    <net code="139" name="Net-(TR_1-Pad2)">
-      <node ref="TR_1" pin="2"/>
-    </net>
-    <net code="140" name="Net-(TR_2-Pad1)">
-      <node ref="TR_2" pin="1"/>
-    </net>
-    <net code="141" name="Net-(TR_2-Pad2)">
-      <node ref="TR_2" pin="2"/>
-    </net>
-    <net code="142" name="Net-(U4-Pad39)">
+    <net code="137" name="Net-(U4-Pad39)">
       <node ref="U4" pin="39"/>
     </net>
-    <net code="143" name="Net-(U4-Pad37)">
+    <net code="138" name="Net-(U4-Pad37)">
       <node ref="U4" pin="37"/>
     </net>
-    <net code="144" name="Net-(U4-Pad36)">
+    <net code="139" name="Net-(U4-Pad36)">
       <node ref="U4" pin="36"/>
     </net>
-    <net code="145" name="Net-(U4-Pad35)">
+    <net code="140" name="Net-(U4-Pad35)">
       <node ref="U4" pin="35"/>
     </net>
-    <net code="146" name="Net-(U4-Pad33)">
+    <net code="141" name="Net-(U4-Pad33)">
       <node ref="U4" pin="33"/>
     </net>
-    <net code="147" name="Net-(U4-Pad30)">
+    <net code="142" name="Net-(U4-Pad30)">
       <node ref="U4" pin="30"/>
     </net>
-    <net code="148" name="Net-(U4-Pad41)">
+    <net code="143" name="Net-(U4-Pad41)">
       <node ref="U4" pin="41"/>
     </net>
-    <net code="149" name="Net-(U4-Pad43)">
+    <net code="144" name="Net-(U4-Pad43)">
       <node ref="U4" pin="43"/>
     </net>
-    <net code="150" name="PICO_8">
-      <node ref="J2" pin="1"/>
+    <net code="145" name="PICO_8">
       <node ref="U4" pin="11"/>
+      <node ref="J2" pin="1"/>
     </net>
-    <net code="151" name="PICO_9">
-      <node ref="J2" pin="2"/>
+    <net code="146" name="PICO_9">
       <node ref="U4" pin="12"/>
+      <node ref="J2" pin="2"/>
     </net>
-    <net code="152" name="PICO_10">
+    <net code="147" name="PICO_10">
       <node ref="U4" pin="14"/>
       <node ref="J2" pin="3"/>
     </net>
-    <net code="153" name="PICO_11">
-      <node ref="U4" pin="15"/>
+    <net code="148" name="PICO_11">
       <node ref="J2" pin="4"/>
+      <node ref="U4" pin="15"/>
     </net>
-    <net code="154" name="Net-(U4-Pad26)">
+    <net code="149" name="Net-(U4-Pad26)">
       <node ref="U4" pin="26"/>
     </net>
-    <net code="155" name="PICO_VBUS">
+    <net code="150" name="PICO_VBUS">
       <node ref="U4" pin="40"/>
       <node ref="JP3" pin="1"/>
     </net>
-    <net code="156" name="Net-(U4-Pad42)">
+    <net code="151" name="Net-(U4-Pad42)">
       <node ref="U4" pin="42"/>
+    </net>
+    <net code="152" name="Net-(L18-Pad2)">
+      <node ref="L18" pin="2"/>
+      <node ref="L19" pin="4"/>
+    </net>
+    <net code="153" name="Net-(L17-Pad2)">
+      <node ref="L18" pin="4"/>
+      <node ref="L17" pin="2"/>
+    </net>
+    <net code="154" name="Net-(L20-Pad2)">
+      <node ref="L20" pin="2"/>
+      <node ref="L21" pin="4"/>
+    </net>
+    <net code="155" name="Net-(L19-Pad2)">
+      <node ref="L20" pin="4"/>
+      <node ref="L19" pin="2"/>
+    </net>
+    <net code="156" name="Net-(L22-Pad2)">
+      <node ref="L23" pin="4"/>
+      <node ref="L22" pin="2"/>
+    </net>
+    <net code="157" name="Net-(L21-Pad2)">
+      <node ref="L21" pin="2"/>
+      <node ref="L22" pin="4"/>
+    </net>
+    <net code="158" name="Net-(L24-Pad2)">
+      <node ref="L24" pin="2"/>
+      <node ref="L25" pin="4"/>
+    </net>
+    <net code="159" name="Net-(L23-Pad2)">
+      <node ref="L24" pin="4"/>
+      <node ref="L23" pin="2"/>
+    </net>
+    <net code="160" name="Net-(L26-Pad2)">
+      <node ref="L26" pin="2"/>
+      <node ref="L27" pin="4"/>
+    </net>
+    <net code="161" name="Net-(L25-Pad2)">
+      <node ref="L26" pin="4"/>
+      <node ref="L25" pin="2"/>
+    </net>
+    <net code="162" name="Net-(L28-Pad2)">
+      <node ref="L28" pin="2"/>
+      <node ref="L29" pin="4"/>
+    </net>
+    <net code="163" name="Net-(L27-Pad2)">
+      <node ref="L27" pin="2"/>
+      <node ref="L28" pin="4"/>
+    </net>
+    <net code="164" name="Net-(L29-Pad2)">
+      <node ref="L30" pin="4"/>
+      <node ref="L29" pin="2"/>
+    </net>
+    <net code="165" name="Net-(L30-Pad2)">
+      <node ref="L30" pin="2"/>
     </net>
   </nets>
 </export>
