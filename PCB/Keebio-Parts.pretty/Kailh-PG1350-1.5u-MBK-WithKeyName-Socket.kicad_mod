@@ -1,11 +1,10 @@
-(module Kailh-PG1350-1.5u-MBK-WithKeyName-Socket (layer F.Cu) (tedit 61BD7C54)
+(module Kailh-PG1350-1.5u-MBK-WithKeyName-Socket (layer F.Cu) (tedit 61B1DC7F)
   (fp_text reference "Kailh PG1350" (at 0 -7.14375 180) (layer Dwgs.User) hide
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (fp_text value Choc (at 0 3.8 180) (layer Eco1.User)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (fp_line (start -2.5 1.5) (end -7 1.5) (layer B.Fab) (width 0.15))
   (fp_line (start -7 2) (end -7.8 2) (layer B.SilkS) (width 0.15))
   (fp_line (start -7.8 1.5) (end -7.8 2) (layer B.SilkS) (width 0.15))
   (fp_line (start 2.6 -6.3) (end -2.6 -6.3) (layer Eco2.User) (width 0.15))
@@ -63,9 +62,9 @@
   (pad "" np_thru_hole circle (at 0 5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -5 3.75) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   (model /Users/danny/Documents/proj/custom-keyboard/kicad-libs/3d_models/mx-switch.wrl
-    (offset (xyz 7.4676 7.4676 5.9436))
+    (offset (xyz 7.4675998878479 7.4675998878479 5.943599910736085))
     (scale (xyz 0.4 0.4 0.4))
-    (rotate (xyz 90 0 180))
+    (rotate (xyz 270 0 180))
   )
   (model /Users/danny/Documents/proj/custom-keyboard/kicad-libs/3d_models/SA-R3-1u.wrl
     (offset (xyz 0 0 11.93799982070923))
@@ -75,7 +74,7 @@
   (model ${KIPRJMOD}/locallib.pretty/SW_Kailh_Choc_V1.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
+    (rotate (xyz 0 0 0))
   )
   (model ${KIPRJMOD}/locallib.pretty/kailh-socket-choc.stp
     (offset (xyz -2 -6.75 -3.55))
