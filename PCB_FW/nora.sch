@@ -5658,4 +5658,66 @@ LEDtoR5
 NoConn ~ 20800 1875
 Text GLabel 20800 2375 2    50   Input ~ 0
 LED
+Text Notes 5175 8950 0    100  ~ 20
+SPEAKER
+$Comp
+L Device:Speaker LS1
+U 1 1 61FE71B5
+P 5425 9525
+F 0 "LS1" H 5388 9108 50  0000 C CNN
+F 1 "Speaker" H 5388 9199 50  0000 C CNN
+F 2 "Buzzer_Beeper:Buzzer_Murata_PKMCS0909E4000-R1" H 5425 9325 50  0001 C CNN
+F 3 "~" H 5415 9475 50  0001 C CNN
+	1    5425 9525
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D99
+U 1 1 61FE96E5
+P 5875 9525
+F 0 "D99" V 5829 9595 50  0000 L CNN
+F 1 "D_Small" V 5920 9595 50  0000 L CNN
+F 2 "locallib:D_SOD-123-Pretty_No_Reference" V 5875 9525 50  0001 C CNN
+F 3 "~" V 5875 9525 50  0001 C CNN
+	1    5875 9525
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 61FEC55C
+P 6250 9625
+F 0 "#PWR022" H 6250 9375 50  0001 C CNN
+F 1 "GND" H 6255 9452 50  0000 C CNN
+F 2 "" H 6250 9625 50  0001 C CNN
+F 3 "" H 6250 9625 50  0001 C CNN
+	1    6250 9625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 61FEE4F5
+P 6250 9425
+F 0 "R7" V 6054 9425 50  0000 C CNN
+F 1 "1k" V 6145 9425 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6250 9425 50  0001 C CNN
+F 3 "~" H 6250 9425 50  0001 C CNN
+	1    6250 9425
+	0    1    1    0   
+$EndComp
+Text GLabel 6575 9425 2    50   Input ~ 0
+Reserve_pin
+Wire Wire Line
+	6575 9425 6350 9425
+Wire Wire Line
+	6150 9425 5875 9425
+Connection ~ 5875 9425
+Wire Wire Line
+	5875 9425 5625 9425
+Wire Wire Line
+	5625 9525 5625 9625
+Wire Wire Line
+	5625 9625 5875 9625
+Wire Wire Line
+	5875 9625 6250 9625
+Connection ~ 5875 9625
 $EndSCHEMATC
