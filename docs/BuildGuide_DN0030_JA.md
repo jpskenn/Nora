@@ -3,7 +3,7 @@
 購入していただいた方、リポジトリから製造していただいた方、その他の皆様、Noraに興味を持っていただきありがとうございます。
 
 このドキュメントは、Nora, Fearless Wings (DN0030)を組み立てるためのビルドガイドです。  
-Noraのコンセプトや特徴、ビルド例などについては、[Nora README](https://github.com/jpskenn/Nora/README.md)をご覧ください。
+Noraのコンセプトや特徴、ビルド例などについては、[README](https://github.com/jpskenn/Nora/README.md)をご覧ください。
 
 ビルドガイド全体に目を通して作業手順を把握しておくとミスの防止につながりますので、ぜひ、一度お読みになってから組み立て作業を始めてください。
 
@@ -77,16 +77,16 @@ Noraのコンセプトや特徴、ビルド例などについては、[Nora READ
   - Raspberry Pi PICOによる動作（実験的機能）
 - 細かな部品を実装済み
 
----
-
 ## 注意事項、制限など
 
 - キーキャップ
+
   MBK、またはそれ以下のサイズのキーキャップに合わせて設計されています。  
-  Kailh製のロープロファイルキーキャップ（例：[Kailhロープロ刻印キーキャップ](https://shop.yushakobo.jp/collections/keycaps/products/pg1350cap-doubleshot)）は隣同士のキーが干渉する可能性があるため、ご自身の責任で使用してください。  
-  （こちらで試した限りではギリギリ干渉しない程度のクリアランスがありましたが、ギリギリすぎて保証できかねます。）
+  Kailh製のロープロファイルキーキャップ（[遊舎工房：Kailhロープロ刻印キーキャップ](https://shop.yushakobo.jp/collections/keycaps/products/pg1350cap-doubleshot)）は隣同士のキーが干渉する可能性があるため、ご自身の責任で使用してください。  
+  （こちらで試した限りでは全てのキーが干渉せずに使用できましたが、ギリギリすぎるため保証できかねます。）
 
 - スイッチの加工
+
   GH60型, Poker型ケースを使用する場合、ケース中央のネジ穴に重なるスイッチは、スイッチの足の加工（切断）が必要です。
 
 - ケースへの取り付け
@@ -101,14 +101,12 @@ Noraのコンセプトや特徴、ビルド例などについては、[Nora READ
   ハイプロファイルタイプのケースは実用に向かないため、使用対象外としています。  
   （[TOFUケースへの装着例](https://twitter.com/jpskenn/status/1466729696713142277)）  
 
----
-
 ## 部品リスト
 
 このキットを組み立てるためには、”キット内容”に加え、”別途用意が必要な部品”が必要です。  
-好みに合わせて必要な数をお買い求めください。
+好みに合わせて、必要な数をお買い求めください。
 
-”オプション部品”は使いたい機能などに合わせて用意してください。  
+”オプション部品”は、使いたい機能などに応じて用意してください。  
 
 部品の購入先は、Self-Made Keyboards in Japanの[ショップリスト](https://scrapbox.io/self-made-kbds-ja/ショップリスト)などを参考にしてください。
 
@@ -117,7 +115,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[Nora READ
 | 部品名 | 個数 | 備考 |
 | ----- | :-----: | ----- |
 | ご案内リーフレット | 1 | |
-| 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_v.0.1/_DSF1269.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1269.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_v.0.1/_DSF1271.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1271.jpeg)<br>（※LEDは取り付けられていません） |
+| 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_v.0.1/_DSF1269.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1269.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_v.0.1/_DSF1271.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1271.jpeg) |
 | スイッチプレート | 1 | [おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF1267.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1267.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF1268.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1268.jpeg) |
 | スペーサーシート（シール付き）, T1mm * 550mm | 1 ||
 | 低頭ネジ, M2 4mm | 5 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_1_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_1.jpeg) |
@@ -144,20 +142,21 @@ Noraのコンセプトや特徴、ビルド例などについては、[Nora READ
 
 | 部品名 | 個数 | 備考 |
 | ----- | :-----: | ----- |
-| LED, SK6812MINI-E | 最大71 | 左上のキーから順番に、取り付けた数だけ点灯。<br>1行目と5行目だけの、25個にすることも可能（要ファームウェア変更） |
+| LED<br>SK6812MINI-E | 最大71 | 全71個<br>1行目と5行目だけの、25個にすることも可能（要ファームウェア変更） |
 | Raspberry Pi PICO | 1 | 実験的機能をDIYで楽しむ場合 |
-
----
 
 ## 組み立てに必要な工具
 
-M2ネジに対応する先の細いドライバー、ピンセット、はんだ付け関連用品などの一般的な電子工作用工具と、スペーサーシートを切断するはさみが必要です。  
-また、フラックスやハンダ吸い取り線を用意しておくと、ちょっとした修正などがやりやすくなります。
+- 先の細いドライバー（M2ネジに対応するもの）
+- ピンセット
+- はんだ付け関連用品
+- はさみ
+- ニッパー
+
+フラックスやハンダ吸い取り線を用意しておくと、ちょっとした修正などがやりやすくなります。
 [遊舎工房の工具セット](https://yushakobo.jp/shop/a9900to/)を参考に用意してください。
 
-なお、無くても組み立てはできますが、何か不具合があった場合の原因調査ではテスターが必要になることがあります。
-
----
+なお、無くても組み立てはできますが、何か不具合があった場合の原因調査ではテスターがあると便利です。
 
 ## 組み立て前の確認
 
@@ -185,6 +184,7 @@ M2ネジに対応する先の細いドライバー、ピンセット、はんだ
 <summary>確認方法：《Mac, macOS Monterey 12.0.1》</summary>
 
 1. 基板とMacをUSBケーブルで接続します。
+
     接続した際に`キーボード設定アシスタント`が表示された場合は、そのまま放っておくか、閉じます。  
     ![キーボード設定アシスタント](../assets/BuildGuide_v.0.1/keyboard_setting_assistant.png)  
 
@@ -192,19 +192,22 @@ M2ネジに対応する先の細いドライバー、ピンセット、はんだ
     `システム環境設定`から、`キーボード` → `キーボード`タブ → `キーボードの種類を変更…`ボタンを押す。
 
 1. システム情報を表示します。
-  メニューバーの``マークから、`このMacについて`を選び、表示された画面で`システムレポート…`をクリックします。  
+
+    メニューバーの``マークから、`このMacについて`を選び、表示された画面で`システムレポート…`をクリックします。  
 
 1. USBデバイスを表示します。
-  `システム情報`画面で、左側の`ハードウェア`から`USB`を選択します。
+
+    `システム情報`画面で、左側の`ハードウェア`から`USB`を選択します。
 
 1. `Nora`が接続されていることを確認します。
-  右側上部の`USB装置ツリー`で、`Nora`を探します。  
-  どこかに`Nora`と表示されていれば、正しく接続されています。  
-  
-  `USB装置ツリー`の下の方が見切れている場合があるため、スクロールして探してください。
 
-  ![Mac System Report](../assets/BuildGuide_v.0.1/macOS_SystemReport.png)
-  システム情報の表示
+    右側上部の`USB装置ツリー`で、`Nora`を探します。  
+    どこかに`Nora`と表示されていれば、正しく接続されています。  
+
+    `USB装置ツリー`の下の方が見切れている場合があるため、スクロールして探してください。
+
+    ![Mac System Report](../assets/BuildGuide_v.0.1/macOS_SystemReport.png)
+    システム情報の表示
 
 </details>
 
@@ -214,13 +217,15 @@ M2ネジに対応する先の細いドライバー、ピンセット、はんだ
 1. 基板とPCをUSBケーブルで接続します。
 
 1. `デバイス`を表示します。
-  `スタートボタン`から`設定`を開いて`デバイス`を選択します。
+
+    `スタートボタン`から`設定`を開いて`デバイス`を選択します。
 
 1. `Nora`が接続されていることを確認します。
-  `マウス、キーボード、ペン`の項目に`Nora`が表示されていれば、正しく認識されています。
-  〓SS撮り直し  
-  ![Windows Devices](../assets/BuildGuide_v.0.1/win10_Devices.png)  
-  デバイスの表示
+
+    `マウス、キーボード、ペン`の項目に`Nora`が表示されていれば、正しく認識されています。
+    〓SS撮り直し  
+    ![Windows Devices](../assets/BuildGuide_v.0.1/win10_Devices.png)  
+    デバイスの表示
 
 </details>
 
@@ -240,32 +245,39 @@ Kailh Chocソケット用のパッド（ソケットをはんだ付けする基�
 1. PCやMacとUSBケーブルで接続します。
 
 1. Google Chromeブラウザで、[Remap](https://remap-keys.app/)のページを開きます。
-  Chromeブラウザは、Web HID対応のバージョン89以降を使用します。
-  〓Edgeどうなん？
+
+    Chromeブラウザは、Web HID対応のバージョン89以降を使用します。
+    〓Edgeどうなん？
 
 1. `START REMAP FOR YOUR KEYBOARD`をクリックして始めます。
-  ![START REMAP FOR YOUR KEYBOARD](../assets/BuildGuide_v.0.4/Remap_start.png)
+
+    ![START REMAP FOR YOUR KEYBOARD](../assets/BuildGuide_v.0.4/Remap_start.png)
 
 1. `+ KEYBOARD`をクリックして、キーボードをRemapに接続する画面を表示します。
-  ![+ KEYBOARD](../assets/BuildGuide_v.0.4/Remap_connect.png)〓画像
+
+    ![+ KEYBOARD](../assets/BuildGuide_v.0.4/Remap_connect.png)〓画像
 
 1. デバイスへの接続要求画面で`Nora`を選択し、`接続`をクリックしてキーボードをRemapに接続します。
-  ![デバイスへの接続要求](../assets/BuildGuide_v.0.4/Remap_connect2.png)〓画像
+
+    ![デバイスへの接続要求](../assets/BuildGuide_v.0.4/Remap_connect2.png)〓画像
 
 1. 右側のアイコンから`…`をクリックし、`Test Matrix mode`を選択します。
-  ![Test Matrix Mode](../assets/BuildGuide_v.0.1/Remap_TestMatrix.png)〓画像
+
+    ![Test Matrix Mode](../assets/BuildGuide_v.0.1/Remap_TestMatrix.png)〓画像
 
 1. ピンセットなどの電気を通すものを使い、基板裏側のソケット用パッドをショートさせます。
-  ![](../assets/BuildGuide_v.0.4/_DSF0134.jpeg)〓画像
-  ピンセットを使ってショートさせる様子
 
-1. Remapの画面で、ショートさせた箇所に対応するキーの色が変わることを確認します。  
-  *基板が裏側になっているので、画面ではキーの位置が反対になります。*
-  ![キーの色が変わる](../assets/BuildGuide_v.0.4/Remap_TestMatrix2.png)〓画像
-  パッドをショートしても反応がない場合は、基板に実装された部品が外れたり、配線がダメージを受けている可能性があります。  
-  この確認作業をすべてのパッドでおこなった後、リーフレットに記載された連絡先へ問い合わせてください。
+    ![ピンセットを使ってショートさせる様子](../assets/BuildGuide_v.0.4/_DSF0134.jpeg)
+    ピンセットを使ってショートさせる様子〓画像更新
 
-1. 同様の作業を繰り返し、全てのキーの色が変わることを確認します。  
+1. Remapの画面で、ショートさせた箇所に対応するキーの色が変わることを確認します。
+
+    *基板が裏側になっているので、画面ではキーの位置が反対になります。*
+    ![キーの色が変わる](../assets/BuildGuide_v.0.4/Remap_TestMatrix2.png)〓画像
+    パッドをショートしても反応がない場合は、基板に実装された部品が外れたり、配線がダメージを受けている可能性があります。  
+    この確認作業をすべてのパッドでおこなった後、リーフレットに記載された連絡先へ問い合わせてください。
+
+1. 同様の作業を繰り返し、全てのキーの色が変わることを確認します。
 
 1. 確認が終わったら、USBケーブルを抜きます。
 
