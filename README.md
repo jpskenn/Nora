@@ -109,7 +109,7 @@ Cherry 1800のように、アルファ部の右側にテンキーを配置し、
 
 #### Nora, Fearless Wings
 
-![Layout, Nora, Fearless Wings](./assets/Readme/layout.png)
+![Layout, Nora, Fearless Wings](./assets/Readme/layout_fw.png)
 
 中央に3列分のキーを配置し、左右に大きく離れたアルファ部が特徴のレイアウトです。
 
