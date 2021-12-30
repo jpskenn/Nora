@@ -1,6 +1,6 @@
 (footprint "YS-SK6812MINI-E_with_reflection_paint_small_pad_turned" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61CE25D3)
+  (tedit 61CE2E7E)
   (attr through_hole)
   (fp_text reference "REF**" (at 0 2.8) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -66,10 +66,10 @@
       (xy -5.9 0.55)
     ) (layer "B.SilkS") (width 0.1) (fill solid) (tstamp 4c24222a-4e7e-434f-98b9-9f771246bab5))
   (fp_poly (pts
-      (xy -3.6 2.2)
+      (xy -1.8 2.2)
       (xy -4.55 2.2)
       (xy -4.55 -2.2)
-      (xy -3.6 -2.2)
+      (xy -1.8 -2.2)
     ) (layer "B.SilkS") (width 0.1) (fill solid) (tstamp 674c0988-ebf7-4640-b46d-98d0676d80f2))
   (fp_poly (pts
       (xy -5 1.15)
@@ -94,8 +94,8 @@
     ) (layer "B.SilkS") (width 0.1) (fill solid) (tstamp 976bcf72-373c-4668-a722-be93412ceadf))
   (fp_poly (pts
       (xy 6.5 2.2)
-      (xy 3.5 2.2)
-      (xy 3.5 -2.2)
+      (xy 1.8 2.2)
+      (xy 1.8 -2.2)
       (xy 6.5 -2.2)
     ) (layer "B.SilkS") (width 0.1) (fill solid) (tstamp 9d2527c1-90c9-43bd-83d7-5fe9c1f2eee8))
   (fp_poly (pts
