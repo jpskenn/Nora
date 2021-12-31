@@ -8382,7 +8382,7 @@
     (uuid 00000000-0000-0000-0000-0000614c2762)
     (property "Reference" "U1" (id 0) (at 374.015 133.7056 0))
     (property "Value" "ATmega32U4-MU" (id 1) (at 374.015 136.017 0))
-    (property "Footprint" "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" (id 2) (at 374.015 85.725 0)
+    (property "Footprint" "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" (id 2) (at 374.015 85.725 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" (id 3) (at 374.015 85.725 0)
@@ -13964,7 +13964,7 @@
       (reference "SW_78") (unit 1) (value "RSFT") (footprint "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket")
     )
     (path "/00000000-0000-0000-0000-0000614c2762"
-      (reference "U1") (unit 1) (value "ATmega32U4-MU") (footprint "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm")
+      (reference "U1") (unit 1) (value "ATmega32U4-MU") (footprint "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.15x5.15mm")
     )
     (path "/00000000-0000-0000-0000-000060af01f9"
       (reference "U2") (unit 1) (value "24LC64") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
