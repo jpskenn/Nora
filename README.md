@@ -173,8 +173,9 @@ Raspberry Pi PICOによる動作を実験的機能として提供します。
 
 | ビルド例 | 詳細 |
 | --- | :-- |
-| [<img src="./assets/Readme/DSC_7457.jpeg" width="300">]((./assets/Readme/DSC_7457.jpeg)) | 試作1号機<br>case: KBDfans 60% Aluminum Low Profile, Gray<br>keycaps: MBK Colors & Self Dye |
-| [<img src="./assets/Readme/IMG_3798.jpeg" width="300">]((./assets/Readme/IMG_3798.jpeg)) | 試作1号機<br>case: Jones' Bottom plate<br>keycaps: MBK Colors & Self Dye |
+| [<img src="./assets/Readme/DSC_7457.jpeg" width="300">]((./assets/Readme/DSC_7457.jpeg)) | Nora, 1800（試作）<br>case: KBDfans 60% Aluminum Low Profile, Gray<br>keycaps: MBK Colors & Self Dye |
+| [<img src="./assets/Readme/IMG_3798.jpeg" width="300">]((./assets/Readme/IMG_3798.jpeg)) | Nora, 1800（試作）<br>case: Jones' Bottom plate<br>keycaps: MBK Colors & Self Dye |
+| [<img src="./assets/Readme/_DSF1357.jpeg" width="300">]((./assets/Readme/_DSF1357.jpeg)) | Nora, 1800（試作）<br>case: Jones' Bottom plate<br>keycaps: Kailh low profile |
 
 ## 製作歴
 
