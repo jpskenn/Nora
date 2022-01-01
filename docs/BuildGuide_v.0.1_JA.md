@@ -128,7 +128,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_v.0.1/_DSF1269.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1269.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_v.0.1/_DSF1271.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1271.jpeg)<br>（※LEDは取り付けられていません） |
 | スイッチプレート | 1 | [おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF1267.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1267.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF1268.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1268.jpeg) |
 | Choc用スタビライザー<br>2uサイズ | 2 | [<img alt="" src="../assets/BuildGuide_v.0.1/IMG_3852.jpeg" width="300">](../assets/BuildGuide_v.0.1/IMG_3852.jpeg) |
-| スペーサーシート（シール付き）, T1mm * 500mm | 1 ||
+| スペーサーシート（シール付き）, T1mm * 500mm * 10mm | 1 ||
 | 低頭ネジ, M2 4mm | 5 | 主にGH60型ケースとの組み合わせ用 |
 | 低頭ネジ, M2 3mm | 8 | 主にJones用ボトムプレートとの組み合わせ用 |
 | Mill-Maxソケット 金色<br>7305-0-15-15-47-27-10-0 | 12 | 鍔が薄い |
