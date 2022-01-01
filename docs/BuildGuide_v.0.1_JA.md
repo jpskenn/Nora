@@ -276,7 +276,7 @@ ESD取り付け方向
 いずれかの方法でファームウェアを用意します。
 
 - Remap / VIA対応のビルド済みファームウェアをダウンロードする。
-  [Nora v.0.1 ビルド済みファームウェア](〓リンク)
+  [Nora v.0.1 ビルド済みファームウェア](https://gist.github.com/jpskenn/a2b5fe920d72f23244ac4f5b38f8a0d8)
 
 - ソースからビルドする
   [keyboards/nora/v01](https://github.com/jpskenn/qmk_firmware/tree/develop_Nora/keyboards/nora/v01)
@@ -475,12 +475,11 @@ LEDが傾いてしまった場合は、ピンセットでLEDをつまみ、は�
 
 #### LEDの動作確認
 
-〓デフォファームでRGB Lightingの赤が表示されるの確認
 LEDが正しく取り付けられているか、動作確認をおこないます。
 
 USBケーブルを接続します。
 
-この時点ですべてのLEDが赤色に点灯していれば、ひとまずOKです。  
+左端のLED1個が白色、残りのLED15個が赤色に点灯していれば正常です。  
 点灯しいないLEDがある場合は、[トラブル対応：LEDの取り付け不良調査](#トラブル対応LEDの取り付け不良調査)を参考にして調査します。
 
 </details>
@@ -1009,12 +1008,11 @@ NoraキーボードでDFU (Bootloader)モードにするには、次のように
 
 ### 資料：Noraキーボードのファームウェア
 
-〓更新
 ビルド済みファームウェアと、ソースファイルを用意しています。
 
 #### ビルド済みのファームウェア
 
-- [Nora v1 ファームウェア, VIA対応デフォルト](https://gist.github.com/jpskenn/3fcebf6a7c17f1a8433a8d954e05206f)
+- [Nora v1 ファームウェア, VIA対応デフォルト](https://gist.github.com/jpskenn/a2b5fe920d72f23244ac4f5b38f8a0d8)
 
 #### ファームウェアのソース
 
