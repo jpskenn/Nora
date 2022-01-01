@@ -117,7 +117,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | ご案内リーフレット | 1 | |
 | 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_v.0.1/_DSF1269.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1269.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_v.0.1/_DSF1271.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1271.jpeg) |
 | スイッチプレート | 1 | [おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF1267.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1267.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF1268.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1268.jpeg) |
-| スペーサーシート（シール付き）, T1mm * 550mm | 1 ||
+| スペーサーシート（シール付き）, T1mm * 550mm * 1mm | 1 ||
 | 低頭ネジ, M2 4mm | 5 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_1_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_1.jpeg) |
 | Jones / Nora用ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF0644.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0644.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF0654.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0654.jpeg)<br>基本＋プレートキットのみ同梱 |
 | スペーサー, M2 3mm | 8 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_0_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_0.jpeg) <br>基本＋プレートキットのみ同梱|
