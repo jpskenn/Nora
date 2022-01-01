@@ -259,6 +259,12 @@ Kailh Chocソケット用のパッド（ソケットをはんだ付けする基�
 
     ![+ KEYBOARD](../assets/BuildGuide_v.0.4/Remap_connect.png)〓画像
 
+1. キーボード定義ファイルの読み込み画面が表示された場合は次のファイルを読み込みます。
+    ![IMPORT](../assets/BuildGuide_DN0030/Remap_import.png)
+    1. [nora_via_v03.json](https://gist.github.com/jpskenn/8007f79157319fe32eac469df74d5b49)をダウンロードします。  
+    1. ZIPファイルを展開して、`nora_via_v03.json`ファイルを取り出します。
+    1. `IMPORT(.JSON)`を押すか、ファイルをドロップして読み込みます。
+
 1. デバイスへの接続要求画面で`Nora`を選択し、`接続`をクリックしてキーボードをRemapに接続します。
 
     ![デバイスへの接続要求](../assets/BuildGuide_v.0.4/Remap_connect2.png)〓画像
