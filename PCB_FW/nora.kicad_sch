@@ -7838,7 +7838,7 @@
     (uuid 00000000-0000-0000-0000-00005f6b0365)
     (property "Reference" "SW_1" (id 0) (at 29.845 30.861 0))
     (property "Value" "ESC" (id 1) (at 29.845 33.1724 0))
-    (property "Footprint" "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-ForLeftEdge2" (id 2) (at 29.845 33.02 0)
+    (property "Footprint" "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-ForLeftEdge" (id 2) (at 29.845 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 29.845 33.02 0)
@@ -8592,7 +8592,7 @@
     (uuid 00000000-0000-0000-0000-000061ad1b1e)
     (property "Reference" "SW_3" (id 0) (at 29.845 95.631 0))
     (property "Value" "LSFT" (id 1) (at 29.845 97.9424 0))
-    (property "Footprint" "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-ForLeftEdge2" (id 2) (at 29.845 97.79 0)
+    (property "Footprint" "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-ForLeftEdge" (id 2) (at 29.845 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 29.845 97.79 0)
@@ -13751,10 +13751,10 @@
       (reference "ResetSW1") (unit 1) (value "5.2x5.2mm") (footprint "Button_Switch_SMD:SW_SPST_TL3342")
     )
     (path "/00000000-0000-0000-0000-00005f6b0365"
-      (reference "SW_1") (unit 1) (value "ESC") (footprint "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-ForLeftEdge2")
+      (reference "SW_1") (unit 1) (value "ESC") (footprint "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-ForLeftEdge")
     )
     (path "/00000000-0000-0000-0000-000061ad1b1e"
-      (reference "SW_3") (unit 1) (value "LSFT") (footprint "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-ForLeftEdge2")
+      (reference "SW_3") (unit 1) (value "LSFT") (footprint "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-ForLeftEdge")
     )
     (path "/00000000-0000-0000-0000-000061aaf91e"
       (reference "SW_5") (unit 1) (value "1") (footprint "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket")
