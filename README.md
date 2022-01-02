@@ -6,8 +6,8 @@ Nora（ノラ）は、Choc v1 ロープロファイルスイッチを使用す�
 MBK、またはそれ以下のサイズのキーキャップに合わせて設計されています。  
 60%キーボードのケースに、通常よりも1列多い16列のキーがおさまっています。
 
-Noraには、レイアウトの違いで”1800”と”Fearless Wings”というふたつのバリエーションがあります。  
-どちらも2行目と3行目にずれのない[Jones](https://github.com/jpskenn/Jones)のレイアウトを継承しており、”1800”はCherry 1800風のカーソルとテンキーをもち、”Fearless Wings”は左右に大きく離れたアルファ部をもつのが特徴です。
+Noraには、レイアウトの違いで”1.8k”と”Fearless Wings”というふたつのバリエーションがあります。  
+どちらも2行目と3行目にずれのない[Jones](https://github.com/jpskenn/Jones)のレイアウトを継承しており、”1.8k”はテンキーと飛び出したカーソルキーをもち、”Fearless Wings”は左右に大きく離れたアルファ部をもつのが特徴です。
 
 狭いキーピッチによって、TやYなどのホームポジションから遠いキーや、一番上の行の数字や記号キーにも、指がとどきやすくなっています。  
 また、打鍵時に指を大きく伸ばしたり手首の位置を変えたりする動作が減ることで、指・手首・肘のポジションを一定の位置に保ったまま打鍵を続けられます。
@@ -24,16 +24,14 @@ Narrow Jones --> Norah Jones --> Norah --> Nora
 
 という具合の言葉遊びで、Nora（ノラ）に決まりました。
 
-バリエーション名の”1800”は、文字通りCherry 1800のモデル名から、また、”Fearless Wings”には、翼のように左右に広げたホームポジションによって肩や腕への負担を減らし、何事にも恐れずに打鍵を続けられるように…という気持ちを込めています。
-
 ---
 
 Nora is a narrow pitch 65% keyboard with Choc v1 low profile switches, designed for MBK or smaller keycaps.
 16 columns, one more column to normal 60% keyboards, in 60% case.
 
-There exist two layout variations, "1800" and "Fearless Wings".  
+There exist two layout variations, "1.8k" and "Fearless Wings".  
 Both inherit [Jones](https://github.com/jpskenn/Jones)' symmetrical layout with gapless R1-R2 rows.  
-The "1800" has Cherry 1800 like cursor and numeric pad.  
+The "1.8k" has numeric pad and projecting cursor .  
 The "Fearless Wings" has widely separated alpha keys.
 
 Narrow pitch makes fingers easy to reach keys far from home position, "T" and "Y", R1 numerics and symbols.  
@@ -97,11 +95,11 @@ It can be used with GH60 and Poker compatible low profile cases or original bott
 
 狭ピッチの一体型65%キーボードというコンセプトを元に、ふたつのレイアウトバリエーションが存在します。
 
-#### Nora, 1800
+#### Nora, 1.8k
 
-![Layout, Nora, 1800](./assets/Readme/layout.png)
+![Layout, Nora, 1.8k](./assets/Readme/layout.png)
 
-Cherry 1800のように、アルファ部の右側にテンキーを配置し、少し下へ飛びだしたカーソルキーが特徴のレイアウトです。  
+アルファ部の右側にテンキーを配置し、少し下へ飛びだしたカーソルキーが特徴のレイアウトです。  
 
 独立したカーソルとテンキー
 
@@ -153,7 +151,7 @@ GH60型やPoker型に互換性のある、ロープロファイルケースに�
 
 レイヤーの状態を表示するインジケータや、イルミネーションとして使用できるLEDを、キースイッチの下へ取り付けできます。
 
-”1800”は1行目と5行目に合計31個、”Fearless Wings”はすべてのキーに合計71個のLEDを取り付けできます。
+”1.8k”は1行目と5行目に合計31個、”Fearless Wings”はすべてのキーに合計71個のLEDを取り付けできる予定です。
 
 ### Raspberry Pi PICOによる動作（実験的機能）
 
@@ -166,16 +164,16 @@ Raspberry Pi PICOによる動作を実験的機能として提供します。
 
 ## ビルドガイド
 
-- [Nora, 1800 v.0.1 ビルドガイド](./docs/BuildGuide_v.0.1_JA.md)
+- [Nora, 1.8k v.0.1 ビルドガイド](./docs/BuildGuide_v.0.1_JA.md)
 - [Nora, Fearless Wings DN0030 ビルドガイド](./docs/BuildGuide_DN0030_JA.md)
 
 ## ビルド例
 
 | ビルド例 | 詳細 |
 | --- | :-- |
-| [<img src="./assets/Readme/DSC_7457.jpeg" width="300">]((./assets/Readme/DSC_7457.jpeg)) | Nora, 1800（試作）<br>case: KBDfans 60% Aluminum Low Profile, Gray<br>keycaps: MBK Colors & Self Dye |
-| [<img src="./assets/Readme/IMG_3798.jpeg" width="300">]((./assets/Readme/IMG_3798.jpeg)) | Nora, 1800（試作）<br>case: Jones' Bottom plate<br>keycaps: MBK Colors & Self Dye |
-| [<img src="./assets/Readme/_DSF1357.jpeg" width="300">]((./assets/Readme/_DSF1357.jpeg)) | Nora, 1800（試作）<br>case: Jones' Bottom plate<br>keycaps: Kailh low profile |
+| [<img src="./assets/Readme/DSC_7457.jpeg" width="300">]((./assets/Readme/DSC_7457.jpeg)) | Nora, 1.8k（試作）<br>case: KBDfans 60% Aluminum Low Profile, Gray<br>keycaps: MBK Colors & Self Dye |
+| [<img src="./assets/Readme/IMG_3798.jpeg" width="300">]((./assets/Readme/IMG_3798.jpeg)) | Nora, 1.8k（試作）<br>case: Jones' Bottom plate<br>keycaps: MBK Colors & Self Dye |
+| [<img src="./assets/Readme/_DSF1357.jpeg" width="300">]((./assets/Readme/_DSF1357.jpeg)) | Nora, 1.8k（試作）<br>case: Jones' Bottom plate<br>keycaps: Kailh low profile |
 
 ## 製作歴
 
@@ -185,16 +183,16 @@ Raspberry Pi PICOによる動作を実験的機能として提供します。
     全キーへLEDを配置。  
     Jonesとの共用ボトムプレートを、PICOの取り付けに対応する切り欠きをつけて更新。
 
-- 1800 DN0020
+- 1.8k DN0020
 
-    1800 v.0.1の試作結果を反映。  
+    1.8k v.0.1の試作結果を反映。  
     全キーをKailhソケットに変更。  
     現在のところ基板設計のみ。未製造。
 
-- 1800 v.0.1, 2021年12月3日
+- 1.8k v.0.1, 2021年12月3日
 
     試作1号機、完成。
 
-- 1800 v.0, 2021年11月上旬
+- 1.8k v.0, 2021年11月上旬
 
     60%ケースにChocスイッチを配置して、65%キーボードにするアイデアを思いつく。
