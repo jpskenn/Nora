@@ -1,6 +1,6 @@
 (footprint "Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61D36A6D)
+  (tedit 61D8B182)
   (attr through_hole)
   (fp_text reference "SW_59" (at 0 -7.14375 180) (layer "Dwgs.User") hide
     (effects (font (size 1 1) (thickness 0.2)))
@@ -126,8 +126,8 @@
     ) (layer "F.SilkS") (width 0.1) (fill solid) (tstamp 86eab6af-d811-4edd-be37-bbb25811dc4a))
   (fp_poly (pts
       (xy 4.54 -6.9)
-      (xy 2 -6.9)
-      (xy 2 -2.5)
+      (xy 2.05 -6.9)
+      (xy 2.05 -2.5)
       (xy 4.54 -2.5)
     ) (layer "F.SilkS") (width 0.1) (fill solid) (tstamp 9bc57290-a3a5-42fa-8c52-9455609fc9b0))
   (fp_poly (pts

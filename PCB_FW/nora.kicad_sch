@@ -13270,7 +13270,7 @@
     (uuid c31541b0-05b3-4f9a-a5ca-240448e17a33)
     (property "Reference" "RE_42" (id 0) (at 105.41 266.5435 0))
     (property "Value" "RotaryEncoder_Switch" (id 1) (at 105.41 269.3186 0))
-    (property "Footprint" "locallib:RotaryEncoder_Alps_EC11K-Switch_Vertical_H20mm" (id 2) (at 101.6 271.526 0)
+    (property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" (id 2) (at 101.6 271.526 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 105.41 268.986 0)
@@ -14165,7 +14165,7 @@
       (reference "R9") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/c31541b0-05b3-4f9a-a5ca-240448e17a33"
-      (reference "RE_42") (unit 1) (value "RotaryEncoder_Switch") (footprint "locallib:RotaryEncoder_Alps_EC11K-Switch_Vertical_H20mm")
+      (reference "RE_42") (unit 1) (value "RotaryEncoder_Switch") (footprint "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm")
     )
     (path "/00000000-0000-0000-0000-00005b323aa5"
       (reference "ResetSW1") (unit 1) (value "5.2x5.2mm") (footprint "Button_Switch_SMD:SW_SPST_TL3342")
