@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.8,
-          "height": 2.0,
-          "width": 3.2
+          "drill": 1.8,
+          "height": 1.85,
+          "width": 1.85
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -388,8 +388,6 @@
           "D-",
           "GND",
           "LED",
-          "LEDtoR2",
-          "LEDtoR5",
           "PICO_VBUS",
           "VCC"
         ],
