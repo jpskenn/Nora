@@ -1,5 +1,5 @@
 Comment,Designator,Footprint,LCSC
-10uF,C1,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C15850
+10uF,C1,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C2922480
 22pF,"C2,C3",Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C1804
 0.1uF,"C4,C5,C7",Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C49678
 1uF,C6,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C28323
@@ -96,6 +96,6 @@ Enter 1.5u,SW_77,Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName-Socket-1.8mm-hol
 RSFT,SW_78,Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection,
 Z,SW_8,Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection,
 ATmega32U4-MU,U1,Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.15x5.15mm,C45874
-24LC64,U2,Package_SO:SO-8_3.9x4.9mm_P1.27mm,C79988
+24LC64,U2,Package_SO:SO-8_3.9x4.9mm_P1.27mm,C6487
 Pico,U4,MCU_RaspberryPi_and_Boards:RPi_Pico_TH_no_NPTH_SWD_less_Silk_NoCrtYd,
 16MHz,Y1,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering,C13738
