@@ -1,8 +1,8 @@
-# Nora, Fearless Wings (DN0030) ビルドガイド
+# Nora, Fearless Wings (DN0031) ビルドガイド
 
 購入していただいた方、リポジトリから製造していただいた方、その他の皆様、Noraに興味を持っていただきありがとうございます。
 
-このドキュメントは、Nora, Fearless Wings (DN0030)を組み立てるためのビルドガイドです。  
+このドキュメントは、Nora, Fearless Wings (DN0031)を組み立てるためのビルドガイドです。  
 Noraのコンセプトや特徴、ビルド例などについては、[README](https://github.com/jpskenn/Nora/README.md)をご覧ください。
 
 ビルドガイド全体に目を通して作業手順を把握しておくとミスの防止につながりますので、ぜひ、一度お読みになってから組み立て作業を始めてください。
@@ -26,7 +26,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 <!-- code_chunk_output -->
 
 - [目次](#目次)
-- [Nora, Fearless Wings (DN0030)の特徴, 機能](#nora-fearless-wings-dn0030の特徴-機能)
+- [Nora, Fearless Wings (DN0031)の特徴, 機能](#nora-fearless-wings-dn0030の特徴-機能)
 - [注意事項、制限など](#注意事項-制限など)
 - [部品リスト](#部品リスト)
   - [キット内容](#キット内容)
@@ -54,7 +54,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
   - [資料：初期ファームウェアの機能と設定値](#資料初期ファームウェアの機能と設定値)
   - [資料：Noraキーボードのファームウェア](#資料noraキーボードのファームウェア)
   - [資料：EEPROMを消去して、初期状態に戻す方法](#資料eepromを消去して-初期状態に戻す方法)
-  - [資料：Nora, Fearless Wings (DN0030)関連ファイル](#資料nora-fearless-wings-dn0030関連ファイル)
+  - [資料：Nora, Fearless Wings (DN0031)関連ファイル](#資料nora-fearless-wings-dn0030関連ファイル)
   - [資料：Raspberry Pi PICOによる動作（実験的機能）](#資料raspberry-pi-picoによる動作実験的機能)
 - [サービスマニュアル](#サービスマニュアル)
   - [パーツリスト](#パーツリスト)
@@ -64,13 +64,14 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 ---
 
-## Nora, Fearless Wings (DN0030)の特徴, 機能
+## Nora, Fearless Wings (DN0031)の特徴, 機能
 
 - 狭ピッチ
 - Jonesゆずりのキーレイアウト
-- 左右に大きく離れたアルファ部
+- 左右に離れたアルファ部
 - Choc v1スイッチと、MBK、またはそれ以下のサイズのキーキャップに合わせた専用設計
-- RemapやVIAなどのキーマップ書き換えツールに対応したファームウェアを書き込み済み
+- RemapやVIAなどのキーマップ書き換えツールに対応
+- ファームウェア書き込み済み
 - 外部EEPROM（8KB）を搭載し、十分な数のレイヤーを使用可能
 - GH60型やPoker型に互換性のあるロープロファイルケースに対応  
   専用ボトムプレートと組み合わせて、ケースレスで高さを抑えて使用することも可能。
@@ -89,18 +90,18 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 - スイッチの加工
 
-  GH60型, Poker型ケースを使用する場合、ケース中央のネジ穴に重なるスイッチは、スイッチの足の加工（切断）が必要です。
+    GH60型, Poker型ケースを使用する場合、ケース中央のネジ穴に重なるスイッチは、スイッチの足を加工（切断）して取り付けます。
 
 - ケースへの取り付け
 
-  GH60型, Poker型のネジ穴位置に対応するように設計していますが、もしかしたら取り付けできないケースがあるかもしれません。  
+  GH60型, Poker型のロープロファイルケースに対応するように設計していますが、ケース構造によっては取り付けが難しかったり取り付けできない場合があるかもしれません。  
   ここに記載していないケースへの取り付けの成功／失敗の報告を、随時募集しています。
 
   取り付け確認済みのケースは次の通りです。  
   - [KBDfans 60% ALUMINUM LOW PROFILE CASE](https://kbdfans.com/collections/60-layout-case/products/customized-gh60-aluminum-case)
   - [Jones / Nora用ボトムプレート](https://booth.pm/ja/items/〓リンク更新)
 
-  ハイプロファイルタイプのケースはキー天面がフレームよりも低くなり実用に向かないため、取り付け対象外とします。  
+  ハイプロファイルタイプのケースはキー天面がフレームよりも低く実用に向かないため、使用対象外としています。  
   参考：[TOFUケースへの装着例](https://twitter.com/jpskenn/status/1466729696713142277)
 
 ## 部品リスト
@@ -119,7 +120,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | ご案内リーフレット | 1 | |
 | 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_v.0.1/_DSF1269.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1269.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_v.0.1/_DSF1271.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1271.jpeg) |
 | スイッチプレート | 1 | [おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF1267.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1267.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF1268.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1268.jpeg) |
-| スペーサーシート（シール付き）, T1mm * 550mm * 1mm | 1 ||
+| スペーサーシート（シール付き）, 1mm厚, 600mm * 10mm | 1 | はさみなどでカットして使用 |
 | 低頭ネジ, M2 4mm | 5 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_1_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_1.jpeg) |
 | Jones / Nora用ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF0644.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0644.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF0654.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0654.jpeg)<br>基本＋プレートキットのみ同梱 |
 | スペーサー, M2 3mm | 8 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_0_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_0.jpeg) <br>基本＋プレートキットのみ同梱|
@@ -260,7 +261,7 @@ Kailh Chocソケット用のパッド（ソケットをはんだ付けする基�
     ![+ KEYBOARD](../assets/BuildGuide_v.0.4/Remap_connect.png)〓画像
 
 1. キーボード定義ファイルの読み込み画面が表示された場合は次のファイルを読み込みます。
-    ![IMPORT](../assets/BuildGuide_DN0030/Remap_import.png)
+    ![IMPORT](../assets/BuildGuide_DN0031/Remap_import.png)
     1. [nora_via_v03.json](https://gist.github.com/jpskenn/8007f79157319fe32eac469df74d5b49)をダウンロードします。  
     1. ZIPファイルを展開して、`nora_via_v03.json`ファイルを取り出します。
     1. `IMPORT(.JSON)`を押すか、ファイルをドロップして読み込みます。
@@ -803,7 +804,7 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
 テスターをお持ちの方は、疑わしい箇所をテスターで調べるのが手っ取り早い方法ですので、積極的に使用してください。
 
-〓リンクをDN0030タグとかに
+〓リンクをDN0031タグとかに
 電子工作に詳しい方であれば、[NoraのKiCadプロジェクト](https://github.com/jpskenn/Nora/tree/master/PCB)を参考にテスター等を用いて調査を進め、ジャンパ線などで配線を修復してください。
 
 #### スイッチの取り付け不良
@@ -1083,7 +1084,7 @@ R1,R5のみLED
 
 </details>
 
-### 資料：Nora, Fearless Wings (DN0030)関連ファイル
+### 資料：Nora, Fearless Wings (DN0031)関連ファイル
 
 〓リンク更新
 関連ファイルは、  
