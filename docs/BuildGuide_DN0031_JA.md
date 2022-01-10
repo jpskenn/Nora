@@ -26,7 +26,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 <!-- code_chunk_output -->
 
 - [目次](#目次)
-- [Nora, Fearless Wings (DN0031)の特徴, 機能](#nora-fearless-wings-dn0030の特徴-機能)
+- [Nora, Fearless Wings (DN0031)の特徴, 機能](#nora-fearless-wings-dn0031の特徴-機能)
 - [注意事項、制限など](#注意事項-制限など)
 - [部品リスト](#部品リスト)
   - [キット内容](#キット内容)
@@ -54,7 +54,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
   - [資料：初期ファームウェアの機能と設定値](#資料初期ファームウェアの機能と設定値)
   - [資料：Noraキーボードのファームウェア](#資料noraキーボードのファームウェア)
   - [資料：EEPROMを消去して、初期状態に戻す方法](#資料eepromを消去して-初期状態に戻す方法)
-  - [資料：Nora, Fearless Wings (DN0031)関連ファイル](#資料nora-fearless-wings-dn0030関連ファイル)
+  - [資料：Nora, Fearless Wings (DN0031)関連ファイル](#資料nora-fearless-wings-dn0031関連ファイル)
   - [資料：Raspberry Pi PICOによる動作（実験的機能）](#資料raspberry-pi-picoによる動作実験的機能)
 - [サービスマニュアル](#サービスマニュアル)
   - [パーツリスト](#パーツリスト)
