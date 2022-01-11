@@ -2235,7 +2235,6 @@
     )
   )
 
-
   (junction (at 81.28 206.375) (diameter 0) (color 0 0 0 0)
     (uuid 00185541-0a55-4e62-91d8-99e7a7720d36)
   )
@@ -11374,7 +11373,7 @@
     (property "Value" "SK6812MINI-E" (id 1) (at 126.365 172.7962 0)
       (effects (font (size 0.4064 0.4064)))
     )
-    (property "Footprint" "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad" (id 2) (at 126.365 177.8 0)
+    (property "Footprint" "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad_reserved" (id 2) (at 126.365 177.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 126.365 177.8 0)
@@ -11699,7 +11698,7 @@
     (property "Value" "SK6812MINI-E" (id 1) (at 146.685 189.9412 0)
       (effects (font (size 0.4064 0.4064)))
     )
-    (property "Footprint" "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad" (id 2) (at 146.685 194.945 0)
+    (property "Footprint" "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad_reserved" (id 2) (at 146.685 194.945 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 146.685 194.945 0)
@@ -11720,7 +11719,7 @@
     (property "Value" "SK6812MINI-E" (id 1) (at 117.475 189.9412 0)
       (effects (font (size 0.4064 0.4064)))
     )
-    (property "Footprint" "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad" (id 2) (at 117.475 194.945 0)
+    (property "Footprint" "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad_reserved" (id 2) (at 117.475 194.945 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 117.475 194.945 0)
@@ -11762,7 +11761,7 @@
     (property "Value" "SK6812MINI-E" (id 1) (at 161.925 189.9412 0)
       (effects (font (size 0.4064 0.4064)))
     )
-    (property "Footprint" "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad" (id 2) (at 161.925 194.945 0)
+    (property "Footprint" "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad_reserved" (id 2) (at 161.925 194.945 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 161.925 194.945 0)
@@ -12105,7 +12104,7 @@
     (property "Value" "SK6812MINI-E" (id 1) (at 126.365 207.0862 0)
       (effects (font (size 0.4064 0.4064)))
     )
-    (property "Footprint" "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad" (id 2) (at 126.365 212.09 0)
+    (property "Footprint" "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad_reserved" (id 2) (at 126.365 212.09 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 126.365 212.09 0)
@@ -12168,7 +12167,7 @@
     (property "Value" "SK6812MINI-E" (id 1) (at 137.16 207.0862 0)
       (effects (font (size 0.4064 0.4064)))
     )
-    (property "Footprint" "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad" (id 2) (at 137.16 212.09 0)
+    (property "Footprint" "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad_reserved" (id 2) (at 137.16 212.09 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 137.16 212.09 0)
@@ -12374,7 +12373,7 @@
     (property "Value" "SK6812MINI-E" (id 1) (at 126.365 155.6512 0)
       (effects (font (size 0.4064 0.4064)))
     )
-    (property "Footprint" "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad" (id 2) (at 126.365 160.655 0)
+    (property "Footprint" "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad_reserved" (id 2) (at 126.365 160.655 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 126.365 160.655 0)
@@ -12437,7 +12436,7 @@
     (property "Value" "SK6812MINI-E" (id 1) (at 137.16 155.6512 0)
       (effects (font (size 0.4064 0.4064)))
     )
-    (property "Footprint" "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad" (id 2) (at 137.16 160.655 0)
+    (property "Footprint" "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad_reserved" (id 2) (at 137.16 160.655 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 137.16 160.655 0)
@@ -12621,7 +12620,7 @@
     (property "Value" "SK6812MINI-E" (id 1) (at 93.98 224.2312 0)
       (effects (font (size 0.4064 0.4064)))
     )
-    (property "Footprint" "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad" (id 2) (at 93.98 229.235 0)
+    (property "Footprint" "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad_reserved" (id 2) (at 93.98 229.235 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 93.98 229.235 0)
@@ -13999,10 +13998,10 @@
       (reference "L7") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad")
     )
     (path "/00000000-0000-0000-0000-00006283801f"
-      (reference "L8") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad")
+      (reference "L8") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad_reserved")
     )
     (path "/00000000-0000-0000-0000-000062868c1b"
-      (reference "L9") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad")
+      (reference "L9") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad_reserved")
     )
     (path "/00000000-0000-0000-0000-000062868c13"
       (reference "L10") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad")
@@ -14047,7 +14046,7 @@
       (reference "L23") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad")
     )
     (path "/00000000-0000-0000-0000-0000620bf6c1"
-      (reference "L24") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad")
+      (reference "L24") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad_reserved")
     )
     (path "/00000000-0000-0000-0000-0000620bf6df"
       (reference "L25") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad")
@@ -14089,13 +14088,13 @@
       (reference "L37") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad")
     )
     (path "/00000000-0000-0000-0000-0000622055d0"
-      (reference "L38") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad")
+      (reference "L38") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad_reserved")
     )
     (path "/00000000-0000-0000-0000-0000622055c8"
-      (reference "L39") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad")
+      (reference "L39") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad_reserved")
     )
     (path "/00000000-0000-0000-0000-0000622055e6"
-      (reference "L40") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad")
+      (reference "L40") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad_reserved")
     )
     (path "/00000000-0000-0000-0000-0000622055de"
       (reference "L41") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad")
@@ -14137,10 +14136,10 @@
       (reference "L53") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad")
     )
     (path "/00000000-0000-0000-0000-000062678561"
-      (reference "L54") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad")
+      (reference "L54") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad_reserved")
     )
     (path "/00000000-0000-0000-0000-00006267857f"
-      (reference "L55") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad")
+      (reference "L55") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad_reserved")
     )
     (path "/00000000-0000-0000-0000-000062678577"
       (reference "L56") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad")
@@ -14176,7 +14175,7 @@
       (reference "L66") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad")
     )
     (path "/00000000-0000-0000-0000-0000628c5fd2"
-      (reference "L67") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad")
+      (reference "L67") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad_reserved")
     )
     (path "/00000000-0000-0000-0000-0000628c5fca"
       (reference "L68") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad")
