@@ -9861,7 +9861,7 @@
     (uuid 00000000-0000-0000-0000-000061ce966c)
     (property "Reference" "SW_37" (id 0) (at 145.415 74.041 0))
     (property "Value" ";:" (id 1) (at 145.415 76.3524 0))
-    (property "Footprint" "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection" (id 2) (at 145.415 76.2 0)
+    (property "Footprint" "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection-half-paint" (id 2) (at 145.415 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 145.415 76.2 0)
@@ -10046,7 +10046,7 @@
     (uuid 00000000-0000-0000-0000-000061d01276)
     (property "Reference" "SW_47" (id 0) (at 178.435 74.041 0))
     (property "Value" "'\"" (id 1) (at 178.435 76.3524 0))
-    (property "Footprint" "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection" (id 2) (at 178.435 76.2 0)
+    (property "Footprint" "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection-half-paint" (id 2) (at 178.435 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 178.435 76.2 0)
@@ -14319,7 +14319,7 @@
       (reference "SW_36") (unit 1) (value "[{") (footprint "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection")
     )
     (path "/00000000-0000-0000-0000-000061ce966c"
-      (reference "SW_37") (unit 1) (value ";:") (footprint "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection")
+      (reference "SW_37") (unit 1) (value ";:") (footprint "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection-half-paint")
     )
     (path "/cc1d72d3-c085-42d5-b51a-f25583124fcb"
       (reference "SW_38") (unit 1) (value "R4L") (footprint "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection-frame-only")
@@ -14349,7 +14349,7 @@
       (reference "SW_46") (unit 1) (value "]}") (footprint "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection")
     )
     (path "/00000000-0000-0000-0000-000061d01276"
-      (reference "SW_47") (unit 1) (value "'\"") (footprint "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection")
+      (reference "SW_47") (unit 1) (value "'\"") (footprint "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection-half-paint")
     )
     (path "/00000000-0000-0000-0000-000061d0128e"
       (reference "SW_48") (unit 1) (value "R-Macro") (footprint "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection")
