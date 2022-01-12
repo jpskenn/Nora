@@ -2,17 +2,14 @@
 
 ![Nora Keyboard](./assets/Readme/DSC_7457.jpeg)
 
-Nora（ノラ）は、Choc v1 ロープロファイルスイッチを使用する、狭ピッチの一体型65%キーボードです。  
-MBK、またはそれ以下のサイズのキーキャップに合わせて設計されています。  
-60%キーボードのケースに、通常よりも1列多い16列のキーがおさまっています。
+Nora（ノラ）は、Choc v1 ロープロファイルスイッチを使用する、狭ピッチの一体型キーボードです。  
+MBK、またはそれ以下のサイズのキーキャップに合わせて設計されており、GH60型やPoker型に互換性のあるロープロファイルケースや、専用のボトムプレートと組み合わせて使用できます。
 
 Noraには、レイアウトの違いで”1.8k”と”Fearless Wings”というふたつのバリエーションがあります。  
 どちらも2行目と3行目にずれのない[Jones](https://github.com/jpskenn/Jones)のレイアウトを継承しており、”1.8k”はテンキーと飛び出したカーソルキーをもち、”Fearless Wings”は左右に大きく離れたアルファ部をもつのが特徴です。
 
 狭いキーピッチによって、TやYなどのホームポジションから遠いキーや、一番上の行の数字や記号キーにも、指がとどきやすくなっています。  
 また、打鍵時に指を大きく伸ばしたり手首の位置を変えたりする動作が減ることで、指・手首・肘のポジションを一定の位置に保ったまま打鍵を続けられます。
-
-GH60型やPoker型に互換性のあるロープロファイルケースや、専用のボトムプレートと組み合わせて使用できます。
 
 名前の由来は、”狭ピッチのJonesキーボード”からの連想で…
 
@@ -26,10 +23,10 @@ Narrow Jones --> Norah Jones --> Norah --> Nora
 
 ---
 
-Nora is a narrow pitch 65% keyboard with Choc v1 low profile switches, designed for MBK or smaller keycaps.
-16 columns, one more column to normal 60% keyboards, in 60% case.
+Nora is a narrow pitch keyboard with Choc v1 low profile switches, designed for MBK or smaller keycaps.
+It can be used with GH60 and Poker compatible low profile cases or original bottom plate.
 
-There exist two layout variations, "1.8k" and "Fearless Wings".  
+It has two layout variations, "1.8k" and "Fearless Wings".  
 Both inherit [Jones](https://github.com/jpskenn/Jones)' symmetrical layout with gapless R1-R2 rows.  
 The "1.8k" has numeric pad and projecting cursor .  
 The "Fearless Wings" has widely separated alpha keys.
@@ -37,8 +34,6 @@ The "Fearless Wings" has widely separated alpha keys.
 Narrow pitch makes fingers easy to reach keys far from home position, "T" and "Y", R1 numerics and symbols.  
 It also reduces stretching fingers and reduces changing the position of wrist.  
 You can continue tying without breaking the position of finger, wrist and elbow.
-
-It can be used with GH60 and Poker compatible low profile cases or original bottom plate.
 
 ## 対象とするユーザー
 
@@ -93,7 +88,7 @@ It can be used with GH60 and Poker compatible low profile cases or original bott
 
 ### レイアウトのバリエーション
 
-狭ピッチの一体型65%キーボードというコンセプトを元に、ふたつのレイアウトバリエーションが存在します。
+狭ピッチの一体型キーボードというコンセプトを元に、ふたつのレイアウトバリエーションが存在します。
 
 #### Nora, 1.8k
 
@@ -101,15 +96,11 @@ It can be used with GH60 and Poker compatible low profile cases or original bott
 
 アルファ部の右側にテンキーを配置し、少し下へ飛びだしたカーソルキーが特徴のレイアウトです。  
 
-独立したカーソルとテンキー
-
-左シフトは2uまたは1u+1uを選ぶことができ、1u+1uを選んで左手Z行を外側へずらせば、完全に左右対称なアルファ部を構成することができます。
-
 #### Nora, Fearless Wings
 
 ![Layout, Nora, Fearless Wings](./assets/Readme/layout_fw.png)
 
-中央に3列分のキーを配置し、左右に大きく離れたアルファ部が特徴のレイアウトです。
+左右に大きく離れたアルファ部が特徴のレイアウトです。
 
 打鍵時の肘・腕・手首・指先の位置を最適化し、快適な運指と、肩や腕への負担軽減を目指しています。  
 また、手のひらにキーが当たる不快感を無くすため、最下行の左右の端にはキーを配置していません。
