@@ -1,0 +1,33 @@
+(footprint "ICON_Upside-Down_Medium" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61F467ED)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 0.5) (layer "Cmts.User")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5676a8d6-8bd0-429e-a0b9-aeab4b23b7c6)
+  )
+  (fp_text value "ICON_Upside-Down_Medium" (at 0 -0.5) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 69afbd89-c2dd-4bfe-9ebc-4b30825928d1)
+  )
+  (fp_line (start 0.8 -5.45) (end 0.91 -4.65) (layer "F.SilkS") (width 0.3) (tstamp 1c285d96-d383-448d-bf5f-9ba6531cce6f))
+  (fp_line (start -0.89 -2.55) (end -1 -3.35) (layer "F.SilkS") (width 0.3) (tstamp 220a5d9f-7a8e-44cd-aeaa-bc2dac4adc86))
+  (fp_line (start 0.8 -5.45) (end 1.71 -5.25) (layer "F.SilkS") (width 0.3) (tstamp 43832edb-bd2f-4e01-8ab8-1911a56f133d))
+  (fp_line (start -0.89 -2.55) (end -1.8 -2.75) (layer "F.SilkS") (width 0.3) (tstamp 6becc599-6fcb-4180-a0f0-e394ec7e3c44))
+  (fp_arc (start 0.8 -5.45) (mid 1.526295 -3.541726) (end -0.03 -2.22) (layer "F.SilkS") (width 0.3) (tstamp 06e0378d-0802-4ff1-bc1a-85f138397517))
+  (fp_arc (start -0.89 -2.55) (mid -1.615568 -4.461092) (end -0.06 -5.78) (layer "F.SilkS") (width 0.3) (tstamp 23daa4da-8a9b-4322-8490-40d7db781117))
+  (group "" (id 396021b2-d840-4939-b631-1b10020aecf6)
+    (members
+      06e0378d-0802-4ff1-bc1a-85f138397517
+      1c285d96-d383-448d-bf5f-9ba6531cce6f
+      43832edb-bd2f-4e01-8ab8-1911a56f133d
+    )
+  )
+  (group "" (id c86880ad-c1f8-4c85-8fa5-99e5b8600f53)
+    (members
+      220a5d9f-7a8e-44cd-aeaa-bc2dac4adc86
+      23daa4da-8a9b-4322-8490-40d7db781117
+      6becc599-6fcb-4180-a0f0-e394ec7e3c44
+    )
+  )
+)
