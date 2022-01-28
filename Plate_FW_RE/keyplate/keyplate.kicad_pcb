@@ -14863,6 +14863,7 @@
       (xy 201.146553 90.799719)
       (xy 203.146553 90.799719)
     ) (layer "F.SilkS") (width 0.1) (fill solid) (tstamp 3ec51e57-3ef0-4632-b8e2-e7775f960613))
+  (gr_circle (center 157.65 74.1) (end 165.85 82.3) (layer "Dwgs.User") (width 0.1) (fill none) (tstamp 6b3e2a97-894a-458d-b7fe-18e6e45b329f))
   (gr_poly
     (pts
       (xy 209.367849 24.199719)
@@ -16060,6 +16061,15 @@
   )
   (gr_text "PICO reserved area" (at 157.526553 20.759719) (layer "B.SilkS") (tstamp f6dda319-d557-4d2b-8230-6dae8434c30a)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (dimension (type aligned) (layer "Dwgs.User") (tstamp 2b58059e-f6b4-459e-b6e2-d3e15028aea9)
+    (pts (xy 146.053449 74.1) (xy 169.246551 74.1))
+    (height 49.85)
+    (gr_text "23.1931 mm" (at 157.65 122.8) (layer "Dwgs.User") (tstamp 2cbcf4ca-fab1-477a-90aa-b5c0a0f16845)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (format (units 3) (units_format 1) (precision 4))
+    (style (thickness 0.1) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
   )
 
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 00000000-0000-0000-0000-000060af4235) (hatch edge 0.508)
