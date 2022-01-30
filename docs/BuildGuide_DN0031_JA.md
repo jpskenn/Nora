@@ -387,8 +387,8 @@ Remap用キーボード定義ファイル： [nora_via_v031.json](https://gist.g
 QMK Toolboxなどを使用して、ファームウェアを書き換えます。  
 ビルド済みファームウェア： [nora_v031_via_re.hex](〓リンク)
 
-<!-- <details>
-<summary>《詳しい説明》</summary> -->
+<details>
+<summary>《詳しい説明》</summary>
 
 QMK Toolboxを使用して書き込む手順を説明します。
 
@@ -454,7 +454,7 @@ QMK Toolboxを使用して書き込む手順を説明します。
 EEPROMの初期化処理がおこなわれていますので、キーボードが整うまで、ほんの少しお待ちください。  
 2回目以降の接続では、待たされることなく接続されます。
 
-<!-- </details> -->
+</details>
 
 ### （オプション）基板、スイッチプレート、ボトムプレートの側面を塗る
 
