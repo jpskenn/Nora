@@ -395,7 +395,7 @@ QMK Toolboxを使用して書き込む手順を説明します。
 1. `REレイアウト`用のRemap / VIA対応のビルド済みファームウェアをダウンロードします。  
     [nora_v031_via_re.hex](〓リンク)
 
-1. [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)をダウンロードし、起動します。
+1. [QMK Toolbox](https://github.com/qmk/qmk_toolbox/)をダウンロードし、起動します。
 
 1. `Open`ボタンを押し、QMK Toolboxで、ダウンロードしておいたファームウェアを開きます。
 
