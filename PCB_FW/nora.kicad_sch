@@ -2235,6 +2235,7 @@
     )
   )
 
+
   (junction (at 81.28 206.375) (diameter 0) (color 0 0 0 0)
     (uuid 00185541-0a55-4e62-91d8-99e7a7720d36)
   )
@@ -3300,6 +3301,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0844b132-5386-469c-86ff-d527c8a00608)
   )
+  (polyline (pts (xy 256.54 118.11) (xy 256.54 135.89))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 08608e64-f8d9-4507-9363-f8242b931a3a)
+  )
+
   (wire (pts (xy 167.005 88.9) (xy 200.025 88.9))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 08652a9a-5344-44e4-a618-30b12fdf16d0)
@@ -3360,6 +3366,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0b1fde53-d8f5-49ba-8594-195b71cf1538)
   )
+  (polyline (pts (xy 256.54 118.11) (xy 293.37 118.11))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 0bc6b1de-84f5-4d1a-bb8e-610a5c54a920)
+  )
+
   (wire (pts (xy 335.915 122.555) (xy 335.915 125.095))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0bcafe80-ffba-4f1e-ae51-95a595b006db)
@@ -5420,6 +5431,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid a9240eb1-cd96-4728-9dbf-17ea5e90b45d)
   )
+  (polyline (pts (xy 293.37 135.89) (xy 256.54 135.89))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid a92cd3f6-a09f-46a7-98f9-0851a4729bcc)
+  )
+
   (wire (pts (xy 216.535 43.18) (xy 216.535 48.26))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid a92f3b72-ed6d-4d99-9da6-35771bec3c77)
@@ -5480,6 +5496,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ad660b99-8be7-4d3b-8f1a-61f4a3262e38)
   )
+  (polyline (pts (xy 293.37 118.11) (xy 293.37 135.89))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid ad7428e5-ac90-4fd2-aed3-9bfcb3a38a55)
+  )
+
   (wire (pts (xy 92.075 154.94) (xy 121.285 154.94))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ae8bb5ae-95ee-4e2d-8a0c-ae5b6149b4e3)
@@ -6724,6 +6745,11 @@
   (text "SCREWS\nto Bottom" (at 199.39 257.175 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 582622a2-fad4-4737-9a80-be9fffbba8ab)
+  )
+  (text "[Row4 - Col7]   [Row9 - Col7]\n\nThese matrix position is \nused as virtual keys for \nRotary Encoder with Remap / VIA."
+    (at 258.445 130.175 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5f196e3d-bfc9-4e6f-8763-52f0f663651a)
   )
   (text "SPEAKER" (at 272.415 164.465 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
