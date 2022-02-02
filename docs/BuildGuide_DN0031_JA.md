@@ -10,13 +10,19 @@
 
   ロータリーエンコーダを配置せず、中央部分に隙間のあるレイアウト
   
-  〓写真：FW
+  ![FWレイアウト](../assets/BuildGuide_DN0031/IMG_4067.jpeg)  
+  Keycaps: Kailhロープロファイルキーキャップ  
+  Case: 専用ボトムプレート
 
 - `REレイアウト`
 
   中央にロータリーエンコーダを配置したレイアウト
   
-  〓写真：RE
+  ![REレイアウト](../assets/BuildGuide_DN0031/_DSF1541.jpeg)  
+  Keycaps: Gravity Keycaps + MBK  
+  Case: KBDfans 60% ALUMINUM LOW PROFILE CASE, Gray  
+  Rotary Encoder: ALPS EC12E2440301（貫通軸タイプ）  
+  Knob: Daily Craft Keyboard ロープロ FLAT 33mm
 
 Noraのコンセプトや特徴、ビルド例などについては、[README](https://github.com/jpskenn/Nora/blob/main/README.md)をご覧ください。
 
