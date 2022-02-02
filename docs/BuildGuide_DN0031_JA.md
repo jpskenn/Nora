@@ -158,6 +158,13 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
   ビルド済みのファームウェアを用意していますので、[QMK Toolbox](https://github.com/qmk/qmk_toolbox)などを使用して、書き換えてください。
 
+- Remap / VIA用キーボード定義ファイル
+
+  Remap / VIA用キーボード定義ファイルは、”Nora, Fearless Wings (DN0031) 試作版”用のものをご使用ください。
+  [nora_via_v031.json](https://gist.github.com/jpskenn/7fac7a9bc819f2d4a7f97086cdd32fdd)
+
+  今後の正式版で回路の変更を予定しているため、意図した通りに動作しない可能性があります。
+
 ## 部品リスト
 
 このキットを組み立てるためには、”キット内容”に加え、”別途用意が必要な部品”が必要です。  
@@ -293,7 +300,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 [Remap](https://remap-keys.app/)のテスト機能を使用し、Kailh Chocソケット用のパッド（※）が、電気的に正しく反応することを確認します。  
 ※ソケットをはんだ付けする、基板上の四角い銀色の部分
 
-Remap用キーボード定義ファイル： [nora_via_v031.json](https://gist.github.com/jpskenn/7fac7a9bc819f2d4a7f97086cdd32fdd)
+Remap / VIA用キーボード定義ファイル： [nora_via_v031.json](https://gist.github.com/jpskenn/7fac7a9bc819f2d4a7f97086cdd32fdd)
 
 <details>
 <summary>《詳しい説明》</summary>
@@ -326,7 +333,7 @@ Remap用キーボード定義ファイル： [nora_via_v031.json](https://gist.g
 
     ![IMPORT](../assets/BuildGuide_DN0031/Remap_import.png)
 
-    1. Remap用キーボード定義ファイル（[nora_via_v031.json](https://gist.github.com/jpskenn/7fac7a9bc819f2d4a7f97086cdd32fdd)）をダウンロードします。  
+    1. Remap / VIA用キーボード定義ファイル（[nora_via_v031.json](https://gist.github.com/jpskenn/7fac7a9bc819f2d4a7f97086cdd32fdd)）をダウンロードします。  
 
     1. ZIPファイルを展開して、`nora_via_v031.json`ファイルを取り出します。
 
@@ -1383,7 +1390,7 @@ QMKファームウェアのドキュメント[ファームウェアを書き込�
 
     [develop_nora](https://github.com/jpskenn/qmk_firmware/tree/develop_Nora)ブランチの、`keyboards/nora/v031`に関連ファイルが格納されています。
 
-- Remap用キーボード定義ファイル
+- Remap / VIA用キーボード定義ファイル
 
     [nora_via_v031.json](https://gist.github.com/jpskenn/7fac7a9bc819f2d4a7f97086cdd32fdd)
 
