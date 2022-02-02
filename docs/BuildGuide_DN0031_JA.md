@@ -10,13 +10,19 @@
 
   ロータリーエンコーダを配置せず、中央部分に隙間のあるレイアウト
   
-  〓写真：FW
+  ![FWレイアウト](../assets/BuildGuide_DN0031/IMG_4067.jpeg)  
+  Keycaps: Kailhロープロファイルキーキャップ  
+  Case: 専用ボトムプレート
 
 - `REレイアウト`
 
   中央にロータリーエンコーダを配置したレイアウト
   
-  〓写真：RE
+  ![REレイアウト](../assets/BuildGuide_DN0031/_DSF1541.jpeg)  
+  Keycaps: Gravity Keycaps + MBK  
+  Case: KBDfans 60% ALUMINUM LOW PROFILE CASE, Gray  
+  Rotary Encoder: ALPS EC12E2440301（貫通軸タイプ）  
+  Knob: Daily Craft Keyboard ロープロ FLAT 33mm
 
 Noraのコンセプトや特徴、ビルド例などについては、[README](https://github.com/jpskenn/Nora/blob/main/README.md)をご覧ください。
 
@@ -86,7 +92,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 - 狭ピッチ
 - Jonesゆずりのキーレイアウト
 - 左右に離れたアルファ部
-- Choc v1スイッチと、MBK、またはそれ以下のサイズのキーキャップに合わせた専用設計
+- Choc v1スイッチと、MBK以下のサイズのキーキャップに合わせた専用設計
 - RemapやVIAなどのキーマップ書き換えツールに対応
 - 外部EEPROM（8KB）を搭載し、十分な数のレイヤーを使用できる
 - 専用ボトムプレート以外にも、GH60型，Poker型のロープロファイルケースに取り付けできる
@@ -101,7 +107,8 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 - キーキャップ
 
-  MBK、またはそれ以下のサイズのキーキャップに合わせて設計されています。  
+  MBK以下のサイズのキーキャップに合わせて設計されており、Choc用のキーピッチよりも横方向がほんの少し狭くなっています。
+
   取り付け確認済みのキーキャップは次の通りです。
 
   - MBK
@@ -109,8 +116,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
   - Kailh製のロープロファイルキーキャップ（※注意）  
 
     ※注意  
-    Kailh製のロープロファイルキーキャップは、MBKなどに比べてキーの寸法が少し大きいため、隣同士のキーが干渉するかもしれません。  
-    こちらで試した限りでは全てのキーが干渉せずに使用できていますが、ギリギリすぎて保証できかねるため、ご自身の責任で使用してください。  
+    Kailh製のロープロファイルキーキャップは、MBKなどに比べてキーの寸法が少し大きいため、隣同士のキーが当たる場合があります。  
     ソケットを傾かないように取り付けたり、キーキャップの成形バリを取り除いたり、干渉する箇所を削る必要があるかもしれません。  
 
 - スイッチの取り付け
@@ -152,6 +158,13 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
   ビルド済みのファームウェアを用意していますので、[QMK Toolbox](https://github.com/qmk/qmk_toolbox)などを使用して、書き換えてください。
 
+- Remap / VIA用キーボード定義ファイル
+
+  Remap / VIA用キーボード定義ファイルは、”Nora, Fearless Wings (DN0031) 試作版”用のものをご使用ください。
+  [nora_via_v031.json](https://gist.github.com/jpskenn/7fac7a9bc819f2d4a7f97086cdd32fdd)
+
+  今後の正式版で回路の変更を予定しているため、意図した通りに動作しない可能性があります。
+
 ## 部品リスト
 
 このキットを組み立てるためには、”キット内容”に加え、”別途用意が必要な部品”が必要です。  
@@ -185,7 +198,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | ----- | :-----: | ----- |
 | ソケット<br>Kailh Chocロープロファイル用 | 63〜64 | `FWレイアウト`：64個<br>`REレイアウト`：63個 |
 | スイッチ<br>Kailh Choc v1 | 63〜64 | `FWレイアウト`：64個<br>`REレイアウト`：63個 |
-| キーキャップ<br>Choc用<br>MBKまたはそれ以下のサイズのもの | 63〜64 | `FWレイアウト`：64個<br>1u × 56個<br>1.5u × 8個<br>`REレイアウト`：63個<br>1u × 54個<br>1.5u × 8個<br>1u, 1.25u, 1.5uのうち、いずれか1個 |
+| キーキャップ<br>Choc用<br>MBK以下のサイズのもの | 63〜64 | `FWレイアウト`：64個<br>1u × 56個<br>1.5u × 8個<br>`REレイアウト`：63個<br>1u × 54個<br>1.5u × 8個<br>1u, 1.25u, 1.5uのうち、いずれか1個 |
 | ロータリーエンコーダ<br>ALPS EC11, EC12または同等品 | 1 | `REレイアウト`を組み立てる場合のみ必要 |
 | ロータリーエンコーダ用ノブ<br>（つまみ） | 1 | `REレイアウト`を組み立てる場合のみ必要<br>ロータリーエンコーダの軸の形状に合ったもの。<br>最大径33mm（使用するキーキャップのサイズによる） |
 | USBケーブル （Type-C） | 1 | |
@@ -287,7 +300,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 [Remap](https://remap-keys.app/)のテスト機能を使用し、Kailh Chocソケット用のパッド（※）が、電気的に正しく反応することを確認します。  
 ※ソケットをはんだ付けする、基板上の四角い銀色の部分
 
-Remap用キーボード定義ファイル： [nora_via_v031.json](https://gist.github.com/jpskenn/7fac7a9bc819f2d4a7f97086cdd32fdd)
+Remap / VIA用キーボード定義ファイル： [nora_via_v031.json](https://gist.github.com/jpskenn/7fac7a9bc819f2d4a7f97086cdd32fdd)
 
 <details>
 <summary>《詳しい説明》</summary>
@@ -320,7 +333,7 @@ Remap用キーボード定義ファイル： [nora_via_v031.json](https://gist.g
 
     ![IMPORT](../assets/BuildGuide_DN0031/Remap_import.png)
 
-    1. Remap用キーボード定義ファイル（[nora_via_v031.json](https://gist.github.com/jpskenn/7fac7a9bc819f2d4a7f97086cdd32fdd)）をダウンロードします。  
+    1. Remap / VIA用キーボード定義ファイル（[nora_via_v031.json](https://gist.github.com/jpskenn/7fac7a9bc819f2d4a7f97086cdd32fdd)）をダウンロードします。  
 
     1. ZIPファイルを展開して、`nora_via_v031.json`ファイルを取り出します。
 
@@ -713,7 +726,7 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
     ```aside
     Kailh製のロープロファイルキーキャップを使用する場合は、
-    隣同士のキーが干渉するのを防ぐため、より一層、ソケットの傾きに注意して取り付けます。
+    隣同士のキーが当たるのを防ぐため、より一層、ソケットの傾きに注意して取り付けます。
     ```
 
 <!-- 〓DN0032写真　浮いたソケット -->
@@ -1377,7 +1390,7 @@ QMKファームウェアのドキュメント[ファームウェアを書き込�
 
     [develop_nora](https://github.com/jpskenn/qmk_firmware/tree/develop_Nora)ブランチの、`keyboards/nora/v031`に関連ファイルが格納されています。
 
-- Remap用キーボード定義ファイル
+- Remap / VIA用キーボード定義ファイル
 
     [nora_via_v031.json](https://gist.github.com/jpskenn/7fac7a9bc819f2d4a7f97086cdd32fdd)
 
