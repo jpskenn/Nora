@@ -3,13 +3,12 @@
 ![Nora Keyboard](./assets/Readme/DSC_7457.jpeg)
 
 Nora（ノラ）は、Choc v1 ロープロファイルスイッチを使用する、狭ピッチの一体型キーボードです。  
-MBK、またはそれ以下のサイズのキーキャップに合わせて設計されており、GH60型やPoker型に互換性のあるロープロファイルケースや、専用のボトムプレートと組み合わせて使用できます。
+[Jones](https://github.com/jpskenn/Jones)と同様の、2行目と3行目にずれのない配列が特徴です。  
+専用のボトムプレートや、GH60型，Poker型のロープロファイルケースと組み合わせて使用できます。
 
-Noraには、レイアウトの違いで”1.8k”と”Fearless Wings”というふたつのバリエーションがあります。  
-どちらも2行目と3行目にずれのない[Jones](https://github.com/jpskenn/Jones)のレイアウトを継承しており、”1.8k”はテンキーと飛び出したカーソルキーをもち、”Fearless Wings”は左右に大きく離れたアルファ部をもつのが特徴です。
-
-狭いキーピッチによって、TやYなどのホームポジションから遠いキーや、一番上の行の数字や記号キーにも、指がとどきやすくなっています。  
-また、打鍵時に指を大きく伸ばしたり手首の位置を変えたりする動作が減ることで、指・手首・肘のポジションを一定の位置に保ったまま打鍵を続けられます。
+狭いキーピッチによって、ホームポジションから遠いキーや1行目の数字キーにも指がとどきやすくなっています。  
+打鍵時に指を大きく伸ばしたり手首の位置を変えたりする動作が減ることで、指・手首・肘のポジションを一定の位置に保ったまま打鍵を続けられます。  
+また、スイッチとキーキャップが薄くなったことでキーボードの高さが低くなり、腕や手首への負担が少なくなっています。
 
 名前の由来は、”狭ピッチのJonesキーボード”からの連想で…
 
@@ -25,11 +24,6 @@ Narrow Jones --> Norah Jones --> Norah --> Nora
 
 Nora is a narrow pitch keyboard with Choc v1 low profile switches, designed for MBK or smaller keycaps.
 It can be used with GH60 and Poker compatible low profile cases or original bottom plate.
-
-It has two layout variations, "1.8k" and "Fearless Wings".  
-Both inherit [Jones](https://github.com/jpskenn/Jones)' symmetrical layout with gapless R1-R2 rows.  
-The "1.8k" has numeric pad and projecting cursor .  
-The "Fearless Wings" has widely separated alpha keys.
 
 Narrow pitch makes fingers easy to reach keys far from home position, "T" and "Y", R1 numerics and symbols.  
 It also reduces stretching fingers and reduces changing the position of wrist.  
@@ -64,10 +58,10 @@ You can continue tying without breaking the position of finger, wrist and elbow.
 
 ### 狭ピッチ
 
-一般的なキーボードの、たて19.05mm×よこ19.05mmピッチよりも1-2mmほど狭い、たて17mm×よこ約17.86mmピッチでキーを配置しています。  
+Kailh Chocスイッチとそれに対応するキーキャップを使用することで、一般的なキーボードよりも1〜2mmほど狭いキーピッチになっています。
 
-横方向のキーピッチは、MBK、またはそれ以下のサイズのキーキャップの使用を前提とした設計で、Choc用キーキャップの標準的なキーピッチ（たて17mm×よこ18mm）よりも横方向をさらに狭くしています。  
-そのため、Kailh製のロープロファイルキーキャップ（例：[Kailhロープロ刻印キーキャップ](https://shop.yushakobo.jp/collections/keycaps/products/pg1350cap-doubleshot)）では、隣同士のキーが干渉するかもしれません。
+横方向のキーピッチは、MBK、またはそれ以下のサイズのキーキャップの使用を前提とした設計です。  
+Choc用キーキャップの標準的なキーピッチ（たて17mm×よこ18mm）よりも少しだけ横方向を狭くして、たて17mm×約17.86mmのキーピッチにしています。
 
 ![Comparison of key pitch](./assets/Readme/_DSF1263.jpeg)
 キーピッチの比較  
