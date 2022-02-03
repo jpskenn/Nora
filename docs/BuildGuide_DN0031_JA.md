@@ -151,19 +151,15 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
   よって、取り付けの対象外としています。  
   参考：[TOFUケースへの装着例](https://twitter.com/jpskenn/status/1466729696713142277)
 
+## 試作版，試作版キットに関する注意事項
+
 - ファームウェア
 
   試作版の提供形態（`FWレイアウト`と`REレイアアウト`の両方のスイッチプレートを同梱し、どちらでも製作できるキット内容）の都合上、`REレイアウト`を使用する場合はファームウェアを書き換える必要があります。  
   正式版では、`FWレイアウト`と`REレイアアウト`をそれぞれ別のキットとして提供する予定で、その際はファームウェアの書き換えは不要となります。
 
-  ビルド済みのファームウェアを用意していますので、[QMK Toolbox](https://github.com/qmk/qmk_toolbox)などを使用して、書き換えてください。
-
-- Remap / VIA用キーボード定義ファイル
-
-  Remap / VIA用キーボード定義ファイルは、”Nora, Fearless Wings (DN0031) 試作版”用のものをご使用ください。
-  [nora_via_v031.json](https://gist.github.com/jpskenn/7fac7a9bc819f2d4a7f97086cdd32fdd)
-
-  今後の正式版で回路の変更を予定しているため、意図した通りに動作しない可能性があります。
+  ビルド済みのファームウェアを用意していますので、[QMK Toolbox](https://github.com/qmk/qmk_toolbox)などを使用して、書き換えてください。  
+  詳しくは、組み立て手順の[（該当者のみ）`REレイアウト`用ファームウェアへの書き換え](#該当者のみreレイアウト用ファームウェアへの書き換え)をご覧ください。
 
 ## 部品リスト
 
@@ -182,7 +178,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | ----- | :-----: | ----- |
 | ご案内リーフレット | 1 | |
 | 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_v.0.1/_DSF1269.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1269.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_v.0.1/_DSF1271.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1271.jpeg) |
-| スイッチプレート<br>`FWレイアウト`、または`REレイアウト`のいずれか | 1 | `FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF1267.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1267.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF1268.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1268.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF1267.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1267.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF1268.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1268.jpeg) |
+| スイッチプレート<br>`FWレイアウト`と`REレイアウト` | 各1 | `FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF1267.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1267.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF1268.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1268.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF1267.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1267.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF1268.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1268.jpeg) |
 | ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF0644.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0644.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF0654.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0654.jpeg) |
 | スペーサーシート<br> シール付き, 1mm厚, 500mm * 10mm | 1 | |
 | スペーサー, M2 3mm | 8 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_0_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_0.jpeg) |
@@ -387,12 +383,24 @@ Remap / VIA用キーボード定義ファイル： [nora_via_v031.json](https://
 
 怪我などに気をつけて作業してください。  
 
+### 組み立てるレイアウトを決める
+
+この試作版では、`FRレイアウト`と`REレイアウト`のどちらかひとつを組み立てることができます。
+
+レイアウトは、ほぼ同じです。  
+ロータリーエンコーダと、中央部分のキーのあり／なしで少し違いがあります。
+
+こちらのレイアウト図も参考にしてください。  
+[Nora, Fearless Wings family](http://www.keyboard-layout-editor.com/#/gists/568990362f215776aa93e3b90064f241)
+
+その他の機能に違いはありません。
+
 ### （該当者のみ）`REレイアウト`用ファームウェアへの書き換え
 
 *`REレイアウト`を使用する場合のみ、この手順をおこないます。*
 
 QMK Toolboxなどを使用して、ファームウェアを書き換えます。  
-`REレイアウト`用のRemap / VIA対応のビルド済みファームウェア： [nora_v031_via_re.hex](〓リンク)
+`REレイアウト`用のRemap / VIA対応のビルド済みファームウェア： [nora_v031_via_re.hex](https://gist.github.com/jpskenn/dc6ec5eb08fa3a841a96057d544c794c)
 
 <details>
 <summary>《詳しい説明》</summary>
@@ -400,7 +408,7 @@ QMK Toolboxなどを使用して、ファームウェアを書き換えます。
 QMK Toolboxを使用して書き込む手順を説明します。
 
 1. `REレイアウト`用のRemap / VIA対応のビルド済みファームウェアをダウンロードします。  
-    [nora_v031_via_re.hex](〓リンク)
+    [nora_v031_via_re.hex](https://gist.github.com/jpskenn/dc6ec5eb08fa3a841a96057d544c794c)
 
 1. ダウンロードしたZipファイルを展開して、hexファイルを取り出します。
 
@@ -458,7 +466,7 @@ QMK Toolboxを使用して書き込む手順を説明します。
 これでファームウェアの書き換えは完了です。  
 念のため、[接続の確認](#接続の確認)をおこなっておくと安心です。
 
-**ファームウェアの書き込み後、初めてRemapに接続した際に10秒ほど固まる場合があります。**  
+**ファームウェアを書き込んで初めてRemapに接続した際、キーボードレイアウト画面が表示されるまで30秒〜1分ほどかかる場合があります。**  
 EEPROMの初期化処理がおこなわれていますので、キーボードの準備が整うまでしばらくお待ちください。  
 2回目以降の接続では、すぐに接続されます。
 
@@ -1379,10 +1387,10 @@ QMKファームウェアのドキュメント[ファームウェアを書き込�
 - ビルド済みのファームウェア
 
   - `FWレイアウト`用  
-      [nora_v031_via.hex](〓リンク)
+      [nora_v031_via.hex](https://gist.github.com/jpskenn/91e35665ae5ee15672c2e424c2413d76)
 
   - `REレイアウト`用  
-      [nora_v031_via_re.hex](〓リンク)
+      [nora_v031_via_re.hex](https://gist.github.com/jpskenn/dc6ec5eb08fa3a841a96057d544c794c)
 
 - ファームウェアのソース
 
