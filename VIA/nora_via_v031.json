@@ -2,7 +2,7 @@
     "name": "Nora",
     "vendorId": "0xB9DD",
     "productId": "0xC9D7",
-    "lighting": "qmk_rgblight",
+    "lighting": "none",
     "matrix": { "rows": 10, "cols": 8 },
     "layouts": {
         "labels": [
