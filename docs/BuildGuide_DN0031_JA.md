@@ -296,8 +296,6 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 [Remap](https://remap-keys.app/)のテスト機能を使用し、Kailh Chocソケット用のパッド（※）が、電気的に正しく反応することを確認します。  
 ※ソケットをはんだ付けする、基板上の四角い銀色の部分
 
-Remap / VIA用キーボード定義ファイル： [nora_via_v031.json](https://gist.github.com/jpskenn/7fac7a9bc819f2d4a7f97086cdd32fdd)
-
 <details>
 <summary>《詳しい説明》</summary>
 
@@ -324,16 +322,6 @@ Remap / VIA用キーボード定義ファイル： [nora_via_v031.json](https://
 1. デバイスへの接続要求画面で`Nora`を選択し、`接続`をクリックしてキーボードをRemapに接続します。
 
     ![デバイスへの接続要求](../assets/BuildGuide_DN0031/Remap_hid_connect.png)
-
-1. キーボード定義ファイルを読み込みます。
-
-    ![IMPORT](../assets/BuildGuide_DN0031/Remap_import.png)
-
-    1. Remap / VIA用キーボード定義ファイル（[nora_via_v031.json](https://gist.github.com/jpskenn/7fac7a9bc819f2d4a7f97086cdd32fdd)）をダウンロードします。  
-
-    1. ZIPファイルを展開して、`nora_via_v031.json`ファイルを取り出します。
-
-    1. Remapの`IMPORT(.JSON)`を押すかファイルをドロップして、取り出したファイルを読み込みます。
 
 1. 右側のアイコンから`Layout Option`をクリックし、使用するレイアウトを選択します。
 
