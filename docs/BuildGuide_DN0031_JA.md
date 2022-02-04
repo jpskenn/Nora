@@ -1228,6 +1228,8 @@ LEDの点灯に関するルールにしたがい、**光らないLEDの、番号
 
 ### 資料：ファームウェアの書き込み方法
 
+#### QMK Toolboxを使用して書き込む方法
+
 [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)を使用してビルド済み（＝作成済み）のファームウェアを書き込む方法について説明します。
 
 QMKファームウェアのドキュメント[ファームウェアを書き込む](https://docs.qmk.fm/#/ja/newbs_flashing?id=ファームウェアを書き込む)も、あわせてご覧ください。
