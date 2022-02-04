@@ -390,6 +390,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 *`REレイアウト`を使用する場合のみ、この手順をおこないます。*
 
 Remapを使用して、ファームウェアを書き換えます。  
+Remapの[Noraのファームウェアページ](https://remap-keys.app/catalog/E014O2hP6X5DeDQCdhmA/firmware)から、`Nora DN0031, VIA + RE`のファームウェアを`FLASH`します。
 
 QMK Toolboxで書き換える場合は、[資料：ファームウェアの書き込み方法](#資料ファームウェアの書き込み方法)を参考にしてください。
 
@@ -402,13 +403,7 @@ Remapを使用して書き込む手順を説明します。
 
 1. 基板をPCやMacとUSBケーブルで接続します。
 
-1. Google Chromeブラウザで、[Remap](https://remap-keys.app/)のページを開きます。
-
-1. `KEYBOARD CATALOG`をクリックし、`Nora`を検索して開きます。  
-
-1. `FIRMWARE`と書かれたところをクリックして、ファームウェアのリストを表示します。
-
-    ![Remap catalog, Nora](../assets/BuildGuide_DN0031/Remap_catalog_nora.png)
+1. Google Chromeブラウザで、Remapの[Noraのファームウェアページ](https://remap-keys.app/catalog/E014O2hP6X5DeDQCdhmA/firmware)を開きます。
 
 1. リストから`REレイアウト`用のファームウェア`Nora DN0031, VIA + RE`を探し、`FLASH`を押します。
 
