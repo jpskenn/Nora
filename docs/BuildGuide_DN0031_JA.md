@@ -387,72 +387,56 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 *`REレイアウト`を使用する場合のみ、この手順をおこないます。*
 
-QMK Toolboxなどを使用して、ファームウェアを書き換えます。  
-`REレイアウト`用のRemap / VIA対応のビルド済みファームウェア： [nora_v031_via_re.hex](https://gist.github.com/jpskenn/dc6ec5eb08fa3a841a96057d544c794c)
+Remapを使用して、ファームウェアを書き換えます。  
+
+QMK Toolboxで書き換える場合は、[資料：ファームウェアの書き込み方法](#資料ファームウェアの書き込み方法)を参考にしてください。
 
 <details>
 <summary>《詳しい説明》</summary>
 
-QMK Toolboxを使用して書き込む手順を説明します。
+Remapを使用して書き込む手順を説明します。
 
-1. `REレイアウト`用のRemap / VIA対応のビルド済みファームウェアをダウンロードします。  
-    [nora_v031_via_re.hex](https://gist.github.com/jpskenn/dc6ec5eb08fa3a841a96057d544c794c)
-
-1. ダウンロードしたZipファイルを展開して、hexファイルを取り出します。
-
-1. [QMK Toolbox](https://github.com/qmk/qmk_toolbox/)をダウンロードし、起動します。
-
-1. QMK Toolboxの`Open`ボタンを押し、ファームウェアのhexファイルを開きます。
-
-    ![Open firmware file](../assets/BuildGuide_DN0031/QMKToolbox_open.png)  
-
-1. 基板を裏側が上になるように置きます。
+1. 基板の裏側が上になるように置きます。
 
 1. 基板をPCやMacとUSBケーブルで接続します。
 
-1. 基板裏側のリセットボタンを押します。
+1. Google Chromeブラウザで、[Remap](https://remap-keys.app/)のページを開きます。
 
-    〓写真
+1. `KEYBOARD CATALOG`をクリックし、`Nora`を検索して開きます。  
 
-1. QMK Toolboxの画面に、以下のようなメッセージが表示されることを確認します。  
+1. `FIRMWARE`と書かれたところをクリックして、ファームウェアのリストを表示します。
+
+    ![Remap catalog, Nora](../assets/BuildGuide_DN0031/Remap_catalog_nora.png)
+
+1. リストから`REレイアウト`用のファームウェア`Nora DN0031, VIA + RE`を探し、`FLASH`を押します。
+
+    ![Firmware list](../assets/BuildGuide_DN0031/Remap_firmware_list.png)
+
+1. Flash Firmwareのポップアップ画面のBootloaderの項目で、`dfu`を選択し、右下の`FLASH`を押します。
+
+    ![Select dfu](../assets/BuildGuide_DN0031/Remap_select_dfu.png)
+
+1. 接続要求画面が表示されたら、基板裏側の`Reset`と書かれたスイッチを押します。
+
+    ![Reset switch](../assets/BuildGuide_DN0031/IMG_4112.jpeg)
+
+1. 接続要求画面に`ATm32U4DFU`が表示されるので、これを選択して`接続`ボタンを押します。
+
+    ![Select dfu](../assets/BuildGuide_DN0031/Remap_select_write_target.png)
+
+1. ファームウェアの書き込みが始まり、10秒程度で書き込みが完了します。
+
+    ![Select dfu](../assets/BuildGuide_DN0031/Remap_finish_writing.png)
+
+    メッセージの最後に、
 
     ```text
-    *** Atmel DFU device connected: ATMEL ATm32U4DFU (03EB:2FF4:0000)
+    Writing the firmware finished successfully.
     ```
 
-1. QMK Toolboxの`Flash`ボタンを押すとファームウェアの書き込みが始まります。  
+    と表示されていれば、書き込み成功です。
 
-    5秒程度で書き込みが終わり、QMK Toolboxの画面に以下のような書き込み完了メッセージが表示されます。  
-    （ファイル名やサイズ表記など、細かい部分は少し異なります）
-
-    ```text
-    *** Attempting to flash, please don't remove device
-    >>> dfu-programmer atmega32u4 erase --force
-        Erasing flash...  Success
-        Checking memory from 0x0 to 0x6FFF...  Empty.
-    >>> dfu-programmer atmega32u4 flash --force /Users/jpskenn/qmk_firmware/nora_v01_via.hex
-        0%                            100%  Programming 0x5E80 bytes...
-        [>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>]  Success
-        0%                            100%  Reading 0x7000 bytes...
-        [>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>]  Success
-        Validating...  Success
-        0x5E80 bytes written into 0x7000 bytes memory (84.38%).
-    >>> dfu-programmer atmega32u4 reset
-    *** Atmel DFU device disconnected: ATMEL ATm32U4DFU (03EB:2FF4:0000)
-    ```
-
-    これとは違うメッセージ（書き込み失敗など）が表示された場合は、スクリーンショットを撮ったりメッセージをコピーしたりして残してください。  
-    撮影したスクリーンショットなどと合わせて、リーフレットに記載された連絡先へ問い合わせてください。
-
-1. 外部EEPROMが消去されるまで、そのまま10秒ほど待ちます。  
-    完了メッセージなどは表示されないので、10秒数えたら次の手順へ進みます。
-
-1. QMK Toolboxを終了します。
-
-1. USBケーブルを抜きます。
-
-これでファームウェアの書き換えは完了です。  
-念のため、[接続の確認](#接続の確認)をおこなっておくと安心です。
+これでファームウェアの書き換えは完了です。
 
 **ファームウェアを書き込んで初めてRemapに接続した際、キーボードレイアウト画面が表示されるまで30秒〜1分ほどかかる場合があります。**  
 EEPROMの初期化処理がおこなわれていますので、キーボードの準備が整うまでしばらくお待ちください。  
@@ -1298,6 +1282,59 @@ QMKファームウェアのドキュメント[ファームウェアを書き込�
 1. リセットボタンを使ってDFUモードにする操作をおこなった場合は、[資料：EEPROMを消去して、初期状態に戻す方法](#資料eepromを消去して-初期状態に戻す方法)を実施します。
 
 以上でファームウェアの書き込み作業は完了です。
+
+</details>
+
+#### Remapを使用して書き込む方法
+
+Remapを使用して書き込む手順を説明します。
+
+<details>
+<summary>《詳しい説明》</summary>
+
+Remapを使用して書き込む手順を説明します。
+
+1. 基板の裏側が上になるように置きます。
+
+1. 基板をPCやMacとUSBケーブルで接続します。
+
+1. Google Chromeブラウザで、[Remap](https://remap-keys.app/)のページを開きます。
+
+1. `KEYBOARD CATALOG`をクリックし、`Nora`を検索して開きます。  
+
+1. `FIRMWARE`と書かれたところをクリックして、ファームウェアのリストを表示します。
+
+    ![Remap catalog, Nora](../assets/BuildGuide_DN0031/Remap_catalog_nora.png)
+
+1. リストから`REレイアウト`用のファームウェア`Nora DN0031, VIA + RE`を探し、`FLASH`を押します。
+
+    ![Firmware list](../assets/BuildGuide_DN0031/Remap_firmware_list.png)
+
+1. Flash Firmwareのポップアップ画面のBootloaderの項目で、`dfu`を選択し、右下の`FLASH`を押します。
+
+    ![Select dfu](../assets/BuildGuide_DN0031/Remap_select_dfu.png)
+
+1. 接続要求画面が表示されたら、基板裏側の`Reset`と書かれたスイッチを押します。
+
+    ![Reset switch](../assets/BuildGuide_DN0031/IMG_4112.jpeg)
+
+1. 接続要求画面に`ATm32U4DFU`が表示されるので、これを選択して`接続`ボタンを押します。
+
+    ![Select dfu](../assets/BuildGuide_DN0031/Remap_select_write_target.png)
+
+1. ファームウェアの書き込みが始まり、10秒程度で書き込みが完了します。
+
+    ![Select dfu](../assets/BuildGuide_DN0031/Remap_finish_writing.png)
+
+    メッセージの最後に、
+
+    ```text
+    Writing the firmware finished successfully.
+    ```
+
+    と表示されていれば、書き込み成功です。
+
+以上でファームウェアの書き換えは完了です。
 
 </details>
 
