@@ -389,8 +389,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 *`REレイアウト`を使用する場合のみ、この手順をおこないます。*
 
-Remapを使用して、ファームウェアを書き換えます。  
-Remapの[Noraのファームウェアページ](https://remap-keys.app/catalog/E014O2hP6X5DeDQCdhmA/firmware)から、`Nora DN0031, VIA + RE`のファームウェアを`FLASH`します。
+Remapを使用して、[Noraのファームウェアページ](https://remap-keys.app/catalog/E014O2hP6X5DeDQCdhmA/firmware)から、`Nora DN0031, VIA + RE`のファームウェアに書き換えます。
 
 QMK Toolboxで書き換える場合は、[資料：ファームウェアの書き込み方法](#資料ファームウェアの書き込み方法)を参考にしてください。
 
@@ -409,7 +408,7 @@ Remapを使用して書き込む手順を説明します。
 
     ![Firmware list](../assets/BuildGuide_DN0031/Remap_firmware_list.png)
 
-1. Flash Firmwareのポップアップ画面のBootloaderの項目で、`dfu`を選択し、右下の`FLASH`を押します。
+1. Flash Firmwareの画面で、Bootloaderに`dfu`を選択し、右下の`FLASH`を押します。
 
     ![Select dfu](../assets/BuildGuide_DN0031/Remap_select_dfu.png)
 
@@ -421,7 +420,7 @@ Remapを使用して書き込む手順を説明します。
 
     ![Select dfu](../assets/BuildGuide_DN0031/Remap_select_write_target.png)
 
-1. ファームウェアの書き込みが始まり、10秒程度で書き込みが完了します。
+1. ファームウェアの書き込みが始まり、メッセージがずらずらっと表示され、10秒程度で書き込みが完了します。
 
     ![Select dfu](../assets/BuildGuide_DN0031/Remap_finish_writing.png)
 
