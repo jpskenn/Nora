@@ -179,14 +179,14 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | 部品名 | 個数 | 備考 |
 | ----- | :-----: | ----- |
 | ご案内リーフレット | 1 | |
-| 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_v.0.1/_DSF1269.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1269.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_v.0.1/_DSF1271.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1271.jpeg) |
-| スイッチプレート<br>`FWレイアウト`と`REレイアウト` | 各1 | `FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF1267.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1267.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF1268.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1268.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF1267.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1267.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF1268.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1268.jpeg) |
-| ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF0644.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0644.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF0654.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0654.jpeg) |
-| スペーサーシート<br> シール付き, 1mm厚, 500mm * 10mm | 1 | |
-| スペーサー, M2 3mm | 8 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_0_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_0.jpeg) |
-| ネジ, M2 3mm, 低頭 | 16 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_1_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_1.jpeg) |
-| ネジ, M2 4mm, 低頭 | 5 | [<img alt="" src="../assets/BuildGuide_DN0031/_DSF0432_1_s.jpeg" width="300">](../assets/BuildGuide_DN0031/_DSF0432_1.jpeg) |
-| ゴム足 小 | 6 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_4_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_4.jpeg) |
+| 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_DN0031/IMG_4114.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4114.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_DN0031/IMG_4113.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4113.jpeg) |
+| スイッチプレート<br>`FWレイアウト`と`REレイアウト` | 各1 | `FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0031/IMG_4115.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4115.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0031/IMG_4116.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4116.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0031/IMG_4117.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4117.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0031/IMG_4118.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4118.jpeg) |
+| ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_DN0031/IMG_4119.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4119.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_DN0031/IMG_4120.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4120.jpeg) |
+| スペーサーシート<br> シール付き, 1mm厚, 500mm * 10mm | 1 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4122.jpeg) |
+| スペーサー, M2 3mm | 8 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4123.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4123.jpeg) |
+| ネジ, M2 3mm, 低頭 | 16 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4124.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4124.jpeg) |
+| ネジ, M2 4mm, 低頭 | 4 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4125.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4123.jpeg) |
+| ゴム足 小 | 6 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4126.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4126.jpeg) |
 
 ※出荷時期によってメーカーや品番などが変わることがあります
 
@@ -1536,7 +1536,7 @@ L字型のコネクタをもつUSBケーブルを使用すると、すっきり�
 
     1. 基板裏側へESDを取り付ける
 
-        <!-- 〓更新![ESD placement direction](../assets/BuildGuide_v.0.1/IMG_3834.jpeg)
+        <!-- 〓更新![ESD placement direction](../assets/BuildGuide_DN0031/IMG_3834.jpeg)
         ESD取り付け方向 -->
 
     1. 基板裏側へFUSEを取り付ける
