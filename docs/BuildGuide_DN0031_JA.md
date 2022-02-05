@@ -49,6 +49,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 - [目次](#目次)
 - [Nora, Fearless Wings (DN0031)の特徴, 機能](#nora-fearless-wings-dn0031の特徴-機能)
 - [注意事項、制限など](#注意事項-制限など)
+- [試作版，試作版キットに関する注意事項](#試作版試作版キットに関する注意事項)
 - [部品リスト](#部品リスト)
   - [キット内容](#キット内容)
   - [別途用意が必要な部品](#別途用意が必要な部品)
@@ -59,6 +60,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
   - [接続の確認](#接続の確認)
   - [ソケット用パッドの確認](#ソケット用パッドの確認)
 - [組み立て手順](#組み立て手順)
+  - [組み立てるレイアウトを決める](#組み立てるレイアウトを決める)
   - [（該当者のみ）`REレイアウト`用ファームウェアへの書き換え](#該当者のみreレイアウト用ファームウェアへの書き換え)
   - [（オプション）基板、スイッチプレート、ボトムプレートの側面を塗る](#オプション基板-スイッチプレート-ボトムプレートの側面を塗る)
   - [（オプション）LEDを取り付ける](#オプションledを取り付ける)
@@ -172,19 +174,17 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 ### キット内容
 
-〓写真入れ替え〓
-
 | 部品名 | 個数 | 備考 |
 | ----- | :-----: | ----- |
 | ご案内リーフレット | 1 | |
-| 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_v.0.1/_DSF1269.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1269.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_v.0.1/_DSF1271.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1271.jpeg) |
-| スイッチプレート<br>`FWレイアウト`と`REレイアウト` | 各1 | `FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF1267.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1267.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF1268.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1268.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF1267.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1267.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF1268.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1268.jpeg) |
-| ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF0644.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0644.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF0654.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0654.jpeg) |
-| スペーサーシート<br> シール付き, 1mm厚, 500mm * 10mm | 1 | |
-| スペーサー, M2 3mm | 8 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_0_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_0.jpeg) |
-| ネジ, M2 3mm, 低頭 | 16 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_1_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_1.jpeg) |
-| ネジ, M2 4mm, 低頭 | 5 | [<img alt="" src="../assets/BuildGuide_DN0031/_DSF0432_1_s.jpeg" width="300">](../assets/BuildGuide_DN0031/_DSF0432_1.jpeg) |
-| ゴム足 小 | 6 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_4_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_4.jpeg) |
+| 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_DN0031/IMG_4114.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4114.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_DN0031/IMG_4113.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4113.jpeg) |
+| スイッチプレート<br>`FWレイアウト`と`REレイアウト` | 各1 | `FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0031/IMG_4115.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4115.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0031/IMG_4116.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4116.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0031/IMG_4117.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4117.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0031/IMG_4118.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4118.jpeg) |
+| ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_DN0031/IMG_4119.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4119.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_DN0031/IMG_4120.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4120.jpeg) |
+| スペーサーシート<br> シール付き, 1mm厚, 500mm * 10mm | 1 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4122.jpeg) |
+| スペーサー, M2 3mm | 8 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4123.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4123.jpeg) |
+| ネジ, M2 3mm, 低頭 | 16 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4124.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4124.jpeg) |
+| ネジ, M2 4mm, 低頭 | 4 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4125.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4125.jpeg) |
+| ゴム足 小 | 6 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4126.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4126.jpeg) |
 
 ※出荷時期によってメーカーや品番などが変わることがあります
 
@@ -296,8 +296,6 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 [Remap](https://remap-keys.app/)のテスト機能を使用し、Kailh Chocソケット用のパッド（※）が、電気的に正しく反応することを確認します。  
 ※ソケットをはんだ付けする、基板上の四角い銀色の部分
 
-Remap / VIA用キーボード定義ファイル： [nora_via_v031.json](https://gist.github.com/jpskenn/7fac7a9bc819f2d4a7f97086cdd32fdd)
-
 <details>
 <summary>《詳しい説明》</summary>
 
@@ -324,16 +322,6 @@ Remap / VIA用キーボード定義ファイル： [nora_via_v031.json](https://
 1. デバイスへの接続要求画面で`Nora`を選択し、`接続`をクリックしてキーボードをRemapに接続します。
 
     ![デバイスへの接続要求](../assets/BuildGuide_DN0031/Remap_hid_connect.png)
-
-1. キーボード定義ファイルを読み込みます。
-
-    ![IMPORT](../assets/BuildGuide_DN0031/Remap_import.png)
-
-    1. Remap / VIA用キーボード定義ファイル（[nora_via_v031.json](https://gist.github.com/jpskenn/7fac7a9bc819f2d4a7f97086cdd32fdd)）をダウンロードします。  
-
-    1. ZIPファイルを展開して、`nora_via_v031.json`ファイルを取り出します。
-
-    1. Remapの`IMPORT(.JSON)`を押すかファイルをドロップして、取り出したファイルを読み込みます。
 
 1. 右側のアイコンから`Layout Option`をクリックし、使用するレイアウトを選択します。
 
@@ -399,72 +387,50 @@ Remap / VIA用キーボード定義ファイル： [nora_via_v031.json](https://
 
 *`REレイアウト`を使用する場合のみ、この手順をおこないます。*
 
-QMK Toolboxなどを使用して、ファームウェアを書き換えます。  
-`REレイアウト`用のRemap / VIA対応のビルド済みファームウェア： [nora_v031_via_re.hex](https://gist.github.com/jpskenn/dc6ec5eb08fa3a841a96057d544c794c)
+Remapを使用して、[Noraのファームウェアページ](https://remap-keys.app/catalog/E014O2hP6X5DeDQCdhmA/firmware)から、`Nora DN0031, VIA + RE`のファームウェアに書き換えます。
+
+QMK Toolboxで書き換える場合は、[資料：ファームウェアの書き込み方法](#資料ファームウェアの書き込み方法)を参考にしてください。
 
 <details>
 <summary>《詳しい説明》</summary>
 
-QMK Toolboxを使用して書き込む手順を説明します。
+Remapを使用して書き込む手順を説明します。
 
-1. `REレイアウト`用のRemap / VIA対応のビルド済みファームウェアをダウンロードします。  
-    [nora_v031_via_re.hex](https://gist.github.com/jpskenn/dc6ec5eb08fa3a841a96057d544c794c)
-
-1. ダウンロードしたZipファイルを展開して、hexファイルを取り出します。
-
-1. [QMK Toolbox](https://github.com/qmk/qmk_toolbox/)をダウンロードし、起動します。
-
-1. QMK Toolboxの`Open`ボタンを押し、ファームウェアのhexファイルを開きます。
-
-    ![Open firmware file](../assets/BuildGuide_DN0031/QMKToolbox_open.png)  
-
-1. 基板を裏側が上になるように置きます。
+1. 基板の裏側が上になるように置きます。
 
 1. 基板をPCやMacとUSBケーブルで接続します。
 
-1. 基板裏側のリセットボタンを押します。
+1. Google Chromeブラウザで、Remapの[Noraのファームウェアページ](https://remap-keys.app/catalog/E014O2hP6X5DeDQCdhmA/firmware)を開きます。
 
-    〓写真
+1. リストから`REレイアウト`用のファームウェア`Nora DN0031, VIA + RE`を探し、`FLASH`を押します。
 
-1. QMK Toolboxの画面に、以下のようなメッセージが表示されることを確認します。  
+    ![Firmware list](../assets/BuildGuide_DN0031/Remap_firmware_list.png)
+
+1. Flash Firmwareの画面で、Bootloaderに`dfu`を選択し、右下の`FLASH`を押します。
+
+    ![Select dfu](../assets/BuildGuide_DN0031/Remap_select_dfu.png)
+
+1. 接続要求画面が表示されたら、基板裏側の`Reset`と書かれたスイッチを押します。
+
+    ![Reset switch](../assets/BuildGuide_DN0031/IMG_4112.jpeg)
+
+1. 接続要求画面に`ATm32U4DFU`が表示されるので、これを選択して`接続`ボタンを押します。
+
+    ![Select dfu](../assets/BuildGuide_DN0031/Remap_select_write_target.png)
+
+1. ファームウェアの書き込みが始まり、メッセージがずらずらっと表示され、10秒程度で書き込みが完了します。
+
+    ![Select dfu](../assets/BuildGuide_DN0031/Remap_finish_writing.png)
+
+    メッセージの最後に、
 
     ```text
-    *** Atmel DFU device connected: ATMEL ATm32U4DFU (03EB:2FF4:0000)
+    Writing the firmware finished successfully.
     ```
 
-1. QMK Toolboxの`Flash`ボタンを押すとファームウェアの書き込みが始まります。  
+    と表示されていれば、書き込み成功です。
 
-    5秒程度で書き込みが終わり、QMK Toolboxの画面に以下のような書き込み完了メッセージが表示されます。  
-    （ファイル名やサイズ表記など、細かい部分は少し異なります）
-
-    ```text
-    *** Attempting to flash, please don't remove device
-    >>> dfu-programmer atmega32u4 erase --force
-        Erasing flash...  Success
-        Checking memory from 0x0 to 0x6FFF...  Empty.
-    >>> dfu-programmer atmega32u4 flash --force /Users/jpskenn/qmk_firmware/nora_v01_via.hex
-        0%                            100%  Programming 0x5E80 bytes...
-        [>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>]  Success
-        0%                            100%  Reading 0x7000 bytes...
-        [>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>]  Success
-        Validating...  Success
-        0x5E80 bytes written into 0x7000 bytes memory (84.38%).
-    >>> dfu-programmer atmega32u4 reset
-    *** Atmel DFU device disconnected: ATMEL ATm32U4DFU (03EB:2FF4:0000)
-    ```
-
-    これとは違うメッセージ（書き込み失敗など）が表示された場合は、スクリーンショットを撮ったりメッセージをコピーしたりして残してください。  
-    撮影したスクリーンショットなどと合わせて、リーフレットに記載された連絡先へ問い合わせてください。
-
-1. 外部EEPROMが消去されるまで、そのまま10秒ほど待ちます。  
-    完了メッセージなどは表示されないので、10秒数えたら次の手順へ進みます。
-
-1. QMK Toolboxを終了します。
-
-1. USBケーブルを抜きます。
-
-これでファームウェアの書き換えは完了です。  
-念のため、[接続の確認](#接続の確認)をおこなっておくと安心です。
+これでファームウェアの書き換えは完了です。
 
 **ファームウェアを書き込んで初めてRemapに接続した際、キーボードレイアウト画面が表示されるまで30秒〜1分ほどかかる場合があります。**  
 EEPROMの初期化処理がおこなわれていますので、キーボードの準備が整うまでしばらくお待ちください。  
@@ -1256,6 +1222,14 @@ LEDの点灯に関するルールにしたがい、**光らないLEDの、番号
 
 ### 資料：ファームウェアの書き込み方法
 
+QMK ToolboxやRemapを使用して、ビルド済み（＝作成済み）のファームウェアを書き込みます。  
+
+**ファームウェアを書き込んで初めてRemapに接続した際、キーボードレイアウト画面が表示されるまで30秒〜1分ほどかかる場合があります。**  
+EEPROMの初期化処理がおこなわれていますので、キーボードの準備が整うまでしばらくお待ちください。  
+2回目以降の接続では、すぐに接続されます。
+
+#### QMK Toolboxを使用して書き込む方法
+
 [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)を使用してビルド済み（＝作成済み）のファームウェアを書き込む方法について説明します。
 
 QMKファームウェアのドキュメント[ファームウェアを書き込む](https://docs.qmk.fm/#/ja/newbs_flashing?id=ファームウェアを書き込む)も、あわせてご覧ください。
@@ -1313,6 +1287,59 @@ QMKファームウェアのドキュメント[ファームウェアを書き込�
 
 </details>
 
+#### Remapを使用して書き込む方法
+
+Remapを使用して書き込む手順を説明します。
+
+<details>
+<summary>《詳しい説明》</summary>
+
+Remapを使用して書き込む手順を説明します。
+
+1. 基板の裏側が上になるように置きます。
+
+1. 基板をPCやMacとUSBケーブルで接続します。
+
+1. Google Chromeブラウザで、[Remap](https://remap-keys.app/)のページを開きます。
+
+1. `KEYBOARD CATALOG`をクリックし、`Nora`を検索して開きます。  
+
+1. `FIRMWARE`と書かれたところをクリックして、ファームウェアのリストを表示します。
+
+    ![Remap catalog, Nora](../assets/BuildGuide_DN0031/Remap_catalog_nora.png)
+
+1. リストから`REレイアウト`用のファームウェア`Nora DN0031, VIA + RE`を探し、`FLASH`を押します。
+
+    ![Firmware list](../assets/BuildGuide_DN0031/Remap_firmware_list.png)
+
+1. Flash Firmwareのポップアップ画面のBootloaderの項目で、`dfu`を選択し、右下の`FLASH`を押します。
+
+    ![Select dfu](../assets/BuildGuide_DN0031/Remap_select_dfu.png)
+
+1. 接続要求画面が表示されたら、基板裏側の`Reset`と書かれたスイッチを押します。
+
+    ![Reset switch](../assets/BuildGuide_DN0031/IMG_4112.jpeg)
+
+1. 接続要求画面に`ATm32U4DFU`が表示されるので、これを選択して`接続`ボタンを押します。
+
+    ![Select dfu](../assets/BuildGuide_DN0031/Remap_select_write_target.png)
+
+1. ファームウェアの書き込みが始まり、10秒程度で書き込みが完了します。
+
+    ![Select dfu](../assets/BuildGuide_DN0031/Remap_finish_writing.png)
+
+    メッセージの最後に、
+
+    ```text
+    Writing the firmware finished successfully.
+    ```
+
+    と表示されていれば、書き込み成功です。
+
+以上でファームウェアの書き換えは完了です。
+
+</details>
+
 ### 資料：初期ファームウェアの機能と設定値
 
 出荷時に書き込まれている初期ファームウェアの機能と設定値を説明します。
@@ -1321,36 +1348,56 @@ QMKファームウェアのドキュメント[ファームウェアを書き込�
 <summary>《詳しい説明》</summary>
 
 - キーマップ書き換えツール
-  RemapやVIAに対応。
+
+    RemapやVIAに対応。
 
 - レイヤー
 
-    7個のレイヤー。  
-    レイヤー構成とLEDインジケータの色は次の通りです。
+    7個のレイヤーを使用できます。  
+    レイヤー構成とレイヤーインジケータLEDの色は次の通りです。
 
-    〓変更
-
-    | No. | レイヤー名 | 機能 | LEDインジケータ色<br>手前, 奥 |
+    | No. | レイヤー名 | 主なキー割り当て | レイヤーインジケータLEDの色<br>左スペース, 右スペース |
     | :-: | :-- | :-- | :-: |
-    | 0 | ベースレイヤー #1 | 日本語配列 | 白, 白 |
-    | 1 | ベースレイヤー #2 | テンキー | 青, 青 |
-    | 2 | ベースレイヤー #3 | （未設定） | 黄, 黄 |
-    | 3 | Lower | 記号, ボリューム, ファンクションキー | －, 緑 |
-    | 4 | Raise | カーソル移動, 数字, ファンクションキー | －, 水 |
-    | 5 | Adjust | 各種設定, スクロールロックなど | －, 赤 |
+    | 0 | ベースレイヤー #1 | 英語配列<br>Macモディファイア | 未割り当て<br>（RGB Matrixのエフェクト色） |
+    | 1 | ベースレイヤー #2 | 英語配列<br>Windowsモディファイア | 青, 青 |
+    | 2 | ベースレイヤー #3 | ”SemiErgo”風<br>Macモディファイア | 黄, 黄 |
+    | 3 | Lower | ファンクションキー, 記号, ボリューム | 緑, 緑 |
+    | 4 | Raise | ファンクションキー, 数字, カーソル移動 | 水, 水 |
+    | 5 | Func | （未設定） | 白, 白 |
+    | 6 | Adjust | 各種設定, スクロールロックなど | 赤, 赤 |
+
+    CapsLockがONのときは、左スペースのインジケータLEDが紫色になります。
 
 - イルミネーションLED  
 
-    〓何がデフォ？
-    全キー71個のLEDによる、RGB Matrix Lightingに対応。  
-    初期状態のエフェクトは〓  
-    エフェクトのモードは`RGB_MOD`, `RGB_RMOD`で変更でき、EEPROMにモードが保存されます。
+    全キーのLEDによる、RGB Matrix Lighting。  
+    初期状態のエフェクトは、単色の赤色。  
 
 - レイヤーインジケータLED  
 
-    左上2個（1行目の左から2個）のLEDをレイヤーインジケータLEDとして使用し、レイヤーの状態を表示します。
+    左スペースと右スペースの2個をLEDをレイヤーインジケータとして使用し、レイヤーの状態を表示します。  
+    表示色はレイヤーの項目に記載しています。
 
-〓インジケータLEDのON/OFFキーコードをFN01とかに割り当てておき、そういう話もここに書く
+- ロータリーエンコーダ
+
+    `REレイアウト`はロータリーエンコーダを使用できます。
+
+- 組み込み機能
+
+    キーコード `KC_FNx` （xには数字が入ります）を使用することで、ファームウェア内の組み込み機能を使用できます。
+
+    | キーコード | 機能 |
+    | :-- | :-- |
+    | `KC_FN0` | :information_source: ファームウェアのバージョン情報を文字列として出力します。 |
+    | `KC_FN1` | レイヤー0をデフォルトレイヤーにします。<br>:floppy_disk: EEPROMにデフォルトレイヤーを保存します。 |
+    | `KC_FN2` | レイヤー1をデフォルトレイヤーにします。<br>:floppy_disk: EEPROMにデフォルトレイヤーを保存します。 |
+    | `KC_FN3` | レイヤー2をデフォルトレイヤーにします。<br>:floppy_disk: EEPROMにデフォルトレイヤーを保存します。 |
+    | `KC_FN4` | レイヤーインジケータLEDのON/OFFを切り替えます。<br>全キーでRGB Matrixのエフェクトを楽しむことができます。 :smiley: |
+
+    Remapでは、`SPECIAL`の`FUNC`がこれらのキーコードに該当します。  
+    `KC_FN0`には`Func0`が対応します。
+
+    ![Remap, FUNC](../assets/BuildGuide_DN0031/Remap_special_func.png)
 
 </details>
 
@@ -1507,7 +1554,7 @@ L字型のコネクタをもつUSBケーブルを使用すると、すっきり�
 
     1. 基板裏側へESDを取り付ける
 
-        <!-- 〓更新![ESD placement direction](../assets/BuildGuide_v.0.1/IMG_3834.jpeg)
+        <!-- 〓更新![ESD placement direction](../assets/BuildGuide_DN0031/IMG_3834.jpeg)
         ESD取り付け方向 -->
 
     1. 基板裏側へFUSEを取り付ける
