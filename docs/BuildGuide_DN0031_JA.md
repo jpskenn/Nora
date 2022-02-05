@@ -174,19 +174,17 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 ### キット内容
 
-〓写真入れ替え〓
-
 | 部品名 | 個数 | 備考 |
 | ----- | :-----: | ----- |
 | ご案内リーフレット | 1 | |
-| 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_v.0.1/_DSF1269.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1269.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_v.0.1/_DSF1271.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1271.jpeg) |
-| スイッチプレート<br>`FWレイアウト`と`REレイアウト` | 各1 | `FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF1267.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1267.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF1268.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1268.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF1267.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1267.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF1268.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF1268.jpeg) |
-| ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_v.0.1/_DSF0644.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0644.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_v.0.1/_DSF0654.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0654.jpeg) |
-| スペーサーシート<br> シール付き, 1mm厚, 500mm * 10mm | 1 | |
-| スペーサー, M2 3mm | 8 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_0_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_0.jpeg) |
-| ネジ, M2 3mm, 低頭 | 16 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_1_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_1.jpeg) |
-| ネジ, M2 4mm, 低頭 | 5 | [<img alt="" src="../assets/BuildGuide_DN0031/_DSF0432_1_s.jpeg" width="300">](../assets/BuildGuide_DN0031/_DSF0432_1.jpeg) |
-| ゴム足 小 | 6 | [<img alt="" src="../assets/BuildGuide_v.0.1/_DSF0435_4_s.jpeg" width="300">](../assets/BuildGuide_v.0.1/_DSF0435_4.jpeg) |
+| 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_DN0031/IMG_4114.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4114.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_DN0031/IMG_4113.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4113.jpeg) |
+| スイッチプレート<br>`FWレイアウト`と`REレイアウト` | 各1 | `FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0031/IMG_4115.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4115.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0031/IMG_4116.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4116.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0031/IMG_4117.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4117.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0031/IMG_4118.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4118.jpeg) |
+| ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_DN0031/IMG_4119.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4119.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_DN0031/IMG_4120.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4120.jpeg) |
+| スペーサーシート<br> シール付き, 1mm厚, 500mm * 10mm | 1 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4122.jpeg) |
+| スペーサー, M2 3mm | 8 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4123.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4123.jpeg) |
+| ネジ, M2 3mm, 低頭 | 16 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4124.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4124.jpeg) |
+| ネジ, M2 4mm, 低頭 | 4 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4125.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4125.jpeg) |
+| ゴム足 小 | 6 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4126.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4126.jpeg) |
 
 ※出荷時期によってメーカーや品番などが変わることがあります
 
@@ -1350,36 +1348,56 @@ Remapを使用して書き込む手順を説明します。
 <summary>《詳しい説明》</summary>
 
 - キーマップ書き換えツール
-  RemapやVIAに対応。
+
+    RemapやVIAに対応。
 
 - レイヤー
 
-    7個のレイヤー。  
-    レイヤー構成とLEDインジケータの色は次の通りです。
+    7個のレイヤーを使用できます。  
+    レイヤー構成とレイヤーインジケータLEDの色は次の通りです。
 
-    〓変更
-
-    | No. | レイヤー名 | 機能 | LEDインジケータ色<br>手前, 奥 |
+    | No. | レイヤー名 | 主なキー割り当て | レイヤーインジケータLEDの色<br>左スペース, 右スペース |
     | :-: | :-- | :-- | :-: |
-    | 0 | ベースレイヤー #1 | 日本語配列 | 白, 白 |
-    | 1 | ベースレイヤー #2 | テンキー | 青, 青 |
-    | 2 | ベースレイヤー #3 | （未設定） | 黄, 黄 |
-    | 3 | Lower | 記号, ボリューム, ファンクションキー | －, 緑 |
-    | 4 | Raise | カーソル移動, 数字, ファンクションキー | －, 水 |
-    | 5 | Adjust | 各種設定, スクロールロックなど | －, 赤 |
+    | 0 | ベースレイヤー #1 | 英語配列<br>Macモディファイア | 未割り当て<br>（RGB Matrixのエフェクト色） |
+    | 1 | ベースレイヤー #2 | 英語配列<br>Windowsモディファイア | 青, 青 |
+    | 2 | ベースレイヤー #3 | ”SemiErgo”風<br>Macモディファイア | 黄, 黄 |
+    | 3 | Lower | ファンクションキー, 記号, ボリューム | 緑, 緑 |
+    | 4 | Raise | ファンクションキー, 数字, カーソル移動 | 水, 水 |
+    | 5 | Func | （未設定） | 白, 白 |
+    | 6 | Adjust | 各種設定, スクロールロックなど | 赤, 赤 |
+
+    CapsLockがONのときは、左スペースのインジケータLEDが紫色になります。
 
 - イルミネーションLED  
 
-    〓何がデフォ？
-    全キー71個のLEDによる、RGB Matrix Lightingに対応。  
-    初期状態のエフェクトは〓  
-    エフェクトのモードは`RGB_MOD`, `RGB_RMOD`で変更でき、EEPROMにモードが保存されます。
+    全キーのLEDによる、RGB Matrix Lighting。  
+    初期状態のエフェクトは、単色の赤色。  
 
 - レイヤーインジケータLED  
 
-    左上2個（1行目の左から2個）のLEDをレイヤーインジケータLEDとして使用し、レイヤーの状態を表示します。
+    左スペースと右スペースの2個をLEDをレイヤーインジケータとして使用し、レイヤーの状態を表示します。  
+    表示色はレイヤーの項目に記載しています。
 
-〓インジケータLEDのON/OFFキーコードをFN01とかに割り当てておき、そういう話もここに書く
+- ロータリーエンコーダ
+
+    `REレイアウト`はロータリーエンコーダを使用できます。
+
+- 組み込み機能
+
+    キーコード `KC_FNx` （xには数字が入ります）を使用することで、ファームウェア内の組み込み機能を使用できます。
+
+    | キーコード | 機能 |
+    | :-- | :-- |
+    | `KC_FN0` | :information_source: ファームウェアのバージョン情報を文字列として出力します。 |
+    | `KC_FN1` | レイヤー0をデフォルトレイヤーにします。<br>:floppy_disk: EEPROMにデフォルトレイヤーを保存します。 |
+    | `KC_FN2` | レイヤー1をデフォルトレイヤーにします。<br>:floppy_disk: EEPROMにデフォルトレイヤーを保存します。 |
+    | `KC_FN3` | レイヤー2をデフォルトレイヤーにします。<br>:floppy_disk: EEPROMにデフォルトレイヤーを保存します。 |
+    | `KC_FN4` | レイヤーインジケータLEDのON/OFFを切り替えます。<br>全キーでRGB Matrixのエフェクトを楽しむことができます。 :smiley: |
+
+    Remapでは、`SPECIAL`の`FUNC`がこれらのキーコードに該当します。  
+    `KC_FN0`には`Func0`が対応します。
+
+    ![Remap, FUNC](../assets/BuildGuide_DN0031/Remap_special_func.png)
 
 </details>
 
@@ -1536,7 +1554,7 @@ L字型のコネクタをもつUSBケーブルを使用すると、すっきり�
 
     1. 基板裏側へESDを取り付ける
 
-        <!-- 〓更新![ESD placement direction](../assets/BuildGuide_v.0.1/IMG_3834.jpeg)
+        <!-- 〓更新![ESD placement direction](../assets/BuildGuide_DN0031/IMG_3834.jpeg)
         ESD取り付け方向 -->
 
     1. 基板裏側へFUSEを取り付ける
