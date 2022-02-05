@@ -183,7 +183,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | スペーサーシート<br> シール付き, 1mm厚, 500mm * 10mm | 1 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4122.jpeg) |
 | スペーサー, M2 3mm | 8 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4123.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4123.jpeg) |
 | ネジ, M2 3mm, 低頭 | 16 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4124.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4124.jpeg) |
-| ネジ, M2 4mm, 低頭 | 4 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4125.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4123.jpeg) |
+| ネジ, M2 4mm, 低頭 | 4 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4125.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4125.jpeg) |
 | ゴム足 小 | 6 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4126.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4126.jpeg) |
 
 ※出荷時期によってメーカーや品番などが変わることがあります
