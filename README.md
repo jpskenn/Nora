@@ -103,10 +103,8 @@ Choc用キーキャップの標準的なキーピッチ（たて17mm×よこ18mm
 アルファ部の右側にテンキーを配置し、少し下へ飛びだしたカーソルキーが特徴のレイアウトです。  
 キー数が多く、記号やカーソルなどを物理的に配置することができます。
 
-```aside
 試作して実際に使ってみると、狭ピッチで左右の手が中央へ近づくため、ホームポジションに手を乗せたときに肩や腕が窮屈に感じてしまいます。  
 日常的に使用する上での快適さを満たせないため、1.8kは開発を停止しています。
-```
 
 ## 機能
 
@@ -151,9 +149,9 @@ Raspberry Pi PICOによる動作を実験的機能として提供します。
 
 ## ビルドガイド
 
-- [Nora, 1.8k v.0.1 ビルドガイド](./docs/BuildGuide_v.0.1_JA.md)
-- [Nora, Fearless Wings DN0030 ビルドガイド](./docs/BuildGuide_DN0030_JA.md)
 - [Nora, Fearless Wings DN0031 ビルドガイド](./docs/BuildGuide_DN0031_JA.md)
+- [Nora, Fearless Wings DN0030 ビルドガイド](./docs/BuildGuide_DN0030_JA.md)
+- [Nora, 1.8k v.0.1 ビルドガイド](./docs/BuildGuide_v.0.1_JA.md)
 
 ## ビルド例
 
