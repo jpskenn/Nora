@@ -1448,7 +1448,7 @@ Remapを使用して書き込む手順を説明します。
       [nora_v031_via.hex](https://gist.github.com/jpskenn/91e35665ae5ee15672c2e424c2413d76)
 
   - `REレイアウト`用  
-      [nora_v031_via_re.hex](https://gist.github.com/jpskenn/dc6ec5eb08fa3a841a96057d544c794c)
+      [nora_v031_via_re.hex](https://gist.github.com/jpskenn/382f63057c083185cbfafc225f198880)
 
 - ファームウェアのソース
 
