@@ -36,9 +36,9 @@ You can continue tying without breaking the position of finger, wrist and elbow.
 を対象に作られています。
 
 特に、  
-*ホームポジションから遠いキーにも指をとどきやすくしたい方*  
+*ホームポジションから遠いキーにも指をとどきやすくして、手・手首・肘の位置を一定に保ったまま打鍵したい方*  
 や、  
-*手・手首・肘の位置を一定に保ったまま打鍵したい方*  
+*キーの打鍵位置を低くして、手首への負担を減らしたい方*  
 におすすめします。
 
 ## コンセプト
@@ -72,6 +72,8 @@ Choc用キーキャップの標準的なキーピッチ（たて17mm×よこ18mm
 
 キーレイアウトはJonesのレイアウトを元に設計しており、2行目と3行目にずれのない左右対称のアルファ部や、右手のホームポジションに近づけたModキーなどにその特徴があらわれています。
 
+<!--　〓写真追加　R2-R3のギャップないところ -->
+
 ![Symmetric alpha and near by mod keys](./assets/Readme/_DSF1121.jpeg)
 左右対称のアルファ部と、近づけたModキー
 
@@ -84,20 +86,25 @@ Choc用キーキャップの標準的なキーピッチ（たて17mm×よこ18mm
 
 狭ピッチの一体型キーボードというコンセプトを元に、ふたつのレイアウトバリエーションが存在します。
 
+#### Nora, Fearless Wings
+
+![Layout, Nora, Fearless Wings](./assets/Readme/layout_fw.png)
+
+左右に大きく離れたアルファ部が特徴のレイアウトです。  
+キーボード中央部のホームポジションから離れたキーは打鍵しづらく、ホームポジションからレイヤー内のキーを打鍵した方が快適なため取り払っています。
+
+アルファ部を左右へ大きく離すことで打鍵時の肘・腕・手首・指先の位置を最適化し、快適な運指と、肩や腕への負担軽減を目指しています。  
+手首をあまり持ち上げないスタイルでも快適に打鍵できるように、最下行の左右の端にはキーを配置せず、手のひらにキーが当たる不快感を無くしています。
+
 #### Nora, 1.8k
 
 ![Layout, Nora, 1.8k](./assets/Readme/layout.png)
 
 アルファ部の右側にテンキーを配置し、少し下へ飛びだしたカーソルキーが特徴のレイアウトです。  
+キー数が多く、記号やカーソルなどを物理的に配置することができます。
 
-#### Nora, Fearless Wings
-
-![Layout, Nora, Fearless Wings](./assets/Readme/layout_fw.png)
-
-左右に大きく離れたアルファ部が特徴のレイアウトです。
-
-打鍵時の肘・腕・手首・指先の位置を最適化し、快適な運指と、肩や腕への負担軽減を目指しています。  
-また、手のひらにキーが当たる不快感を無くすため、最下行の左右の端にはキーを配置していません。
+試作して実際に使ってみると、狭ピッチで左右の手が中央へ近づくため、ホームポジションに手を乗せたときに肩や腕が窮屈に感じてしまいます。  
+日常的に使用する上での快適さを満たせないため、1.8kは開発を停止しています。
 
 ## 機能
 
@@ -109,13 +116,8 @@ MCUにATmega32u4を採用し、[QMKファームウェア](https://github.com/qmk
 
 [Remap](https://remap-keys.app)や[VIA](https://caniusevia.com)などのキーマップ書き換えツールに対応しており、ファームウェアを書き換えることなく、キーの割り当てを変更することができます。  
 
-ハードウェアの動作確認が終わり次第、Remapへ登録する予定です。  
-
-<!--
-Remapにはキーボード定義を登録済みですので、サイトへアクセスしてキーボードを接続すれば、すぐにキーの割り当てを変更することができます。  
-VIAを使用する場合は、以下のキーボード定義ファイルを読み込ませてください。  
-キーボード定義ファイル：[nora_via_v01.json](./VIA/nora_via_v01.json)
--->
+Remapにキーボードを登録済みですので、サイトへアクセスしてキーボードを接続すれば、すぐにキーの割り当てを変更することができます。  
+VIAを使用する場合は、[VIAフォルダ](./VIA/)のキーボード定義ファイルを読み込ませてください。  
 
 ### RemapやVIAで、より多くのレイヤーを使用可能
 
@@ -126,17 +128,15 @@ VIAを使用する場合は、以下のキーボード定義ファイルを読�
 
 ### ケース
 
-GH60型やPoker型に互換性のある、ロープロファイルケースに対応しています。  
-ハイプロファイルのケースにも取り付けできますが、キー天面がケースのフレームよりも低くなるため実用には向きません。
-
-また、専用のボトムプレート”Jones / Nora用ボトムプレートキット”を使用すれば、ケースレスのサンドイッチマウントとして使用できます。  
+専用のボトムプレートを使用すれば、ケースレスのサンドイッチマウントとして使用できます。  
 ケースを使用する場合に比べてキーボードの高さを低く抑えることができ、手首の負担軽減などに有効です。
+
+また、GH60型やPoker型に互換性のある、ロープロファイルケースに対応しています。  
+ハイプロファイルのケースにも取り付けできますが、キー天面がケースのフレームよりも低くなるため実用には向きません。
 
 ### レイヤーインジケータ／イルミネーションLED（オプション）
 
 レイヤーの状態を表示するインジケータや、イルミネーションとして使用できるLEDを、キースイッチの下へ取り付けできます。
-
-”1.8k”は1行目と5行目に合計31個、”Fearless Wings”はすべてのキーに合計71個のLEDを取り付けできる予定です。
 
 ### Raspberry Pi PICOによる動作（実験的機能）
 
@@ -149,18 +149,32 @@ Raspberry Pi PICOによる動作を実験的機能として提供します。
 
 ## ビルドガイド
 
-- [Nora, 1.8k v.0.1 ビルドガイド](./docs/BuildGuide_v.0.1_JA.md)
+- [Nora, Fearless Wings DN0031 ビルドガイド](./docs/BuildGuide_DN0031_JA.md)
 - [Nora, Fearless Wings DN0030 ビルドガイド](./docs/BuildGuide_DN0030_JA.md)
+- [Nora, 1.8k v.0.1 ビルドガイド](./docs/BuildGuide_v.0.1_JA.md)
 
 ## ビルド例
 
 | ビルド例 | 詳細 |
 | --- | :-- |
-| [<img src="./assets/Readme/DSC_7457.jpeg" width="300">]((./assets/Readme/DSC_7457.jpeg)) | Nora, 1.8k（試作）<br>case: KBDfans 60% Aluminum Low Profile, Gray<br>keycaps: MBK Colors & Self Dye |
-| [<img src="./assets/Readme/IMG_3798.jpeg" width="300">]((./assets/Readme/IMG_3798.jpeg)) | Nora, 1.8k（試作）<br>case: Jones' Bottom plate<br>keycaps: MBK Colors & Self Dye |
-| [<img src="./assets/Readme/_DSF1357.jpeg" width="300">]((./assets/Readme/_DSF1357.jpeg)) | Nora, 1.8k（試作）<br>case: Jones' Bottom plate<br>keycaps: Kailh low profile |
+| [<img src="./assets/Readme/_DSF1643.jpeg" width="300">]((./assets/Readme/_DSF1643.jpeg)) | Fearless Wings DN0031<br>case: Nora & Jones' Bottom plate<br>keycaps: Kailh low profile + MBK |
+| [<img src="./assets/Readme/_DSF1571.jpeg" width="300">]((./assets/Readme/_DSF1571.jpeg)) | Fearless Wings DN0031 w/Rotary Encoder<br>case: Nora & Jones' Bottom plate<br>keycaps: Kailh low profile + MBK |
+| [<img src="./assets/Readme/DSC_7457.jpeg" width="300">]((./assets/Readme/DSC_7457.jpeg)) | 1.8k（試作）<br>case: KBDfans 60% Aluminum Low Profile, Gray<br>keycaps: MBK Colors & Self Dye |
+| [<img src="./assets/Readme/_DSF1357.jpeg" width="300">]((./assets/Readme/_DSF1357.jpeg)) | 1.8k（試作）<br>case: Jones' Bottom plate<br>keycaps: Kailh low profile |
+
 
 ## 製作歴
+
+- Fearless Wings DN0032（開発中）
+
+    組み立てやすさを向上。
+    細部を調整。
+
+- Fearless Wings DN0031
+
+    スペースキーより内側のキーに親指が届きやすいように、最下行を外側へ0.25u移動。
+    ロータリーエンコーダ付きのレイアウトを追加。
+    組み立てやすさを向上。
 
 - Fearless Wings DN0030
 
