@@ -191,11 +191,11 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_DN0031/IMG_4114.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4114.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_DN0031/IMG_4113.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4113.jpeg) |
 | スイッチプレート<br>`FWレイアウト`と`REレイアウト` | 各1 | `FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0031/IMG_4115.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4115.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0031/IMG_4116.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4116.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0031/IMG_4117.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4117.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0031/IMG_4118.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4118.jpeg) |
 | ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_DN0031/IMG_4119.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4119.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_DN0031/IMG_4120.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4120.jpeg) |
-| スペーサーシート<br> シール付き, 1mm厚, 500mm * 10mm | 1 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4122.jpeg) |
-| スペーサー, M2 3mm | 8 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4123.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4123.jpeg) |
-| ネジ, M2 3mm, 低頭 | 16 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4124.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4124.jpeg) |
-| ネジ, M2 4mm, 低頭 | 4 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4125.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4125.jpeg) |
-| ゴム足 小 | 6 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4126.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4126.jpeg) |
+| スペーサーシート<br> シール付き, 1mm厚, 500mm * 10mm<br>[低弾性ゴムシート－ハネナイトＲ－ (UNLEA1-10)](https://jp.misumi-ec.com/vona2/detail/110300277050/?HissuCode=UNLEA1-10) | 1 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4122.jpeg) |
+| スペーサー, M2 3mm<br>[黄銅 スペーサー(六角) / ASB-E](https://hirosugi.co.jp/products/B/ASB-E.html) | 8 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4123.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4123.jpeg) |
+| ネジ, M2 3mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 16 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4124.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4124.jpeg) |
+| ネジ, M2 4mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 4 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4125.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4125.jpeg) |
+| ゴム足 小<br>[しっかりつくクッションゴム CS-102, 透明, 8 φ x 2 mm](https://www.3mcompany.jp/3M/ja_JP/p/d/v000453068/) | 6 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4126.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4126.jpeg) |
 
 ※出荷時期によってメーカーや品番などが変わることがあります
 
