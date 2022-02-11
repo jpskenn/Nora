@@ -47,7 +47,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 <!-- code_chunk_output -->
 
 - [目次](#目次)
-- [Nora, Fearless Wings (DN0032)の特徴, 機能](#nora-fearless-wings-DN0032の特徴-機能)
+- [Nora, Fearless Wings (DN0032)の特徴, 機能](#nora-fearless-wings-dn0032の特徴-機能)
 - [注意事項、制限など](#注意事項-制限など)
 - [試作版，試作版キットに関する注意事項](#試作版試作版キットに関する注意事項)
 - [部品リスト](#部品リスト)
@@ -79,7 +79,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
   - [資料：ファームウェアの書き込み方法](#資料ファームウェアの書き込み方法)
   - [資料：初期ファームウェアの機能と設定値](#資料初期ファームウェアの機能と設定値)
   - [資料：EEPROMを消去して、初期状態に戻す方法](#資料eepromを消去して-初期状態に戻す方法)
-  - [資料：Nora, Fearless Wings (DN0032)関連ファイル](#資料nora-fearless-wings-DN0032関連ファイル)
+  - [資料：Nora, Fearless Wings (DN0032)関連ファイル](#資料nora-fearless-wings-dn0032関連ファイル)
   - [資料：Raspberry Pi PICOによる動作（実験的機能）](#資料raspberry-pi-picoによる動作実験的機能)
 - [サービスマニュアル](#サービスマニュアル)
   - [パーツリスト](#パーツリスト)
@@ -191,7 +191,8 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_DN0032/IMG_4114.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4114.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_DN0032/IMG_4113.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4113.jpeg) |
 | スイッチプレート<br>`FWレイアウト`と`REレイアウト` | 各1 | `FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/IMG_4115.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4115.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4116.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4116.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/IMG_4117.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4117.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4118.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4118.jpeg) |
 | ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_DN0032/IMG_4119.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4119.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4120.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4120.jpeg) |
-| スペーサーシート<br> シール付き, 1mm厚, 500mm * 10mm<br>[低弾性ゴムシート－ハネナイトＲ－ (UNLEA1-10)](https://jp.misumi-ec.com/vona2/detail/110300277050/?HissuCode=UNLEA1-10) | 1 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4122.jpeg) |
+| スペーサーシート<br> シール付き, 1mm厚, 10mm * 500mm（長い）<br>[低弾性ゴムシート－ハネナイトＲ－ (UNLEA1-10)](https://jp.misumi-ec.com/vona2/detail/110300277050/?HissuCode=UNLEA1-10) | 1 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4122.jpeg) |
+| スペーサーシート<br> シール付き, 1mm厚, 10mm * 約160mm（短い） | 1 | 〓写真入れ替え[<img alt="" src="../assets/BuildGuide_DN0032/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4122.jpeg) |
 | スペーサー, M2 3mm<br>[黄銅 スペーサー(六角) / ASB-E](https://hirosugi.co.jp/products/B/ASB-E.html) | 8 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4123.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4123.jpeg) |
 | ネジ, M2 3mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 16 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4124.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4124.jpeg) |
 | ネジ, M2 4mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 4 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4125.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4125.jpeg) |
@@ -807,7 +808,7 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
 #### ヒント
 
-- スペーサーシートの長さに余裕がないため、無駄のないように貼り付けます。
+- スペーサーシートは無駄のないように貼り付けます。
 
 <details>
 <summary>《詳しい説明》</summary>
@@ -825,18 +826,13 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
     1. 幅が中くらいの箇所  
         シートを縦半分に切り、5mm幅を貼り付けます。  
-        `USB`と書かれた箇所を避けます。
+        `USB`と書かれた箇所を避けて貼り付けます。
+        Raspberry Pi PICOを使用する場合は、`PICO reserved area`と書かれた箇所を避けて貼り付けます。
 
-    1. 幅が狭い箇所のうち、貼り付けサイズが長い箇所  
+    1. 幅が狭い箇所  
         シートを縦1/3に切り、約3mm幅を貼り付けます。
 
-    1. 幅が狭い箇所の、残りの箇所  
-        すべての位置へ貼り付けできなくでも問題ありません。  
-        ひとつ飛ばし（2列に1個、飛び飛び）に貼り付けたりして、バランスよく貼り付けます。
-
-    ```aside
-    Raspberry Pi PICOを使用する場合は、`PICO reserved area`と書かれた箇所を避けて貼り付けます。
-    ```
+    シートが余った場合は、空いている箇所へバランスよく貼り付けます。
 
 </details>
 
