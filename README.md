@@ -22,7 +22,7 @@ Narrow Jones --> Norah Jones --> Norah --> Nora
 
 ---
 
-Nora is a narrow pitch keyboard with Choc v1 low profile switches, designed for MBK or smaller keycaps.
+Nora is a narrow pitch keyboard with Choc v1 low profile switches, designed for MBK or smaller keycaps.  
 It can be used with GH60 and Poker compatible low profile cases or original bottom plate.
 
 Narrow pitch makes fingers easy to reach keys far from home position, "T" and "Y", R1 numerics and symbols.  
