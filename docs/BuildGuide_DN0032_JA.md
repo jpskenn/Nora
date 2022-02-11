@@ -1,8 +1,8 @@
-# ”Nora, Fearless Wings (DN0031) 試作版”ビルドガイド
+# ”Nora, Fearless Wings (DN0032) 試作版”ビルドガイド
 
 購入していただいた方、リポジトリから製造していただいた方、その他の皆様、Noraに興味を持っていただきありがとうございます。
 
-このドキュメントは、”Nora, Fearless Wings (DN0031) 試作版”を組み立てるためのビルドガイドです。  
+このドキュメントは、”Nora, Fearless Wings (DN0032) 試作版”を組み立てるためのビルドガイドです。  
 以下に示す、ふたつレイアウトの組み立て方法について説明します。  
 参考： [Nora, Kyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/568990362f215776aa93e3b90064f241)
 
@@ -10,7 +10,7 @@
 
   ロータリーエンコーダを配置せず、中央部分に隙間のあるレイアウト
   
-  ![FWレイアウト](../assets/BuildGuide_DN0031/IMG_4067.jpeg)  
+  ![FWレイアウト](../assets/BuildGuide_DN0032/IMG_4067.jpeg)  
   Keycaps: Kailhロープロファイルキーキャップ  
   Case: 専用ボトムプレート
 
@@ -18,7 +18,7 @@
 
   中央にロータリーエンコーダを配置したレイアウト
   
-  ![REレイアウト](../assets/BuildGuide_DN0031/_DSF1541.jpeg)  
+  ![REレイアウト](../assets/BuildGuide_DN0032/_DSF1541.jpeg)  
   Keycaps: Gravity Keycaps + MBK  
   Case: KBDfans 60% ALUMINUM LOW PROFILE CASE, Gray  
   Rotary Encoder: ALPS EC12E2440301（貫通軸タイプ）  
@@ -47,7 +47,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 <!-- code_chunk_output -->
 
 - [目次](#目次)
-- [Nora, Fearless Wings (DN0031)の特徴, 機能](#nora-fearless-wings-dn0031の特徴-機能)
+- [Nora, Fearless Wings (DN0032)の特徴, 機能](#nora-fearless-wings-DN0032の特徴-機能)
 - [注意事項、制限など](#注意事項-制限など)
 - [試作版，試作版キットに関する注意事項](#試作版試作版キットに関する注意事項)
 - [部品リスト](#部品リスト)
@@ -79,7 +79,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
   - [資料：ファームウェアの書き込み方法](#資料ファームウェアの書き込み方法)
   - [資料：初期ファームウェアの機能と設定値](#資料初期ファームウェアの機能と設定値)
   - [資料：EEPROMを消去して、初期状態に戻す方法](#資料eepromを消去して-初期状態に戻す方法)
-  - [資料：Nora, Fearless Wings (DN0031)関連ファイル](#資料nora-fearless-wings-dn0031関連ファイル)
+  - [資料：Nora, Fearless Wings (DN0032)関連ファイル](#資料nora-fearless-wings-DN0032関連ファイル)
   - [資料：Raspberry Pi PICOによる動作（実験的機能）](#資料raspberry-pi-picoによる動作実験的機能)
 - [サービスマニュアル](#サービスマニュアル)
   - [パーツリスト](#パーツリスト)
@@ -89,7 +89,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 ---
 
-## Nora, Fearless Wings (DN0031)の特徴, 機能
+## Nora, Fearless Wings (DN0032)の特徴, 機能
 
 - 狭ピッチ
 - Jonesゆずりのキーレイアウト
@@ -110,7 +110,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 - キーキャップ
 
   MBK以下のサイズのキーキャップに合わせて設計されており、Choc用のキーピッチよりも横方向がほんの少し狭くなっています。  
-  17 × 17.8594mm（[基板上の寸法図](../assets/BuildGuide_DN0031/PCB_key_pitch.png)）
+  17 × 17.8594mm（[基板上の寸法図](../assets/BuildGuide_DN0032/PCB_key_pitch.png)）
 
   - 取り付け確認済みキーキャップ
 
@@ -148,7 +148,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
   1行目と4行目の左端のソケット2個は、ソケットの端子部分が基板から約0.5mm飛び出した状態で取り付けます。
 
-  ![取り付けたLED](../assets/BuildGuide_DN0031/IMG_4080.jpeg)
+  ![取り付けたLED](../assets/BuildGuide_DN0032/IMG_4080.jpeg)
 
   GH60型，Poker型のロープロファイルケースへの取り付けなども含め、実用上の問題がないことを確認していますが、怪我などしないようご留意ください。
 
@@ -188,14 +188,14 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | 部品名 | 個数 | 備考 |
 | ----- | :-----: | ----- |
 | ご案内リーフレット | 1 | |
-| 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_DN0031/IMG_4114.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4114.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_DN0031/IMG_4113.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4113.jpeg) |
-| スイッチプレート<br>`FWレイアウト`と`REレイアウト` | 各1 | `FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0031/IMG_4115.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4115.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0031/IMG_4116.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4116.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0031/IMG_4117.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4117.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0031/IMG_4118.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4118.jpeg) |
-| ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_DN0031/IMG_4119.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4119.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_DN0031/IMG_4120.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4120.jpeg) |
-| スペーサーシート<br> シール付き, 1mm厚, 500mm * 10mm<br>[低弾性ゴムシート－ハネナイトＲ－ (UNLEA1-10)](https://jp.misumi-ec.com/vona2/detail/110300277050/?HissuCode=UNLEA1-10) | 1 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4122.jpeg) |
-| スペーサー, M2 3mm<br>[黄銅 スペーサー(六角) / ASB-E](https://hirosugi.co.jp/products/B/ASB-E.html) | 8 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4123.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4123.jpeg) |
-| ネジ, M2 3mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 16 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4124.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4124.jpeg) |
-| ネジ, M2 4mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 4 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4125.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4125.jpeg) |
-| ゴム足 小<br>[しっかりつくクッションゴム CS-102, 透明, 8 φ x 2 mm](https://www.3mcompany.jp/3M/ja_JP/p/d/v000453068/) | 6 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4126.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4126.jpeg) |
+| 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_DN0032/IMG_4114.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4114.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_DN0032/IMG_4113.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4113.jpeg) |
+| スイッチプレート<br>`FWレイアウト`と`REレイアウト` | 各1 | `FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/IMG_4115.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4115.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4116.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4116.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/IMG_4117.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4117.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4118.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4118.jpeg) |
+| ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_DN0032/IMG_4119.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4119.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4120.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4120.jpeg) |
+| スペーサーシート<br> シール付き, 1mm厚, 500mm * 10mm<br>[低弾性ゴムシート－ハネナイトＲ－ (UNLEA1-10)](https://jp.misumi-ec.com/vona2/detail/110300277050/?HissuCode=UNLEA1-10) | 1 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4122.jpeg) |
+| スペーサー, M2 3mm<br>[黄銅 スペーサー(六角) / ASB-E](https://hirosugi.co.jp/products/B/ASB-E.html) | 8 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4123.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4123.jpeg) |
+| ネジ, M2 3mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 16 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4124.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4124.jpeg) |
+| ネジ, M2 4mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 4 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4125.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4125.jpeg) |
+| ゴム足 小<br>[しっかりつくクッションゴム CS-102, 透明, 8 φ x 2 mm](https://www.3mcompany.jp/3M/ja_JP/p/d/v000453068/) | 6 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4126.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4126.jpeg) |
 
 ※出荷時期によってメーカーや品番などが変わることがあります
 
@@ -259,7 +259,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
     接続した際に`キーボード設定アシスタント`が表示された場合は、`終了`ボタンを押して閉じます。
 
-    ![キーボード設定アシスタント](../assets/BuildGuide_DN0031/keyboard_setting_assistant.png)  
+    ![キーボード設定アシスタント](../assets/BuildGuide_DN0032/keyboard_setting_assistant.png)  
 
     なお、キーボード設定アシスタントは、次の操作でいつでも呼び出すことができます。  
     `システム環境設定`から、`キーボード` → `キーボード`タブ → `キーボードの種類を変更…`ボタンを押す。
@@ -279,7 +279,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
     `USB装置ツリー`の下の方が見切れている場合があるため、スクロールして探してください。
 
-    ![Mac System Report](../assets/BuildGuide_DN0031/macOS_SystemReport.png)  
+    ![Mac System Report](../assets/BuildGuide_DN0032/macOS_SystemReport.png)  
     システム情報の表示
 
 </details>
@@ -297,7 +297,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
     `マウス、キーボード、ペン`の項目に`Nora`が表示されていれば、正しく認識されています。
 
-    ![Windows Devices](../assets/BuildGuide_DN0031/win10_Devices.png)  
+    ![Windows Devices](../assets/BuildGuide_DN0032/win10_Devices.png)  
     デバイスの表示
 
 </details>
@@ -324,40 +324,40 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 1. `START REMAP FOR YOUR KEYBOARD`をクリックして始めます。
 
-    ![START REMAP FOR YOUR KEYBOARD](../assets/BuildGuide_DN0031/Remap_start.png)
+    ![START REMAP FOR YOUR KEYBOARD](../assets/BuildGuide_DN0032/Remap_start.png)
 
 1. `+ KEYBOARD`をクリックして、キーボードをRemapに接続する画面を表示します。
 
-    ![+ KEYBOARD](../assets/BuildGuide_DN0031/Remap_connect.png)
+    ![+ KEYBOARD](../assets/BuildGuide_DN0032/Remap_connect.png)
 
 1. デバイスへの接続要求画面で`Nora`を選択し、`接続`をクリックしてキーボードをRemapに接続します。
 
-    ![デバイスへの接続要求](../assets/BuildGuide_DN0031/Remap_hid_connect.png)
+    ![デバイスへの接続要求](../assets/BuildGuide_DN0032/Remap_hid_connect.png)
 
 1. 右側のアイコンから`Layout Option`をクリックし、使用するレイアウトを選択します。
 
     `FWレイアウト`： Fearless Wings  
     `REレイアウト`： FW + Rotary Encoder
 
-    ![Test Matrix Mode](../assets/BuildGuide_DN0031/Remap_layout.png)
+    ![Test Matrix Mode](../assets/BuildGuide_DN0032/Remap_layout.png)
 
 1. 右側のアイコンから`…`をクリックし、`Test Matrix mode`を選択します。
 
-    ![… menu](../assets/BuildGuide_DN0031/Remap_test.png)
+    ![… menu](../assets/BuildGuide_DN0032/Remap_test.png)
 
 1. ピンセットなどの電気を通すものを使い、基板裏側のソケット用パッドをショートさせます。
 
-    ![ピンセットを使ってショートさせる様子](../assets/BuildGuide_DN0031/IMG_4082.jpeg)  
+    ![ピンセットを使ってショートさせる様子](../assets/BuildGuide_DN0032/IMG_4082.jpeg)  
     ピンセットを使ってショートさせる様子
 
 1. Remapの画面で、ショートさせた箇所に対応するキーの色が変わることを確認します。
 
     *基板が裏側になっているので、画面ではキーの位置が左右反対になります。*
 
-    ![Test Matrix mode](../assets/BuildGuide_DN0031/Remap_test2_1.png)
+    ![Test Matrix mode](../assets/BuildGuide_DN0032/Remap_test2_1.png)
     ショートさせる前
 
-    ![キーの色が変わる](../assets/BuildGuide_DN0031/Remap_test2_2.png)
+    ![キーの色が変わる](../assets/BuildGuide_DN0032/Remap_test2_2.png)
     ショートさせた後（キーの色が変わる）
 
     パッドをショートしても反応がない場合は、基板に実装された部品が外れたり、配線がダメージを受けている可能性があります。  
@@ -367,7 +367,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 1. 同様の作業を繰り返し、全てのキーの色が変わることを確認します。
 
     なお、`REレイアウト`でロータリーエンコーダの回転に割り当てた箇所は、この手順では確認しません。  
-    ![RE assigned keys](../assets/BuildGuide_DN0031/Remap_RE_keys.png)
+    ![RE assigned keys](../assets/BuildGuide_DN0032/Remap_RE_keys.png)
     ロータリーエンコーダの回転に割り当てた箇所
 
 1. 確認が終わったら、USBケーブルを抜きます。
@@ -398,7 +398,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 *`REレイアウト`を使用する場合のみ、この手順をおこないます。*
 
-Remapを使用して、[Noraのファームウェアページ](https://remap-keys.app/catalog/E014O2hP6X5DeDQCdhmA/firmware)から、`Nora DN0031, VIA + RE`のファームウェアに書き換えます。
+Remapを使用して、[Noraのファームウェアページ](https://remap-keys.app/catalog/E014O2hP6X5DeDQCdhmA/firmware)から、`Nora DN0032, VIA + RE`のファームウェアに書き換えます。
 
 QMK Toolboxで書き換える場合は、[資料：ファームウェアの書き込み方法](#資料ファームウェアの書き込み方法)を参考にしてください。
 
@@ -413,25 +413,25 @@ Remapを使用して書き込む手順を説明します。
 
 1. Google Chromeブラウザで、Remapの[Noraのファームウェアページ](https://remap-keys.app/catalog/E014O2hP6X5DeDQCdhmA/firmware)を開きます。
 
-1. リストから`REレイアウト`用のファームウェア`Nora DN0031, VIA + RE`を探し、`FLASH`を押します。
+1. リストから`REレイアウト`用のファームウェア`Nora DN0032, VIA + RE`を探し、`FLASH`を押します。
 
-    ![Firmware list](../assets/BuildGuide_DN0031/Remap_firmware_list.png)
+    ![Firmware list](../assets/BuildGuide_DN0032/Remap_firmware_list.png)
 
 1. Flash Firmwareの画面で、Bootloaderに`dfu`を選択し、右下の`FLASH`を押します。
 
-    ![Select dfu](../assets/BuildGuide_DN0031/Remap_select_dfu.png)
+    ![Select dfu](../assets/BuildGuide_DN0032/Remap_select_dfu.png)
 
 1. 接続要求画面が表示されたら、基板裏側の`Reset`と書かれたスイッチを押します。
 
-    ![Reset switch](../assets/BuildGuide_DN0031/IMG_4112.jpeg)
+    ![Reset switch](../assets/BuildGuide_DN0032/IMG_4112.jpeg)
 
 1. 接続要求画面に`ATm32U4DFU`が表示されるので、これを選択して`接続`ボタンを押します。
 
-    ![Select dfu](../assets/BuildGuide_DN0031/Remap_select_write_target.png)
+    ![Select dfu](../assets/BuildGuide_DN0032/Remap_select_write_target.png)
 
 1. ファームウェアの書き込みが始まり、メッセージがずらずらっと表示され、10秒程度で書き込みが完了します。
 
-    ![Select dfu](../assets/BuildGuide_DN0031/Remap_finish_writing.png)
+    ![Select dfu](../assets/BuildGuide_DN0032/Remap_finish_writing.png)
 
     メッセージの最後に、
 
@@ -516,7 +516,7 @@ EEPROMの初期化処理がおこなわれていますので、キーボード�
 
 ```aside
 REレイアウトでは、スイッチを取り付けない位置のLED `L38` `L40` にも、LEDを取り付けます。  
-これは、Nora Fearless Wings (DN0031)の設計ミスによるものです。
+これは、Nora Fearless Wings (DN0032)の設計ミスによるものです。
 ```
 
 1. 基板を裏側が上になるように置きます。
@@ -557,7 +557,7 @@ REレイアウトでは、スイッチを取り付けない位置のLED `L38` `L
 1. 作業を繰り返し、必要な数のLEDを取り付けます。
 
 <!-- 〓DN0032写真更新
-![取り付けたLED](../assets/BuildGuide_DN0031/_DSF0159.jpeg)
+![取り付けたLED](../assets/BuildGuide_DN0032/_DSF0159.jpeg)
 取り付けたLED -->
 
 #### LEDの動作確認をおこなう
@@ -840,7 +840,7 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
 </details>
 
-![Put sheet pieces to switch plate](../assets/BuildGuide_DN0031/IMG_4056.jpeg)
+![Put sheet pieces to switch plate](../assets/BuildGuide_DN0032/IMG_4056.jpeg)
 `FWレイアウト`のスイッチプレートへ、スペーサーシートを貼り付けたようす
 
 ### スイッチとスイッチプレートを基板へ取り付ける
@@ -869,7 +869,7 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 1. プレートのおもて側から、1・3・5行目の左右の端6箇所に、スイッチをパチンとはめ込みます。  
     スイッチをソケットの方向に合わせるため、スイッチの端子が手前側になるようにします。
 
-    <!-- 〓DN0032写真更新![スイッチプレート取り付けたスイッチ](../assets/BuildGuide_DN0031/_DSF0205.jpeg)
+    <!-- 〓DN0032写真更新![スイッチプレート取り付けたスイッチ](../assets/BuildGuide_DN0032/_DSF0205.jpeg)
     スイッチプレートに取り付けたスイッチ -->
 
 1. スイッチがプレートの枠から浮いておらず、ぴったり密着してはまっていることを確認します。  
@@ -894,7 +894,7 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
 1. 同様の手順で、残り5個のスイッチをソケットへ差し込みます。
 
-<!-- 〓DN0032写真更新![基板に取り付けられたスイッチプレート](../assets/BuildGuide_DN0031/_DSF0444.jpeg)  
+<!-- 〓DN0032写真更新![基板に取り付けられたスイッチプレート](../assets/BuildGuide_DN0032/_DSF0444.jpeg)  
 基板に取り付けられたスイッチプレート -->
 
 #### 残りのスイッチを取り付ける
@@ -911,11 +911,11 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
 1. ケースネジに重なるスイッチ（基板にネジのアイコンが描かれた箇所）を除き、残りのスイッチをすべて取り付けます。
 
-    ![基板に描かれたネジアイコン](../assets/BuildGuide_DN0031/PCB_screw_icon.png)
+    ![基板に描かれたネジアイコン](../assets/BuildGuide_DN0032/PCB_screw_icon.png)
 
 </details>
 
-![基板に取り付けられたスイッチとスイッチプレート](../assets/BuildGuide_DN0031/IMG_3954.jpeg)
+![基板に取り付けられたスイッチとスイッチプレート](../assets/BuildGuide_DN0032/IMG_3954.jpeg)
 基板に取り付けられたスイッチとスイッチプレート
 
 ### スイッチの動作確認をおこなう
@@ -946,7 +946,7 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
     ◎印をつけた右上と中央下の2箇所は、スイッチとの干渉を減らすため、スペーサーを右側へ寄せてねじ止めします。  
 
-    ![スペーサー取り付け箇所](../assets/BuildGuide_DN0031/Bottom_spacer.png)  
+    ![スペーサー取り付け箇所](../assets/BuildGuide_DN0032/Bottom_spacer.png)  
     スペーサー取り付け箇所
 
 1. ボトムプレートをおもて側が上になるように置きます。
@@ -962,7 +962,7 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
 1. 基板おもて側から、ネジ（M2 3mm 低頭）を使い、基板とスペーサーをねじ止めします。  
 
-    <!-- 〓DN0032写真更新![基板とボトムプレートをねじ止めした状態](../assets/BuildGuide_DN0031/_DSF0228.jpeg)  
+    <!-- 〓DN0032写真更新![基板とボトムプレートをねじ止めした状態](../assets/BuildGuide_DN0032/_DSF0228.jpeg)  
     基板とボトムプレートをねじ止めした状態 -->
 
 1. まだ取り付けていないスイッチを、すべて取り付けます。
@@ -971,7 +971,7 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
 </details>
 
-<!-- 〓DN0032写真![ボトムプレート取り付け完了](../assets/BuildGuide_DN0031/DSCF0464.jpeg)  
+<!-- 〓DN0032写真![ボトムプレート取り付け完了](../assets/BuildGuide_DN0032/DSCF0464.jpeg)  
 ボトムプレート取り付け完了 -->
 
 #### （該当者のみ）GH60型, Poker型ケースへ取り付ける
@@ -996,7 +996,7 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
     力をかけることなく、基板全体がストンとケースに入ります。  
     力を入れてグリグリとこじったりググググッと押し込むようなことはせず、斜めに差し込んで、水平にするだけです。
 
-    <!-- 〓DN0032写真更新![30度で差し込む](../assets/BuildGuide_DN0031/_DSF0241.jpeg)  
+    <!-- 〓DN0032写真更新![30度で差し込む](../assets/BuildGuide_DN0032/_DSF0241.jpeg)  
     30度で差し込む -->
 
 1. ケース付属のネジで、左上と右上の2箇所を仮固定します。
@@ -1018,7 +1018,7 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
     おそらく回避できるはずですが、もしスイッチの中央の足が干渉する場合は、中央の足も切断します。
 
-    ![中央の足をカットしたスイッチ](../assets/BuildGuide_DN0031/IMG_3816.jpeg)  
+    ![中央の足をカットしたスイッチ](../assets/BuildGuide_DN0032/IMG_3816.jpeg)  
     中央の足をカットしたスイッチ
 
 1. 残りのスイッチを、すべて取り付けます。
@@ -1041,7 +1041,7 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
 1. 完成です。
 
-![製作例](../assets/BuildGuide_DN0031/IMG_4063.jpeg)  
+![製作例](../assets/BuildGuide_DN0032/IMG_4063.jpeg)  
 製作例  
 
 - 上： `REレイアウト`  
@@ -1132,7 +1132,7 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 これ以降の調査と修復の難易度が高くなりますが、ソケット用パッドが剥がれてソケットが取り付けられないというような物理的に破壊された状態を除けば、修復できる可能性は残されています。  
 （パッドが剥がれたとしても、ネジ穴に重なるスイッチでなければ、スイッチを固定してソケットを端子に差し込んで、ソケットから基板へ配線すればなんとかなります。）
 
-電子工作に詳しい方であれば、[Nora, DN0031関連ファイル](https://github.com/jpskenn/Nora/releases/tag/DN0031)の`PCB_FW`フォルダ内のKiCadプロジェクトを参考にテスター等を用いて調査を進め、ジャンパ線などで配線を修復してください。
+電子工作に詳しい方であれば、[Nora, DN0032関連ファイル](https://github.com/jpskenn/Nora/releases/tag/DN0032)の`PCB_FW`フォルダ内のKiCadプロジェクトを参考にテスター等を用いて調査を進め、ジャンパ線などで配線を修復してください。
 
 自分ではどうにもできない場合など、何らかのアドバイスを必要とされる方は、キット同梱のリーフレットに記載された連絡先へ問い合わせてください。  
 状況に応じて、できる限りのサポートをいたします。  
@@ -1248,7 +1248,7 @@ QMKファームウェアのドキュメント[ファームウェアを書き込�
 <details>
 <summary>《詳しい説明》</summary>
 
-1. [資料：Nora, Fearless Wings (DN0031)関連ファイル](#資料nora-fearless-wings-dn0031関連ファイル)に記載のダウンロード先から、キーボードのレイアウトに応じたビルド済みのファームウェアをダウンロードします。
+1. [資料：Nora, Fearless Wings (DN0032)関連ファイル](#資料nora-fearless-wings-DN0032関連ファイル)に記載のダウンロード先から、キーボードのレイアウトに応じたビルド済みのファームウェアをダウンロードします。
 
 1. [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)をダウンロードし、起動します。
 
@@ -1317,27 +1317,27 @@ Remapを使用して書き込む手順を説明します。
 
 1. `FIRMWARE`と書かれたところをクリックして、ファームウェアのリストを表示します。
 
-    ![Remap catalog, Nora](../assets/BuildGuide_DN0031/Remap_catalog_nora.png)
+    ![Remap catalog, Nora](../assets/BuildGuide_DN0032/Remap_catalog_nora.png)
 
-1. リストから`REレイアウト`用のファームウェア`Nora DN0031, VIA + RE`を探し、`FLASH`を押します。
+1. リストから`REレイアウト`用のファームウェア`Nora DN0032, VIA + RE`を探し、`FLASH`を押します。
 
-    ![Firmware list](../assets/BuildGuide_DN0031/Remap_firmware_list.png)
+    ![Firmware list](../assets/BuildGuide_DN0032/Remap_firmware_list.png)
 
 1. Flash Firmwareのポップアップ画面のBootloaderの項目で、`dfu`を選択し、右下の`FLASH`を押します。
 
-    ![Select dfu](../assets/BuildGuide_DN0031/Remap_select_dfu.png)
+    ![Select dfu](../assets/BuildGuide_DN0032/Remap_select_dfu.png)
 
 1. 接続要求画面が表示されたら、基板裏側の`Reset`と書かれたスイッチを押します。
 
-    ![Reset switch](../assets/BuildGuide_DN0031/IMG_4112.jpeg)
+    ![Reset switch](../assets/BuildGuide_DN0032/IMG_4112.jpeg)
 
 1. 接続要求画面に`ATm32U4DFU`が表示されるので、これを選択して`接続`ボタンを押します。
 
-    ![Select dfu](../assets/BuildGuide_DN0031/Remap_select_write_target.png)
+    ![Select dfu](../assets/BuildGuide_DN0032/Remap_select_write_target.png)
 
 1. ファームウェアの書き込みが始まり、10秒程度で書き込みが完了します。
 
-    ![Select dfu](../assets/BuildGuide_DN0031/Remap_finish_writing.png)
+    ![Select dfu](../assets/BuildGuide_DN0032/Remap_finish_writing.png)
 
     メッセージの最後に、
 
@@ -1408,7 +1408,7 @@ Remapを使用して書き込む手順を説明します。
     Remapでは、`SPECIAL`の`FUNC`がこれらのキーコードに該当します。  
     `KC_FN0`には`Func0`が対応します。
 
-    ![Remap, FUNC](../assets/BuildGuide_DN0031/Remap_special_func.png)
+    ![Remap, FUNC](../assets/BuildGuide_DN0032/Remap_special_func.png)
 
 </details>
 
@@ -1435,7 +1435,7 @@ Remapを使用して書き込む手順を説明します。
 
 </details>
 
-### 資料：Nora, Fearless Wings (DN0031)関連ファイル
+### 資料：Nora, Fearless Wings (DN0032)関連ファイル
 
 キーボードに関連するファイルをまとめています。
 
@@ -1462,7 +1462,7 @@ Remapを使用して書き込む手順を説明します。
 
 - その他、基板等の設計ファイルなど
 
-    [コミット：3f4362b](https://github.com/jpskenn/Nora/commit/3f4362bb6b757813834f63c2ab42a17b1bfa9681)の内容を、[DN0031タグ](https://github.com/jpskenn/Nora/releases/tag/DN0031)にまとめてあります。
+    [コミット：3f4362b](https://github.com/jpskenn/Nora/commit/3f4362bb6b757813834f63c2ab42a17b1bfa9681)の内容を、[DN0032タグ](https://github.com/jpskenn/Nora/releases/tag/DN0032)にまとめてあります。
 
 </details>
 
@@ -1498,7 +1498,7 @@ DIYの実験的機能として、Raspberry Pi PICO（以下、PICOと呼びま�
 
 PICOの接続図は以下の通り。
 
-![Pi PICO wiring](../assets/BuildGuide_DN0031/PCB_pico.png)
+![Pi PICO wiring](../assets/BuildGuide_DN0032/PCB_pico.png)
 
 #### 取り付け
 
@@ -1560,12 +1560,12 @@ L字型のコネクタをもつUSBケーブルを使用すると、すっきり�
     1. 基板裏側からUSBコネクタを取り付ける
 
         テスターでピンを確認する。
-        <!-- 〓更新![USBコネクタ接続図](../assets/BuildGuide_DN0031/USB_wireing.png)  
+        <!-- 〓更新![USBコネクタ接続図](../assets/BuildGuide_DN0032/USB_wireing.png)  
         USBコネクタ接続図 -->
 
     1. 基板裏側へESDを取り付ける
 
-        <!-- 〓更新![ESD placement direction](../assets/BuildGuide_DN0031/IMG_3834.jpeg)
+        <!-- 〓更新![ESD placement direction](../assets/BuildGuide_DN0032/IMG_3834.jpeg)
         ESD取り付け方向 -->
 
     1. 基板裏側へFUSEを取り付ける
