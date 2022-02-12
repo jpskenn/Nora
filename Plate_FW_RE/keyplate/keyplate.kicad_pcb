@@ -14808,6 +14808,7 @@
   (gr_arc (start 146.949583 40.401749) (mid 147.906821 40.798251) (end 148.303323 41.755489) (layer "B.SilkS") (width 0.3) (tstamp 1677cc1d-5e12-4b6e-9cef-08c31cabc7cb))
   (gr_line (start 133.5 59) (end 133.5 71.5) (layer "B.SilkS") (width 4) (tstamp 1d20c966-0439-42a1-b5e3-5e76b52f827f))
   (gr_line (start 145.000588 40.398251) (end 146.949583 40.401749) (layer "B.SilkS") (width 0.3) (tstamp 208fac39-de77-4a04-bf9c-433c42722ff8))
+  (gr_line (start 101.7 92.7) (end 101.7 100.2) (layer "B.SilkS") (width 4) (tstamp 26530a2b-4a2c-4423-b694-4afdb2891914))
   (gr_line (start 173.8 27.2) (end 173.8 34.7) (layer "B.SilkS") (width 4) (tstamp 28f921ab-5f55-47f8-b726-02e567145cd5))
   (gr_arc (start 194.9 19.259719) (mid 196.4 20.759719) (end 194.9 22.259719) (layer "B.SilkS") (width 0.5) (tstamp 2957d2a1-ab6b-4037-a22c-f81545bd6aba))
   (gr_line (start 181.5 58.86875) (end 181.5 71.36875) (layer "B.SilkS") (width 4) (tstamp 2dba072b-3aba-4c6e-8dad-0c854cc5ab37))
@@ -14824,6 +14825,7 @@
   (gr_line (start 79.5 92.75) (end 79.5 100.25) (layer "B.SilkS") (width 4) (tstamp 66f3cef0-5fec-48da-9e13-b9113ea57607))
   (gr_line (start 18.026553 41.009719) (end 18.026553 68.509719) (layer "B.SilkS") (width 4) (tstamp 6998024a-c7f3-4b4c-aee2-b3186e7c6310))
   (gr_line (start 27.876553 22.259719) (end 36.976553 22.259719) (layer "B.SilkS") (width 0.5) (tstamp 79ebd38d-8671-4a0f-8c69-f8aae9ea9a77))
+  (gr_line (start 213.1 92.7) (end 213.1 100.2) (layer "B.SilkS") (width 4) (tstamp 7e1acc6d-2edf-479b-9eb5-60971bc390b7))
   (gr_arc (start 116.776553 22.259719) (mid 115.276553 20.759719) (end 116.776553 19.259719) (layer "B.SilkS") (width 0.5) (tstamp 811f3ed5-16e8-4e00-aaca-f93edbe7ac1a))
   (gr_arc (start 185.449707 43.149415) (mid 184.45 44.15) (end 183.449707 43.15) (layer "B.SilkS") (width 0.3) (tstamp 812735fd-f634-4a64-8f41-db7aee6015f7))
   (gr_line (start 238 48.5) (end 238 65.5) (layer "B.SilkS") (width 2) (tstamp 8401c493-7b61-4477-a520-d28a456af5bd))
@@ -14946,14 +14948,6 @@
       (xy 34.426847 75.200324)
       (xy 48.626825 75.200324)
     ) (layer "Edge.Cuts") (width 0.352776) (fill none) (tstamp 2f9af39c-a2fc-42a9-9da5-537551e58d67))
-  (gr_poly
-    (pts
-      (xy 164.727453 92.202399)
-      (xy 164.727453 106.001975)
-      (xy 150.527486 106.001975)
-      (xy 150.527486 92.202399)
-      (xy 164.727453 92.202399)
-    ) (layer "Edge.Cuts") (width 0.352776) (fill none) (tstamp 30bfa163-7474-4c30-92bf-e6dfac2f7e9e))
   (gr_poly
     (pts
       (xy 93.279912 58.2)
@@ -52335,7 +52329,6 @@
       22a521a3-2692-4aa6-8ff5-ad4ea15bd9b1
       2c4f0b10-af4a-4b21-b3f4-f4b998e6c643
       2f9af39c-a2fc-42a9-9da5-537551e58d67
-      30bfa163-7474-4c30-92bf-e6dfac2f7e9e
       33e691ae-15c8-4c7a-ab22-8c07d3400632
       3d5983c6-06ec-441a-9b81-48bb50ef3a26
       42263626-ae25-45d8-bed5-38a1b6518c52
