@@ -13274,7 +13274,7 @@
     (uuid a2f8a0fb-e12c-4d2c-8033-a042712e74d5)
     (property "Reference" "SW_44" (id 0) (at 161.925 114.681 0))
     (property "Value" "Center 1.5u" (id 1) (at 161.925 116.9924 0))
-    (property "Footprint" "Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName-Socket-1.8mm-hole-reflection-half-paint" (id 2) (at 161.925 116.84 0)
+    (property "Footprint" "Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName-Socket-1.8mm-hole-reflection-frame-only" (id 2) (at 161.925 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 161.925 116.84 0)
@@ -14365,7 +14365,7 @@
       (reference "SW_43") (unit 1) (value "R4R") (footprint "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection-no-frame")
     )
     (path "/a2f8a0fb-e12c-4d2c-8033-a042712e74d5"
-      (reference "SW_44") (unit 1) (value "Center 1.5u") (footprint "Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName-Socket-1.8mm-hole-reflection-half-paint")
+      (reference "SW_44") (unit 1) (value "Center 1.5u") (footprint "Keebio-Parts:Kailh-PG1350-1.5u-MBK-WithKeyName-Socket-1.8mm-hole-reflection-frame-only")
     )
     (path "/00000000-0000-0000-0000-000061d01246"
       (reference "SW_45") (unit 1) (value "\\|") (footprint "Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection")
