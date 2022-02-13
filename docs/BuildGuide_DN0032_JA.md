@@ -87,7 +87,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
   - [資料：ファームウェアの書き込み方法](#資料ファームウェアの書き込み方法)
   - [資料：初期ファームウェアの機能と設定値](#資料初期ファームウェアの機能と設定値)
   - [資料：EEPROMを消去して、初期状態に戻す方法](#資料eepromを消去して-初期状態に戻す方法)
-  - [資料：Nora, Fearless Wings (DN0032)関連ファイル](#資料nora-fearless-wings-dn0032関連ファイル)
+  - [資料：Nora, Fearless Wings 関連ファイル](#資料nora-fearless-wings-関連ファイル)
   - [資料：Raspberry Pi PICOによる動作（実験的機能）](#資料raspberry-pi-picoによる動作実験的機能)
 - [サービスマニュアル](#サービスマニュアル)
   - [パーツリスト](#パーツリスト)
@@ -174,7 +174,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | スイッチプレート<br>`Fullレイアウト`, `FWレイアウト`, `REレイアウト`のいずれか | 1 | `FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/IMG_4115.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4115.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4116.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4116.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/IMG_4117.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4117.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4118.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4118.jpeg) |
 | ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_DN0032/IMG_4119.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4119.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4120.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4120.jpeg) |
 | スペーサーシート<br> シール付き, 1mm厚, 10mm * 500mm（長い）<br>[低弾性ゴムシート－ハネナイトＲ－ (UNLEA1-10)](https://jp.misumi-ec.com/vona2/detail/110300277050/?HissuCode=UNLEA1-10) | 1 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4122.jpeg) |
-| スペーサーシート<br> シール付き, 1mm厚, 10mm * 約160mm（短い） | 1 | 〓写真入れ替え[<img alt="" src="../assets/BuildGuide_DN0032/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4122.jpeg) |
+| スペーサーシート<br> シール付き, 1mm厚, 10mm * 約160mm（短い） | 1 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4122.jpeg) |
 | スペーサー, M2 3mm<br>[黄銅 スペーサー(六角) / ASB-E](https://hirosugi.co.jp/products/B/ASB-E.html) | 8 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4123.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4123.jpeg) |
 | ネジ, M2 3mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 16 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4124.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4124.jpeg) |
 | ネジ, M2 4mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 4 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4125.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4125.jpeg) |
@@ -188,11 +188,10 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | ----- | :-----: | ----- |
 | ソケット<br>Kailh Chocロープロファイル用 | 62〜71 | `Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個 |
 | スイッチ<br>Kailh Choc v1 | 62〜71 | `Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個 |
-| キーキャップ<br>Choc用<br>17mm × 17.8594mm以下のサイズのもの<br>おおむねMBK以下のサイズ〓ガイドへのリンク | 62〜71 | `Fullレイアウト`：71個<br>1u × 62個<br>1.5u × 9個<br>`FWレイアウト`：64個<br>1u × 56個<br>1.5u × 8個<br>`REレイアウト`：62個<br>1u × 54個<br>1.5u × 8個 |
+| キーキャップ<br>Choc用<br>17mm × 約17.86mm以下のサイズのもの<br>→[資料：キーキャップ選び方ガイド](#資料キーキャップ選び方ガイド) | 62〜71 | `Fullレイアウト`：71個<br>1u × 62個<br>1.5u × 9個<br>`FWレイアウト`：64個<br>1u × 56個<br>1.5u × 8個<br>`REレイアウト`：62個<br>1u × 54個<br>1.5u × 8個 |
 | ロータリーエンコーダ<br>ALPS EC11, EC12または同等品 | 1 | `REレイアウト`を組み立てる場合のみ必要 |
-| ロータリーエンコーダ用ノブ<br>（つまみ） | 1 | `REレイアウト`を組み立てる場合のみ必要<br>ロータリーエンコーダの軸の形状に合ったもの。<br>最大径35mm（使用するキーキャップのサイズによる） |
+| ロータリーエンコーダ用ノブ<br>（つまみ） | 1 | `REレイアウト`を組み立てる場合のみ必要<br>最大径35mm（使用するキーキャップのサイズによる） |
 | USBケーブル （Type-C） | 1 | |
-
 
 ### オプション部品
 
@@ -1389,30 +1388,37 @@ QMKファームウェアのドキュメント[ファームウェアを書き込�
 
 </details>
 
-### 資料：Nora, Fearless Wings (DN0032)関連ファイル
+### 資料：Nora, Fearless Wings 関連ファイル
 
 キーボードに関連するファイルをまとめています。
 
 <details>
 <summary>《詳しい説明》</summary>
+
 〓ソース更新
+
 - ビルド済みのファームウェア
 
+  - `Fullレイアウト`用  
+      [nora_v1_via.hex](https://gist.github.com/jpskenn/91e35665ae5ee15672c2e424c2413d76)
+
   - `FWレイアウト`用  
-      [nora_v031_via.hex](https://gist.github.com/jpskenn/91e35665ae5ee15672c2e424c2413d76)
+      [nora_v1_via_fw.hex](https://gist.github.com/jpskenn/91e35665ae5ee15672c2e424c2413d76)
 
   - `REレイアウト`用  
-      [nora_v031_via_re.hex](https://gist.github.com/jpskenn/382f63057c083185cbfafc225f198880)
+      [nora_v1_via_re.hex](https://gist.github.com/jpskenn/382f63057c083185cbfafc225f198880)
 
 - ファームウェアのソース
 
+    QMK本家にプルリクエストがマージされるまでは、以下を使用してください。
+
     私がQMKからフォークしたリポジトリ [https://github.com/jpskenn/qmk_firmware](https://github.com/jpskenn/qmk_firmware) に配置しています。  
 
-    [develop_nora](https://github.com/jpskenn/qmk_firmware/tree/develop_Nora)ブランチの、`keyboards/nora/v031`に関連ファイルが格納されています。
+    [develop_nora](https://github.com/jpskenn/qmk_firmware/tree/develop_Nora)ブランチの、`keyboards/nora/v1`に関連ファイルが格納されています。
 
 - Remap / VIA用キーボード定義ファイル
 
-    [nora_via_v031.json](https://gist.github.com/jpskenn/7fac7a9bc819f2d4a7f97086cdd32fdd)
+    [nora_via_v1.json](https://gist.github.com/jpskenn/7fac7a9bc819f2d4a7f97086cdd32fdd)
 
 - その他、基板等の設計ファイルなど
 
@@ -1514,15 +1520,12 @@ L字型のコネクタをもつUSBケーブルを使用すると、すっきり�
     1. 基板裏側からUSBコネクタを取り付ける
 
         テスターでピンを確認する。
-        <!-- 〓更新![USBコネクタ接続図](../assets/BuildGuide_DN0032/USB_wireing.png)  
-        USBコネクタ接続図 -->
+        ![USBコネクタ接続図](../assets/BuildGuide_DN0032/PCB_usb_wireing.png)  
+        USBコネクタ接続図
 
-    1. 基板裏側へESDを取り付ける
+    1. 基板裏側`D10`へESDを取り付ける
 
-        <!-- 〓更新![ESD placement direction](../assets/BuildGuide_DN0032/IMG_3834.jpeg)
-        ESD取り付け方向 -->
-
-    1. 基板裏側へFUSEを取り付ける
+    1. 基板裏側`F1`へFUSEを取り付ける
 
     1. リセットスイッチを取り付ける
 
