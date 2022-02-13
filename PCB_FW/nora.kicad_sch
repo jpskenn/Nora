@@ -11747,7 +11747,7 @@
     (property "Value" "SK6812MINI-E" (id 1) (at 117.475 189.9412 0)
       (effects (font (size 0.4064 0.4064)))
     )
-    (property "Footprint" "Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad_reserved" (id 2) (at 117.475 194.945 0)
+    (property "Footprint" "Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad_frame" (id 2) (at 117.475 194.945 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 117.475 194.945 0)
@@ -11789,7 +11789,7 @@
     (property "Value" "SK6812MINI-E" (id 1) (at 161.925 189.9412 0)
       (effects (font (size 0.4064 0.4064)))
     )
-    (property "Footprint" "Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad_reserved" (id 2) (at 161.925 194.945 0)
+    (property "Footprint" "Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad_frame" (id 2) (at 161.925 194.945 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 161.925 194.945 0)
@@ -14116,13 +14116,13 @@
       (reference "L37") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad")
     )
     (path "/00000000-0000-0000-0000-0000622055d0"
-      (reference "L38") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad_reserved")
+      (reference "L38") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad_frame")
     )
     (path "/00000000-0000-0000-0000-0000622055c8"
       (reference "L39") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad_reserved")
     )
     (path "/00000000-0000-0000-0000-0000622055e6"
-      (reference "L40") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad_reserved")
+      (reference "L40") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad_frame")
     )
     (path "/00000000-0000-0000-0000-0000622055de"
       (reference "L41") (unit 1) (value "SK6812MINI-E") (footprint "Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad")
