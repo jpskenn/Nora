@@ -377,11 +377,11 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 レイアウトに応じて、基板裏側のLED配線経路をジャンパします。  
 スイッチを取り付ける位置に合わせて、基板裏側からLEDを取り付けます。  
 
-| レイアウト | 配線経路ジャンパ位置 | LEDを取り付ける位置 | 基板のマーキング |
-| :-: | :-- | :-- | :-: |
-| Full | ジャンパしない | すべて | なし |
-| FW | `JP4`<br>`JP5`<br>`JP7`<br>`JP8`<br>`JP9`| 以下を除く<br>`L8` `L9`<br>`L24`<br>`L39`<br>`L54` `L55`<br>`L67` | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_fw.png) |
-| RE | `JP4`<br>`JP5`<br>`JP6`<br>`JP8`<br>`JP9` | 以下を除く<br>`L8` `L9`<br>`L24`<br>`L38` `L39` `L40`<br>`L54` `L55`<br>`L67` | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_re.png) |
+| レイアウト | 配線経路ジャンパ位置 | LEDを取り付ける位置 |
+| :-: | :-- | :-- |
+| Full | なし | すべて |
+| FW | `JP4`<br>`JP5`<br>`JP7`<br>`JP8`<br>`JP9`| 以下の点線で囲まれた箇所を除く<br>`L8` `L9`<br>`L24`<br>`L39`<br>`L54` `L55`<br>`L67` |
+| RE | `JP4`<br>`JP5`<br>`JP6`<br>`JP8`<br>`JP9` | 以下の点線または実線で囲まれた箇所を除く<br>`L8` `L9`<br>`L24`<br>`L38` `L39` `L40`<br>`L54` `L55`<br>`L67` |
 
 #### ヒント
 
@@ -404,7 +404,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 | レイアウト | 配線経路ジャンパ位置 | 基板のマーキング |
 | :--: | :-- | :--: |
-| Full | ジャンパしない | なし |
+| Full | なし | なし |
 | FW | `JP4`<br>`JP5`<br>`JP7`<br>`JP8`<br>`JP9`| ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_fw.png) |
 | RE | `JP4`<br>`JP5`<br>`JP6`<br>`JP8`<br>`JP9` | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_re.png) |
 
@@ -432,13 +432,13 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 基板裏側のLED`L1`から`L71`へ、スイッチを取り付ける位置に合わせてLEDを取り付けます。
 
-レイアウトによって、LEDを取り付けない位置は次の通りです。
+レイアウトによって、LEDを取り付ける位置は次の通りです。
 
-| レイアウト | LEDを取り付ける位置 | 基板のマーキング |
-| :--: | :-- | :--: |
-| Full | すべて | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_full.png) |
-| FW | 以下を除く<br>`L8` `L9`<br>`L24`<br>`L39`<br>`L54` `L55`<br>`L67` | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_fw.png) |
-| RE | 以下を除く<br>`L8` `L9`<br>`L24`<br>`L38` `L39` `L40`<br>`L54` `L55`<br>`L67` | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_re.png) |
+| レイアウト | LEDを取り付ける位置 |
+| :--: | :-- |
+| Full | すべて |
+| FW | 以下の点線で囲まれた箇所を除く<br>`L8` `L9`<br>`L24`<br>`L39`<br>`L54` `L55`<br>`L67` |
+| RE | 以下の点線または実線で囲まれた箇所を除く<br>`L8` `L9`<br>`L24`<br>`L38` `L39` `L40`<br>`L54` `L55`<br>`L67` |
 
 1. 基板を裏側が上になるように置きます。
 
@@ -502,7 +502,7 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
 | レイアウト | 基板のマーキング | 備考 |
 | :--: | :--: | :-- |
-| Full | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_full.png) | すべてのソケットを取り付ける。 |
+| Full | なし | すべてのソケットを取り付ける。 |
 | FW | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_fw.png) | ソケット外枠だけが描かれ、白く塗られていない箇所へは取り付けない。 |
 | RE | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_re.png) | ソケット外枠だけが描かれ、白く塗られていない箇所へは取り付けない。<br>格子状に塗られた箇所にも取り付けない。
 
