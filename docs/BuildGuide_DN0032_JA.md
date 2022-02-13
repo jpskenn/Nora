@@ -3,7 +3,7 @@
 購入していただいた方、リポジトリから製造していただいた方、その他の皆様、Noraに興味を持っていただきありがとうございます。
 
 このドキュメントは、”Nora, Fearless Wings”を組み立てるためのビルドガイドです。  
-以下に示す、三つのレイアウトの組み立て方法について説明します。  
+`Fullレイアウト`，`FWレイアウト`， `REレイアウト`の、三つのレイアウトの組み立て方法について説明します。  
 参考： [Keyboard Layout Editor: Nora, Fearless Wings family](http://www.keyboard-layout-editor.com/#/gists/568990362f215776aa93e3b90064f241)
 
 - `Fullレイアウト`
@@ -102,7 +102,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 - 狭ピッチ
 - Jonesゆずりの、2行目と3行目にずれのないキーレイアウト
 - 左右に広げたアルファ部
-- Choc v1スイッチと、MBK以下のサイズのキーキャップに合わせた専用設計
+- Chocロープロファイルスイッチと、MBK以下のサイズのキーキャップに合わせた専用設計
 - RemapやVIAなどのキーマップ書き換えツールに対応
 - 外部EEPROM（8KB）を搭載し、十分な数のレイヤーを使用できる
 - 専用ボトムプレート以外にも、GH60型，Poker型のロープロファイルケースに取り付けできる
@@ -117,28 +117,29 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 - キーキャップ
 
-  MBK以下のサイズのキーキャップに合わせて設計されており、Choc用のキーピッチよりも横方向がほんの少し狭くなっています。  
-  17 × 17.8594mm（[基板上の寸法図](../assets/BuildGuide_DN0032/PCB_key_pitch.png)）
+  Choc用のキーピッチに対応したキーキャップを取り付けることができます。  
 
+  Choc V1用として販売されているキーキャップでも、サイズが大きく取り付けできないものがあるため、詳しくは以下の資料をご覧ください。  
+  →[資料：キーキャップ選び方ガイド](#資料キーキャップ選び方ガイド)
 
 - スイッチの取り付け
 
   最下行の親指部分、左右のスペースキーとして使用するスイッチは、上下逆向きに取り付けます。  
   キーキャップは特に問題なく取り付けることができます。  
-  LEDも上下逆向きとなるため、レジェンド付き透過タイプのキーキャップの文字部分が暗くなります。
+
+  LEDも上下逆向きとなるため、レジェンド付き透過タイプのキーキャップでは文字部分が暗くなります。
 
 - ソケットの取り付け
 
   1行目と4行目の左端のソケット2個は、ソケットの端子部分が基板から約0.5mm飛び出した状態で取り付けます。
 
-  ![飛び出したソケット端子](../assets/BuildGuide_DN0032/IMG_4080.jpeg)
-
   GH60型，Poker型のロープロファイルケースへの取り付けなども含め、実用上の問題がないことを確認していますが、怪我などしないようご留意ください。
+
+  ![飛び出したソケット端子](../assets/BuildGuide_DN0032/IMG_4080.jpeg)
 
 - GH60型，Poker型のロープロファイルケースへの取り付け
 
-  すべてのGH60型，Poker型のロープロファイルケースへの取り付けを確認できないため、取り付けは保証できません。  
-  また、ケースの構造によっては、取り付けが難しかったり取り付けできない場合があるかもしれません。  
+  GH60型，Poker型のロープロファイルケースへ取り付けできるように設計していますが、ケースの構造などによっては、取り付けが難しかったり取り付けできない場合があるかもしれません。  
   取り付け確認済みケースを参考に、ご自身の判断で取り付けを行なってください。
 
   ここに記載していないケースへの取り付けの成功／失敗の報告を、随時募集しています。
@@ -146,8 +147,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
   取り付け確認済みのケースは次の通りです。  
   - [KBDfans 60% ALUMINUM LOW PROFILE CASE](https://kbdfans.com/collections/60-layout-case/products/customized-gh60-aluminum-case)
 
-  ”TOFU”などのハイプロファイルタイプのケースにも取り付けできますが、キーキャップの天面がケースのフレームよりも低くなるため、実用に向きません。  
-  よって、ハイプロファイルタイプのケースは、取り付けの対象外としています。  
+  ”TOFU”などのハイプロファイルタイプのケースにも取り付けできますが、キーキャップの天面がケースのフレームよりも低くなって実用に向かないため、ハイプロファイルタイプのケースは取り付けの対象外としています。  
   参考：[TOFUケースへの装着例](https://twitter.com/jpskenn/status/1466729696713142277)
 
 - スイッチの加工
@@ -156,12 +156,12 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 ## 部品リスト
 
-このキットを組み立てるためには、”キット内容”に加え、”別途用意が必要な部品”が必要です。  
+このキットを組み立てるためには、[キット内容](#キット内容)に加え、[別途用意が必要な部品](#別途用意が必要な部品)が必要です。  
 好みに合わせて、必要な数をお買い求めください。
 
-”オプション部品”は、使いたい機能などに応じて用意してください。  
+[オプション部品](#オプション部品)は、使いたい機能などに応じて用意してください。  
 
-部品の購入先は、Self-Made Keyboards in Japanの[ショップリスト](https://scrapbox.io/self-made-kbds-ja/ショップリスト)などを参考にしてください。
+部品の購入先は、[Self-Made Keyboards in Japan：ショップリスト](https://scrapbox.io/self-made-kbds-ja/ショップリスト)などを参考にしてください。
 
 ### キット内容
 
@@ -171,7 +171,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | ----- | :-----: | ----- |
 | ご案内リーフレット | 1 | |
 | 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_DN0032/IMG_4114.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4114.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_DN0032/IMG_4113.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4113.jpeg) |
-| スイッチプレート<br>`Fullレイアウト`, `FWレイアウト`, `REレイアウト`のいずれか | 1 | `FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/IMG_4115.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4115.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4116.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4116.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/IMG_4117.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4117.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4118.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4118.jpeg) |
+| スイッチプレート<br>`Fullレイアウト`, `FWレイアウト`, `REレイアウト`のいずれか | 1 | `Fullレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/IMG_4115.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4115.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4116.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4116.jpeg)<br>`FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/IMG_4115.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4115.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4116.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4116.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/IMG_4117.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4117.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4118.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4118.jpeg) |
 | ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_DN0032/IMG_4119.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4119.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4120.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4120.jpeg) |
 | スペーサーシート<br> シール付き, 1mm厚, 10mm * 500mm（長い）<br>[低弾性ゴムシート－ハネナイトＲ－ (UNLEA1-10)](https://jp.misumi-ec.com/vona2/detail/110300277050/?HissuCode=UNLEA1-10) | 1 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4122.jpeg) |
 | スペーサーシート<br> シール付き, 1mm厚, 10mm * 約160mm（短い） | 1 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4122.jpeg) |
@@ -187,7 +187,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | 部品名 | 個数 | 備考 |
 | ----- | :-----: | ----- |
 | ソケット<br>Kailh Chocロープロファイル用 | 62〜71 | `Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個 |
-| スイッチ<br>Kailh Choc v1 | 62〜71 | `Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個 |
+| スイッチ<br>Kailh Choc V1 | 62〜71 | `Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個 |
 | キーキャップ<br>Choc用<br>17mm × 約17.86mm以下のサイズのもの<br>→[資料：キーキャップ選び方ガイド](#資料キーキャップ選び方ガイド) | 62〜71 | `Fullレイアウト`：71個<br>1u × 62個<br>1.5u × 9個<br>`FWレイアウト`：64個<br>1u × 56個<br>1.5u × 8個<br>`REレイアウト`：62個<br>1u × 54個<br>1.5u × 8個 |
 | ロータリーエンコーダ<br>ALPS EC11, EC12または同等品 | 1 | `REレイアウト`を組み立てる場合のみ必要 |
 | ロータリーエンコーダ用ノブ<br>（つまみ） | 1 | `REレイアウト`を組み立てる場合のみ必要<br>最大径35mm（使用するキーキャップのサイズによる） |
@@ -200,7 +200,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | LED<br>SK6812MINI-E | 62〜71 | LEDを取り付ける場合<br>`Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個 |
 | GH60型，Poker型ロープロファイルケース | 1 | ケースへ取り付ける場合 |
 | Raspberry Pi PICO | 1 | 実験的機能をDIYで楽しむ場合 |
-| ゴム足（高さの異なるもの） | 必要数 | ボトムプレート裏側へ貼り付け、角度を変えたりする場合<br>例：[大きなゴム足](https://www.yodobashi.com/product/100000001001980663/) |
+| ゴム足（高さの異なるもの） | 必要数 | ボトムプレート裏側へ貼り付け、傾斜角度を変えたりする場合<br>例：[大きめのゴム足](https://www.yodobashi.com/product/100000001001980663/) |
 
 ## 組み立てに必要な工具
 
@@ -209,7 +209,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 - はんだ付け関連用品
 - はさみ
 
-フラックスやハンダ吸い取り線を用意しておくと、ちょっとした修正などがやりやすくなります。
+フラックスやハンダ吸い取り線を用意しておくと、ちょっとした修正などがやりやすくなります。  
 [遊舎工房の工具セット](https://yushakobo.jp/shop/a9900to/)を参考に用意してください。
 
 なお、無くても組み立てはできますが、何か不具合があった場合の原因調査ではテスターがあると便利です。
@@ -218,7 +218,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 組み立てを開始する前に、同梱物と基板についての基本的な確認をおこないます。  
 
-**何か問題があった場合は作業を中止し、リーフレットに記載された連絡先へ問い合わせてください。**  
+**組み立て前の確認で何か問題があった場合は作業を中止し、リーフレットに記載された連絡先へ問い合わせてください。**  
 **組み立ての開始後は、初期不良として対応できかねる場合があります。**
 
 ### 同梱物の確認
@@ -345,9 +345,10 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 1. 同様の作業を繰り返し、全てのキーの色が変わることを確認します。
 
-    なお、`REレイアウト`でロータリーエンコーダの回転に割り当てた箇所は、この手順では確認しません。  
+    なお、`REレイアウト`でロータリーエンコーダの回転に割り当てた箇所は、この手順では確認しません。
+
     ![RE assigned keys](../assets/BuildGuide_DN0032/Remap_RE_keys.png)
-    ロータリーエンコーダの回転に割り当てた箇所
+    ロータリーエンコーダの回転に割り当てた箇所 → この手順では確認しない
 
 1. 確認が終わったら、USBケーブルを抜きます。
 
@@ -369,16 +370,18 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 はみ出さないように気をつけて、水性顔料や油性のマーカーなどを使って好きな色に塗ります。
 
+〓写真追加：塗ってるところ
+
 ### （オプション）LEDを取り付ける
 
 レイアウトに応じて、基板裏側のLED配線経路をジャンパします。  
-スイッチを取り付ける場所へ、基板裏側からLEDを取り付けます。  
+スイッチを取り付ける位置に合わせて、基板裏側からLEDを取り付けます。  
 
-| レイアウト | 配線経路ジャンパ位置 | LEDを取り付けない位置 | 基板のマーキング |
+| レイアウト | 配線経路ジャンパ位置 | LEDを取り付ける位置 | 基板のマーキング |
 | :-: | :-- | :-- | :-: |
-| Full | なし<br>（どこにもジャンパしない） | なし<br>（すべて取り付ける） | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_full.png) |
-| FW | `JP4`<br>`JP5`<br>`JP7`<br>`JP8`<br>`JP9`| `L8` `L9`<br>`L24`<br>`L39`<br>`L54` `L55`<br>`L67` | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_fw.png) |
-| RE | `JP4`<br>`JP5`<br>`JP6`<br>`JP8`<br>`JP9` | `L8` `L9`<br>`L24`<br>`L38` `L39` `L40`<br>`L54` `L55`<br>`L67` | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_re.png) |
+| Full | ジャンパしない | すべて | なし |
+| FW | `JP4`<br>`JP5`<br>`JP7`<br>`JP8`<br>`JP9`| 以下を除く<br>`L8` `L9`<br>`L24`<br>`L39`<br>`L54` `L55`<br>`L67` | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_fw.png) |
+| RE | `JP4`<br>`JP5`<br>`JP6`<br>`JP8`<br>`JP9` | 以下を除く<br>`L8` `L9`<br>`L24`<br>`L38` `L39` `L40`<br>`L54` `L55`<br>`L67` | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_re.png) |
 
 #### ヒント
 
@@ -394,14 +397,14 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 基板裏側の配線経路ジャンパ`JP4`から`JP9`を、レイアウトに応じてジャンパ（※）します。  
 ※隣同士のパッド（基板上の小さな四角の金色や銀色の部分）にはんだをつけてつなげること
 
-<!-- 〓写真：ジャンパパッドの例、どれか一つ -->
+〓写真：ジャンパパッドの例、どれか一つ
 
 レイアウトと配線経路に対応するジャンパ位置は次の通りです。  
 各ジャンパ位置に描かれたマーキングを参考にします。
 
 | レイアウト | 配線経路ジャンパ位置 | 基板のマーキング |
 | :--: | :-- | :--: |
-| Full | なし<br>（どこにもジャンパしない） | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_full.png) |
+| Full | ジャンパしない | なし |
 | FW | `JP4`<br>`JP5`<br>`JP7`<br>`JP8`<br>`JP9`| ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_fw.png) |
 | RE | `JP4`<br>`JP5`<br>`JP6`<br>`JP8`<br>`JP9` | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_re.png) |
 
@@ -427,15 +430,15 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 #### LEDを取り付ける
 
-基板裏側のLED`L1`から`L71`へ、スイッチを取り付ける場所にLEDを取り付けます。
+基板裏側のLED`L1`から`L71`へ、スイッチを取り付ける位置に合わせてLEDを取り付けます。
 
 レイアウトによって、LEDを取り付けない位置は次の通りです。
 
-| レイアウト | LEDを取り付けない位置 | 基板のマーキング |
+| レイアウト | LEDを取り付ける位置 | 基板のマーキング |
 | :--: | :-- | :--: |
-| Full | なし<br>（すべて取り付ける） | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_full.png) |
-| FW | `L8` `L9`<br>`L24`<br>`L39`<br>`L54` `L55`<br>`L67` | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_fw.png) |
-| RE | `L8` `L9`<br>`L24`<br>`L38` `L39` `L40`<br>`L54` `L55`<br>`L67` | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_re.png) |
+| Full | すべて | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_full.png) |
+| FW | 以下を除く<br>`L8` `L9`<br>`L24`<br>`L39`<br>`L54` `L55`<br>`L67` | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_fw.png) |
+| RE | 以下を除く<br>`L8` `L9`<br>`L24`<br>`L38` `L39` `L40`<br>`L54` `L55`<br>`L67` | ![mark:Full](../assets/BuildGuide_DN0032/PCB_layout_mark_re.png) |
 
 1. 基板を裏側が上になるように置きます。
 
