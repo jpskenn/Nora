@@ -88,8 +88,6 @@ Kailh Chocスイッチとそれに対応するキーキャップを使用する�
 
 #### Nora, Fearless Wings
 
-![Layout, Nora, Fearless Wings](./assets/Readme/layout_fw.png)〓Fullに変更
-
 左右に大きく離れたアルファ部が特徴のレイアウトです。  
 アルファ部を左右へ大きく離すことで打鍵時の肘・腕・手首・指先の位置を最適化し、快適な運指と、肩や腕への負担軽減を目指しています。  
 手首をあまり持ち上げないスタイルでも快適に打鍵できるように、最下行の左右の端にはキーを配置せず、手のひらにキーが当たる不快感を無くしています。
@@ -102,8 +100,7 @@ Kailh Chocスイッチとそれに対応するキーキャップを使用する�
     65%キーボードに相当する71個のキーは、多くのキーを必要とする方に適しています。  
     中央部に記号キーやカーソルを配置したり、テンキーやマクロキーを配置したりできます。
 
-    ![Fullレイアウト](../assets/BuildGuide_DN0032/_DSF1370.jpeg)  
-    〓写真入れ替え（試作版のため、最下行のレイアウトが若干異なる）
+    ![Layout, Nora, Full](./assets/Readme/layout_full.png)
 
 - FWレイアウト
 
@@ -112,25 +109,18 @@ Kailh Chocスイッチとそれに対応するキーキャップを使用する�
     ホームポジションから手を移動させず、レイヤー内のキーを打鍵するのが快適な方に適しています。  
     ミニマルな構成やデザインを好む方にもおすすめです。
 
-    ![FWレイアウト](../assets/BuildGuide_DN0032/IMG_4067.jpeg)  
-    Keycaps: Kailhロープロファイルキーキャップ  
-    Case: 専用ボトムプレート
+    ![Layout, Nora, FW](./assets/Readme/layout_fw.png)
 
 - REレイアウト
 
     FWレイアウトの中央にロータリーエンコーダを配置したレイアウトです。  
     4行目の中央をFWレイアウトから2キー減らし、直径35ｍｍまでのノブに対応しています。
 
-    ![REレイアウト](../assets/BuildGuide_DN0032/_DSF1541.jpeg)  
-    Keycaps: Gravity Keycaps + MBK  
-    Case: KBDfans 60% ALUMINUM LOW PROFILE CASE, Gray  
-    Rotary Encoder: ALPS EC12E2440301（貫通軸タイプ）  
-    Knob: Daily Craft Keyboard ロープロ FLAT 33mm
-    〓写真入れ替え（試作版のため、最下行中央にもキーがついている）
+    ![Layout, Nora, RE](./assets/Readme/layout_re.png)
 
 #### Nora, 1.8k
 
-![Layout, Nora, 1.8k](./assets/Readme/layout.png)
+![Layout, Nora, 1.8k](./assets/Readme/layout_18k.png)
 
 アルファ部の右側にテンキーを配置し、少し下へ飛びだしたカーソルキーが特徴のレイアウトです。  
 キー数が多く、記号やカーソルなどを物理的に配置することができます。
