@@ -3,13 +3,13 @@
   <design>
     <source>/Users/kenn/Git/jpskenn/Nora/PCB_FW/nora.kicad_sch</source>
     <date/>
-    <tool>Eeschema (6.0.0-0)</tool>
+    <tool>Eeschema (6.0.1-0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Nora</title>
         <company>@jpskenn</company>
-        <rev>DN0031</rev>
-        <date>2022-01-02</date>
+        <rev>DN0032</rev>
+        <date>2022-01-29</date>
         <source>nora.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -211,10 +211,10 @@
       <footprint>Package_TO_SOT_SMD:SOT-143</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf</datasheet>
       <fields>
-        <field name="LCSC">C78442</field>
+        <field name="LCSC">C12333</field>
       </fields>
       <libsource lib="Power_Protection" part="PRTR5V0U2X" description="Ultra low capacitance double rail-to-rail ESD protection diode, SOT-143"/>
-      <property name="LCSC" value="C78442"/>
+      <property name="LCSC" value="C12333"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1374,7 +1374,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>577e35eb-62c7-436d-a3e1-aeef4e69c25a</tstamps>
+      <tstamps>e3641758-1e97-43c9-b699-2ab85be5ba4a</tstamps>
     </comp>
     <comp ref="JP7">
       <value>SolderJumper_2_Open</value>
@@ -1383,9 +1383,18 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>70e89175-bb11-49d4-95a7-3ec35ce9ad4a</tstamps>
+      <tstamps>577e35eb-62c7-436d-a3e1-aeef4e69c25a</tstamps>
     </comp>
     <comp ref="JP8">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nora.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70e89175-bb11-49d4-95a7-3ec35ce9ad4a</tstamps>
+    </comp>
+    <comp ref="JP9">
       <value>SolderJumper_2_Open</value>
       <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
       <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
@@ -1396,7 +1405,7 @@
     </comp>
     <comp ref="L1">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1405,7 +1414,7 @@
     </comp>
     <comp ref="L2">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1414,7 +1423,7 @@
     </comp>
     <comp ref="L3">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1423,7 +1432,7 @@
     </comp>
     <comp ref="L4">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1432,7 +1441,7 @@
     </comp>
     <comp ref="L5">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1441,7 +1450,7 @@
     </comp>
     <comp ref="L6">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1450,7 +1459,7 @@
     </comp>
     <comp ref="L7">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1459,7 +1468,7 @@
     </comp>
     <comp ref="L8">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad_reserved</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1468,7 +1477,7 @@
     </comp>
     <comp ref="L9">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad_reserved</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1477,7 +1486,7 @@
     </comp>
     <comp ref="L10">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1486,7 +1495,7 @@
     </comp>
     <comp ref="L11">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1495,7 +1504,7 @@
     </comp>
     <comp ref="L12">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1504,7 +1513,7 @@
     </comp>
     <comp ref="L13">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1513,7 +1522,7 @@
     </comp>
     <comp ref="L14">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1522,7 +1531,7 @@
     </comp>
     <comp ref="L15">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1531,7 +1540,7 @@
     </comp>
     <comp ref="L16">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1540,7 +1549,7 @@
     </comp>
     <comp ref="L17">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1549,7 +1558,7 @@
     </comp>
     <comp ref="L18">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1558,7 +1567,7 @@
     </comp>
     <comp ref="L19">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1567,7 +1576,7 @@
     </comp>
     <comp ref="L20">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1576,7 +1585,7 @@
     </comp>
     <comp ref="L21">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1585,7 +1594,7 @@
     </comp>
     <comp ref="L22">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1594,7 +1603,7 @@
     </comp>
     <comp ref="L23">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1603,7 +1612,7 @@
     </comp>
     <comp ref="L24">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad_reserved</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1612,7 +1621,7 @@
     </comp>
     <comp ref="L25">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1621,7 +1630,7 @@
     </comp>
     <comp ref="L26">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1630,7 +1639,7 @@
     </comp>
     <comp ref="L27">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1639,7 +1648,7 @@
     </comp>
     <comp ref="L28">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1648,7 +1657,7 @@
     </comp>
     <comp ref="L29">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1657,7 +1666,7 @@
     </comp>
     <comp ref="L30">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1666,7 +1675,7 @@
     </comp>
     <comp ref="L31">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1675,7 +1684,7 @@
     </comp>
     <comp ref="L32">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1684,7 +1693,7 @@
     </comp>
     <comp ref="L33">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1693,7 +1702,7 @@
     </comp>
     <comp ref="L34">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1702,7 +1711,7 @@
     </comp>
     <comp ref="L35">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1711,7 +1720,7 @@
     </comp>
     <comp ref="L36">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1720,7 +1729,7 @@
     </comp>
     <comp ref="L37">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1729,7 +1738,7 @@
     </comp>
     <comp ref="L38">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad_reserved</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1738,7 +1747,7 @@
     </comp>
     <comp ref="L39">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad_reserved</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1747,7 +1756,7 @@
     </comp>
     <comp ref="L40">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad_reserved</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1756,7 +1765,7 @@
     </comp>
     <comp ref="L41">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1765,7 +1774,7 @@
     </comp>
     <comp ref="L42">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1774,7 +1783,7 @@
     </comp>
     <comp ref="L43">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1783,7 +1792,7 @@
     </comp>
     <comp ref="L44">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1792,7 +1801,7 @@
     </comp>
     <comp ref="L45">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1801,7 +1810,7 @@
     </comp>
     <comp ref="L46">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1810,7 +1819,7 @@
     </comp>
     <comp ref="L47">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1819,7 +1828,7 @@
     </comp>
     <comp ref="L48">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1828,7 +1837,7 @@
     </comp>
     <comp ref="L49">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1837,7 +1846,7 @@
     </comp>
     <comp ref="L50">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1846,7 +1855,7 @@
     </comp>
     <comp ref="L51">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1855,7 +1864,7 @@
     </comp>
     <comp ref="L52">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1864,7 +1873,7 @@
     </comp>
     <comp ref="L53">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1873,7 +1882,7 @@
     </comp>
     <comp ref="L54">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad_reserved</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1882,7 +1891,7 @@
     </comp>
     <comp ref="L55">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad_reserved</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1891,7 +1900,7 @@
     </comp>
     <comp ref="L56">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1900,7 +1909,7 @@
     </comp>
     <comp ref="L57">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1909,7 +1918,7 @@
     </comp>
     <comp ref="L58">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1918,7 +1927,7 @@
     </comp>
     <comp ref="L59">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1927,7 +1936,7 @@
     </comp>
     <comp ref="L60">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1936,7 +1945,7 @@
     </comp>
     <comp ref="L61">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1945,7 +1954,7 @@
     </comp>
     <comp ref="L62">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1954,7 +1963,7 @@
     </comp>
     <comp ref="L63">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1963,7 +1972,7 @@
     </comp>
     <comp ref="L64">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1972,7 +1981,7 @@
     </comp>
     <comp ref="L65">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1981,7 +1990,7 @@
     </comp>
     <comp ref="L66">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1990,7 +1999,7 @@
     </comp>
     <comp ref="L67">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad_reserved</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -1999,7 +2008,7 @@
     </comp>
     <comp ref="L68">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -2008,7 +2017,7 @@
     </comp>
     <comp ref="L69">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -2017,7 +2026,7 @@
     </comp>
     <comp ref="L70">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -2026,7 +2035,7 @@
     </comp>
     <comp ref="L71">
       <value>SK6812MINI-E</value>
-      <footprint>Jones.local:YS-SK6812MINI-E_large_hole_with_small_pad</footprint>
+      <footprint>Jones.local:YS-SK6812MINI-E_middle_hole_with_small_pad</footprint>
       <libsource lib="kbd" part="SK6812MINI-E" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -2459,7 +2468,7 @@
     </comp>
     <comp ref="SW_37">
       <value>;:</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection-cross-paint</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -2549,7 +2558,7 @@
     </comp>
     <comp ref="SW_47">
       <value>'"</value>
-      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection</footprint>
+      <footprint>Keebio-Parts:Kailh-PG1350-1u-MBK-WithKeyName-Socket-1.8mm-hole-reflection-cross-paint</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
@@ -2822,10 +2831,12 @@
       <footprint>Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.15x5.15mm</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</datasheet>
       <fields>
-        <field name="LCSC">C45874</field>
+        <field name="Alternative LCSC">C45874</field>
+        <field name="LCSC">C112161</field>
       </fields>
       <libsource lib="MCU_Microchip_ATmega" part="ATmega32U4-M" description="16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, QFN-44"/>
-      <property name="LCSC" value="C45874"/>
+      <property name="LCSC" value="C112161"/>
+      <property name="Alternative LCSC" value="C45874"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2836,10 +2847,12 @@
       <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21189f.pdf</datasheet>
       <fields>
+        <field name="Alternative LCSC">C6487, C116707, C13645</field>
         <field name="LCSC">C79988</field>
       </fields>
       <libsource lib="Memory_EEPROM" part="24LC64" description="I2C Serial EEPROM, 64Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"/>
       <property name="LCSC" value="C79988"/>
+      <property name="Alternative LCSC" value="C6487, C116707, C13645"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nora.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3610,360 +3623,360 @@
       <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U1" pin="11" pinfunction="PB3" pintype="bidirectional"/>
     </net>
-    <net code="9" name="MOSI">
-      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="RE_42" pin="B" pinfunction="B" pintype="passive"/>
-      <node ref="U1" pin="10" pinfunction="PB2" pintype="bidirectional"/>
-    </net>
-    <net code="10" name="Net-(C2-Pad1)">
+    <net code="9" name="Net-(C2-Pad1)">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="U1" pin="17" pinfunction="XTAL1" pintype="input"/>
       <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="11" name="Net-(C3-Pad1)">
+    <net code="10" name="Net-(C3-Pad1)">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="U1" pin="16" pinfunction="XTAL2" pintype="output"/>
       <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="12" name="Net-(C6-Pad1)">
+    <net code="11" name="Net-(C6-Pad1)">
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="UCAP" pintype="passive"/>
     </net>
-    <net code="13" name="Net-(D1-Pad2)">
+    <net code="12" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="14" name="Net-(D2-Pad2)">
+    <net code="13" name="Net-(D2-Pad2)">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_3" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="15" name="Net-(D4-Pad2)">
+    <net code="14" name="Net-(D4-Pad2)">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_5" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="16" name="Net-(D5-Pad2)">
+    <net code="15" name="Net-(D5-Pad2)">
       <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_6" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(D6-Pad2)">
+    <net code="16" name="Net-(D6-Pad2)">
       <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_7" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(D7-Pad2)">
+    <net code="17" name="Net-(D7-Pad2)">
       <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_8" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(D9-Pad2)">
+    <net code="18" name="Net-(D9-Pad2)">
       <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_10" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(D10-Pad2)">
+    <net code="19" name="Net-(D10-Pad2)">
       <node ref="D10" pin="2" pinfunction="I/O1" pintype="passive"/>
       <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="R3" pin="2" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(D10-Pad3)">
+    <net code="20" name="Net-(D10-Pad3)">
       <node ref="D10" pin="3" pinfunction="I/O2" pintype="passive"/>
       <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="R4" pin="2" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(D11-Pad2)">
+    <net code="21" name="Net-(D11-Pad2)">
       <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_11" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(D12-Pad2)">
+    <net code="22" name="Net-(D12-Pad2)">
       <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_12" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(D13-Pad2)">
+    <net code="23" name="Net-(D13-Pad2)">
       <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_13" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(D14-Pad2)">
+    <net code="24" name="Net-(D14-Pad2)">
       <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_24" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(D15-Pad2)">
+    <net code="25" name="Net-(D15-Pad2)">
       <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_15" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="27" name="Net-(D16-Pad2)">
+    <net code="26" name="Net-(D16-Pad2)">
       <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_16" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="28" name="Net-(D17-Pad2)">
+    <net code="27" name="Net-(D17-Pad2)">
       <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_17" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="29" name="Net-(D18-Pad2)">
+    <net code="28" name="Net-(D18-Pad2)">
       <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_18" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="30" name="Net-(D19-Pad2)">
+    <net code="29" name="Net-(D19-Pad2)">
       <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_19" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="31" name="Net-(D20-Pad2)">
+    <net code="30" name="Net-(D20-Pad2)">
       <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_20" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="32" name="Net-(D21-Pad2)">
+    <net code="31" name="Net-(D21-Pad2)">
       <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_21" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="33" name="Net-(D22-Pad2)">
+    <net code="32" name="Net-(D22-Pad2)">
       <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_22" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="34" name="Net-(D23-Pad2)">
+    <net code="33" name="Net-(D23-Pad2)">
       <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_23" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="35" name="Net-(D25-Pad2)">
+    <net code="34" name="Net-(D25-Pad2)">
       <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_25" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="36" name="Net-(D26-Pad2)">
+    <net code="35" name="Net-(D26-Pad2)">
       <node ref="D26" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_26" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="37" name="Net-(D27-Pad2)">
+    <net code="36" name="Net-(D27-Pad2)">
       <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_27" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="38" name="Net-(D28-Pad2)">
+    <net code="37" name="Net-(D28-Pad2)">
       <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_28" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="39" name="Net-(D29-Pad2)">
+    <net code="38" name="Net-(D29-Pad2)">
       <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_29" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="40" name="Net-(D30-Pad2)">
+    <net code="39" name="Net-(D30-Pad2)">
       <node ref="D30" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_30" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="41" name="Net-(D31-Pad2)">
+    <net code="40" name="Net-(D31-Pad2)">
       <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_31" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="42" name="Net-(D32-Pad2)">
+    <net code="41" name="Net-(D32-Pad2)">
       <node ref="D32" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_32" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="43" name="Net-(D33-Pad2)">
+    <net code="42" name="Net-(D33-Pad2)">
       <node ref="D33" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_33" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="44" name="Net-(D35-Pad2)">
+    <net code="43" name="Net-(D35-Pad2)">
       <node ref="D35" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_35" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="45" name="Net-(D36-Pad2)">
+    <net code="44" name="Net-(D36-Pad2)">
       <node ref="D36" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_36" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="46" name="Net-(D37-Pad2)">
+    <net code="45" name="Net-(D37-Pad2)">
       <node ref="D37" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_37" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="47" name="Net-(D38-Pad2)">
+    <net code="46" name="Net-(D38-Pad2)">
       <node ref="D38" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_38" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="48" name="Net-(D39-Pad2)">
+    <net code="47" name="Net-(D39-Pad2)">
       <node ref="D39" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_39" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="49" name="Net-(D40-Pad2)">
+    <net code="48" name="Net-(D40-Pad2)">
       <node ref="D40" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_40" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="50" name="Net-(D41-Pad2)">
+    <net code="49" name="Net-(D41-Pad2)">
       <node ref="D41" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_41" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="51" name="Net-(D42-Pad2)">
-      <node ref="D42" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="SW_42" pin="2" pinfunction="2" pintype="passive"/>
+    <net code="50" name="Net-(D43-Pad2)">
+      <node ref="D43" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW_43" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="52" name="Net-(D44-Pad2)">
+    <net code="51" name="Net-(D44-Pad2)">
       <node ref="D44" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_44" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="53" name="Net-(D45-Pad2)">
+    <net code="52" name="Net-(D45-Pad2)">
       <node ref="D45" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_45" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="54" name="Net-(D46-Pad2)">
+    <net code="53" name="Net-(D46-Pad2)">
       <node ref="D46" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_46" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="55" name="Net-(D47-Pad2)">
+    <net code="54" name="Net-(D47-Pad2)">
       <node ref="D47" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_47" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="56" name="Net-(D48-Pad2)">
+    <net code="55" name="Net-(D48-Pad2)">
       <node ref="D48" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_48" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="57" name="Net-(D49-Pad2)">
+    <net code="56" name="Net-(D49-Pad2)">
       <node ref="D49" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_49" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="58" name="Net-(D50-Pad2)">
+    <net code="57" name="Net-(D50-Pad2)">
       <node ref="D50" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_50" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="59" name="Net-(D51-Pad2)">
+    <net code="58" name="Net-(D51-Pad2)">
       <node ref="D51" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_51" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="60" name="Net-(D52-Pad2)">
+    <net code="59" name="Net-(D52-Pad2)">
       <node ref="D52" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_52" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="61" name="Net-(D53-Pad2)">
+    <net code="60" name="Net-(D53-Pad2)">
       <node ref="D53" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_53" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="62" name="Net-(D54-Pad2)">
+    <net code="61" name="Net-(D54-Pad2)">
       <node ref="D54" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_54" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="63" name="Net-(D55-Pad2)">
+    <net code="62" name="Net-(D55-Pad2)">
       <node ref="D55" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_55" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="64" name="Net-(D56-Pad2)">
+    <net code="63" name="Net-(D56-Pad2)">
       <node ref="D56" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_56" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="65" name="Net-(D57-Pad2)">
+    <net code="64" name="Net-(D57-Pad2)">
       <node ref="D57" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_57" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="66" name="Net-(D58-Pad2)">
+    <net code="65" name="Net-(D58-Pad2)">
       <node ref="D58" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_58" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="67" name="Net-(D59-Pad2)">
+    <net code="66" name="Net-(D59-Pad2)">
       <node ref="D59" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_59" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="68" name="Net-(D60-Pad2)">
+    <net code="67" name="Net-(D60-Pad2)">
       <node ref="D60" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_60" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="69" name="Net-(D61-Pad2)">
+    <net code="68" name="Net-(D61-Pad2)">
       <node ref="D61" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_61" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="70" name="Net-(D62-Pad2)">
+    <net code="69" name="Net-(D62-Pad2)">
       <node ref="D62" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_62" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="71" name="Net-(D63-Pad2)">
+    <net code="70" name="Net-(D63-Pad2)">
       <node ref="D63" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_63" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="72" name="Net-(D64-Pad2)">
+    <net code="71" name="Net-(D64-Pad2)">
       <node ref="D64" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_64" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="73" name="Net-(D65-Pad2)">
+    <net code="72" name="Net-(D65-Pad2)">
       <node ref="D65" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_65" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="74" name="Net-(D66-Pad2)">
+    <net code="73" name="Net-(D66-Pad2)">
       <node ref="D66" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_66" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="75" name="Net-(D67-Pad2)">
+    <net code="74" name="Net-(D67-Pad2)">
       <node ref="D67" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_67" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="76" name="Net-(D68-Pad2)">
+    <net code="75" name="Net-(D68-Pad2)">
       <node ref="D68" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_68" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="77" name="Net-(D70-Pad2)">
+    <net code="76" name="Net-(D70-Pad2)">
       <node ref="D70" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_70" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="78" name="Net-(D71-Pad2)">
+    <net code="77" name="Net-(D71-Pad2)">
       <node ref="D71" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_71" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="79" name="Net-(D72-Pad2)">
+    <net code="78" name="Net-(D72-Pad2)">
       <node ref="D72" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_72" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="80" name="Net-(D73-Pad2)">
+    <net code="79" name="Net-(D73-Pad2)">
       <node ref="D73" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_73" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="81" name="Net-(D75-Pad2)">
+    <net code="80" name="Net-(D75-Pad2)">
       <node ref="D75" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_75" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="82" name="Net-(D76-Pad2)">
+    <net code="81" name="Net-(D76-Pad2)">
       <node ref="D76" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_76" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="83" name="Net-(D77-Pad2)">
+    <net code="82" name="Net-(D77-Pad2)">
       <node ref="D77" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_77" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="84" name="Net-(D78-Pad2)">
+    <net code="83" name="Net-(D78-Pad2)">
       <node ref="D78" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW_78" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="85" name="Net-(D99-Pad1)">
+    <net code="84" name="Net-(D99-Pad1)">
       <node ref="D99" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="LS1" pin="2" pinfunction="2" pintype="input"/>
       <node ref="R7" pin="2" pintype="passive"/>
     </net>
-    <net code="86" name="Net-(J1-PadA5)">
+    <net code="85" name="Net-(J1-PadA5)">
       <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
       <node ref="R2" pin="2" pintype="passive"/>
     </net>
-    <net code="87" name="Net-(J1-PadB5)">
+    <net code="86" name="Net-(J1-PadB5)">
       <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R1" pin="2" pintype="passive"/>
     </net>
-    <net code="88" name="Net-(JP1-Pad1)">
+    <net code="87" name="Net-(JP1-Pad1)">
       <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="89" name="Net-(JP2-Pad1)">
+    <net code="88" name="Net-(JP2-Pad1)">
       <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
     </net>
-    <net code="90" name="Net-(JP4-Pad1)">
+    <net code="89" name="Net-(JP4-Pad1)">
       <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="L7" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L8" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="91" name="Net-(JP5-Pad1)">
+    <net code="90" name="Net-(JP5-Pad1)">
       <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="L23" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L24" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="92" name="Net-(JP6-Pad1)">
+    <net code="91" name="Net-(JP6-Pad1)">
       <node ref="JP6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="L37" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="L38" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="92" name="Net-(JP7-Pad1)">
+      <node ref="JP7" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="L38" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L39" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="93" name="Net-(JP7-Pad1)">
-      <node ref="JP7" pin="1" pinfunction="A" pintype="passive"/>
+    <net code="93" name="Net-(JP8-Pad1)">
+      <node ref="JP8" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="L53" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L54" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="94" name="Net-(JP8-Pad1)">
-      <node ref="JP8" pin="1" pinfunction="A" pintype="passive"/>
+    <net code="94" name="Net-(JP9-Pad1)">
+      <node ref="JP9" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="L66" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L67" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
@@ -4095,260 +4108,141 @@
       <node ref="L36" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L37" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="127" name="Net-(L37-Pad2)">
-      <node ref="L37" pin="2" pinfunction="DOUT" pintype="output"/>
-      <node ref="L38" pin="4" pinfunction="DIN" pintype="input"/>
-    </net>
-    <net code="128" name="Net-(L40-Pad2)">
-      <node ref="L40" pin="2" pinfunction="DOUT" pintype="output"/>
-      <node ref="L41" pin="4" pinfunction="DIN" pintype="input"/>
-    </net>
-    <net code="129" name="Net-(L41-Pad2)">
+    <net code="127" name="Net-(L41-Pad2)">
       <node ref="L41" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L42" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="130" name="Net-(L42-Pad2)">
+    <net code="128" name="Net-(L42-Pad2)">
       <node ref="L42" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L43" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="131" name="Net-(L43-Pad2)">
+    <net code="129" name="Net-(L43-Pad2)">
       <node ref="L43" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L44" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="132" name="Net-(L44-Pad2)">
+    <net code="130" name="Net-(L44-Pad2)">
       <node ref="L44" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L45" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="133" name="Net-(L45-Pad2)">
+    <net code="131" name="Net-(L45-Pad2)">
       <node ref="L45" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L46" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="134" name="Net-(L46-Pad2)">
+    <net code="132" name="Net-(L46-Pad2)">
       <node ref="L46" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L47" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="135" name="Net-(L47-Pad2)">
+    <net code="133" name="Net-(L47-Pad2)">
       <node ref="L47" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L48" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="136" name="Net-(L48-Pad2)">
+    <net code="134" name="Net-(L48-Pad2)">
       <node ref="L48" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L49" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="137" name="Net-(L49-Pad2)">
+    <net code="135" name="Net-(L49-Pad2)">
       <node ref="L49" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L50" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="138" name="Net-(L50-Pad2)">
+    <net code="136" name="Net-(L50-Pad2)">
       <node ref="L50" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L51" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="139" name="Net-(L51-Pad2)">
+    <net code="137" name="Net-(L51-Pad2)">
       <node ref="L51" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L52" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="140" name="Net-(L52-Pad2)">
+    <net code="138" name="Net-(L52-Pad2)">
       <node ref="L52" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L53" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="141" name="Net-(L54-Pad2)">
+    <net code="139" name="Net-(L54-Pad2)">
       <node ref="L54" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L55" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="142" name="Net-(L56-Pad2)">
+    <net code="140" name="Net-(L56-Pad2)">
       <node ref="L56" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L57" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="143" name="Net-(L57-Pad2)">
+    <net code="141" name="Net-(L57-Pad2)">
       <node ref="L57" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L58" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="144" name="Net-(L58-Pad2)">
+    <net code="142" name="Net-(L58-Pad2)">
       <node ref="L58" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L59" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="145" name="Net-(L59-Pad2)">
+    <net code="143" name="Net-(L59-Pad2)">
       <node ref="L59" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L60" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="146" name="Net-(L60-Pad2)">
+    <net code="144" name="Net-(L60-Pad2)">
       <node ref="L60" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L61" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="147" name="Net-(L61-Pad2)">
+    <net code="145" name="Net-(L61-Pad2)">
       <node ref="L61" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L62" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="148" name="Net-(L62-Pad2)">
+    <net code="146" name="Net-(L62-Pad2)">
       <node ref="L62" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L63" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="149" name="Net-(L63-Pad2)">
+    <net code="147" name="Net-(L63-Pad2)">
       <node ref="L63" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L64" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="150" name="Net-(L64-Pad2)">
+    <net code="148" name="Net-(L64-Pad2)">
       <node ref="L64" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L65" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="151" name="Net-(L65-Pad2)">
+    <net code="149" name="Net-(L65-Pad2)">
       <node ref="L65" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L66" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="152" name="Net-(L68-Pad2)">
+    <net code="150" name="Net-(L68-Pad2)">
       <node ref="L68" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L69" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="153" name="Net-(L69-Pad2)">
+    <net code="151" name="Net-(L69-Pad2)">
       <node ref="L69" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L70" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="154" name="Net-(L70-Pad2)">
+    <net code="152" name="Net-(L70-Pad2)">
       <node ref="L70" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="L71" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="155" name="Net-(R6-Pad2)">
+    <net code="153" name="Net-(R6-Pad2)">
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="U1" pin="33" pinfunction="~{HWB}/PE2" pintype="bidirectional"/>
     </net>
-    <net code="156" name="PICO_8">
-      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U4" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
-    </net>
-    <net code="157" name="PICO_9">
-      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U4" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
-    </net>
-    <net code="158" name="PICO_10">
+    <net code="154" name="PICO_10">
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U4" pin="14" pinfunction="GPIO10" pintype="bidirectional"/>
     </net>
-    <net code="159" name="PICO_11">
+    <net code="155" name="PICO_11">
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U4" pin="15" pinfunction="GPIO11" pintype="bidirectional"/>
     </net>
-    <net code="160" name="PICO_VBUS">
+    <net code="156" name="PICO_VBUS">
       <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="U4" pin="40" pinfunction="VBUS" pintype="passive"/>
     </net>
-    <net code="161" name="RE1_S2">
-      <node ref="D43" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="RE_42" pin="S2" pinfunction="S2" pintype="passive"/>
-      <node ref="SW_43" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="162" name="RESET">
-      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="R5" pin="2" pintype="passive"/>
-      <node ref="ResetSW1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U1" pin="13" pinfunction="~{RESET}" pintype="input"/>
-    </net>
-    <net code="163" name="SCK">
+    <net code="157" name="RE1A_SCK">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="RE_42" pin="A" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="9" pinfunction="PB1" pintype="bidirectional"/>
+      <node ref="U4" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
     </net>
-    <net code="164" name="SCL">
-      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
-      <node ref="U1" pin="18" pinfunction="PD0" pintype="bidirectional"/>
-      <node ref="U2" pin="6" pinfunction="SCL" pintype="input"/>
-      <node ref="U4" pin="2" pinfunction="GPIO1" pintype="bidirectional"/>
+    <net code="158" name="RE1B_MOSI">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="RE_42" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PB2" pintype="bidirectional"/>
+      <node ref="U4" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
     </net>
-    <net code="165" name="SDA">
-      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
-      <node ref="U1" pin="19" pinfunction="PD1" pintype="bidirectional"/>
-      <node ref="U2" pin="5" pinfunction="SDA" pintype="bidirectional"/>
-      <node ref="U4" pin="1" pinfunction="GPIO0" pintype="bidirectional"/>
-    </net>
-    <net code="166" name="Skip_R1C">
-      <node ref="JP4" pin="2" pinfunction="B" pintype="passive"/>
-      <node ref="L10" pin="4" pinfunction="DIN" pintype="input"/>
-      <node ref="L9" pin="2" pinfunction="DOUT" pintype="output"/>
-    </net>
-    <net code="167" name="Skip_R2C">
-      <node ref="JP5" pin="2" pinfunction="B" pintype="passive"/>
-      <node ref="L24" pin="2" pinfunction="DOUT" pintype="output"/>
-      <node ref="L25" pin="4" pinfunction="DIN" pintype="input"/>
-    </net>
-    <net code="168" name="Skip_R3C">
-      <node ref="JP6" pin="2" pinfunction="B" pintype="passive"/>
-      <node ref="L39" pin="2" pinfunction="DOUT" pintype="output"/>
-      <node ref="L40" pin="4" pinfunction="DIN" pintype="input"/>
-    </net>
-    <net code="169" name="Skip_R4C">
-      <node ref="JP7" pin="2" pinfunction="B" pintype="passive"/>
-      <node ref="L55" pin="2" pinfunction="DOUT" pintype="output"/>
-      <node ref="L56" pin="4" pinfunction="DIN" pintype="input"/>
-    </net>
-    <net code="170" name="Skip_R5C">
-      <node ref="JP8" pin="2" pinfunction="B" pintype="passive"/>
-      <node ref="L67" pin="2" pinfunction="DOUT" pintype="output"/>
-      <node ref="L68" pin="4" pinfunction="DIN" pintype="input"/>
-    </net>
-    <net code="171" name="VCC">
-      <node ref="D10" pin="4" pinfunction="VCC" pintype="passive"/>
-      <node ref="F1" pin="2" pintype="passive"/>
-      <node ref="J1" pin="A4" pinfunction="VBUS" pintype="passive"/>
-      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
-      <node ref="J1" pin="B4" pinfunction="VBUS" pintype="passive"/>
-      <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
-    </net>
-    <net code="172" name="col0">
-      <node ref="EXT_C0" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="SW_1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_3" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_5" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_6" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_7" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_8" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U1" pin="8" pinfunction="PB0" pintype="bidirectional"/>
-      <node ref="U4" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
-    </net>
-    <net code="173" name="col1">
-      <node ref="EXT_C1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="SW_10" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_11" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_12" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_13" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_15" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_16" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_17" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_18" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_19" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U1" pin="32" pinfunction="PC7" pintype="bidirectional"/>
-      <node ref="U4" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
-    </net>
-    <net code="174" name="col2">
-      <node ref="EXT_C2" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="SW_20" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_21" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_22" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_23" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_24" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_25" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_26" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_27" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_28" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_29" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U1" pin="30" pinfunction="PB6" pintype="bidirectional"/>
-      <node ref="U4" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
-    </net>
-    <net code="175" name="col3">
-      <node ref="EXT_C3" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="SW_30" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_31" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_32" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_33" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_35" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_36" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_37" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_38" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW_39" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U1" pin="29" pinfunction="PB5" pintype="bidirectional"/>
-      <node ref="U4" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
-    </net>
-    <net code="176" name="col4">
+    <net code="159" name="RE1_S1">
       <node ref="EXT_C4" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="RE_42" pin="S1" pinfunction="S1" pintype="passive"/>
       <node ref="SW_40" pin="1" pinfunction="1" pintype="passive"/>
@@ -4364,7 +4258,124 @@
       <node ref="U1" pin="36" pinfunction="PF7" pintype="bidirectional"/>
       <node ref="U4" pin="16" pinfunction="GPIO12" pintype="bidirectional"/>
     </net>
-    <net code="177" name="col5">
+    <net code="160" name="RE1_S2">
+      <node ref="D42" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RE_42" pin="S2" pinfunction="S2" pintype="passive"/>
+      <node ref="SW_42" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="161" name="RESET">
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="ResetSW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="162" name="SCL">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="PD0" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="SCL" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="163" name="SDA">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="PD1" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U4" pin="1" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="164" name="Skip_R1C">
+      <node ref="JP4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="L10" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="L9" pin="2" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="165" name="Skip_R2C">
+      <node ref="JP5" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="L24" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="L25" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="166" name="Skip_R3C">
+      <node ref="JP7" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="L39" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="L40" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="167" name="Skip_R3RE">
+      <node ref="JP6" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="L40" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="L41" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="168" name="Skip_R4C">
+      <node ref="JP8" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="L55" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="L56" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="169" name="Skip_R5C">
+      <node ref="JP9" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="L67" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="L68" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="170" name="VCC">
+      <node ref="D10" pin="4" pinfunction="VCC" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="171" name="col0">
+      <node ref="EXT_C0" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SW_1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PB0" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="172" name="col1">
+      <node ref="EXT_C1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SW_10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="PC7" pintype="bidirectional"/>
+      <node ref="U4" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="173" name="col2">
+      <node ref="EXT_C2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SW_20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_24" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_27" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_28" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_29" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="PB6" pintype="bidirectional"/>
+      <node ref="U4" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="174" name="col3">
+      <node ref="EXT_C3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SW_30" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_32" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_33" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_35" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_36" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_37" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_38" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW_39" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="PB5" pintype="bidirectional"/>
+      <node ref="U4" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="175" name="col5">
       <node ref="EXT_C5" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="SW_50" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="SW_51" pin="1" pinfunction="1" pintype="passive"/>
@@ -4379,7 +4390,7 @@
       <node ref="U1" pin="37" pinfunction="PF6" pintype="bidirectional"/>
       <node ref="U4" pin="17" pinfunction="GPIO13" pintype="bidirectional"/>
     </net>
-    <net code="178" name="col6">
+    <net code="176" name="col6">
       <node ref="EXT_C6" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="SW_60" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="SW_61" pin="1" pinfunction="1" pintype="passive"/>
@@ -4393,7 +4404,7 @@
       <node ref="U1" pin="38" pinfunction="PF5" pintype="bidirectional"/>
       <node ref="U4" pin="19" pinfunction="GPIO14" pintype="bidirectional"/>
     </net>
-    <net code="179" name="col7">
+    <net code="177" name="col7">
       <node ref="EXT_C7" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="SW_70" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="SW_71" pin="1" pinfunction="1" pintype="passive"/>
@@ -4406,7 +4417,7 @@
       <node ref="U1" pin="39" pinfunction="PF4" pintype="bidirectional"/>
       <node ref="U4" pin="20" pinfunction="GPIO15" pintype="bidirectional"/>
     </net>
-    <net code="180" name="row0">
+    <net code="178" name="row0">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D30" pin="1" pinfunction="K" pintype="passive"/>
@@ -4419,7 +4430,7 @@
       <node ref="U1" pin="21" pinfunction="PD3" pintype="bidirectional"/>
       <node ref="U4" pin="9" pinfunction="GPIO6" pintype="bidirectional"/>
     </net>
-    <net code="181" name="row1">
+    <net code="179" name="row1">
       <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D31" pin="1" pinfunction="K" pintype="passive"/>
@@ -4431,7 +4442,7 @@
       <node ref="U1" pin="20" pinfunction="PD2" pintype="bidirectional"/>
       <node ref="U4" pin="32" pinfunction="GPIO27_ADC1" pintype="bidirectional"/>
     </net>
-    <net code="182" name="row2">
+    <net code="180" name="row2">
       <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D32" pin="1" pinfunction="K" pintype="passive"/>
@@ -4441,9 +4452,9 @@
       <node ref="D72" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="EXT_R2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U1" pin="27" pinfunction="PD7" pintype="bidirectional"/>
-      <node ref="U4" pin="29" pinfunction="GPIO22" pintype="bidirectional"/>
+      <node ref="U4" pin="27" pinfunction="GPIO21" pintype="bidirectional"/>
     </net>
-    <net code="183" name="row3">
+    <net code="181" name="row3">
       <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
@@ -4456,7 +4467,7 @@
       <node ref="U1" pin="12" pinfunction="PB7" pintype="bidirectional"/>
       <node ref="U4" pin="25" pinfunction="GPIO19" pintype="bidirectional"/>
     </net>
-    <net code="184" name="row4">
+    <net code="182" name="row4">
       <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D39" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D44" pin="1" pinfunction="K" pintype="passive"/>
@@ -4466,7 +4477,7 @@
       <node ref="U1" pin="40" pinfunction="PF1" pintype="bidirectional"/>
       <node ref="U4" pin="22" pinfunction="GPIO17" pintype="bidirectional"/>
     </net>
-    <net code="185" name="row5">
+    <net code="183" name="row5">
       <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D35" pin="1" pinfunction="K" pintype="passive"/>
@@ -4479,7 +4490,7 @@
       <node ref="U1" pin="22" pinfunction="PD5" pintype="bidirectional"/>
       <node ref="U4" pin="10" pinfunction="GPIO7" pintype="bidirectional"/>
     </net>
-    <net code="186" name="row6">
+    <net code="184" name="row6">
       <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D26" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D36" pin="1" pinfunction="K" pintype="passive"/>
@@ -4492,7 +4503,7 @@
       <node ref="U1" pin="25" pinfunction="PD4" pintype="bidirectional"/>
       <node ref="U4" pin="31" pinfunction="GPIO26_ADC0" pintype="bidirectional"/>
     </net>
-    <net code="187" name="row7">
+    <net code="185" name="row7">
       <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D37" pin="1" pinfunction="K" pintype="passive"/>
@@ -4503,9 +4514,9 @@
       <node ref="D77" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="EXT_R7" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U1" pin="26" pinfunction="PD6" pintype="bidirectional"/>
-      <node ref="U4" pin="27" pinfunction="GPIO21" pintype="bidirectional"/>
+      <node ref="U4" pin="26" pinfunction="GPIO20" pintype="bidirectional"/>
     </net>
-    <net code="188" name="row8">
+    <net code="186" name="row8">
       <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D38" pin="1" pinfunction="K" pintype="passive"/>
@@ -4518,7 +4529,7 @@
       <node ref="U1" pin="28" pinfunction="PB4" pintype="bidirectional"/>
       <node ref="U4" pin="24" pinfunction="GPIO18" pintype="bidirectional"/>
     </net>
-    <net code="189" name="row9">
+    <net code="187" name="row9">
       <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D29" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D49" pin="1" pinfunction="K" pintype="passive"/>
@@ -4527,46 +4538,46 @@
       <node ref="U1" pin="41" pinfunction="PF0" pintype="bidirectional"/>
       <node ref="U4" pin="21" pinfunction="GPIO16" pintype="bidirectional"/>
     </net>
-    <net code="190" name="unconnected-(J1-PadA8)">
+    <net code="188" name="unconnected-(J1-PadA8)">
       <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="191" name="unconnected-(J1-PadB8)">
+    <net code="189" name="unconnected-(J1-PadB8)">
       <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="192" name="unconnected-(L71-Pad2)">
+    <net code="190" name="unconnected-(L71-Pad2)">
       <node ref="L71" pin="2" pinfunction="DOUT" pintype="output+no_connect"/>
     </net>
-    <net code="193" name="unconnected-(U1-Pad42)">
+    <net code="191" name="unconnected-(U1-Pad42)">
       <node ref="U1" pin="42" pinfunction="AREF" pintype="passive+no_connect"/>
     </net>
-    <net code="194" name="unconnected-(U4-Pad26)">
-      <node ref="U4" pin="26" pinfunction="GPIO20" pintype="bidirectional+no_connect"/>
+    <net code="192" name="unconnected-(U4-Pad29)">
+      <node ref="U4" pin="29" pinfunction="GPIO22" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="195" name="unconnected-(U4-Pad30)">
+    <net code="193" name="unconnected-(U4-Pad30)">
       <node ref="U4" pin="30" pinfunction="RUN" pintype="input+no_connect"/>
     </net>
-    <net code="196" name="unconnected-(U4-Pad33)">
+    <net code="194" name="unconnected-(U4-Pad33)">
       <node ref="U4" pin="33" pinfunction="AGND" pintype="power_in+no_connect"/>
     </net>
-    <net code="197" name="unconnected-(U4-Pad35)">
+    <net code="195" name="unconnected-(U4-Pad35)">
       <node ref="U4" pin="35" pinfunction="ADC_VREF" pintype="unspecified+no_connect"/>
     </net>
-    <net code="198" name="unconnected-(U4-Pad36)">
+    <net code="196" name="unconnected-(U4-Pad36)">
       <node ref="U4" pin="36" pinfunction="3V3" pintype="unspecified+no_connect"/>
     </net>
-    <net code="199" name="unconnected-(U4-Pad37)">
+    <net code="197" name="unconnected-(U4-Pad37)">
       <node ref="U4" pin="37" pinfunction="3V3_EN" pintype="input+no_connect"/>
     </net>
-    <net code="200" name="unconnected-(U4-Pad39)">
+    <net code="198" name="unconnected-(U4-Pad39)">
       <node ref="U4" pin="39" pinfunction="VSYS" pintype="unspecified+no_connect"/>
     </net>
-    <net code="201" name="unconnected-(U4-Pad41)">
+    <net code="199" name="unconnected-(U4-Pad41)">
       <node ref="U4" pin="41" pinfunction="SWCLK" pintype="input+no_connect"/>
     </net>
-    <net code="202" name="unconnected-(U4-Pad42)">
+    <net code="200" name="unconnected-(U4-Pad42)">
       <node ref="U4" pin="42" pinfunction="GND" pintype="power_in+no_connect"/>
     </net>
-    <net code="203" name="unconnected-(U4-Pad43)">
+    <net code="201" name="unconnected-(U4-Pad43)">
       <node ref="U4" pin="43" pinfunction="SWDIO" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
