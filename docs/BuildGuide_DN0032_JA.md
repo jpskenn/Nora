@@ -5,34 +5,26 @@
 このドキュメントは、”Nora, Fearless Wings”を組み立てるためのビルドガイドです。  
 `Fullレイアウト`，`FWレイアウト`， `REレイアウト`の、三つのレイアウトの組み立て方法について説明します。  
 参考： [Keyboard Layout Editor: Nora, Fearless Wings family](http://www.keyboard-layout-editor.com/#/gists/568990362f215776aa93e3b90064f241)
-〓写真を小さくして、コンパクトなリストに見えるように
+
 - `Fullレイアウト`
 
   すべてのキーを配置したレイアウト。  
   65%キーボード相当のキー数。
 
-  ![Fullレイアウト](../assets/BuildGuide_DN0032/_DSF1370.jpeg)  
-  〓写真入れ替え（試作版のため、最下行のレイアウトが若干異なる）
+  [<img alt="Fullレイアウト" src="../assets/BuildGuide_DN0032/DSC_7625.jpeg" width="400">](../assets/BuildGuide_DN0032/DSC_7625.jpeg)
 
 - `FWレイアウト`
 
   Fullレイアウトからホームポジション以外のキーを取り除き、中央部分に隙間のあるレイアウト。  
   60%キーボード相当のキー数。
 
-  ![FWレイアウト](../assets/BuildGuide_DN0032/IMG_4067.jpeg)  
-  Keycaps: Kailhロープロファイルキーキャップ  
-  Case: 専用ボトムプレート
+  [<img alt="FWレイアウト" src="../assets/BuildGuide_DN0032/DSC_7641.jpeg" width="400">](../assets/BuildGuide_DN0032/DSC_7641.jpeg)
 
 - `REレイアウト`
 
   FWレイアウトの中央にロータリーエンコーダを配置したレイアウト。
 
-  ![REレイアウト](../assets/BuildGuide_DN0032/_DSF1541.jpeg)  
-  Keycaps: Gravity Keycaps + MBK  
-  Case: KBDfans 60% ALUMINUM LOW PROFILE CASE, Gray  
-  Rotary Encoder: ALPS EC12E2440301（貫通軸タイプ）  
-  Knob: Daily Craft Keyboard ロープロ FLAT 33mm
-  〓写真入れ替え（試作版のため、最下行中央にもキーがついている）
+  [<img alt="REレイアウト" src="../assets/BuildGuide_DN0032/xxxx.jpeg" width="400">](../assets/BuildGuide_DN0032/xxxx.jpeg)
 
 Noraのコンセプトや特徴、ビルド例などについては、[README](https://github.com/jpskenn/Nora/blob/main/README.md)をご覧ください。
 
@@ -84,10 +76,11 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
   - [トラブル対応：正常に入力できないスイッチの原因調査](#トラブル対応正常に入力できないスイッチの原因調査)
   - [トラブル対応：LEDの取り付け不良調査](#トラブル対応ledの取り付け不良調査)
   - [資料：キーキャップ選び方ガイド](#資料キーキャップ選び方ガイド)
-  - [資料：ファームウェアの書き込み方法](#資料ファームウェアの書き込み方法)
   - [資料：初期ファームウェアの機能と設定値](#資料初期ファームウェアの機能と設定値)
+  - [資料：ファームウェアの書き込み方法](#資料ファームウェアの書き込み方法)
   - [資料：EEPROMを消去して、初期状態に戻す方法](#資料eepromを消去して-初期状態に戻す方法)
   - [資料：Nora, Fearless Wings 関連ファイル](#資料nora-fearless-wings-関連ファイル)
+  - [資料：レイアウトを変更する方法](#資料レイアウトを変更する方法)
   - [資料：Raspberry Pi PICOによる動作（実験的機能）](#資料raspberry-pi-picoによる動作実験的機能)
   - [サービスマニュアル](#サービスマニュアル)
 
@@ -168,12 +161,11 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | 部品名 | 個数 | 備考 |
 | ----- | :-----: | ----- |
 | ご案内リーフレット | 1 | |
-| 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_DN0032/IMG_4114.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4114.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_DN0032/IMG_4113.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4113.jpeg) |
-| スイッチプレート<br>`Fullレイアウト`, `FWレイアウト`, `REレイアウト`のいずれか | 1 | `Fullレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/IMG_4115.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4115.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4116.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4116.jpeg)<br>`FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/IMG_4115.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4115.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4116.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4116.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/IMG_4117.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4117.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4118.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4118.jpeg) |
-| ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_DN0032/IMG_4119.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4119.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4120.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4120.jpeg) |
-| スペーサーシート<br> シール付き, 1mm厚, 10mm * 500mm（長い）<br>[低弾性ゴムシート－ハネナイトＲ－ (UNLEA1-10)](https://jp.misumi-ec.com/vona2/detail/110300277050/?HissuCode=UNLEA1-10) | 1 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4122.jpeg) |
-| スペーサーシート<br> シール付き, 1mm厚, 10mm * 約160mm（短い） | 1 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4122.jpeg) |
-| スペーサー, M2 3mm<br>[黄銅 スペーサー(六角) / ASB-E](https://hirosugi.co.jp/products/B/ASB-E.html) | 8 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4123.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4123.jpeg) |
+| 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_DN0032/DSC_7493.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7493.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_DN0032/DSC_7491.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7491.jpeg) |
+| スイッチプレート<br>`Fullレイアウト`, `FWレイアウト`, `REレイアウト`のいずれか | 1 | `Fullレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/DSC_7500.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7500.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/DSC_7504.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7504.jpeg)<br>`FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/DSC_7497.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7497.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/DSC_7498.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7498.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/xxxx.jpeg" width="300">](../assets/BuildGuide_DN0032/xxxx.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4118.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4118.jpeg) |
+| ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_DN0032/DSC_7505.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7505.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_DN0032/DSC_7514.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7514.jpeg) |
+| スペーサーシート<br> シール付き, 1mm厚, 10mm * 500mm（長い）<br>[低弾性ゴムシート－ハネナイトＲ－ (UNLEA1-10)](https://jp.misumi-ec.com/vona2/detail/110300277050/?HissuCode=UNLEA1-10) | 1 | [<img alt="" src="../assets/BuildGuide_DN0032/DSC_7568.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7568.jpeg) |
+| スペーサーシート<br> シール付き, 1mm厚, 10mm * 約150mm（短い） <br>[低弾性ゴムシート－ハネナイトＲ－ (UNLEA1-10)](https://jp.misumi-ec.com/vona2/detail/110300277050/?HissuCode=UNLEA1-10) | 1 | [<img alt="" src="../assets/BuildGuide_DN0032/DSC_7568.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7568.jpeg) |
 | ネジ, M2 3mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 16 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4124.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4124.jpeg) |
 | ネジ, M2 4mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 4 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4125.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4125.jpeg) |
 | ゴム足 小<br>[しっかりつくクッションゴム CS-102, 透明, 8 φ x 2 mm](https://www.3mcompany.jp/3M/ja_JP/p/d/v000453068/) | 6 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4126.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4126.jpeg) |
@@ -368,7 +360,8 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 はみ出さないように気をつけて、水性顔料や油性のマーカーなどを使って好きな色に塗ります。
 
-〓写真追加：塗ってるところ
+![基板側面を塗る様子](../assets/BuildGuide_DN0032/DSC_7515.jpeg)  
+基板側面を塗る様子
 
 ### （オプション）LEDを取り付ける
 
@@ -394,8 +387,6 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 基板裏側の配線経路ジャンパ`JP4`から`JP9`を、レイアウトに応じてジャンパ（※）します。  
 ※隣同士のパッド（基板上の小さな四角の金色や銀色の部分）にはんだをつけてつなげること
-
-〓写真：ジャンパパッドの例、どれか一つ
 
 レイアウトと配線経路に対応するジャンパ位置は次の通りです。  
 各ジャンパ位置に描かれたマーキングを参考にします。
@@ -424,7 +415,8 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 「はんだをたっぷりつけて、横へスッ」  
 の動きを守って作業します。
 
-<!-- 〓DN0032写真　パッドをFWとかにジャンパした例 -->
+![JP9をFWにジャンパした例](../assets/BuildGuide_DN0032/DSC_7518.jpeg)  
+JP9をFWにジャンパした例
 
 #### LEDを取り付ける
 
@@ -444,10 +436,19 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 1. LEDから出ている4本の端子のうち、角が斜めになっている1本が基板に描かれた印に合うようにして、基板の穴にはめこみます。  
     **注意：行ごとに、LEDを取り付ける方向が異なります。**  
-    <!-- 〓DN0032写真　はめこんだようす   -->
+
+    ![LEDの取り付け方向](../assets/BuildGuide_DN0032/DSC_7521.jpeg)  
+    LEDの取り付け方向
+
+    ![LEDをはめ込んだ様子](../assets/BuildGuide_DN0032/DSC_7522.jpeg)  
+    LEDをはめ込んだ様子
 
     4本の端子が基板に接した状態にします。  
-    <!-- 〓DN0032写真　浮いてるNG、ぴったりOK -->
+    ![4本の端子が基板に接した状態→OK](../assets/BuildGuide_DN0032/DSC_7529.jpeg)  
+    4本の端子が基板に接した状態→OK
+
+    ![端子が浮いた状態→NG](../assets/BuildGuide_DN0032/DSC_7528.jpeg)  
+    端子が浮いた状態→NG
 
 1. はんだごてを用意します。  
   LEDは高温ではんだ付けすると壊れやすいため、こて先温度を少し低めの220-270℃に設定します。
@@ -475,9 +476,8 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 1. 作業を繰り返し、必要な数のLEDを取り付けます。
 
-<!-- 〓DN0032写真更新
-![取り付けたLED](../assets/BuildGuide_DN0032/_DSF0159.jpeg)
-取り付けたLED -->
+    ![取り付けたLED](../assets/BuildGuide_DN0032/DSC_7530.jpeg)  
+    取り付けたLED
 
 #### LEDの動作確認をおこなう
 
@@ -489,9 +489,13 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
   点灯しないLEDがあったり、色がおかしかったりする場合は、[トラブル対応：LEDの取り付け不良調査](#トラブル対応LEDの取り付け不良調査)を参考にして調査します。
 
+  ![点灯を確認する様子](../assets/BuildGuide_DN0032/DSC_7538.jpeg)  
+  点灯を確認する様子
+
 </details>
 
-<!-- 〓DN0032写真　LED取り付け完了（テスト時に光ってるやつ） -->
+![取り付けたLED](../assets/BuildGuide_DN0032/DSC_7540.jpeg)  
+取り付けたLED
 
 ### Kailh Choc用ソケットを取り付ける
 
@@ -508,10 +512,12 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 - ソケットには正しい取り付け方向があります。  
   基板に描かれた枠をよく見て、正しい方向に取り付けます。
 
+- 1行目と4行目の左端のソケット2個は、ソケットの端子部分が基板から約0.5mm飛び出した状態で取り付けます。  
+
+  ![飛び出したソケット端子](../assets/BuildGuide_DN0032/IMG_4080.jpeg)
+
 - ソケットを取り付けない箇所へ取り付けてしまっても、単に使わないだけで、機能的な問題はありません。
 
-- 1行目と4行目の左端のソケット2個は、ソケットの端子部分が基板から約0.5mm飛び出した状態で取り付けます。  
-　〓写真追加
 <details>
 <summary>《詳しい説明》</summary>
 
@@ -541,14 +547,13 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
     - 5：  
       こて先をパッドから離します。
 
-<!-- 〓DN0032写真　予備はんだ -->
+  ![ソケットの取り付け方向と、予備はんだした状態](../assets/BuildGuide_DN0032/DSC_7544.jpeg)  
+  ソケットの取り付け方向と、予備はんだした状態
 
 #### ソケットの仮置き
 
 ソケットを基板に描かれた枠に合わせ、プラスチックの突起が穴にはまるように仮置きします。  
 ソケットを取り付ける方向に決まりがあるので、正しい方向になっているかよく確認します。
-
-<!-- 〓DN0032写真　ソケット方向 -->
 
 1. 基板を裏側が上になるように置きます。
 
@@ -573,7 +578,8 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
 1. 端子の隙間にこて先を差し込みます。
 
-    <!-- 〓DN0032写真　こて先差し込み -->
+  ![端子の隙間に、こて先を差し込んだ様子](../assets/BuildGuide_DN0032/DSC_7547.jpeg)  
+  端子の隙間に、こて先を差し込んだ様子
 
 1. 次の手順を「1、2、3、4、5、6」と数える間におこないます。
 
@@ -627,6 +633,8 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
     はんだのパッドへの広がりが足りない場合は、再加熱して、はんだを少し足して塗り広げます。
 
+〓ソケットを1個取り付けたのを、ななめ上から。ぽこっとがわかるように
+
 1. ソケットが枠に沿ってまっすぐに取り付けられていることを確認します。  
     また、ソケットが基板から浮いていないことも確認します。  
 
@@ -635,7 +643,11 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
     Kailh製のロープロファイルキーキャップを使用する場合は、
     隣同士のキーが当たるのを防ぐため、より一層、ソケットの傾きに注意して取り付けます。
 
-<!-- 〓DN0032写真　浮いたソケット -->
+  ![まっすぐに取り付けられたソケット→OK](../assets/BuildGuide_DN0032/DSC_7559.jpeg)  
+  まっすぐに取り付けられたソケット→OK
+
+  ![浮いた状態のソケット](../assets/BuildGuide_DN0032/DSC_7550.jpeg)  
+  浮いた状態のソケット→NG
 
 #### すべてのソケットの取り付け
 
@@ -645,7 +657,7 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
 </details>
 
-<!-- 〓DN0032写真　ソケット取り付け、できあがり -->
+![すべて取り付けたソケット](../assets/BuildGuide_DN0032/DSC_7566.jpeg)  
 
 ### （該当者のみ）ロータリーエンコーダを取り付ける
 
@@ -755,10 +767,19 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
     シートが余った場合は、空いている箇所へバランスよく貼り付けます。
 
+    ![シートを切り取る](../assets/BuildGuide_DN0032/DSC_7570.jpeg)  
+    シートを切り取る
+
+    ![シートを縦半分に切る](../assets/BuildGuide_DN0032/DSC_7571.jpeg)  
+    シートを縦半分に切る
+
+    ![縦半分に切ったシートを貼り付ける](../assets/BuildGuide_DN0032/DSC_7573.jpeg)  
+    縦半分に切ったシートを貼り付ける
+
 </details>
 
-![Put sheet pieces to switch plate](../assets/BuildGuide_DN0032/IMG_4056.jpeg)
-`FWレイアウト`のスイッチプレートへ、スペーサーシートを貼り付けたようす
+![スペーサーシートを貼り付けた状態](../assets/BuildGuide_DN0032/DSC_7576.jpeg)
+`Full`レイアウトのスイッチプレートへ、スペーサーシートを貼り付けたようす
 
 ### スイッチとスイッチプレートを基板へ取り付ける
 
@@ -766,9 +787,11 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
 #### ヒント
 
+- スイッチのスイッチプレートへの固定は、少しゆるめです。  
+  一部はめ込むのがきついスイッチがあるため、余裕を持たせています。
+
 - 最下行の親指部分、左右のスペースキーとして使用するスイッチ（2個）は、上下逆向きに取り付けます。
-  LEDが眩しく感じる場合は、スイッチのLED窓内側へマスキングテープなどを貼って減光します。
-〓LED窓にマスキングテープを貼った様子
+  LEDが眩しく感じる場合は、スイッチのLED窓内側へマスキングテープなどを貼ったり、黒マジックで塗ったりして減光します。
 
 - 基板おもて側にネジのアイコンが描かれたスイッチは、この手順では取り付けません。  
   ボトムプレート、またはケースにねじ止めした後に取り付けます。
@@ -788,13 +811,10 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 1. プレートのおもて側から、1・3・5行目の左右の端6箇所に、スイッチをパチンとはめ込みます。  
     スイッチをソケットの方向に合わせるため、スイッチの端子が手前側になるようにします。
 
-    <!-- 〓DN0032写真更新![スイッチプレート取り付けたスイッチ](../assets/BuildGuide_DN0032/_DSF0205.jpeg)
-    スイッチプレートに取り付けたスイッチ -->
+    はめ込みを少しゆるく設計しているため、きっちりと固定されていなくても問題ありません。
 
-1. スイッチがプレートの枠から浮いておらず、ぴったり密着してはまっていることを確認します。  
-    浮いている場合は、スイッチを押し込んで密着させます。
-
-    <!-- 〓DN0032写真　スイッチとプレートの密着OK NG -->
+    ![スイッチプレートに取り付けたスイッチ](../assets/BuildGuide_DN0032/DSC_7578.jpeg)  
+    スイッチプレートに取り付けたスイッチ
 
 1. 基板をおもて側が上になるようにして、プレートの隣に置きます。
 
@@ -804,17 +824,16 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
 1. 基板の裏側を支えながら、どれかひとつのスイッチをまっすぐに押し込んでソケットへ差し込みます。  
 
-    <!-- 〓DN0032写真　スイッチを押し込む様子 -->
+    ![スイッチをソケットに差し込む](../assets/BuildGuide_DN0032/DSC_7579.jpeg)  
+    スイッチをソケットに差し込む
 
 1. スイッチがしっかりと差し込まれ、基板にほぼくっついた状態になっていることを確認します。  
     5ピンのスイッチを取り付ける場合は固定用のプラスチックピン2本が根元まで刺さりきっていない場合があるため、よく確認しておきます。
 
-    <!-- 〓DN0032写真　スイッチの押し込まれ具合 -->
-
 1. 同様の手順で、残り5個のスイッチをソケットへ差し込みます。
 
-<!-- 〓DN0032写真更新![基板に取り付けられたスイッチプレート](../assets/BuildGuide_DN0032/_DSF0444.jpeg)  
-基板に取り付けられたスイッチプレート -->
+    ![基板に仮固定されたスイッチプレート](../assets/BuildGuide_DN0032/DSC_7581.jpeg)  
+    基板に仮固定されたスイッチプレート
 
 #### 残りのスイッチを取り付ける
 
@@ -831,11 +850,13 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 1. ケースネジに重なるスイッチ（基板にネジのアイコンが描かれた箇所）を除き、残りのスイッチをすべて取り付けます。
 
     ![基板に描かれたネジアイコン](../assets/BuildGuide_DN0032/PCB_screw_icon.png)
+    基板に描かれたネジアイコン
 
 </details>
 
-![基板に取り付けられたスイッチとスイッチプレート](../assets/BuildGuide_DN0032/IMG_3954.jpeg)
-基板に取り付けられたスイッチとスイッチプレート
+![基板に取り付けられたスイッチとスイッチプレート](../assets/BuildGuide_DN0032/DSC_7587.jpeg)  
+基板に取り付けられたスイッチとスイッチプレート  
+（ネジ穴に重なる箇所のスイッチは、まだ取り付けない）
 
 ### スイッチの動作確認をおこなう
 
@@ -868,7 +889,13 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
     ![スペーサー取り付け箇所](../assets/BuildGuide_DN0032/Bottom_spacer.png)  
     スペーサー取り付け箇所
 
+    ![ボトムプレートへねじ止めしたスペーサー](../assets/BuildGuide_DN0032/DSC_7592.jpeg)  
+    ボトムプレートへねじ止めしたスペーサー
+
 1. ボトムプレートをおもて側が上になるように置きます。
+
+    ![ボトムプレートを置いた状態](../assets/BuildGuide_DN0032/DSC_7590.jpeg)  
+    ボトムプレートを置いた状態
 
 1. 基板を、ボトムプレートに取り付けたスペーサーの位置に合わせて乗せます。  
   基板裏側の部品がスペーサーにぶつからないように注意します。
@@ -881,8 +908,8 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
 1. 基板おもて側から、ネジ（M2 3mm 低頭）を使い、基板とスペーサーをねじ止めします。  
 
-    <!-- 〓DN0032写真更新![基板とボトムプレートをねじ止めした状態](../assets/BuildGuide_DN0032/_DSF0228.jpeg)  
-    基板とボトムプレートをねじ止めした状態 -->
+    ![基板とボトムプレートをねじ止めした状態](../assets/BuildGuide_DN0032/DSC_7595.jpeg)  
+    基板とボトムプレートをねじ止めした状態
 
 1. まだ取り付けていないスイッチを、すべて取り付けます。
 
@@ -890,8 +917,8 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
 </details>
 
-<!-- 〓DN0032写真![ボトムプレート取り付け完了](../assets/BuildGuide_DN0032/DSCF0464.jpeg)  
-ボトムプレート取り付け完了 -->
+![基板をボトムプレートを取り付けた状態](../assets/BuildGuide_DN0032/DSC_7618.jpeg)  
+基板をボトムプレートを取り付けた状態
 
 #### （該当者のみ）GH60型, Poker型ケースへ取り付ける
 
@@ -915,8 +942,8 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
     力をかけることなく、基板全体がストンとケースに入ります。  
     力を入れてグリグリとこじったりググググッと押し込むようなことはせず、斜めに差し込んで、水平にするだけです。
 
-    <!-- 〓DN0032写真更新![30度で差し込む](../assets/BuildGuide_DN0032/_DSF0241.jpeg)  
-    30度で差し込む -->
+    ![基板を30度で差し込む様子](../assets/BuildGuide_DN0032/DSC_7603.jpeg)  
+    基板を30度で差し込む様子
 
 1. ケース付属のネジで、左上と右上の2箇所を仮固定します。
 
@@ -933,7 +960,8 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
     3ピンのスイッチは、加工不要で、そのまま取り付けできます。  
     5ピンのスイッチを使用する場合は、左右2本のプラスチックピンのうちネジ穴に干渉する方の足を、根本からニッパーなどで切断します。
 
-    <!-- 〓DN0032写真　5ピンの片足をカット -->
+    ![5ピンスイッチの片方の足をカットした状態](../assets/BuildGuide_DN0032/DSC_7617.jpeg)  
+    5ピンスイッチの片方の足をカットした状態（左：カット前，右：カット後）
 
     おそらく回避できるはずですが、もしスイッチの中央の足が干渉する場合は、中央の足も切断します。
 
@@ -946,7 +974,8 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
 </details>
 
-<!-- 〓DN0032写真　ケース取り付け完了 -->
+![基板をケースに取り付けた状態](../assets/BuildGuide_DN0032/DSC_7609.jpeg)  
+基板をケースに取り付けた状態
 
 ### スイッチの最終動作確認をおこなう
 
@@ -960,22 +989,19 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
 1. 完成です。
 
-![製作例](../assets/BuildGuide_DN0032/IMG_4063.jpeg)  
-製作例  
-〓写真変更：試作版のREなので。できればFullとFWを載せる
+    写真を撮影し、`#Nora_kbd` のタグをつけてツイートすると設計者が喜んだりします。  
+    [Twitter: #Nora_kbd](https://twitter.com/search?q=(%23nora_kbd)&src=typed_query&f=live)
 
-- 上： `REレイアウト`  
-  キーキャップ： Gravity Keycaps & MBK  
-  ロータリーエンコーダ： ALPS EC12E2440301（貫通軸）  
-  ロータリーエンコーダ ノブ： ロープロ用ノブ FLAT 33mm by Daily Craft Keyboard  
-  ケース： KBDfans 60% ALUMINUM LOW PROFILE CASE, Gray  
+    - Fullレイアウト製作例
 
-- 下： `FWレイアウト`  
-  キーキャップ： Kailh製のロープロファイルキーキャップ & MBK  
-  ケース： 同梱ボトムプレート
+      ![Fullレイアウト製作例](../assets/BuildGuide_DN0032/DSC_7625.jpeg)  
+      キーキャップ： MBK Legend Glow
 
-写真を撮影し、`#Nora_kbd` のタグをつけてツイートすると設計者が喜んだりします。  
-[Twitter: #Nora_kbd](https://twitter.com/search?q=(%23nora_kbd)&src=typed_query&f=live)
+    - FWレイアウト製作例
+
+      ![FWレイアウト製作例](../assets/BuildGuide_DN0032/DSC_7641.jpeg)  
+      キーキャップ： MBK, Kailhロープロファイル無刻印（無塗装）
+      ケース： KBDfans 60% ALUMINUM LOW PROFILE CASE, Gray  
 
 ---
 
