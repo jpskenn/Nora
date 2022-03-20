@@ -1,6 +1,6 @@
 # Nora（ノラ）
 
-![Nora Keyboard](./assets/Readme/DSC_7457.jpeg)
+![Nora Keyboard](./assets/Readme/_DSF1571.jpeg)
 
 Nora（ノラ）は、Choc v1 ロープロファイルスイッチを使用する、狭ピッチの一体型キーボードです。  
 [Jones](https://github.com/jpskenn/Jones)と同様の、2行目と3行目にずれのない配列が特徴です。  
@@ -22,7 +22,7 @@ Narrow Jones --> Norah Jones --> Norah --> Nora
 
 ---
 
-Nora is a narrow pitch keyboard with Choc v1 low profile switches, designed for MBK or smaller keycaps.
+Nora is a narrow pitch keyboard with Choc v1 low profile switches, designed for MBK or smaller keycaps.  
 It can be used with GH60 and Poker compatible low profile cases or original bottom plate.
 
 Narrow pitch makes fingers easy to reach keys far from home position, "T" and "Y", R1 numerics and symbols.  
@@ -36,9 +36,9 @@ You can continue tying without breaking the position of finger, wrist and elbow.
 を対象に作られています。
 
 特に、  
-*ホームポジションから遠いキーにも指をとどきやすくしたい方*  
+*ホームポジションから遠いキーにも指をとどきやすくして、手・手首・肘の位置を一定に保ったまま打鍵したい方*  
 や、  
-*手・手首・肘の位置を一定に保ったまま打鍵したい方*  
+*キーの打鍵位置を低くして、手首への負担を減らしたい方*  
 におすすめします。
 
 ## コンセプト
@@ -61,16 +61,18 @@ You can continue tying without breaking the position of finger, wrist and elbow.
 Kailh Chocスイッチとそれに対応するキーキャップを使用することで、一般的なキーボードよりも1〜2mmほど狭いキーピッチになっています。
 
 横方向のキーピッチは、MBK、またはそれ以下のサイズのキーキャップの使用を前提とした設計です。  
-Choc用キーキャップの標準的なキーピッチ（たて17mm×よこ18mm）よりも少しだけ横方向を狭くして、たて17mm×約17.86mmのキーピッチにしています。
+60%ケースに16列を配置するため、Choc用キーキャップの標準的なキーピッチ（たて17mm×よこ18mm）よりも少しだけ横方向を狭くして、たて17mm×約17.86mmのキーピッチにしています。
 
-![Comparison of key pitch](./assets/Readme/_DSF1263.jpeg)
+![Comparison of key pitch](./assets/Readme/_DSF1263.jpeg)〓Nora FullとHHKBを比較する。Jonesでもいいけど
 キーピッチの比較  
-上：一般的なキーピッチの60%キーボード。  
-下：狭ピッチのNora。65%のキーが60%キーボードのサイズにおさまっている。
+上：一般的なキーピッチの60%キーボード。5行15列  
+下：狭ピッチのNora。5行**16列**。65%相当ののキー数が、60%キーボードのサイズにおさまっている。
 
 ### Jonesゆずりのキーレイアウト
 
 キーレイアウトはJonesのレイアウトを元に設計しており、2行目と3行目にずれのない左右対称のアルファ部や、右手のホームポジションに近づけたModキーなどにその特徴があらわれています。
+
+<!--　〓写真追加　R2-R3のギャップないところ -->
 
 ![Symmetric alpha and near by mod keys](./assets/Readme/_DSF1121.jpeg)
 左右対称のアルファ部と、近づけたModキー
@@ -84,20 +86,47 @@ Choc用キーキャップの標準的なキーピッチ（たて17mm×よこ18mm
 
 狭ピッチの一体型キーボードというコンセプトを元に、ふたつのレイアウトバリエーションが存在します。
 
-#### Nora, 1.8k
-
-![Layout, Nora, 1.8k](./assets/Readme/layout.png)
-
-アルファ部の右側にテンキーを配置し、少し下へ飛びだしたカーソルキーが特徴のレイアウトです。  
-
 #### Nora, Fearless Wings
 
-![Layout, Nora, Fearless Wings](./assets/Readme/layout_fw.png)
+左右に大きく離れたアルファ部が特徴のレイアウトです。  
+アルファ部を左右へ大きく離すことで打鍵時の肘・腕・手首・指先の位置を最適化し、快適な運指と、肩や腕への負担軽減を目指しています。  
+手首をあまり持ち上げないスタイルでも快適に打鍵できるように、最下行の左右の端にはキーを配置せず、手のひらにキーが当たる不快感を無くしています。
 
-左右に大きく離れたアルファ部が特徴のレイアウトです。
+キー配置とロータリーエンコーダの有無により、3つのレイアウトバリエーションがあります。
 
-打鍵時の肘・腕・手首・指先の位置を最適化し、快適な運指と、肩や腕への負担軽減を目指しています。  
-また、手のひらにキーが当たる不快感を無くすため、最下行の左右の端にはキーを配置していません。
+- Fullレイアウト
+
+    左右に離れたアルファ部の間を、すべて埋めたレイアウトです。  
+    65%キーボードに相当する71個のキーは、多くのキーを必要とする方に適しています。  
+    中央部に記号キーやカーソルを配置したり、テンキーやマクロキーを配置したりできます。
+
+    ![Layout, Nora, Full](./assets/Readme/layout_full.png)
+
+- FWレイアウト
+
+    Fullレイアウトから中央部の7キーを取り除き、左右のアルファ部に隙間のあるレイアウトです。  
+    60%キーボードに相当する64キーをもち、必要十分なキー数を確保しています。  
+    ホームポジションから手を移動させず、レイヤー内のキーを打鍵するのが快適な方に適しています。  
+    ミニマルな構成やデザインを好む方にもおすすめです。
+
+    ![Layout, Nora, FW](./assets/Readme/layout_fw.png)
+
+- REレイアウト
+
+    FWレイアウトの中央にロータリーエンコーダを配置したレイアウトです。  
+    4行目の中央をFWレイアウトから2キー減らし、直径35ｍｍまでのノブに対応しています。
+
+    ![Layout, Nora, RE](./assets/Readme/layout_re.png)
+
+#### Nora, 1.8k
+
+![Layout, Nora, 1.8k](./assets/Readme/layout_18k.png)
+
+アルファ部の右側にテンキーを配置し、少し下へ飛びだしたカーソルキーが特徴のレイアウトです。  
+キー数が多く、記号やカーソルなどを物理的に配置することができます。
+
+ホームポジションに手を乗せたとき、狭ピッチで左右の手が中央へ近づくため、肩や腕、親指まわりが窮屈に感じてしまいます。  
+日常的に使用する上での快適さを満たせないため、1.8kは開発を停止しています。
 
 ## 機能
 
@@ -109,13 +138,8 @@ MCUにATmega32u4を採用し、[QMKファームウェア](https://github.com/qmk
 
 [Remap](https://remap-keys.app)や[VIA](https://caniusevia.com)などのキーマップ書き換えツールに対応しており、ファームウェアを書き換えることなく、キーの割り当てを変更することができます。  
 
-ハードウェアの動作確認が終わり次第、Remapへ登録する予定です。  
-
-<!--
-Remapにはキーボード定義を登録済みですので、サイトへアクセスしてキーボードを接続すれば、すぐにキーの割り当てを変更することができます。  
-VIAを使用する場合は、以下のキーボード定義ファイルを読み込ませてください。  
-キーボード定義ファイル：[nora_via_v01.json](./VIA/nora_via_v01.json)
--->
+Remapにキーボードを登録済みですので、サイトへアクセスしてキーボードを接続すれば、すぐにキーの割り当てを変更することができます。  
+VIAを使用する場合は、[VIAフォルダ](./VIA/)のキーボード定義ファイルを読み込ませてください。  
 
 ### RemapやVIAで、より多くのレイヤーを使用可能
 
@@ -126,17 +150,15 @@ VIAを使用する場合は、以下のキーボード定義ファイルを読�
 
 ### ケース
 
-GH60型やPoker型に互換性のある、ロープロファイルケースに対応しています。  
-ハイプロファイルのケースにも取り付けできますが、キー天面がケースのフレームよりも低くなるため実用には向きません。
-
-また、専用のボトムプレート”Jones / Nora用ボトムプレートキット”を使用すれば、ケースレスのサンドイッチマウントとして使用できます。  
+専用のボトムプレートを使用すれば、ケースレスのサンドイッチマウントとして使用できます。  
 ケースを使用する場合に比べてキーボードの高さを低く抑えることができ、手首の負担軽減などに有効です。
+
+また、GH60型やPoker型に互換性のある、ロープロファイルケースに対応しています。  
+ハイプロファイルのケースにも取り付けできますが、キー天面がケースのフレームよりも低くなるため実用には向きません。
 
 ### レイヤーインジケータ／イルミネーションLED（オプション）
 
 レイヤーの状態を表示するインジケータや、イルミネーションとして使用できるLEDを、キースイッチの下へ取り付けできます。
-
-”1.8k”は1行目と5行目に合計31個、”Fearless Wings”はすべてのキーに合計71個のLEDを取り付けできる予定です。
 
 ### Raspberry Pi PICOによる動作（実験的機能）
 
@@ -149,18 +171,33 @@ Raspberry Pi PICOによる動作を実験的機能として提供します。
 
 ## ビルドガイド
 
-- [Nora, 1.8k v.0.1 ビルドガイド](./docs/BuildGuide_v.0.1_JA.md)
+- [Nora, Fearless Wings DN0031 ビルドガイド](./docs/BuildGuide_DN0031_JA.md)
 - [Nora, Fearless Wings DN0030 ビルドガイド](./docs/BuildGuide_DN0030_JA.md)
+- [Nora, 1.8k v.0.1 ビルドガイド](./docs/BuildGuide_v.0.1_JA.md)
 
 ## ビルド例
 
 | ビルド例 | 詳細 |
 | --- | :-- |
-| [<img src="./assets/Readme/DSC_7457.jpeg" width="300">]((./assets/Readme/DSC_7457.jpeg)) | Nora, 1.8k（試作）<br>case: KBDfans 60% Aluminum Low Profile, Gray<br>keycaps: MBK Colors & Self Dye |
-| [<img src="./assets/Readme/IMG_3798.jpeg" width="300">]((./assets/Readme/IMG_3798.jpeg)) | Nora, 1.8k（試作）<br>case: Jones' Bottom plate<br>keycaps: MBK Colors & Self Dye |
-| [<img src="./assets/Readme/_DSF1357.jpeg" width="300">]((./assets/Readme/_DSF1357.jpeg)) | Nora, 1.8k（試作）<br>case: Jones' Bottom plate<br>keycaps: Kailh low profile |
+| [<img src="./assets/Readme/_DSF1643.jpeg" width="300">]((./assets/Readme/_DSF1643.jpeg)) | Fearless Wings DN0031<br>case: Nora & Jones' Bottom plate<br>keycaps: Kailh low profile + MBK |
+| [<img src="./assets/Readme/_DSF1571.jpeg" width="300">]((./assets/Readme/_DSF1571.jpeg)) | Fearless Wings DN0031 w/Rotary Encoder<br>case: Nora & Jones' Bottom plate<br>keycaps: Kailh low profile + MBK |
+| [<img src="./assets/Readme/DSC_7457.jpeg" width="300">]((./assets/Readme/DSC_7457.jpeg)) | 1.8k（試作）<br>case: KBDfans 60% Aluminum Low Profile, Gray<br>keycaps: MBK Colors & Self Dye |
+| [<img src="./assets/Readme/_DSF1357.jpeg" width="300">]((./assets/Readme/_DSF1357.jpeg)) | 1.8k（試作）<br>case: Jones' Bottom plate<br>keycaps: Kailh low profile |
 
 ## 製作歴
+
+- Fearless Wings DN0032（開発中）
+
+    Fullレイアウトを基本として、組み立てやすさを向上。  
+    ロータリーエンコーダのノブサイズ拡大のため、REレイアウトの最下行中央のキーを削除。  
+    細部を調整。  
+    DN0031組み立てアンケートの内容を反映。
+
+- Fearless Wings DN0031
+
+    スペースキーより内側のキーに親指が届きやすいように、最下行を外側へ0.25u移動。  
+    ロータリーエンコーダ付きのレイアウトを追加。  
+    組み立てやすさを向上。
 
 - Fearless Wings DN0030
 

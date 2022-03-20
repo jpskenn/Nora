@@ -109,17 +109,28 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 - キーキャップ
 
-  MBK以下のサイズのキーキャップに合わせて設計されており、Choc用のキーピッチよりも横方向がほんの少し狭くなっています。
+  MBK以下のサイズのキーキャップに合わせて設計されており、Choc用のキーピッチよりも横方向がほんの少し狭くなっています。  
+  17 × 17.8594mm（[基板上の寸法図](../assets/BuildGuide_DN0031/PCB_key_pitch.png)）
 
-  取り付け確認済みのキーキャップは次の通りです。
+  - 取り付け確認済みキーキャップ
 
-  - MBK
-  - Gravity Keycaps
-  - Kailh製のロープロファイルキーキャップ（※注意）  
+    - MBK
 
-    ※注意  
-    Kailh製のロープロファイルキーキャップは、MBKなどに比べてキーの寸法が少し大きいため、隣同士のキーが当たる場合があります。  
-    ソケットを傾かないように取り付けたり、キーキャップの成形バリを取り除いたり、干渉する箇所を削る必要があるかもしれません。  
+    - MCC
+
+    - Gravity Keycaps
+
+    - Kailh製のロープロファイルキーキャップ（※注意）  
+
+      ※注意  
+      Kailh製のロープロファイルキーキャップは、MBKなどに比べてキーの寸法が少し大きいため、隣同士のキーが当たる場合があります。  
+      ソケットを傾かないように取り付けたり、キーキャップの成形バリを取り除いたり、干渉する箇所を少し削る必要があるかもしれません。  
+
+  - 取り付けできないキーキャップ
+
+    - WRK
+
+      MXスイッチ用のキーピッチ（19.05 × 19.05mm）のため
 
 - スイッチの取り付け
 
@@ -137,7 +148,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
   1行目と4行目の左端のソケット2個は、ソケットの端子部分が基板から約0.5mm飛び出した状態で取り付けます。
 
-  ![取り付けたLED](../assets/BuildGuide_DN0031/IMG_4080.jpeg)
+  ![飛び出したソケット端子](../assets/BuildGuide_DN0031/IMG_4080.jpeg)
 
   GH60型，Poker型のロープロファイルケースへの取り付けなども含め、実用上の問題がないことを確認していますが、怪我などしないようご留意ください。
 
@@ -180,11 +191,11 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_DN0031/IMG_4114.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4114.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_DN0031/IMG_4113.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4113.jpeg) |
 | スイッチプレート<br>`FWレイアウト`と`REレイアウト` | 各1 | `FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0031/IMG_4115.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4115.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0031/IMG_4116.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4116.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0031/IMG_4117.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4117.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0031/IMG_4118.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4118.jpeg) |
 | ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_DN0031/IMG_4119.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4119.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_DN0031/IMG_4120.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4120.jpeg) |
-| スペーサーシート<br> シール付き, 1mm厚, 500mm * 10mm | 1 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4122.jpeg) |
-| スペーサー, M2 3mm | 8 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4123.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4123.jpeg) |
-| ネジ, M2 3mm, 低頭 | 16 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4124.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4124.jpeg) |
-| ネジ, M2 4mm, 低頭 | 4 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4125.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4125.jpeg) |
-| ゴム足 小 | 6 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4126.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4126.jpeg) |
+| スペーサーシート<br> シール付き, 1mm厚, 500mm * 10mm<br>[低弾性ゴムシート－ハネナイトＲ－ (UNLEA1-10)](https://jp.misumi-ec.com/vona2/detail/110300277050/?HissuCode=UNLEA1-10) | 1 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4122.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4122.jpeg) |
+| スペーサー, M2 3mm<br>[黄銅 スペーサー(六角) / ASB-E](https://hirosugi.co.jp/products/B/ASB-E.html) | 8 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4123.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4123.jpeg) |
+| ネジ, M2 3mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 16 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4124.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4124.jpeg) |
+| ネジ, M2 4mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 4 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4125.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4125.jpeg) |
+| ゴム足 小<br>[しっかりつくクッションゴム CS-102, 透明, 8 φ x 2 mm](https://www.3mcompany.jp/3M/ja_JP/p/d/v000453068/) | 6 | [<img alt="" src="../assets/BuildGuide_DN0031/IMG_4126.jpeg" width="300">](../assets/BuildGuide_DN0031/IMG_4126.jpeg) |
 
 ※出荷時期によってメーカーや品番などが変わることがあります
 
@@ -194,7 +205,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | ----- | :-----: | ----- |
 | ソケット<br>Kailh Chocロープロファイル用 | 63〜64 | `FWレイアウト`：64個<br>`REレイアウト`：63個 |
 | スイッチ<br>Kailh Choc v1 | 63〜64 | `FWレイアウト`：64個<br>`REレイアウト`：63個 |
-| キーキャップ<br>Choc用<br>MBK以下のサイズのもの | 63〜64 | `FWレイアウト`：64個<br>1u × 56個<br>1.5u × 8個<br>`REレイアウト`：63個<br>1u × 54個<br>1.5u × 8個<br>1u, 1.25u, 1.5uのうち、いずれか1個 |
+| キーキャップ<br>Choc用<br>17mm × 17.8594mm以下のサイズのもの<br>おおむねMBK以下のサイズ | 63〜64 | `FWレイアウト`：64個<br>1u × 56個<br>1.5u × 8個<br>`REレイアウト`：63個<br>1u × 54個<br>1.5u × 8個<br>1u, 1.25u, 1.5uのうち、いずれか1個 |
 | ロータリーエンコーダ<br>ALPS EC11, EC12または同等品 | 1 | `REレイアウト`を組み立てる場合のみ必要 |
 | ロータリーエンコーダ用ノブ<br>（つまみ） | 1 | `REレイアウト`を組み立てる場合のみ必要<br>ロータリーエンコーダの軸の形状に合ったもの。<br>最大径33mm（使用するキーキャップのサイズによる） |
 | USBケーブル （Type-C） | 1 | |
@@ -203,7 +214,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 | 部品名 | 個数 | 備考 |
 | ----- | :-----: | ----- |
-| LED<br>SK6812MINI-E | 64〜65 | LEDを取り付ける場合<br>`FWレイアウト`：64個<br>`REレイアウト`：65個 |
+| LED<br>SK6812MINI-E | 64〜65 | LEDを取り付ける場合<br>`FWレイアウト`：64個<br>`REレイアウト`：65個<br>（試作版`REレイアウト`では見えない箇所にもLEDを取り付けます） |
 | GH60型，Poker型ロープロファイルケース | 1 | ケースへ取り付ける場合 |
 | Raspberry Pi PICO | 1 | 実験的機能をDIYで楽しむ場合 |
 | ゴム足 | 必要数 | ボトムプレート裏側へ貼り付け、角度を変えたりする場合<br>例：[大きなゴム足](https://www.yodobashi.com/product/100000001001980663/) |
@@ -373,7 +384,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 ### 組み立てるレイアウトを決める
 
-この試作版では、`FRレイアウト`と`REレイアウト`のどちらかひとつを組み立てることができます。
+この試作版では、`FWレイアウト`と`REレイアウト`のどちらかひとつを組み立てることができます。
 
 レイアウトは、ほぼ同じです。  
 ロータリーエンコーダと、中央部分のキーのあり／なしで少し違いがあります。
@@ -1437,7 +1448,7 @@ Remapを使用して書き込む手順を説明します。
       [nora_v031_via.hex](https://gist.github.com/jpskenn/91e35665ae5ee15672c2e424c2413d76)
 
   - `REレイアウト`用  
-      [nora_v031_via_re.hex](https://gist.github.com/jpskenn/dc6ec5eb08fa3a841a96057d544c794c)
+      [nora_v031_via_re.hex](https://gist.github.com/jpskenn/382f63057c083185cbfafc225f198880)
 
 - ファームウェアのソース
 
