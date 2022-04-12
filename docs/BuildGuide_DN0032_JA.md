@@ -171,6 +171,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | ネジ, M2 3mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 16 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4124.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4124.jpeg) |
 | ネジ, M2 4mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 4 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4125.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4125.jpeg) |
 | ゴム足 小<br>[しっかりつくクッションゴム CS-102, 透明, 8 φ x 2 mm](https://www.3mcompany.jp/3M/ja_JP/p/d/v000453068/) | 6 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4126.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4126.jpeg) |
+| ゴム足 大<br>[KKU-190 [ウレタンクッション19丸 透明]](https://www.yodobashi.com/product/100000001001980663/) | 2 | 〓写真 |
 
 ※出荷時期によってメーカーや品番などを変更することがあります
 
@@ -192,7 +193,6 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | LED<br>SK6812MINI-E | 62〜71 | LEDを取り付ける場合<br>`Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個 |
 | GH60型，Poker型ロープロファイルケース | 1 | ケースへ取り付ける場合 |
 | Raspberry Pi PICO | 1 | 実験的機能をDIYで楽しむ場合<br>ピンヘッダ または コンスルーなどで取り付け |
-| ゴム足（高さの異なるもの） | 必要数 | ボトムプレート裏側へ貼り付け、傾斜角度を変えたりする場合<br>例：[大きめのゴム足](https://www.yodobashi.com/product/100000001001980663/) |
 
 ## 組み立てに必要な工具
 
