@@ -24,7 +24,7 @@
 
   FWレイアウトの中央にロータリーエンコーダを配置したレイアウト。
 
-  〓写真準備中〓
+  〓写真準備中
   <!-- [<img alt="REレイアウト" src="../assets/BuildGuide_DN0032/xxxx.jpeg" width="400">](../assets/BuildGuide_DN0032/xxxx.jpeg) -->
 
 Noraのコンセプトや特徴、ビルド例などについては、[README](https://github.com/jpskenn/Nora/blob/main/README.md)をご覧ください。
@@ -161,7 +161,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 〓写真入れ替え
 
 | 部品名 | 個数 | 備考 |
-| ----- | :-----: | ----- |
+| :-- | :-- | :-- |
 | ご案内リーフレット | 1 | |
 | 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_DN0032/DSC_7493.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7493.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_DN0032/DSC_7491.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7491.jpeg) |
 | スイッチプレート<br>`Fullレイアウト`, `FWレイアウト`, `REレイアウト`のいずれか | 1 | `Fullレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/DSC_7500.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7500.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/DSC_7504.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7504.jpeg)<br>`FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/DSC_7497.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7497.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/DSC_7498.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7498.jpeg)<br>`REレイアウト`<br>〓写真準備中〓<!-- [おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/xxxx.jpeg" width="300">](../assets/BuildGuide_DN0032/xxxx.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4118.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4118.jpeg) --> |
@@ -178,20 +178,20 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 ### 別途用意が必要な部品
 
 | 部品名 | 個数 | 備考 |
-| ----- | :-----: | ----- |
-| ソケット<br>Kailh Chocロープロファイル用 | 62〜71 | `Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個 |
-| スイッチ<br>Kailh Choc V1 | 62〜71 | `Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個<br>3ピン・5ピン、どちらも使用可能 |
-| キーキャップ<br>Choc用<br>→[資料：キーキャップ選び方ガイド](#資料キーキャップ選び方ガイド) | 62〜71 | `Fullレイアウト`：71個<br>1u × 62個<br>1.5u × 9個<br>`FWレイアウト`：64個<br>1u × 56個<br>1.5u × 8個<br>`REレイアウト`：62個<br>1u × 54個<br>1.5u × 8個 |
-| ロータリーエンコーダ<br>ALPS EC11, EC12または同等品 | 1 | `REレイアウト`を組み立てる場合のみ必要 |
-| ロータリーエンコーダ用ノブ<br>（つまみ） | 1 | `REレイアウト`を組み立てる場合のみ必要<br>最大径35mm（使用するキーキャップのサイズによる） |
+| :-- | :-- | :-- |
+| ソケット<br>Kailh Chocロープロファイル用 | `Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個 | 〓写真 |
+| スイッチ<br>Kailh Choc V1 | `Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個 | 3ピン・5ピン、どちらも使用可能〓3ピン・5ピンの写真 |
+| キーキャップ<br>Choc用 | `Fullレイアウト`：<br>1u × 62個<br>1.5u × 9個<br>`FWレイアウト`：<br>1u × 56個<br>1.5u × 8個<br>`REレイアウト`：<br>1u × 54個<br>1.5u × 8個　| 詳しくはこちらを参照<br>→[資料：キーキャップ選び方ガイド](#資料キーキャップ選び方ガイド) |
+| ロータリーエンコーダ<br>ALPS EC11, EC12または同等品 | 1 | `REレイアウト`を組み立てる場合のみ必要 〓写真|
+| ロータリーエンコーダ用ノブ<br>（つまみ） | 1 | `REレイアウト`を組み立てる場合のみ必要<br>最大径35mm（キーキャップのサイズによる）〓写真 |
 | USBケーブル （Type-C） | 1 | |
 
 ### オプション部品
 
 | 部品名 | 個数 | 備考 |
-| ----- | :-----: | ----- |
-| LED<br>SK6812MINI-E | 62〜71 | LEDを取り付ける場合<br>`Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個 |
-| GH60型，Poker型ロープロファイルケース | 1 | ケースへ取り付ける場合 |
+| :-- | :-- | :-- |
+| LED<br>SK6812MINI-E | `Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個　| LEDを取り付ける場合 |
+| GH60型，Poker型<br>ロープロファイルケース | 1 | ケースへ取り付ける場合 |
 | Raspberry Pi PICO | 1 | 実験的機能をDIYで楽しむ場合<br>ピンヘッダ または コンスルーなどで取り付け |
 
 ## 組み立てに必要な工具
@@ -1325,6 +1325,7 @@ Remapを使用して書き込む手順を説明します。
 1. 接続要求画面が表示されたら、基板裏側の`Reset`と書かれたスイッチを押します。
 
     ![Reset switch](../assets/BuildGuide_DN0032/IMG_4112.jpeg)
+    〓ボトムプレートの穴から見たResetスイッチの写真を追加。
 
 1. 接続要求画面に`ATm32U4DFU`が表示されるので、これを選択して`接続`ボタンを押します。
 
@@ -1431,6 +1432,7 @@ EEPROMに記録されているデータを消去し、初期状態に戻す方�
 
 <details>
 <summary>《詳しい説明》</summary>
+〓ひとつのgistに、各種ファイルをまとめて放り込んでおく。→Zipを1ファイルダウンロードして展開すれば全部出てくる
 
 - ビルド済みのファームウェア〓更新
 
