@@ -1,6 +1,6 @@
 # Nora（ノラ）
 
-![Nora Keyboard](./assets/Readme/_DSF1571.jpeg)
+![Nora Keyboard](./assets/Readme/DSC_7630.jpeg)
 
 Nora（ノラ）は、Choc v1 ロープロファイルスイッチを使用する、狭ピッチの一体型キーボードです。  
 [Jones](https://github.com/jpskenn/Jones)と同様の、2行目と3行目にずれのない配列が特徴です。  
@@ -63,7 +63,8 @@ Kailh Chocスイッチとそれに対応するキーキャップを使用する�
 横方向のキーピッチは、MBK、またはそれ以下のサイズのキーキャップの使用を前提とした設計です。  
 60%ケースに16列を配置するため、Choc用キーキャップの標準的なキーピッチ（たて17mm×よこ18mm）よりも少しだけ横方向を狭くして、たて17mm×約17.86mmのキーピッチにしています。
 
-![Comparison of key pitch](./assets/Readme/_DSF1263.jpeg)〓Nora FullとHHKBを比較する。Jonesでもいいけど
+![Comparison of key pitch](./assets/Readme/_DSF1263.jpeg)
+<!-- 〓Nora FullとHHKBを比較する。Jonesでもいいけど -->
 キーピッチの比較  
 上：一般的なキーピッチの60%キーボード。5行15列  
 下：狭ピッチのNora。5行**16列**。65%相当ののキー数が、60%キーボードのサイズにおさまっている。
@@ -179,10 +180,11 @@ Raspberry Pi PICOによる動作を実験的機能として提供します。
 
 | ビルド例 | 詳細 |
 | --- | :-- |
-| [<img src="./assets/Readme/_DSF1643.jpeg" width="300">]((./assets/Readme/_DSF1643.jpeg)) | Fearless Wings DN0031<br>case: Nora & Jones' Bottom plate<br>keycaps: Kailh low profile + MBK |
-| [<img src="./assets/Readme/_DSF1571.jpeg" width="300">]((./assets/Readme/_DSF1571.jpeg)) | Fearless Wings DN0031 w/Rotary Encoder<br>case: Nora & Jones' Bottom plate<br>keycaps: Kailh low profile + MBK |
-| [<img src="./assets/Readme/DSC_7457.jpeg" width="300">]((./assets/Readme/DSC_7457.jpeg)) | 1.8k（試作）<br>case: KBDfans 60% Aluminum Low Profile, Gray<br>keycaps: MBK Colors & Self Dye |
-| [<img src="./assets/Readme/_DSF1357.jpeg" width="300">]((./assets/Readme/_DSF1357.jpeg)) | 1.8k（試作）<br>case: Jones' Bottom plate<br>keycaps: Kailh low profile |
+| [<img src="./assets/Readme/DSC_7630.jpeg" width="300">]((./assets/Readme/DSC_7630.jpeg)) | DN0032<br>layout: Full<br>keycaps: MBK Legend‡ Glow<br>case: Bottom plate |
+| [<img src="./assets/Readme/_DSF1643.jpeg" width="300">]((./assets/Readme/_DSF1643.jpeg)) | DN0031<br>layout: FW<br>keycaps: Kailh low profile + MBK<br>case: Bottom plate |
+| [<img src="./assets/Readme/_DSF1571.jpeg" width="300">]((./assets/Readme/_DSF1571.jpeg)) | DN0031<br>layout: RE<br>keycaps: Kailh low profile + MBK<br>case: Nora & Jones' Bottom plate |
+| [<img src="./assets/Readme/DSC_7457.jpeg" width="300">]((./assets/Readme/DSC_7457.jpeg)) | DN0020<br>layout: 1.8k<br>keycaps: MBK Colors & Self Dye<br>case: KBDfans 60% Aluminum Low Profile, Gray |
+| [<img src="./assets/Readme/_DSF1357.jpeg" width="300">]((./assets/Readme/_DSF1357.jpeg)) | DN0010<br>layout: 1.8k<br>keycaps: Kailh low profile<br>case: Jones' Bottom plate |
 
 ## 製作歴
 
