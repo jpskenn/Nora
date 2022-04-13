@@ -24,8 +24,7 @@
 
   FWレイアウトの中央にロータリーエンコーダを配置したレイアウト。
 
-  〓写真準備中
-  <!-- [<img alt="REレイアウト" src="../assets/BuildGuide_DN0032/xxxx.jpeg" width="400">](../assets/BuildGuide_DN0032/xxxx.jpeg) -->
+  [<img alt="REレイアウト" src="../assets/BuildGuide_DN0032/DSC_7675.jpeg" width="400">](../assets/BuildGuide_DN0032/DSC_7675.jpeg)
 
 Noraのコンセプトや特徴、ビルド例などについては、[README](https://github.com/jpskenn/Nora/blob/main/README.md)をご覧ください。
 
@@ -158,20 +157,19 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 ### キット内容
 
-〓写真入れ替え
-
 | 部品名 | 個数 | 備考 |
 | :-- | :-- | :-- |
 | ご案内リーフレット | 1 | |
 | 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_DN0032/DSC_7493.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7493.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_DN0032/DSC_7491.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7491.jpeg) |
-| スイッチプレート<br>`Fullレイアウト`, `FWレイアウト`, `REレイアウト`のいずれか | 1 | `Fullレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/DSC_7500.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7500.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/DSC_7504.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7504.jpeg)<br>`FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/DSC_7497.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7497.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/DSC_7498.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7498.jpeg)<br>`REレイアウト`<br>〓写真準備中〓<!-- [おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/xxxx.jpeg" width="300">](../assets/BuildGuide_DN0032/xxxx.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/IMG_4118.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4118.jpeg) --> |
+| スイッチプレート<br>`Fullレイアウト`, `FWレイアウト`, `REレイアウト`のいずれか | 1 | `Fullレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/DSC_7500.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7500.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/DSC_7504.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7504.jpeg)<br>`FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/DSC_7497.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7497.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/DSC_7498.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7498.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/DSC_7711.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7711.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/DSC_7718.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7718.jpeg) |
 | ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_DN0032/DSC_7505.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7505.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_DN0032/DSC_7514.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7514.jpeg) |
-| スペーサーシート<br> シール付き, 1mm厚, 10mm * 500mm（長い方）<br>[低弾性ゴムシート－ハネナイトＲ－ (UNLEA1-10)](https://jp.misumi-ec.com/vona2/detail/110300277050/?HissuCode=UNLEA1-10) | 1 | [<img alt="" src="../assets/BuildGuide_DN0032/DSC_7568.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7568.jpeg) |
-| スペーサーシート<br> シール付き, 1mm厚, 10mm * 約150mm（短い方） <br>[低弾性ゴムシート－ハネナイトＲ－ (UNLEA1-10)](https://jp.misumi-ec.com/vona2/detail/110300277050/?HissuCode=UNLEA1-10) | 1 | [<img alt="" src="../assets/BuildGuide_DN0032/DSC_7568.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7568.jpeg) |
+| スペーサーシート<br> シール付き, 1mm厚, 10mm * 500mm<br>[低弾性ゴムシート－ハネナイトＲ－ (UNLEA1-10)](https://jp.misumi-ec.com/vona2/detail/110300277050/?HissuCode=UNLEA1-10) | 1 | [<img alt="" src="../assets/BuildGuide_DN0032/DSC_7568.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7568.jpeg) <br>（長い方） |
+| スペーサーシート<br> シール付き, 1mm厚, 10mm * 約150mm <br>[低弾性ゴムシート－ハネナイトＲ－ (UNLEA1-10)](https://jp.misumi-ec.com/vona2/detail/110300277050/?HissuCode=UNLEA1-10) | 1 | [<img alt="" src="../assets/BuildGuide_DN0032/DSC_7568.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7568.jpeg)<br>（短い方） |
 | ネジ, M2 3mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 16 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4124.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4124.jpeg) |
 | ネジ, M2 4mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 4 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4125.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4125.jpeg) |
-| ゴム足 小<br>[しっかりつくクッションゴム CS-102, 透明, 8 φ x 2 mm](https://www.3mcompany.jp/3M/ja_JP/p/d/v000453068/) | 6 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4126.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4126.jpeg) |
-| ゴム足 大<br>[KKU-190 [ウレタンクッション19丸 透明]](https://www.yodobashi.com/product/100000001001980663/) | 2 | 〓写真 |
+| スペーサー, M2 3mm<br>[黄銅スペーサー（Ni）ASB-2003E](https://www.hirosugi-net.co.jp/shop/g/g57/) | 4 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4123.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4123.jpeg) |
+| ゴム足 小<br>[しっかりつくクッションゴム CS-102, 透明, 8 φ x 2 mm](https://www.3mcompany.jp/3M/ja_JP/p/d/v000453068/) | 6 | [<img alt="" src="../assets/BuildGuide_DN0032/DSC_7764.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7764.jpeg)<br>（左） |
+| ゴム足 大<br>[KKU-190 [ウレタンクッション19丸 透明]](https://www.yodobashi.com/product/100000001001980663/) | 2 | [<img alt="" src="../assets/BuildGuide_DN0032/DSC_7764.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7764.jpeg)<br>（右） |
 
 ※出荷時期によってメーカーや品番などを変更することがあります
 
@@ -179,19 +177,19 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 | 部品名 | 個数 | 備考 |
 | :-- | :-- | :-- |
-| ソケット<br>Kailh Chocロープロファイル用 | `Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個 | 〓写真 |
-| スイッチ<br>Kailh Choc V1 | `Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個 | 3ピン・5ピン、どちらも使用可能〓3ピン・5ピンの写真 |
+| ソケット<br>Kailh Chocロープロファイル用 | `Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個 | [<img alt="" src="../assets/BuildGuide_DN0032/DSC_7770.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7770.jpeg) |
+| スイッチ<br>Kailh Choc V1 | `Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個 | 3ピン・5ピン、どちらも使用可能<br>[<img alt="" src="../assets/BuildGuide_DN0032/DSC_7736.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7736.jpeg) <br>左：5ピン，右：3ピン|
 | キーキャップ<br>Choc用 | `Fullレイアウト`：<br>1u × 62個<br>1.5u × 9個<br>`FWレイアウト`：<br>1u × 56個<br>1.5u × 8個<br>`REレイアウト`：<br>1u × 54個<br>1.5u × 8個　| 詳しくはこちらを参照<br>→[資料：キーキャップ選び方ガイド](#資料キーキャップ選び方ガイド) |
-| ロータリーエンコーダ<br>ALPS EC11, EC12または同等品 | 1 | `REレイアウト`を組み立てる場合のみ必要 〓写真|
-| ロータリーエンコーダ用ノブ<br>（つまみ） | 1 | `REレイアウト`を組み立てる場合のみ必要<br>最大径35mm（キーキャップのサイズによる）〓写真 |
+| ロータリーエンコーダ<br>ALPS EC11, EC12または同等品 | 1 | `REレイアウト`を組み立てる場合のみ必要<br>[<img alt="" src="../assets/BuildGuide_DN0032/DSC_7749.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7749.jpeg) |
+| ロータリーエンコーダ用ノブ<br>（つまみ） | 1 | `REレイアウト`を組み立てる場合のみ必要<br>最大径35mm（キーキャップのサイズによる）<br>[<img alt="" src="../assets/BuildGuide_DN0032/DSC_7751.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7751.jpeg) |
 | USBケーブル （Type-C） | 1 | |
 
 ### オプション部品
 
 | 部品名 | 個数 | 備考 |
 | :-- | :-- | :-- |
-| LED<br>SK6812MINI-E | `Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個　| LEDを取り付ける場合 |
-| GH60型，Poker型<br>ロープロファイルケース | 1 | ケースへ取り付ける場合 |
+| LED<br>SK6812MINI-E | `Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個　| LEDを取り付ける場合<br>[<img alt="" src="../assets/BuildGuide_DN0032/DSC_7753.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7753.jpeg) |
+| GH60型，Poker型<br>ロープロファイルケース | 1 | ケースへ取り付ける場合<br>[<img alt="" src="../assets/BuildGuide_DN0032/DSC_7763.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7763.jpeg) |
 | Raspberry Pi PICO | 1 | 実験的機能をDIYで楽しむ場合<br>ピンヘッダ または コンスルーなどで取り付け |
 
 ## 組み立てに必要な工具
@@ -975,9 +973,8 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
     3ピンのスイッチは、加工不要で、そのまま取り付けできます。  
     5ピンのスイッチを使用する場合は、左右2本のプラスチックピンのうちネジ穴に干渉する方の足を、根本からニッパーなどで切断します。
 
-    ![5ピンスイッチの片方の足をカットした状態](../assets/BuildGuide_DN0032/DSC_7617.jpeg)  
+    ![5ピンスイッチの片方の足をカットした状態](../assets/BuildGuide_DN0032/DSC_7743.jpeg)  
     5ピンスイッチの片方の足をカットした状態（左：カット前，右：カット後）
-    〓スイッチの方向が上下逆になっているので変更
 
     おそらく回避できるはずですが、もしスイッチの中央の足が干渉する場合は、中央の足も切断します。
 
