@@ -3,7 +3,7 @@ kbd = Keyboard.new
 
 # Initialize GPIO assign
 kbd.init_pins(
-  [ 6, 27, 22, 19, 17, 7, 26, 21, 18, 16 ], # row0, row1,... respectively
+  [ 6, 27, 21, 19, 17, 7, 26, 20, 18, 16 ], # row0, row1,... respectively
   [ 2, 3, 4, 5, 12, 13, 14, 15 ] # col0, col1,... respectively
 )
 
@@ -33,6 +33,6 @@ rgb.hue        = 0  # 0-100 / default: 0
 rgb.saturation = 100 # 0-100 / default: 100
 rgb.max_value  = 13  # 1-31  / default: 13
 
-kbd.append rgb
+# kbd.append rgb
 
 kbd.start!
