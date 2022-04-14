@@ -62,6 +62,11 @@ kbd.add_layer :default, %i(
                   KC_LALT       KC_LGUI     KC_SPC     RGB_VAD     KC_KP_0   KC_KP_DOT       KC_SPC  KC_RGUI  KC_RALT
 )
 
+# RGB Lighting
+#
+# NOTE:
+# Only tested with 16 LEDs.
+# Be careful of USB power consumption.
 rgb = RGB.new(
   28,   # pin number
   0,    # size of underglow pixel
@@ -70,10 +75,11 @@ rgb = RGB.new(
 )
 rgb.effect     = :rainbow_mood
 rgb.speed      = 22  # 1-31  / default: 22
-rgb.hue        = 0  # 0-100 / default: 0
+rgb.hue        = 0   # 0-100 / default: 0
 rgb.saturation = 100 # 0-100 / default: 100
 rgb.max_value  = 13  # 1-31  / default: 13
 
+# Un-comment below to Enable LED light
 # kbd.append rgb
 
 kbd.start!
