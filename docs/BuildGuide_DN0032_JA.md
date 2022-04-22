@@ -167,7 +167,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | スペーサーシート<br> シール付き, 1mm厚, 10mm * 約150mm <br>[低弾性ゴムシート－ハネナイトＲ－ (UNLEA1-10)](https://jp.misumi-ec.com/vona2/detail/110300277050/?HissuCode=UNLEA1-10) | 1 | [<img alt="" src="../assets/BuildGuide_DN0032/DSC_7568.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7568.jpeg)<br>（短い方） |
 | ネジ, M2 3mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 16 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4124.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4124.jpeg) |
 | ネジ, M2 4mm, 低頭<br>[低頭精密小ねじ(ラミクス)](https://wilco.jp/products/F/FX-EB.html) | 4 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4125.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4125.jpeg) |
-| スペーサー, M2 3mm<br>[黄銅スペーサー（Ni）ASB-2003E](https://www.hirosugi-net.co.jp/shop/g/g57/) | 4 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4123.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4123.jpeg) |
+| スペーサー, M2 3mm<br>[黄銅スペーサー（Ni）ASB-2003E](https://www.hirosugi-net.co.jp/shop/g/g57/) | 8 | [<img alt="" src="../assets/BuildGuide_DN0032/IMG_4123.jpeg" width="300">](../assets/BuildGuide_DN0032/IMG_4123.jpeg) |
 | ゴム足 小<br>[しっかりつくクッションゴム CS-102, 透明, 8 φ x 2 mm](https://www.3mcompany.jp/3M/ja_JP/p/d/v000453068/) | 6 | [<img alt="" src="../assets/BuildGuide_DN0032/DSC_7764.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7764.jpeg)<br>（左） |
 | ゴム足 大<br>[KKU-190 [ウレタンクッション19丸 透明]](https://www.yodobashi.com/product/100000001001980663/) | 2 | [<img alt="" src="../assets/BuildGuide_DN0032/DSC_7764.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7764.jpeg)<br>（右） |
 
