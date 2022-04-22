@@ -63,20 +63,23 @@ Kailh Chocスイッチとそれに対応するキーキャップを使用する�
 横方向のキーピッチは、MBK、またはそれ以下のサイズのキーキャップの使用を前提とした設計です。  
 60%キーボードのサイズに16列を配置するため、Choc用キーキャップの標準的なキーピッチ（たて17mm×よこ18mm）よりも少しだけ横方向を狭くして、たて17mm×約17.86mmのキーピッチにしています。
 
-![Comparison of key pitch](./assets/Readme/_DSF3241.jpeg)
-
+![Comparison of key pitch](./assets/Readme/_DSF3241.jpeg)  
 キーピッチの比較  
-上：一般的なキーピッチの60%キーボード。5行15列。  
+上：一般的なキーピッチの60%キーボード、HHKB Professional。5行15列。  
 下：狭ピッチのNora。5行**16列**。
 
 ### 左右対称のキーレイアウト
 
 キーレイアウトはJonesのレイアウトを元に設計しており、2行目と3行目にずれのない左右対称のキーレイアウトです。  
+
+![gapless R2-R3 row](./assets/Readme/_DSF3262.jpeg)  
+Jones（上）とNora（下）。  
+どちらも2行目と3行目にずれがなく、左右対称。
+
 また、右手のホームポジションに近づけたModキーなどにその特徴があらわれています。
 
-
 ![Symmetric alpha and near by mod keys](./assets/Readme/_DSF1121.jpeg)
-左右対称のアルファ部と、近づけたModキー
+右手ホームポジションに近づけたModキー
 
 詳しくは次の項目を参照してください。
 
