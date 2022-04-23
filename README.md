@@ -3,7 +3,7 @@
 ![Nora Keyboard](./assets/Readme/DSC_7630.jpeg)
 
 Nora（ノラ）は、Choc v1 ロープロファイルスイッチを使用する、狭ピッチの一体型キーボードです。  
-[Jones](https://github.com/jpskenn/Jones)と同様の、2行目と3行目にずれのない配列が特徴です。  
+[Jones](https://github.com/jpskenn/Jones)と同様の、2行目と3行目にずれのない左右対称の配列が特徴です。  
 専用のボトムプレートや、GH60型，Poker型のロープロファイルケースと組み合わせて使用できます。
 
 狭いキーピッチによって、ホームポジションから遠いキーや1行目の数字キーにも指がとどきやすくなっています。  
@@ -22,8 +22,9 @@ Narrow Jones --> Norah Jones --> Norah --> Nora
 
 ---
 
-Nora is a narrow pitch keyboard with Choc v1 low profile switches, designed for MBK or smaller keycaps.  
-It can be used with GH60 and Poker compatible low profile cases or original bottom plate.
+Nora is a narrow pitch keyboard with Choc v1 low profile switches.  
+It has symmetrical gapless R2-R3 row, like [Jones](https://github.com/jpskenn/Jones).  
+Original bottom plate and GH60/Poker compatible low profile cases are supported.
 
 Narrow pitch makes fingers easy to reach keys far from home position, "T" and "Y", R1 numerics and symbols.  
 It also reduces stretching fingers and reduces changing the position of wrist.  
@@ -61,12 +62,12 @@ You can continue tying without breaking the position of finger, wrist and elbow.
 Kailh Chocスイッチとそれに対応するキーキャップを使用することで、一般的なキーボードよりも1〜2mmほど狭いキーピッチになっています。
 
 横方向のキーピッチは、MBK、またはそれ以下のサイズのキーキャップの使用を前提とした設計です。  
-60%キーボードのサイズに16列を配置するため、Choc用キーキャップの標準的なキーピッチ（たて17mm×よこ18mm）よりも少しだけ横方向を狭くして、たて17mm×約17.86mmのキーピッチにしています。
+60%キーボードのサイズに16列を配置するため、Choc用キーキャップのキーピッチ（たて17mm×よこ18mm）よりも少しだけ横方向を狭くして、たて17mm×約17.86mmのキーピッチにしています。
 
 ![Comparison of key pitch](./assets/Readme/_DSF3241.jpeg)  
 キーピッチの比較  
 上：一般的なキーピッチの60%キーボード、HHKB Professional。5行15列。  
-下：狭ピッチのNora。5行**16列**。
+下：狭ピッチ設計のNora。5行**16列**。
 
 ### 左右対称のキーレイアウト
 
@@ -86,13 +87,13 @@ Jones（上）とNora（下）。
 - [Jones#独自のずれ幅をもつ左右対象のアルファ部](https://github.com/jpskenn/Jones#独自のずれ幅をもつ左右対象のアルファ部)
 - [Jones#右手のホームポジションに近づけたmodキー](https://github.com/jpskenn/Jones#右手のホームポジションに近づけたmodキー)
 
-### レイアウトのバリエーション
+### レイアウトのスタイル、バリエーション
 
-狭ピッチの一体型キーボードというコンセプトを元に、ふたつのレイアウトバリエーションが存在します。
+狭ピッチの一体型キーボードというコンセプトを元に、"Nora, Fearless Wings"と"Nora, 1.8k"という、ふたつのスタイルが存在します。
 
 #### Nora, Fearless Wings
 
-左右に大きく離れたアルファ部が特徴のレイアウトです。  
+左右に大きく離れたアルファ部が特徴のレイアウトスタイルです。  
 アルファ部を左右へ大きく離すことで打鍵時の肘・腕・手首・指先の位置を最適化し、快適な運指と、肩や腕への負担軽減を目指しています。  
 手首をあまり持ち上げないスタイルでも快適に打鍵できるように、最下行の左右の端にはキーを配置せず、手のひらにキーが当たる不快感を無くしています。
 
@@ -126,11 +127,11 @@ Jones（上）とNora（下）。
 
 ![Layout, Nora, 1.8k](./assets/Readme/layout_18k.png)
 
-アルファ部の右側にテンキーを配置し、少し下へ飛びだしたカーソルキーが特徴のレイアウトです。  
+アルファ部の右側にテンキーを配置し、少し下へ飛びだしたカーソルキーが特徴のレイアウトスタイルです。  
 キー数が多く、記号やカーソルなどを物理的に配置することができます。
 
-ホームポジションに手を乗せたとき、狭ピッチで左右の手が中央へ近づくため、肩や腕、親指まわりが窮屈に感じてしまいます。  
-日常的に使用する上での快適さを満たせないため、1.8kは開発を停止しています。
+日常的に使用する上での快適さ（※）を満たせないため、1.8kは開発を停止しています。  
+※狭ピッチで左右の手が中央へ近づくため、肩や腕、親指まわりが窮屈に感じてしまいます。  
 
 ## 機能
 
@@ -175,15 +176,22 @@ Raspberry Pi PICOによる動作を実験的機能として提供します。
 
 ## ビルドガイド
 
+- [Nora, Fearless Wings v.1(DN0032) ビルドガイド](./docs/BuildGuide_DN0032_JA.md)
+
+<details>
+<summary>過去版</summary>
+
 - [Nora, Fearless Wings DN0031 ビルドガイド](./docs/BuildGuide_DN0031_JA.md)
 - [Nora, Fearless Wings DN0030 ビルドガイド](./docs/BuildGuide_DN0030_JA.md)
 - [Nora, 1.8k v.0.1 ビルドガイド](./docs/BuildGuide_v.0.1_JA.md)
+
+</details>
 
 ## ビルド例
 
 | ビルド例 | 詳細 |
 | --- | :-- |
-| [<img src="./assets/Readme/DSC_7630.jpeg" width="300">]((./assets/Readme/DSC_7630.jpeg)) | DN0032<br>layout: Full<br>keycaps: MBK Legend‡ Glow<br>case: Bottom plate |
+| [<img src="./assets/Readme/DSC_7630.jpeg" width="300">]((./assets/Readme/DSC_7630.jpeg)) | v.1(DN0032)<br>layout: Full<br>keycaps: MBK Legend‡ Glow<br>case: Bottom plate |
 | [<img src="./assets/Readme/_DSF1643.jpeg" width="300">]((./assets/Readme/_DSF1643.jpeg)) | DN0031<br>layout: FW<br>keycaps: Kailh low profile + MBK<br>case: Bottom plate |
 | [<img src="./assets/Readme/_DSF1571.jpeg" width="300">]((./assets/Readme/_DSF1571.jpeg)) | DN0031<br>layout: RE<br>keycaps: Kailh low profile + MBK<br>case: Nora & Jones' Bottom plate |
 | [<img src="./assets/Readme/DSC_7457.jpeg" width="300">]((./assets/Readme/DSC_7457.jpeg)) | DN0020<br>layout: 1.8k<br>keycaps: MBK Colors & Self Dye<br>case: KBDfans 60% Aluminum Low Profile, Gray |
@@ -191,9 +199,9 @@ Raspberry Pi PICOによる動作を実験的機能として提供します。
 
 ## 製作歴
 
-- Fearless Wings DN0032（開発中）
+- Fearless Wings v.1(DN0032)
 
-    Fullレイアウトを基本として、組み立てやすさを向上。  
+    組み立てやすさを向上。  
     ロータリーエンコーダのノブサイズ拡大のため、REレイアウトの最下行中央のキーを削除。  
     細部を調整。  
     DN0031組み立てアンケートの内容を反映。
