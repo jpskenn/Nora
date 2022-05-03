@@ -1317,7 +1317,13 @@ Remapを使用して書き込む手順を説明します。
 
 1. Google Chromeブラウザで、[Remap](https://remap-keys.app/)のページを開きます。
 
-1. `KEYBOARD CATALOG`をクリックし、`Nora`を検索して開きます。  
+1. `KEYBOARD CATALOG`をクリックし、左上の`Keyboard Name`に`Nora`を入力して`SEARCH`ボタンを押して検索します。
+    ![Remap catalog, Nora](../assets/BuildGuide_DN0032/Remap_catalog_nora.png)
+
+1. 検索結果から`Nora`を開きます。  
+    ※検索結果には`Nora`の試作版を含めて表示されます。  
+    カタログページ先頭に`for Nora v1`と書かれた方を開きます。
+    ![Remap catalog, Nora, V1](../assets/BuildGuide_DN0032/Remap_catalog_nora.png)
 
 1. `FIRMWARE`と書かれたところをクリックして、ファームウェアのリストを表示します。
 〓リストSS変更
