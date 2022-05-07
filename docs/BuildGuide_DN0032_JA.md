@@ -1443,44 +1443,35 @@ EEPROMに記録されているデータを消去し、初期状態に戻す方�
 
 ### 資料：Nora, Fearless Wings 関連ファイル
 
-このキーボードに関連するファイルです。
+このキーボードに関連するファイルです。  
+必要に応じて使用します。
 
 <details>
 <summary>《詳しい説明》</summary>
-〓ひとつのgistに、各種ファイルをまとめて放り込んでおく。→Zipを1ファイルダウンロードして展開すれば全部出てくる
 
-- ビルド済みのファームウェア〓更新
+以下のファイルを [Nora v1 files](https://gist.github.com/jpskenn/268cb107aca291d79856a0f6653eed7c) にまとめてあります。  
+ZIPファイルをダウンロードし、展開して使用します。
 
-  - `Fullレイアウト`用  
-      [nora_v1_via.hex](https://gist.github.com/jpskenn/91e35665ae5ee15672c2e424c2413d76)
+- Remap / VIA用キーボード定義ファイル： nora_via_v1(DN0032).json
 
-  - `FWレイアウト`用  
-      [nora_v1_via_fw.hex](https://gist.github.com/jpskenn/91e35665ae5ee15672c2e424c2413d76)
+- ビルド済みファームウェア
 
-  - `REレイアウト`用  
-      [nora_v1_via_re.hex](https://gist.github.com/jpskenn/382f63057c083185cbfafc225f198880)
+  - `Fullレイアウト`： nora_v1_via.hex
 
-- ファームウェアのソース
+  - `FWレイアウト`： nora_v1_via_fw.hex
 
-    QMK本家にプルリクエストがマージされるまでは、以下を使用してください。
+  - `REレイアウト`： nora_v1_via_re.hex
 
-    私がQMKからフォークしたリポジトリ [https://github.com/jpskenn/qmk_firmware](https://github.com/jpskenn/qmk_firmware) に配置しています。  
+ファームウェアのソースは、私がQMKからフォークしたリポジトリ [https://github.com/jpskenn/qmk_firmware](https://github.com/jpskenn/qmk_firmware) に配置しています。  
+[develop_nora](https://github.com/jpskenn/qmk_firmware/tree/develop_Nora)ブランチの、`keyboards/nora/v1`に関連ファイルが格納されています。  
 
-    [develop_nora](https://github.com/jpskenn/qmk_firmware/tree/develop_Nora)ブランチの、`keyboards/nora/v1`に関連ファイルが格納されています。  
-    〓QMK本家が作者別にキーボフォルダを移動するかもなので、ちょっと待機
-
-- Remap / VIA用キーボード定義ファイル
-
-    [nora_via.json](https://gist.github.com/jpskenn/1087e23153c0a28f7c73900d9b4d8c1f)
-
-- その他、基板等の設計ファイルなど
-
-    [DN0032タグ](https://github.com/jpskenn/Nora/releases/tag/DN0032)にまとめてあります。
+また、その他の基板等の設計ファイルなどは、Noraリポジトリの[DN0032タグ](https://github.com/jpskenn/Nora/releases/tag/DN0032)にまとめてあります。
 
 </details>
 
-〓この章を見直し
 ### 資料：レイアウトを変更する方法
+
+〓この章を見直し
 
 別売のスイッチプレートを使用してレイアウトを変更する方法について説明します。
 
