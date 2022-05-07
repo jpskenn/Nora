@@ -1311,38 +1311,36 @@ EEPROMの初期化処理がおこなわれていますので、キーボード�
 #### Remapを使用して書き込む方法
 
 Remapを使用して書き込む手順を説明します。
-〓SSをv1で撮り直し
 
 1. キーボードをPCやMacとUSBケーブルで接続します。
 
 1. Google Chromeブラウザで、[Remap](https://remap-keys.app/)のページを開きます。
 
 1. `KEYBOARD CATALOG`をクリックし、左上の`Keyboard Name`に`Nora`を入力して`SEARCH`ボタンを押して検索します。
-    ![Remap catalog, Nora](../assets/BuildGuide_DN0032/Remap_catalog_nora.png)
 
 1. 検索結果から`Nora`を開きます。  
     ※検索結果には`Nora`の試作版を含めて表示されます。  
-    カタログページ先頭に`for Nora v1`と書かれた方を開きます。
+    Fullレイアウトの写真の方がv1です。  
+    とりあえずどちらかを開いて、カタログページ先頭に`for Nora v1`と書かれていれば正解です。  
     ![Remap catalog, Nora, V1](../assets/BuildGuide_DN0032/Remap_catalog_nora.png)
 
 1. `FIRMWARE`と書かれたところをクリックして、ファームウェアのリストを表示します。
-〓リストSS変更
-    ![Remap catalog, Nora](../assets/BuildGuide_DN0032/Remap_catalog_nora.png)
+    ![Firmware button](../assets/BuildGuide_DN0032/Remap_firmware_button.png)
 
 1. 書き込みたいファームウェアの`FLASH`を押します。
-〓SS変更
     ![Firmware list](../assets/BuildGuide_DN0032/Remap_firmware_list.png)
 
 1. Flash Firmwareのポップアップ画面のBootloaderの項目で、`dfu`を選択し、右下の`FLASH`を押します。
 
     ![Select dfu](../assets/BuildGuide_DN0032/Remap_select_dfu.png)
 
-1. 接続要求画面が表示されたら、基板裏側の`Reset`と書かれたスイッチを押します。
+1. 接続要求画面が表示されたら **そのまま放っておいて** 、基板裏側の`Reset`と書かれたスイッチを押します。
+
+    ![Connect request](../assets/BuildGuide_DN0032/Remap_connect_request.png)
 
     ![Reset switch](../assets/BuildGuide_DN0032/IMG_4112.jpeg)
-    〓ボトムプレートの穴から見たResetスイッチの写真を追加。
 
-1. 接続要求画面に`ATm32U4DFU`が表示されるので、これを選択して`接続`ボタンを押します。
+1. 接続要求画面に`ATm32U4DFU - ペア設定済み`が表示されるので、これを選択して`接続`ボタンを押します。
 
     ![Select dfu](../assets/BuildGuide_DN0032/Remap_select_write_target.png)
 
@@ -1356,9 +1354,13 @@ Remapを使用して書き込む手順を説明します。
     Writing the firmware finished successfully.
     ```
 
-    と表示されていれば、書き込み成功です。
+    と表示されていれば、書き込み成功です。  
 
 以上でRemapを使用したファームウェアの書き込み作業は完了です。
+
+書き込みが完了したら、Remapへ接続してキーマップをリセットします。
+
+![Reset keymap](../assets/BuildGuide_DN0032/Remap_reset_keymap.png)
 
 #### QMK Toolboxを使用して書き込む方法
 
