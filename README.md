@@ -6,10 +6,6 @@ Nora（ノラ）は、Choc v1 ロープロファイルスイッチを使用す�
 [Jones](https://github.com/jpskenn/Jones)と同様の、2行目と3行目にずれのない左右対称の配列が特徴です。  
 専用のボトムプレートや、GH60型，Poker型のロープロファイルケースと組み合わせて使用できます。
 
-狭いキーピッチによって、ホームポジションから遠いキーや1行目の数字キーにも指がとどきやすくなっています。  
-打鍵時に指を大きく伸ばしたり手首の位置を変えたりする動作が減ることで、指・手首・肘のポジションを一定の位置に保ったまま打鍵を続けられます。  
-また、スイッチとキーキャップが薄くなったことでキーボードの高さが低くなり、腕や手首への負担が少なくなっています。
-
 名前の由来は、”狭ピッチのJonesキーボード”からの連想で…
 
 ``` text
@@ -25,10 +21,6 @@ Narrow Jones --> Norah Jones --> Norah --> Nora
 Nora is a narrow pitch keyboard with Choc v1 low profile switches.  
 It has symmetrical gapless R2-R3 row, like [Jones](https://github.com/jpskenn/Jones).  
 Original bottom plate and GH60/Poker compatible low profile cases are supported.
-
-Narrow pitch makes fingers easy to reach keys far from home position, "T" and "Y", R1 numerics and symbols.  
-It also reduces stretching fingers and reduces changing the position of wrist.  
-You can continue tying without breaking the position of finger, wrist and elbow.
 
 ## 対象とするユーザー
 
