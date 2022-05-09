@@ -65,15 +65,9 @@ Kailh Chocスイッチとそれに対応するキーキャップを使用する�
 Jones（上）とNora（下）。  
 どちらも2行目と3行目にずれがなく、左右対称。
 
-また、右手のホームポジションに近づけたModキーなどにその特徴があらわれています。
-
-![Symmetric alpha and near by mod keys](./assets/Readme/_DSF1121.jpeg)
-右手ホームポジションに近づけたModキー
-
 詳しくは次の項目を参照してください。
 
 - [Jones#独自のずれ幅をもつ左右対象のアルファ部](https://github.com/jpskenn/Jones#独自のずれ幅をもつ左右対象のアルファ部)
-- [Jones#右手のホームポジションに近づけたmodキー](https://github.com/jpskenn/Jones#右手のホームポジションに近づけたmodキー)
 
 ### レイアウトのスタイル、バリエーション
 
