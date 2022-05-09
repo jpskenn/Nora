@@ -170,18 +170,15 @@ Raspberry Pi PICOによる動作を実験的機能として提供します。
 
 [PRK Firmware](https://github.com/picoruby/prk_firmware)を使用して、キー入力とLEDの点灯を確認済みです。
 
-詳しくは、ビルドガイドをごらんください。
-
 ## ビルドガイド
 
-- [Nora, Fearless Wings v.1(DN0032) ビルドガイド](./docs/BuildGuide_DN0032_JA.md)
+- 最新版
+  - [Nora, Fearless Wings v.1(DN0032) ビルドガイド](./docs/BuildGuide_DN0032_JA.md)
 
-<details>
-<summary>過去版</summary>
-
-- [Nora, Fearless Wings DN0031 ビルドガイド](./docs/BuildGuide_DN0031_JA.md)
-- [Nora, Fearless Wings DN0030 ビルドガイド](./docs/BuildGuide_DN0030_JA.md)
-- [Nora, 1.8k v.0.1 ビルドガイド](./docs/BuildGuide_v.0.1_JA.md)
+- 過去版
+  - [Nora, Fearless Wings DN0031 ビルドガイド](./docs/BuildGuide_DN0031_JA.md)
+  - [Nora, Fearless Wings DN0030 ビルドガイド](./docs/BuildGuide_DN0030_JA.md)
+  - [Nora, 1.8k v.0.1 ビルドガイド](./docs/BuildGuide_v.0.1_JA.md)
 
 </details>
 
