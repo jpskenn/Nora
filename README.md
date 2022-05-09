@@ -76,7 +76,7 @@ Kailh Chocスイッチとそれに対応するキーキャップを使用する�
 
 ### 左右対称のキーレイアウト
 
-キーレイアウトはJonesのレイアウトを元に設計しており、2行目と3行目にずれのない左右対称のキーレイアウトです。  
+キーレイアウトは[Jones](https://github.com/jpskenn/Jones)のレイアウトを元に設計しており、2行目と3行目にずれのない左右対称のキーレイアウトです。  
 
 ![gapless R2-R3 row](./assets/Readme/_DSF3262.jpeg)  
 Jones（上）とNora（下）。  
