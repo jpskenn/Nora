@@ -189,11 +189,11 @@ Raspberry Pi PICOによる動作を実験的機能として提供します。
 
 | ビルド例 | 詳細 |
 | --- | :-- |
-| [<img src="./assets/Readme/DSC_7630.jpeg" width="300">]((./assets/Readme/DSC_7630.jpeg)) | v.1(DN0032)<br>layout: Full<br>keycaps: MBK Legend‡ Glow<br>case: Bottom plate |
-| [<img src="./assets/Readme/_DSF1643.jpeg" width="300">]((./assets/Readme/_DSF1643.jpeg)) | DN0031<br>layout: FW<br>keycaps: Kailh low profile + MBK<br>case: Bottom plate |
-| [<img src="./assets/Readme/_DSF1571.jpeg" width="300">]((./assets/Readme/_DSF1571.jpeg)) | DN0031<br>layout: RE<br>keycaps: Kailh low profile + MBK<br>case: Nora & Jones' Bottom plate |
-| [<img src="./assets/Readme/DSC_7457.jpeg" width="300">]((./assets/Readme/DSC_7457.jpeg)) | DN0020<br>layout: 1.8k<br>keycaps: MBK Colors & Self Dye<br>case: KBDfans 60% Aluminum Low Profile, Gray |
-| [<img src="./assets/Readme/_DSF1357.jpeg" width="300">]((./assets/Readme/_DSF1357.jpeg)) | DN0010<br>layout: 1.8k<br>keycaps: Kailh low profile<br>case: Jones' Bottom plate |
+| [<img src="./assets/Readme/DSC_7630.jpeg" width="300">](./assets/Readme/DSC_7630.jpeg) | v.1(DN0032)<br>layout: Full<br>keycaps: MBK Legend‡ Glow<br>case: Bottom plate |
+| [<img src="./assets/Readme/_DSF1643.jpeg" width="300">](./assets/Readme/_DSF1643.jpeg) | DN0031<br>layout: FW<br>keycaps: Kailh low profile + MBK<br>case: Bottom plate |
+| [<img src="./assets/Readme/_DSF1571.jpeg" width="300">](./assets/Readme/_DSF1571.jpeg) | DN0031<br>layout: RE<br>keycaps: Gravity Keycaps + MBK<br>case: KBDfans 60% Aluminum Low Profile, Gray |
+| [<img src="./assets/Readme/DSC_7457.jpeg" width="300">](./assets/Readme/DSC_7457.jpeg) | DN0020<br>layout: 1.8k<br>keycaps: MBK Colors & Self Dye<br>case: KBDfans 60% Aluminum Low Profile, Gray |
+| [<img src="./assets/Readme/_DSF1357.jpeg" width="300">](./assets/Readme/_DSF1357.jpeg) | DN0010<br>layout: 1.8k<br>keycaps: Kailh low profile<br>case: Bottom plate |
 
 ## 製作歴
 
