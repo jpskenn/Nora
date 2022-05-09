@@ -66,7 +66,7 @@ Original bottom plate and GH60/Poker compatible low profile cases are supported.
 
 Kailh Chocスイッチとそれに対応するキーキャップを使用することで、一般的なキーボードよりもキーピッチが狭くなっています。
 
-60%キーボードのサイズに16列を配置するため、Choc用キーキャップのキーピッチ（たて17mm×よこ18mm）よりも横方向を少し狭くして（たて17mm×よこ約17.86mm）しています。  
+60%キーボードのサイズに16列を配置するため、Choc用キーキャップのキーピッチ（たて17mm×よこ18mm）よりも横方向を少し狭く（たて17mm×よこ約17.86mm）しています。  
 横方向のキーピッチは、MBKまたはそれ以下のサイズのChoc用キーキャップの使用を前提とした設計です。
 
 ![Comparison of key pitch](./assets/Readme/_DSF3241.jpeg)  
