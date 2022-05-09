@@ -16,11 +16,27 @@ Narrow Jones --> Norah Jones --> Norah --> Nora
 
 という具合の言葉遊びで、Nora（ノラ）に決まりました。
 
----
-
 Nora is a narrow pitch keyboard with Choc v1 low profile switches.  
 It has symmetrical gapless R2-R3 row, like [Jones](https://github.com/jpskenn/Jones).  
 Original bottom plate and GH60/Poker compatible low profile cases are supported.
+
+---
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=2 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [対象とするユーザー](#対象とするユーザー)
+- [コンセプト](#コンセプト)
+- [特徴](#特徴)
+- [機能](#機能)
+- [ビルドガイド](#ビルドガイド)
+- [ビルド例](#ビルド例)
+- [製作歴](#製作歴)
+
+<!-- /code_chunk_output -->
+
+---
 
 ## 対象とするユーザー
 
