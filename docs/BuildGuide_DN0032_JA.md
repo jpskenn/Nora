@@ -171,9 +171,9 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | ソケット<br>Kailh Chocロープロファイル用 | `Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個 | [<img alt="" src="../assets/BuildGuide_DN0032/DSC_7770.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7770.jpeg) |
 | スイッチ<br>Kailh Choc V1 | `Fullレイアウト`：71個<br>`FWレイアウト`：64個<br>`REレイアウト`：62個 | 3ピン・5ピン、どちらも使用可能<br>[<img alt="" src="../assets/BuildGuide_DN0032/DSC_7736.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7736.jpeg) <br>左：5ピン，右：3ピン|
 | キーキャップ<br>Choc用 | `Fullレイアウト`：<br>1u × 62個<br>1.5u × 9個<br>`FWレイアウト`：<br>1u × 56個<br>1.5u × 8個<br>`REレイアウト`：<br>1u × 54個<br>1.5u × 8個　| 詳しくはこちらを参照<br>→[資料：キーキャップ選び方ガイド](#資料キーキャップ選び方ガイド) |
+| USBケーブル （Type-C） | 1 | |
 | ロータリーエンコーダ<br>ALPS EC11, EC12または同等品 | 1 | `REレイアウト`を組み立てる場合のみ必要<br>[<img alt="" src="../assets/BuildGuide_DN0032/DSC_7749.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7749.jpeg) |
 | ロータリーエンコーダ用ノブ<br>（つまみ） | 1 | `REレイアウト`を組み立てる場合のみ必要<br>最大径35mm（キーキャップのサイズによる）<br>[<img alt="" src="../assets/BuildGuide_DN0032/DSC_7751.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7751.jpeg) |
-| USBケーブル （Type-C） | 1 | |
 
 ### オプション部品
 
