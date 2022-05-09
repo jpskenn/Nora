@@ -42,13 +42,10 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 ---
 
-## 目次
-
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [目次](#目次)
 - [Nora, Fearless Wings の特徴, 機能](#nora-fearless-wings-の特徴-機能)
 - [注意事項、制限など](#注意事項-制限など)
 - [部品リスト](#部品リスト)
