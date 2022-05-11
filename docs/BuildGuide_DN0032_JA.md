@@ -151,7 +151,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | 部品名 | 個数 | 備考 |
 | :-- | :-- | :-- |
 | ご案内リーフレット | 1 | |
-| 基板 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_DN0032/DSC_7493.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7493.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_DN0032/DSC_7491.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7491.jpeg) |
+| 基板（＝PCB） | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_DN0032/DSC_7493.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7493.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_DN0032/DSC_7491.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7491.jpeg) |
 | スイッチプレート<br>`Fullレイアウト`, `FWレイアウト`, `REレイアウト`のいずれか | 1 | `Fullレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/DSC_7500.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7500.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/DSC_7504.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7504.jpeg)<br>`FWレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/DSC_7497.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7497.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/DSC_7498.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7498.jpeg)<br>`REレイアウト`<br>[おもて側<br><img alt="スイッチプレートおもて側" src="../assets/BuildGuide_DN0032/DSC_7711.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7711.jpeg)<br>[裏側<br><img alt="スイッチプレート裏側" src="../assets/BuildGuide_DN0032/DSC_7718.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7718.jpeg) |
 | ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_DN0032/DSC_7505.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7505.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_DN0032/DSC_7514.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7514.jpeg) |
 | スペーサーシート<br> シール付き, 1mm厚, 10mm * 500mm<br>[低弾性ゴムシート－ハネナイトＲ－ (UNLEA1-10)](https://jp.misumi-ec.com/vona2/detail/110300277050/?HissuCode=UNLEA1-10) | 1 | [<img alt="" src="../assets/BuildGuide_DN0032/DSC_7568.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7568.jpeg) <br>（長い方） |
@@ -670,8 +670,8 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 
 </details>
 
-![すべて取り付けたソケット](../assets/BuildGuide_DN0032/DSC_7566.jpeg)  
-すべて取り付けたソケット
+![Fullレイアウトに、すべて取り付けたソケット](../assets/BuildGuide_DN0032/DSC_7566.jpeg)  
+`Fullレイアウト`に、すべて取り付けたソケット
 
 ### （該当者のみ）ロータリーエンコーダを取り付ける
 
@@ -800,7 +800,7 @@ LEDの点灯状態を見て、正しく取り付けられているか確認し�
 </details>
 
 ![スペーサーシートを貼り付けた状態](../assets/BuildGuide_DN0032/DSC_7576.jpeg)
-`Full`レイアウトのスイッチプレートへ、スペーサーシートを貼り付けたようす
+`Fullレイアウト`のスイッチプレートへ、スペーサーシートを貼り付けたようす
 
 ### スイッチとスイッチプレートを基板へ取り付ける
 
