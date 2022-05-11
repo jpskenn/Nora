@@ -162,7 +162,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 | ゴム足 小<br>[しっかりつくクッションゴム CS-102, 透明, 8 φ x 2 mm](https://www.3mcompany.jp/3M/ja_JP/p/d/v000453068/) | 6 | [<img alt="" src="../assets/BuildGuide_DN0032/DSC_7764.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7764.jpeg)<br>（左） |
 | ゴム足 大<br>[KKU-190 [ウレタンクッション19丸 透明]](https://www.yodobashi.com/product/100000001001980663/) | 2 | [<img alt="" src="../assets/BuildGuide_DN0032/DSC_7764.jpeg" width="300">](../assets/BuildGuide_DN0032/DSC_7764.jpeg)<br>（右） |
 
-※出荷時期によってメーカーや品番などを変更することがあります
+※出荷時期によって、基板やプレート類の仕様や、部品のメーカーや品番などを変更することがあります。
 
 ### 別途用意が必要な部品
 
