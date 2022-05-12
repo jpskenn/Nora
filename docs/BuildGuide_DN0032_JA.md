@@ -299,7 +299,7 @@ Noraのコンセプトや特徴、ビルド例などについては、[README](h
 
 1. 右側のアイコンから`Layout Option`をクリックし、使用するレイアウトを選択します。
 
-    初回の接続時は`Fullレイアウト`が選択されています。
+    初回の接続時は`Fullレイアウト`が選択されています。  
     例として、`FWレイアウト`を選択したとして以降の手順を説明します。
 
     ![Test Matrix Mode](../assets/BuildGuide_DN0032/Remap_layout.png)
