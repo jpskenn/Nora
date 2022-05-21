@@ -1435,6 +1435,7 @@ ZIPファイルをダウンロードし、展開して使用します。
 
 ファームウェアのソースは、私がQMKからフォークしたリポジトリ [https://github.com/jpskenn/qmk_firmware](https://github.com/jpskenn/qmk_firmware) に配置しています。  
 [develop_nora](https://github.com/jpskenn/qmk_firmware/tree/develop_Nora)ブランチの、`keyboards/nora/v1`に関連ファイルが格納されています。  
+v.1(DN0032)販売開始時のファームウェアは、[nora_v1タグ](https://github.com/jpskenn/qmk_firmware/releases/tag/nora_v1)を参照してください。
 
 また、その他の基板等の設計ファイルなどは、Noraリポジトリの[DN0032タグ](https://github.com/jpskenn/Nora/releases/tag/DN0032)にまとめてあります。
 
