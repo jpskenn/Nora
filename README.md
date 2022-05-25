@@ -1,6 +1,6 @@
 # Nora（ノラ）
 
-![Nora Keyboard](./assets/Readme/DSC_7630.jpeg)
+![Nora Keyboard](./assets/Readme/DSC_7630_isolate.jpeg)
 
 Nora（ノラ）は、Choc v1 ロープロファイルスイッチを使用する、狭ピッチの一体型キーボードです。  
 姉妹機[Jones（ジョーンズ）](https://github.com/jpskenn/Jones)と同様の、2行目と3行目にずれのない左右対称の配列が特徴です。  
